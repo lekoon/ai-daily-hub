@@ -4,3 +4,4 @@ __pycache__/
 .DS_Store
 intranet-app/aihub.db
 sync.log
+.zcode/
