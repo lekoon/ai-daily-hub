@@ -1,0 +1,37 @@
+{# 左侧归档栏：日报按月分组，周/月报为简单列表 #}
+<aside class="sidebar">
+  {% if kind == 'daily' %}
+    {% for group in archive %}
+    <div class="side-month">
+      <div class="side-month-head">
+        <span>{{ group.month[:4] }} 年 {{ group.month[5:] | int }} 月</span>
+        <span class="side-count">{{ group.entries | length }}</span>
+      </div>
+      <ul class="side-list">
+        {% for e in group.entries %}
+        <li class="{{ 'is-active' if e.period == current }}">
+          <a href="{{ url_for('daily', date=e.period) }}">
+            <span class="side-day">{{ e.period[8:] | int }} 日</span>
+            <span class="side-headline">{{ e.title }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endfor %}
+  {% else %}
+    <div class="side-month">
+      <div class="side-month-head"><span>往期{{ kind_names[kind] }}</span></div>
+      <ul class="side-list">
+        {% for e in archive %}
+        <li class="{{ 'is-active' if e.period == current }}">
+          <a href="{{ url_for(kind, period=e.period) }}">
+            <span class="side-day">{{ e.period }}</span>
+            <span class="side-headline">{{ e.title }}</span>
+          </a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+</aside>

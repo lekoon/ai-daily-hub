@@ -1,0 +1,15 @@
+{
+  "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
+  "source": "OpenBMB (@OpenBMB)",
+  "published_at": "2026-07-19 21:49",
+  "score": "71",
+  "flags": "精选",
+  "original_url": "https://x.com/OpenBMB/status/2078839529591759025",
+  "aihot_url": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7",
+  "curation_reason": "面壁智能把1.5B的VLA模型完整开源，让个人开发者也能在真实机器人上跑操作和跟踪，这个开放程度在具身领域很罕见，做机器人的可以直接 clone 跑一下。",
+  "ai_summary": "面壁智能开源首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。同时发布高性能推理框架 PhyAI，旨在让机器人实现理解、记忆与行动。",
+  "content_markdown": "🚀 MiniCPM 进入物理世界——让机器人能够理解、记忆并行动。\n\n我们开源了 MiniCPM-Robot，这是我们的首个具身 AI 模型系列，包括：\n\n🤖 MiniCPM-RobotManip——一个 1.5B 参数的通用视觉-语言-动作（VLA）模型，用于机器人操作。\n\n🐕 MiniCPM-RobotTrack——一个用于现实世界目标跟踪的紧凑型模型。\n\n⚡ PhyAI——一个专为具身模型构建的高性能推理框架。\n\n它们共同将高效、实用且开放的具身智能更贴近现实世界的机器人。\n\n⭐ GitHub: http://github.com/OpenBMB/MiniCPM-Robot 🤗 MiniCPM-RobotManip: http://huggingface.co/openbmb/MiniCPM-RobotManip 🤗 MiniCPM-RobotTrack: http://huggingface.co/openbmb/MiniCPM-RobotTrack",
+  "id": "cmrrvig4h01ctbi5qyidwptd7",
+  "url": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7",
+  "fetched_at": "2026-07-31T00:09:17+08:00"
+}

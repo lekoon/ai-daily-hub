@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% block title %}AIHOT 内网资讯{% endblock %}</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="{{ url_for('home') }}">AI<span class="accent">HOT</span><span class="brand-sub">内网资讯</span></a>
+  <nav class="tabs">
+    <a class="tab {{ 'active' if kind == 'daily' }}" href="{{ url_for('daily') }}">日报</a>
+    <a class="tab {{ 'active' if kind == 'weekly' }}" href="{{ url_for('weekly') }}">周报</a>
+    <a class="tab {{ 'active' if kind == 'monthly' }}" href="{{ url_for('monthly') }}">月报</a>
+  </nav>
+  <form class="search-box" action="{{ url_for('search') }}" method="get">
+    <input type="search" name="q" placeholder="搜索新闻标题 / 内容…" value="{{ q or '' }}">
+  </form>
+</header>
+
+<div class="layout">
+  {% block body %}{% endblock %}
+</div>
+
+<footer class="footer">
+  数据源自 aihot.virxact.com，由 GitHub Actions 每日 09:00 自动同步
+  {% if last_sync %} · 内网最近更新：{{ last_sync }}{% endif %}
+</footer>
+</body>
+</html>

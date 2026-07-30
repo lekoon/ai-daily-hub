@@ -1,0 +1,183 @@
+{
+  "type": "monthly",
+  "vol": "2026-05",
+  "eyebrow": "VOL.2026-05·18STORIES·AI HOTMONTHLY",
+  "date_range": "2026-05-01~2026-05-31",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "模型开源与智能体生态加速",
+    "overview": "2026年5月，AI行业主线围绕模型能力提升与智能体生态扩展展开。模型层面，Ling-2.6-1T、ERNIE 5.1 Preview等新模型发布，强调效率与性价比；DeepSeek和苹果在空间推理与视频生成领域提出创新范式。智能体方面，Replit免费开放Agent、Cloudflare允许代理自主创建账户、Codex简化办公流程，标志智能体从工具向独立实体演进。同时，Meta日活首降与Alphabet市值暴增形成对比，凸显AI投资回报分化。安全方面，英国政府警告AI网络攻击能力加速，微软研究揭示智能体交互风险。整体而言，行业正从模型竞赛转向应用落地与生态构建。"
+  },
+  "stats": [
+    {
+      "value": "363",
+      "label": "独立事件"
+    },
+    {
+      "value": "882",
+      "label": "条精选"
+    },
+    {
+      "value": "31",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "模型效率与性价比竞赛",
+      "count": "4",
+      "intro": "本月多款新模型强调以更低成本实现接近前沿的性能。Ling-2.6-1T采用MoE架构，激活参数630亿，专注令牌效率；ERNIE 5.1 Preview以约1/3参数和6%预训练成本实现领先性能；Grok-4.3降价同时ELO提升321点；DeepSeek V4性能接近前沿但价格仅一小部分。这些发布表明行业竞争从单纯追求规模转向优化效率与成本。",
+      "stories": [
+        {
+          "id": "cmolsyik9021nsll9vk3cstrj",
+          "title": "AntLingAGI开源Ling-2.6-1T模型，登陆Hugging Face平台",
+          "url": "https://aihot.virxact.com/items/cmolsyik9021nsll9vk3cstrj",
+          "source": "X：蚂蚁百灵 (@AntLingAGI)"
+        },
+        {
+          "id": "cmokw84i803ygslje2py2thep",
+          "title": "ERNIE 5.1 Preview发布，架构更轻性能更强",
+          "url": "https://aihot.virxact.com/items/cmokw84i803ygslje2py2thep",
+          "source": "X：百度 Baidu (@Baidu_Inc)"
+        },
+        {
+          "id": "cmom4tfdb04t3sll9byfrl4s0",
+          "title": "Grok-4.3上线OpenRouter 性价比提升显著",
+          "url": "https://aihot.virxact.com/items/cmom4tfdb04t3sll9byfrl4s0",
+          "source": "X：OpenRouter (@OpenRouter)"
+        },
+        {
+          "id": "cmoohd0et0oa7sll9haeq6vww",
+          "title": "哈佛新研究：AI 模型“急诊科”场景诊断能力有望超越人类医生",
+          "url": "https://aihot.virxact.com/items/cmoohd0et0oa7sll9haeq6vww",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "智能体自主化与生态扩展",
+      "count": "4",
+      "intro": "智能体正从辅助工具演变为能独立完成复杂任务的实体。Replit免费开放Agent，Cloudflare允许代理自主创建账户、购买域名并部署代码，Codex集成日常办公应用，OpenAI推出Codex宠物库。这些进展表明智能体正在获得自主行动能力，并融入更广泛的生态系统。",
+      "stories": [
+        {
+          "id": "cmolzgjmf03mksll9g7n7pfgl",
+          "title": "Replit十周年庆 免费开放Agent功能",
+          "url": "https://aihot.virxact.com/items/cmolzgjmf03mksll9g7n7pfgl",
+          "source": "X：Replit (@Replit)"
+        },
+        {
+          "id": "cmokecqtj00ypsl4fdf8mx7ky",
+          "title": "Agents 现可创建 Cloudflare 账户、购买域名并部署",
+          "url": "https://aihot.virxact.com/items/cmokecqtj00ypsl4fdf8mx7ky",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmolv5ftv02mxsll96lld3r6n",
+          "title": "Codex简化日常办公流程",
+          "url": "https://aihot.virxact.com/items/cmolv5ftv02mxsll96lld3r6n",
+          "source": "X：OpenAI (@OpenAI)"
+        },
+        {
+          "id": "cmonbpkfd0es2sll9xcpvgfii",
+          "title": "安装孵化宠物技能创造专属宠物",
+          "url": "https://aihot.virxact.com/items/cmonbpkfd0es2sll9xcpvgfii",
+          "source": "X：OpenAI Developers (@OpenAIDevs)"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI安全与风险警示",
+      "count": "3",
+      "intro": "本月多项研究揭示AI安全风险。英国政府警告AI网络攻击能力翻倍周期缩短至四个月；微软研究发现AI助手在长文档编辑中平均破坏25%内容，且智能体交互网络存在系统性风险。这些警示强调，随着AI能力提升，安全评估和防护机制需同步进化。",
+      "stories": [
+        {
+          "id": "cmolszi0q022tsll9cc145dji",
+          "title": "英国政府警告：AI网络攻击能力加速远超预期",
+          "url": "https://aihot.virxact.com/items/cmolszi0q022tsll9cc145dji",
+          "source": "X：AI Safety Memes (@AISafetyMemes)"
+        },
+        {
+          "id": "cmolal3ei01ksslc5qqz0bpkz",
+          "title": "微软研究揭示AI助手在长文档编辑中普遍损坏内容",
+          "url": "https://aihot.virxact.com/items/cmolal3ei01ksslc5qqz0bpkz",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmom1lojv0437sll9zabv7a8g",
+          "title": "微软研究揭示AI智能体交互网络风险",
+          "url": "https://aihot.virxact.com/items/cmom1lojv0437sll9zabv7a8g",
+          "source": "X：Microsoft Research (@MSFTResearch)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI在垂直领域的突破性应用",
+      "count": "3",
+      "intro": "AI在医疗、教育、农业等领域的应用取得显著进展。哈佛研究显示AI在急诊科诊断能力超越人类医生；Mayo Clinic的AI可提前三年检测胰腺癌；AI导师使学生学习效果翻倍；AI预测害虫爆发准确率达88%。这些案例表明AI正从通用能力向解决实际问题的专业工具演进。",
+      "stories": [
+        {
+          "id": "cmoohd0et0oa7sll9haeq6vww",
+          "title": "哈佛新研究：AI 模型“急诊科”场景诊断能力有望超越人类医生",
+          "url": "https://aihot.virxact.com/items/cmoohd0et0oa7sll9haeq6vww",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmonaf1m80eg6sll9kus3phwv",
+          "title": "本周的积极信号：AI在医疗、教育、农业与科研领域的突破性进展",
+          "url": "https://aihot.virxact.com/items/cmonaf1m80eg6sll9kus3phwv",
+          "source": "Tomer Tunguz 博客（VC 分析）"
+        },
+        {
+          "id": "cmolmdox900fzsll9gjuhhhfr",
+          "title": "以AI联合临床医生开启医疗保健新模式",
+          "url": "https://aihot.virxact.com/items/cmolmdox900fzsll9gjuhhhfr",
+          "source": "Google DeepMind：Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "资本投入与市场分化",
+      "count": "4",
+      "intro": "AI投资回报出现明显分化。Alphabet因云业务增长市值单日暴增4200亿美元，逼近英伟达；而Meta因日活首降和资本支出激增股价大跌。软银计划将AI公司Roze以1000亿美元估值上市，同时业界出现对资本错配的担忧。这表明市场对AI投资的态度正从盲目追捧转向理性评估。",
+      "stories": [
+        {
+          "id": "cmolx460h030asll9pvcz7jtb",
+          "title": "Alphabet市值单日暴增4200亿美元，逼近英伟达",
+          "url": "https://aihot.virxact.com/items/cmolx460h030asll9pvcz7jtb",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmolj8sd4008jslqo7o6ud8a0",
+          "title": "Meta首次日活用户下降，资本支出激增致股价大跌",
+          "url": "https://aihot.virxact.com/items/cmolj8sd4008jslqo7o6ud8a0",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmolg1knw02yjslc5cpn8uv6k",
+          "title": "Softbank 计划将估值高达1000亿美元的新AI与机器人公司Roze上市",
+          "url": "https://aihot.virxact.com/items/cmolg1knw02yjslc5cpn8uv6k",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmolz9bic03hosll926fyvpb6",
+          "title": "史上最大的资本错配？",
+          "url": "https://aihot.virxact.com/items/cmolz9bic03hosll926fyvpb6",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        }
+      ]
+    }
+  ],
+  "story_count": 18,
+  "period": "2026-05",
+  "url": "https://aihot.virxact.com/monthly/2026-05",
+  "fetched_at": "2026-07-31T00:09:06+08:00"
+}

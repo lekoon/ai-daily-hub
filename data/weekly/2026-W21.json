@@ -1,0 +1,231 @@
+{
+  "type": "weekly",
+  "vol": "2026-W21",
+  "eyebrow": "VOL.2026-W21·26STORIES·AI HOTWEEKLY",
+  "date_range": "2026-05-18~2026-05-24",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI进入自主代理与多模态时代",
+    "overview": "本周AI行业主线是AI从辅助工具向自主代理的全面进化，以及多模态生成能力的重大突破。Google I/O 2026上发布的Gemini Omni模型，能够从任意输入生成任意输出，并具备物理推理能力，被视为迈向AGI的重要一步。同时，Anthropic的Claude在安全研究上取得惊人成果——5天内攻破Apple M5内核防护，凸显AI驱动的安全研究已改变攻防平衡。此外，多位行业领袖预测软件免费化与白领工作自动化，AI代理的可靠性问题也引发关注。开源社区则涌现出GBrain、Forge等提升AI记忆与工具调用能力的创新方案。"
+  },
+  "stats": [
+    {
+      "value": "125",
+      "label": "独立事件"
+    },
+    {
+      "value": "233",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "Google I/O 2026：Gemini Omni与自主代理时代",
+      "count": "7",
+      "intro": "Google I/O 2026成为本周焦点，Gemini Omni模型发布标志着多模态生成能力的飞跃，它结合物理推理与知识，能从任何输入生成任何输出。同时，Gemini Spark作为全天候个人AI代理，以及智能搜索框的多模态交互，共同宣告AI进入自主代理时代。Google还披露了月处理3200万亿Token、Gemini月活超9亿等关键数据，显示AI规模化应用加速。",
+      "stories": [
+        {
+          "id": "cmpcyioqw01c0sljlnmkn1jvc",
+          "title": "I/O 2026: 欢迎来到自主的 Gemini 时代",
+          "url": "https://aihot.virxact.com/items/cmpcyioqw01c0sljlnmkn1jvc",
+          "source": "Google Blog：AI（RSS）"
+        },
+        {
+          "id": "cmpd0arrt01tdsljlfb386xpt",
+          "title": "谷歌发布Gemini Omni多模态生成模型",
+          "url": "https://aihot.virxact.com/items/cmpd0arrt01tdsljlfb386xpt",
+          "source": "X：Gemini (@GeminiApp)"
+        },
+        {
+          "id": "cmpd1208z01yasljldmz8605q",
+          "title": "Gemini Omni发布：物理推理与多模态生成新突破",
+          "url": "https://aihot.virxact.com/items/cmpd1208z01yasljldmz8605q",
+          "source": "X：Sundar Pichai (@sundarpichai)"
+        },
+        {
+          "id": "cmpcxoo8t0119sljlui7avpd7",
+          "title": "谷歌 Gemini Omni 全能模型发布：可从任意输入生成任意输出，一句话让 AI 修改视频",
+          "url": "https://aihot.virxact.com/items/cmpcxoo8t0119sljlui7avpd7",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmpcz81ck01ifsljlbi5lavdp",
+          "title": "Gemini Spark：全天候个人AI代理",
+          "url": "https://aihot.virxact.com/items/cmpcz81ck01ifsljlbi5lavdp",
+          "source": "X：Gemini (@GeminiApp)"
+        },
+        {
+          "id": "cmpd5qa3j014wslk1csm8g3lb",
+          "title": "谷歌推出全新AI智能搜索框，支持多模态交互",
+          "url": "https://aihot.virxact.com/items/cmpd5qa3j014wslk1csm8g3lb",
+          "source": "X：Google AI (@GoogleAI)"
+        },
+        {
+          "id": "cmpcxoo8t011asljl2ex48qey",
+          "title": "谷歌每月处理超 3200 万亿 Token，同比增长 7 倍",
+          "url": "https://aihot.virxact.com/items/cmpcxoo8t011asljl2ex48qey",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "AI安全攻防加速：Claude攻破M5与Karpathy加盟Anthropic",
+      "count": "6",
+      "intro": "Anthropic的Claude在5天内攻破Apple M5芯片的macOS内核防护，绕过了苹果耗时5年、投入数十亿美元的硬件级安全机制，标志着AI驱动的安全研究已能极速突破顶尖防护。同时，前OpenAI核心成员Andrej Karpathy加入Anthropic，引发行业对AI安全与对齐研究的关注。Anthropic还与教皇共同发布AI通谕，并推出自托管沙箱等企业安全功能，显示其在安全与伦理领域的持续布局。",
+      "stories": [
+        {
+          "id": "cmpa0moej0v8mslnzs3ph0b54",
+          "title": "Anthropic Claude 5天攻破Apple M5 macOS内核漏洞：5年数十亿防线，被AI一举击穿",
+          "url": "https://aihot.virxact.com/items/cmpa0moej0v8mslnzs3ph0b54",
+          "source": "X：Berry Xia (@berryxia)"
+        },
+        {
+          "id": "cmpcsj5pu050sslaeoga8am89",
+          "title": "Karpathy加入Anthropic团队",
+          "url": "https://aihot.virxact.com/items/cmpcsj5pu050sslaeoga8am89",
+          "source": "X：Claude Devs (@ClaudeDevs)"
+        },
+        {
+          "id": "cmpctfefn007nslb7d10w6thl",
+          "title": "安德烈·卡帕西加入Anthropic",
+          "url": "https://aihot.virxact.com/items/cmpctfefn007nslb7d10w6thl",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmpctird30077sl50ywlas903",
+          "title": "前OpenAI核心成员Andrej Karpathy选择Anthropic重返前沿LLM研究",
+          "url": "https://aihot.virxact.com/items/cmpctird30077sl50ywlas903",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmpc0rsyk1bv1slnzg9w4btuu",
+          "title": "Anthropic联合创始人将与教皇利奥十四世共同发布人工智能通谕",
+          "url": "https://aihot.virxact.com/items/cmpc0rsyk1bv1slnzg9w4btuu",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmpcew7mp01s5slaemjh52y5b",
+          "title": "Claude智能体托管平台新增自托管沙箱与MCP隧道功能",
+          "url": "https://aihot.virxact.com/items/cmpcew7mp01s5slaemjh52y5b",
+          "source": "Claude：Blog（网页）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI代理可靠性：记忆重写缺陷与防护机制创新",
+      "count": "4",
+      "intro": "随着AI代理广泛应用，其可靠性问题凸显。研究发现LLM智能体的记忆重写机制会损害可靠性，导致性能下降。对此，开源社区推出Forge等可靠性层，通过防护机制将8B模型在复杂任务中的表现从53%提升至99%。同时，GBrain等知识系统通过多层结构解决AI记忆缺陷，Membrane则通过单一技能连接超10万API，降低集成复杂度。这些创新共同推动AI代理向更可靠、更易用的方向发展。",
+      "stories": [
+        {
+          "id": "cmp9hwi0k0r0dslnzgpk9c6x0",
+          "title": "研究揭示LLM智能体记忆重写机制损害可靠性",
+          "url": "https://aihot.virxact.com/items/cmp9hwi0k0r0dslnzgpk9c6x0",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmpd5r3ih015bslk1uyo2y504",
+          "title": "Forge：通过防护机制大幅提升8B模型性能的可靠性层",
+          "url": "https://aihot.virxact.com/items/cmpd5r3ih015bslk1uyo2y504",
+          "source": "Hacker News：AI 热帖"
+        },
+        {
+          "id": "cmp9nerrd0s89slnzijlhhl42",
+          "title": "Garry Tan发布的GBrain直接捅破个人AI天花板",
+          "url": "https://aihot.virxact.com/items/cmp9nerrd0s89slnzijlhhl42",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)"
+        },
+        {
+          "id": "cmpco60d203y3slae2tkp2i7l",
+          "title": "AI代理集成新方案：Membrane推出单一技能连接万种API",
+          "url": "https://aihot.virxact.com/items/cmpco60d203y3slae2tkp2i7l",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "多模态生成与视频模型：从4K到世界模型",
+      "count": "4",
+      "intro": "多模态生成领域迎来多项突破：Kling AI推出全球首个原生4K视频生成模型，获得好莱坞团队采用；NVIDIA开源首个4-bit量化长视频生成基础设施；阿里云推出HappyHorse视频生成模型。更引人注目的是，奥德赛实验室发布全球首个实时多agent世界模型Agora-1，允许多人机同屏互动，标志着从单人生成视频向多人共享“活世界”的转变。",
+      "stories": [
+        {
+          "id": "cmpdkkt0104q4slk1htr3h1ol",
+          "title": "Kling AI推出全球首个原生4K视频生成模型",
+          "url": "https://aihot.virxact.com/items/cmpdkkt0104q4slk1htr3h1ol",
+          "source": "X：可灵 Kling AI (@Kling_ai)"
+        },
+        {
+          "id": "cmpctnv2x00aasl50qkhm1z0l",
+          "title": "NVIDIA开源首个4-bit超长视频生成基础设施",
+          "url": "https://aihot.virxact.com/items/cmpctnv2x00aasl50qkhm1z0l",
+          "source": "X：Berry Xia (@berryxia)"
+        },
+        {
+          "id": "cmpajb29y0ze6slnz4qehfohy",
+          "title": "阿里云推出HappyHorse视频生成模型",
+          "url": "https://aihot.virxact.com/items/cmpajb29y0ze6slnz4qehfohy",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
+        },
+        {
+          "id": "cmpbzez3z1bkhslnzwsppcvqn",
+          "title": "首个实时多agent世界模型发布，人类可与AI同屏互动",
+          "url": "https://aihot.virxact.com/items/cmpbzez3z1bkhslnzwsppcvqn",
+          "source": "X：Berry Xia (@berryxia)"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI行业趋势：软件免费化、白领自动化与伦理对话",
+      "count": "5",
+      "intro": "多位行业领袖发出重磅预测：Anthropic CEO认为软件成本将急剧下降甚至免费，微软AI CEO预测18个月内AI将自动化所有白领工作。这些言论引发对职业结构巨变的讨论。同时，Anthropic与多元群体展开对话，探索AI伦理对齐；研究发现人类说服技巧对AI同样有效，凸显AI安全复杂性。开源工具api-relay-audit则揭露了AI API中转站的安全风险。",
+      "stories": [
+        {
+          "id": "cmp976l4m0ojjslnzqoaxuhwd",
+          "title": "Anthropic CEO预言软件免费化与职业结构巨变",
+          "url": "https://aihot.virxact.com/items/cmp976l4m0ojjslnzqoaxuhwd",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmp9n1c040s55slnzuroftb4b",
+          "title": "微软AI CEO预测18个月内AI自动化所有白领工作",
+          "url": "https://aihot.virxact.com/items/cmp9n1c040s55slnzuroftb4b",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmpd5fjlb010tslk16bffs0ly",
+          "title": "研究发现人类说服技巧对AI同样有效",
+          "url": "https://aihot.virxact.com/items/cmpd5fjlb010tslk16bffs0ly",
+          "source": "X：Ethan Mollick (@emollick)"
+        },
+        {
+          "id": "cmpd9r8mi022fslk1qbsjsb9i",
+          "title": "拓宽关于前沿AI的对话",
+          "url": "https://aihot.virxact.com/items/cmpd9r8mi022fslk1qbsjsb9i",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmpahs8180z2pslnzsirydwc8",
+          "title": "开源工具揭露AI API中转站安全风险与检测差异",
+          "url": "https://aihot.virxact.com/items/cmpahs8180z2pslnzsirydwc8",
+          "source": "X：Berry Xia (@berryxia)"
+        }
+      ]
+    }
+  ],
+  "story_count": 26,
+  "period": "2026-W21",
+  "url": "https://aihot.virxact.com/weekly/2026-W21",
+  "fetched_at": "2026-07-31T00:09:02+08:00"
+}

@@ -1,0 +1,133 @@
+{
+  "type": "daily",
+  "vol": "2026.07.20",
+  "eyebrow": "VOL.2026.07.20·8STORIES·AI HOT DAILY",
+  "metrics": [
+    {
+      "value": "8",
+      "label": "今日事件"
+    },
+    {
+      "value": "4",
+      "label": "一手报道"
+    },
+    {
+      "value": "4",
+      "label": "新模型"
+    },
+    {
+      "value": "7",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "模型发布/更新",
+      "subtitle": "Model Releases",
+      "count": "4",
+      "articles": [
+        {
+          "id": "cmrrjaxlv030jbihklywu3xy6",
+          "title": "Qwen3.8 开源发布，2.4T 参数模型上线",
+          "url": "https://aihot.virxact.com/items/cmrrjaxlv030jbihklywu3xy6",
+          "role_tag": "官方·X",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)",
+          "summary": "Qwen3.8 即将发布并很快开源权重！🌐 该模型拥有 2.4T 海量参数，正在持续进化。我们相信它是目前最强大的模型之一，可与领先的前沿 AI 模型媲美，仅次于 Fable 5。 你无需等待即可测试。就在刚才，Qwen3.8-Max-Preview 已在阿里巴巴的 Token Plan、Qoder 和 QoderWork 上首次亮相。快来抢先体验吧。 期待你的作品。敬请关注！🚀",
+          "is_lead": true
+        },
+        {
+          "id": "cmrrt03gx00mkbi5qtoim4wvo",
+          "title": "昆仑万维宣布2026为“世界模型元年”，发布Matrix-Game 3.5等模型",
+          "url": "https://aihot.virxact.com/items/cmrrt03gx00mkbi5qtoim4wvo",
+          "role_tag": "公众号·官方",
+          "source": "公众号：昆仑万维（天工）",
+          "summary": "昆仑万维董事长方汉在WAIC上宣布2026年为“世界模型元年”，并发布Matrix-Game 3.5世界模型、Mureka v9.5与O3音乐模型。Matrix-Game 3.5实现Patch级记忆注入，5B模型在720p分辨率下单卡可达20FPS实时生成，核心架构已开源。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrrvig4h01ctbi5qyidwptd7",
+          "title": "面壁智能开源 MiniCPM-Robot 具身智能模型系列",
+          "url": "https://aihot.virxact.com/items/cmrrvig4h01ctbi5qyidwptd7",
+          "role_tag": "官方·X",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)",
+          "summary": "面壁智能开源首个具身AI模型系列 MiniCPM-Robot，包含 1.5B 参数的通用视觉-语言-动作（VLA）模型 MiniCPM-RobotManip 和用于目标跟踪的 MiniCPM-RobotTrack。同时发布高性能推理框架 PhyAI，旨在让机器人实现理解、记忆与行动。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrru2n5x00vzbi5qea6youod",
+          "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+          "url": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
+          "role_tag": "公众号·官方",
+          "source": "公众号：面壁智能（MiniCPM）",
+          "summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "产品发布/更新",
+      "subtitle": "Product",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmrr7sdid02ybbi18afm9lr2i",
+          "title": "transcribe.cpp 发布：基于 ggml 的跨平台语音转录库，支持 16 个 ASR 模型族",
+          "url": "https://aihot.virxact.com/items/cmrr7sdid02ybbi18afm9lr2i",
+          "role_tag": "综合资讯",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "summary": "transcribe.cpp v0.1.0 发布，一个基于 ggml 的语音转录库，支持 16 个 ASR 模型族（60+ 模型），并通过 Vulkan、Metal、CUDA 和 TinyBLAS 实现 GPU 加速。",
+          "is_lead": true
+        },
+        {
+          "id": "cmrraq5dk03p5bi18vyrt83kp",
+          "title": "ChatGPT Work 功能：建站、邮件、文档处理",
+          "url": "https://aihot.virxact.com/items/cmrraq5dk03p5bi18vyrt83kp",
+          "role_tag": "X·KOL",
+          "source": "X：Tibo (@thsottiaux)",
+          "summary": "ChatGPT Work 适用于 ✅ 创建和托管网站 ✅ 为你管理电子邮件 ✅ 总结海量文档 ✅ 制作一流的文档、表格和幻灯片 已在你的移动应用或 http://chatgpt.com 上提供，包含在 Plus、Pro、Business 和 Enterprise 套餐中。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "行业动态",
+      "subtitle": "Industry",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cmrsbql4401gxbiuaj7s1567n",
+          "title": "黄仁勋访日：Nvidia 联手日本打造物理 AI 时代，Noetra 主权 AI 工厂与 Cosmos 机器人联盟落地",
+          "url": "https://aihot.virxact.com/items/cmrsbql4401gxbiuaj7s1567n",
+          "role_tag": "综合资讯",
+          "source": "TechCrunch：AI（RSS）",
+          "summary": "Nvidia CEO 黄仁勋在 7 月 15-16 日访日期间，宣布为日本建设“Vera Rubin AI 工厂”，配备 13,750 颗 Vera CPU 和 27,500 颗 Rubin GPU，预计 2028 年投运。",
+          "is_lead": true
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "技巧与观点",
+      "subtitle": "Tips & Takes",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cmrrd5bjb00cfbikihob9drtj",
+          "title": "AI 热潮正在瓦解全球决策机制",
+          "url": "https://aihot.virxact.com/items/cmrrd5bjb00cfbikihob9drtj",
+          "role_tag": "综合资讯",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "summary": "一位拥有 300 多次行业交流经验的从业者观察到，全球公私机构正陷入集体性 AI 狂热，决策层要么没有计划，要么只能低头回避。过去一年半中，其团队所见的所有 AI 项目均以失败告终（成功率 0%），失败原因常与 LLM 能力无关，而是企业本就难以有效运行软件项目，且 AI 项目叠加了额外风险。内部聊天机器人几乎无人使用，客户服务聊天机器人也极少带来良好体验，例如三菱的语音客服承诺回电却六周未兑现。",
+          "is_lead": true
+        }
+      ]
+    }
+  ],
+  "story_count": 8,
+  "date": "2026-07-20",
+  "url": "https://aihot.virxact.com/daily/2026-07-20",
+  "fetched_at": "2026-07-31T00:16:54+08:00"
+}

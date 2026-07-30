@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block title %}搜索 · AIHOT{% endblock %}
+{% block body %}
+<main class="paper paper-narrow">
+  <h1 class="page-title">搜索</h1>
+  {% if q %}
+    <p class="search-hint">「{{ q }}」共 {{ results | length }} 条结果</p>
+    <div class="articles">
+      {% for r in results %}
+      <article class="article">
+        <h3 class="article-title"><a href="{{ url_for('item', item_id=r.id) }}">{{ r.title }}</a></h3>
+        <div class="article-source">
+          <span>{{ r.source }}</span>{% if r.published_at %}<span> · {{ r.published_at }}</span>{% endif %}
+        </div>
+      </article>
+      {% else %}
+      <p class="search-hint">没有找到相关内容。</p>
+      {% endfor %}
+    </div>
+  {% else %}
+    <p class="search-hint">在右上角输入关键词搜索新闻标题与内容。</p>
+  {% endif %}
+</main>
+{% endblock %}

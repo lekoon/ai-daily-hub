@@ -1,0 +1,15 @@
+{
+  "title": "Perplexity 开源智能体检测层 Numbat",
+  "source": "Perplexity (@perplexity_ai)",
+  "published_at": "2026-07-30 01:01",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://x.com/perplexity_ai/status/2082511900580196596",
+  "aihot_url": "https://aihot.virxact.com/items/cms6czboh031krotzmczxbw2v",
+  "curation_reason": "Perplexity开源Numbat，把agent安全检测从黑箱变为可观测可拦截的层，虽小众但对依赖agent生产环境的团队是个实用工具。",
+  "ai_summary": "今天我们开源了 Numbat，这是一个智能体检测与响应层，旨在跨多种智能体框架工作。\n\nNumbat 为安全团队提供对智能体活动的可见性，并可在执行前阻止选定操作。\n\n了解更多：https://research.perplexity.ai/articles/securing-agents-across-perplexity%E2%80%99s-client-endpoints-with-numbat",
+  "content_markdown": "今天我们开源了 Numbat，这是一个专为跨多种智能体框架工作而设计的智能体检测与响应层。\n\nNumbat 让安全团队能够洞察智能体的活动，并可在执行前阻止特定操作。\n\n更多详情：https://research.perplexity.ai/articles/securing-agents-across-perplexity%E2%80%99s-client-endpoints-with-numbat",
+  "id": "cms6czboh031krotzmczxbw2v",
+  "url": "https://aihot.virxact.com/items/cms6czboh031krotzmczxbw2v",
+  "fetched_at": "2026-07-31T00:17:06+08:00"
+}

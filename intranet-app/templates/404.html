@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block title %}页面不存在 · AIHOT{% endblock %}
+{% block body %}
+<main class="paper paper-narrow">
+  <h1 class="page-title">404</h1>
+  <p class="search-hint">页面不存在或数据尚未同步。<a href="{{ url_for('home') }}">返回首页</a></p>
+</main>
+{% endblock %}

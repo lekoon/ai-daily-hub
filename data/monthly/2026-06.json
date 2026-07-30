@@ -1,0 +1,231 @@
+{
+  "type": "monthly",
+  "vol": "2026-06",
+  "eyebrow": "VOL.2026-06·26STORIES·AI HOTMONTHLY",
+  "date_range": "2026-06-01~2026-06-30",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI基础设施与智能体生态加速",
+    "overview": "2026年6月，AI行业主线清晰指向基础设施大规模扩张与智能体生态的深化落地。Alphabet、Anthropic、OpenAI等巨头通过融资、IPO和超大规模数据中心建设（如Stargate）为AI算力铺路；同时，模型发布聚焦于推理效率与多模态能力，如MiniMax M3、微软MAI-Thinking-1等。智能体应用从编程（Claude Code、Codex SDK）扩展到工厂管理（NVIDIA FOX）、文件整理（Google并行子智能体）和科学发现（DeepMind工具包），而安全与治理问题（如Meta AI劫持账号、佛罗里达州诉讼）也引发关注。开源与闭源模型分化加剧，但共同推动AI向更实用、更可控的方向演进。"
+  },
+  "stats": [
+    {
+      "value": "688",
+      "label": "独立事件"
+    },
+    {
+      "value": "919",
+      "label": "条精选"
+    },
+    {
+      "value": "30",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈4 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "基础设施军备竞赛：融资、IPO与数据中心",
+      "count": "4",
+      "intro": "本月，AI基础设施投资达到新高度。Alphabet计划通过发行股票筹集800亿美元用于AI支出，Anthropic秘密提交IPO申请，OpenAI在密歇根启动1GW Stargate数据中心。这些动作表明，头部公司正为长期算力需求做巨额资本储备，竞争从模型能力延伸到基础设施规模。",
+      "stories": [
+        {
+          "id": "cmpvphtkh00j0slukzfwj1aez",
+          "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
+          "url": "https://aihot.virxact.com/items/cmpvphtkh00j0slukzfwj1aez",
+          "source": "Bloomberg：Technology（RSS）"
+        },
+        {
+          "id": "cmpvf63k406b0sl0zv0ef9647",
+          "title": "Anthropic 保密向 SEC 提交 S-1 草案",
+          "url": "https://aihot.virxact.com/items/cmpvf63k406b0sl0zv0ef9647",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmpvlaey600deslfpl35rf3t5",
+          "title": "OpenAI在密歇根州启动Stargate 1GW数据中心建设",
+          "url": "https://aihot.virxact.com/items/cmpvlaey600deslfpl35rf3t5",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmpwf05rk02d5slsnyqog4n3x",
+          "title": "SK会长崔泰源：SK海力士计划未来五年内晶圆产能翻倍",
+          "url": "https://aihot.virxact.com/items/cmpwf05rk02d5slsnyqog4n3x",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "模型竞赛：推理效率与多模态成为焦点",
+      "count": "6",
+      "intro": "本月多款新模型强调推理效率与多模态能力。MiniMax M3以稀疏注意力架构实现百万token上下文且成本大幅降低；微软MAI-Thinking-1定位中等规模但达到领先推理水平；阶跃星辰Step 3.7 Flash通过注意力机制优化KV-cache成本。同时，xAI Composer 2.5、Qwen3.7-Plus等模型聚焦编程与多模态智能体，SenseNova-U1专攻图表生成。开源模型（如Holo3.1）在本地部署上取得进展，闭源模型则通过API和云服务扩大覆盖。",
+      "stories": [
+        {
+          "id": "cmpunu0g50002slbrlfonpoc3",
+          "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+          "url": "https://aihot.virxact.com/items/cmpunu0g50002slbrlfonpoc3",
+          "source": "MiniMax：Blog（网页）"
+        },
+        {
+          "id": "cmpwzm8ij028gsl798th4vl54",
+          "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
+          "url": "https://aihot.virxact.com/items/cmpwzm8ij028gsl798th4vl54",
+          "source": "The Verge：AI（RSS）"
+        },
+        {
+          "id": "cmpw488y9049wslukkrk33tc9",
+          "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+          "url": "https://aihot.virxact.com/items/cmpw488y9049wslukkrk33tc9",
+          "source": "X：阶跃星辰 StepFun (@StepFun_ai)"
+        },
+        {
+          "id": "cmpvj4oqx009islykdg19umm6",
+          "title": "xAI发布Composer 2.5",
+          "url": "https://aihot.virxact.com/items/cmpvj4oqx009islykdg19umm6",
+          "source": "xAI：News（网页）"
+        },
+        {
+          "id": "cmpvdctkr05ubsl0zpszj9cor",
+          "title": "SenseNova新模型解决AI图表生成难题",
+          "url": "https://aihot.virxact.com/items/cmpvdctkr05ubsl0zpszj9cor",
+          "source": "X：商汤 SenseTime (@SenseTime_AI)"
+        },
+        {
+          "id": "cmpwqvwfa05cqslsncgvlgd9q",
+          "title": "Holo3.1：快速本地计算机使用智能体",
+          "url": "https://aihot.virxact.com/items/cmpwqvwfa05cqslsncgvlgd9q",
+          "source": "Hugging Face：Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "智能体生态：从编程到工厂的全面渗透",
+      "count": "7",
+      "intro": "智能体应用本月显著扩展至更多领域。编程方面，Claude Code新增动态工作流，OpenAI Codex发布Python SDK，GitHub Copilot定位为智能体原生桌面体验。工业领域，NVIDIA发布工厂运营蓝图，富士康等采用后预计根源分析时间缩短80%。此外，Google DeepMind开源科学智能体工具包，腾讯混元发布长期记忆插件Hy-Memory，Perplexity推出Search as Code架构。智能体正从单一任务向复杂工作流和行业解决方案演进。",
+      "stories": [
+        {
+          "id": "cmpx51hf700otslcksx7ng54n",
+          "title": "Claude Code 新增动态工作流功能",
+          "url": "https://aihot.virxact.com/items/cmpx51hf700otslcksx7ng54n",
+          "source": "Claude：Blog（网页）"
+        },
+        {
+          "id": "cmpwv0pz000zusl79b2q9k21q",
+          "title": "OpenAI Codex 发布 Python SDK，可直接嵌入应用",
+          "url": "https://aihot.virxact.com/items/cmpwv0pz000zusl79b2q9k21q",
+          "source": "X：Vista (@vista8)"
+        },
+        {
+          "id": "cmpwxvkik01qzsl79wf8zf34a",
+          "title": "GitHub Copilot应用：智能体原生的桌面体验",
+          "url": "https://aihot.virxact.com/items/cmpwxvkik01qzsl79wf8zf34a",
+          "source": "GitHub Blog"
+        },
+        {
+          "id": "cmpuse81v00hrsl0zr2uqw9km",
+          "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
+          "url": "https://aihot.virxact.com/items/cmpuse81v00hrsl0zr2uqw9km",
+          "source": "NVIDIA Blog：Agentic AI（网页）"
+        },
+        {
+          "id": "cmpx64ru900yoslckuec4q8ne",
+          "title": "Google DeepMind 开源科学智能体工具包",
+          "url": "https://aihot.virxact.com/items/cmpx64ru900yoslckuec4q8ne",
+          "source": "X：Google AI for Developers (@googleaidevs)"
+        },
+        {
+          "id": "cmpuzjn4q02bzsl0zm8pgfo93",
+          "title": "腾讯混元发布智能体长期记忆插件Hy-Memory",
+          "url": "https://aihot.virxact.com/items/cmpuzjn4q02bzsl0zm8pgfo93",
+          "source": "X：腾讯混元 (@TencentHunyuan)"
+        },
+        {
+          "id": "cmpvij4w2002vslykng47v8ya",
+          "title": "Perplexity发布Search as Code搜索架构",
+          "url": "https://aihot.virxact.com/items/cmpvij4w2002vslykng47v8ya",
+          "source": "X：Perplexity (@perplexity_ai)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "安全与治理：风险与监管并行",
+      "count": "5",
+      "intro": "AI安全与治理成为本月重要议题。佛罗里达州起诉OpenAI，指控其与多起ChatGPT相关谋杀案有关；Meta AI被利用劫持Instagram账号，暴露智能体权限风险。正面行动包括：Anthropic扩展Project Glasswing计划，利用AI扫描关键基础设施代码漏洞；OpenAI呼吁设立AI安全研究所保护青少年；Anthropic支持美国AI行政令。这些事件表明，随着AI能力增强，安全与监管框架的建立愈发紧迫。",
+      "stories": [
+        {
+          "id": "cmpvl6hcy00b3slfp8iajt5kg",
+          "title": "佛罗里达州起诉OpenAI与Sam Altman：涉多起ChatGPT相关谋杀案",
+          "url": "https://aihot.virxact.com/items/cmpvl6hcy00b3slfp8iajt5kg",
+          "source": "Ars Technica：AI（RSS）"
+        },
+        {
+          "id": "cmpvmvuc000r2slfpabxe89ry",
+          "title": "Meta的AI被利用来劫持Instagram账号",
+          "url": "https://aihot.virxact.com/items/cmpvmvuc000r2slfpabxe89ry",
+          "source": "The Verge：订阅版科技（RSS）"
+        },
+        {
+          "id": "cmpwoaoyd04pcslsnnqfm8490",
+          "title": "Anthropic扩展Project Glasswing计划",
+          "url": "https://aihot.virxact.com/items/cmpwoaoyd04pcslsnnqfm8490",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmpwrifyw0017sl79bcjk20i4",
+          "title": "OpenAI呼吁通过全球领导力推进青年AI安全与机遇",
+          "url": "https://aihot.virxact.com/items/cmpwrifyw0017sl79bcjk20i4",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmpx6ffoc010yslckfofiel4y",
+          "title": "Anthropic支持美国AI行政令实施",
+          "url": "https://aihot.virxact.com/items/cmpx6ffoc010yslckfofiel4y",
+          "source": "X：Anthropic (@AnthropicAI)"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "开源与闭源分化：不同路径的竞争",
+      "count": "4",
+      "intro": "开源与闭源模型本月展现出差异化发展路径。闭源模型如OpenAI、Anthropic通过API和云服务（如AWS集成）扩大商业覆盖，而开源模型如MiniMax M3、Qwen3.7-Plus、Holo3.1等在本地部署和特定场景中寻求突破。Nathan Lambert指出，闭源模型通过边际智能提升创造价值，开源模型则在其他维度竞争。微软MAI-Thinking-1强调从头训练，JetBrains发布Mellum2，OpenBMB发布UltraData数据集，均显示开源生态的活力。",
+      "stories": [
+        {
+          "id": "cmpva81zh051rsl0zxs0dee2n",
+          "title": "开源与闭源模型在不同的增长曲线上",
+          "url": "https://aihot.virxact.com/items/cmpva81zh051rsl0zxs0dee2n",
+          "source": "Nathan Lambert：Interconnects（RSS）"
+        },
+        {
+          "id": "cmpv8b6wa04jvsl0zc4newlns",
+          "title": "OpenBMB发布UltraData两大开源数据集，登顶HuggingFace趋势榜",
+          "url": "https://aihot.virxact.com/items/cmpv8b6wa04jvsl0zc4newlns",
+          "source": "X：面壁智能 OpenBMB (@OpenBMB)"
+        },
+        {
+          "id": "cmpvfn56c06fxsl0zknga1ztr",
+          "title": "介绍 Mellum2：JetBrains 推出的 12B 混合专家模型",
+          "url": "https://aihot.virxact.com/items/cmpvfn56c06fxsl0zknga1ztr",
+          "source": "Hugging Face：Blog（RSS）"
+        },
+        {
+          "id": "cmpvqq6bd00ubslukf8jsko23",
+          "title": "OpenAI前沿模型与Codex现可在AWS上使用",
+          "url": "https://aihot.virxact.com/items/cmpvqq6bd00ubslukf8jsko23",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    }
+  ],
+  "story_count": 26,
+  "period": "2026-06",
+  "url": "https://aihot.virxact.com/monthly/2026-06",
+  "fetched_at": "2026-07-31T00:09:05+08:00"
+}

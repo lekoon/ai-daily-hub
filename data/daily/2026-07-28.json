@@ -1,0 +1,195 @@
+{
+  "type": "daily",
+  "vol": "2026.07.28",
+  "eyebrow": "VOL.2026.07.28·14STORIES·AI HOT DAILY",
+  "metrics": [
+    {
+      "value": "14",
+      "label": "今日事件"
+    },
+    {
+      "value": "9",
+      "label": "一手报道"
+    },
+    {
+      "value": "1",
+      "label": "新模型"
+    },
+    {
+      "value": "13",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "模型发布/更新",
+      "subtitle": "Model Releases",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cms44no4v06arro82khvjxjj4",
+          "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+          "url": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4",
+          "role_tag": "公众号·官方",
+          "source": "公众号：月之暗面（Kimi）",
+          "summary": "月之暗面发布 2.8 万亿参数的混合专家模型 Kimi K3，支持原生视觉理解和 100 万 token 上下文窗口。其规模化效率较 Kimi K2.5 提升 2.5 倍，并同步开源模型权重、技术报告及 MoonEP、FlashKDA、AgentEnv 三项 Infra 技术。",
+          "is_lead": true
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "产品发布/更新",
+      "subtitle": "Product",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cms3lggqj00c0roskhu1r5f09",
+          "title": "Kimi 发布视觉感知基准 PerceptionBench",
+          "url": "https://aihot.virxact.com/items/cms3lggqj00c0roskhu1r5f09",
+          "role_tag": "官方·X",
+          "source": "X：Kimi.ai (@Kimi_Moonshot)",
+          "summary": "Kimi.ai 发布 PerceptionBench，一个从当前前沿模型在 42 个基准上的失败模式中归纳出的视觉感知基准。该基准将视觉感知拆解为 10 种原子能力，并构建了 3000 道验证题，每道题只考察单一感知能力，无需推理或外部知识。",
+          "is_lead": true
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "行业动态",
+      "subtitle": "Industry",
+      "count": "3",
+      "articles": [
+        {
+          "id": "cms3fuyes00mjrond2ldww2oa",
+          "title": "Google AI Overviews 搜索结果出现率升至43%",
+          "url": "https://aihot.virxact.com/items/cms3fuyes00mjrond2ldww2oa",
+          "role_tag": "综合资讯",
+          "source": "TechCrunch：AI（RSS）",
+          "summary": "Google AI Overviews 在搜索结果中的出现率一年内从15%升至43%，AI Mode月访问量从1.26亿增至2.79亿。用户搜索长度增加，正从短关键词转向更长的自然对话式查询。",
+          "is_lead": true
+        },
+        {
+          "id": "cms3fbu4z00h2rondcoqgyozg",
+          "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
+          "url": "https://aihot.virxact.com/items/cms3fbu4z00h2rondcoqgyozg",
+          "role_tag": "官方",
+          "source": "NVIDIA Blog（RSS）",
+          "summary": "NVIDIA、Microsoft、Hugging Face、IBM 等数十家机构联合成立 Open Secure AI Alliance，旨在通过开源模型、工具和框架构建可审查、可定制的 AI 安全防御体系。",
+          "is_lead": false
+        },
+        {
+          "id": "cms3esi8000bdrozqs3khucp1",
+          "title": "Cognizant 与 Anthropic 扩大合作，成为 Claude Partner Network 全球首要合作伙伴",
+          "url": "https://aihot.virxact.com/items/cms3esi8000bdrozqs3khucp1",
+          "role_tag": "官方",
+          "source": "Anthropic：Newsroom（网页）",
+          "summary": "Cognizant 与 Anthropic 扩大合作，成为 Claude Partner Network 中的 Global Premier Partner，并将 Claude 嵌入其 Flowsource 等平台。已有超过 3 万名员工完成 Claude 培训，其为一家生物制药公司构建的智能合约系统将合同审核时间缩短最高 40%，提取准确率超过 88%。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "论文研究",
+      "subtitle": "Research",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cms3el9cc000orozqcae978wd",
+          "title": "Apple 提出 GH-ESD：面向实例级视觉任务的假设驱动错误切片发现方法",
+          "url": "https://aihot.virxact.com/items/cms3el9cc000orozqcae978wd",
+          "role_tag": "学术机构",
+          "source": "Apple Machine Learning Research（RSS）",
+          "summary": "Apple 机器学习研究团队提出 GH-ESD（Grounded Hypothesis-Driven Error Slice Discovery），一种针对目标检测与分割等实例级视觉任务的错误切片发现方法。现有方法主要适用于图像级分类，难以捕捉由上下文关系和空间视觉模式导致的实例级失败。GH-ESD 通过基于假设的驱动方式，系统性地发现模型在语义连贯子集上的系统性失效。",
+          "is_lead": true
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "技巧与观点",
+      "subtitle": "Tips & Takes",
+      "count": "8",
+      "articles": [
+        {
+          "id": "cms2mylvu02nlro3f73afr69h",
+          "title": "用AI Skill自动生成可协作HTML PPT",
+          "url": "https://aihot.virxact.com/items/cms2mylvu02nlro3f73afr69h",
+          "role_tag": "X·KOL",
+          "source": "X：Vista (@vista8)",
+          "summary": "Vista 基于 bento PPT 改造了一个 Skill，输入内容或主题即可自动生成可编辑、在线演示并支持协作的 HTML PPT。安装指令为npx skills add joeseesun/qiaomu-bento-ppt，推荐使用 Kimi K3 或 Opus 4.8+ 等前端审美好的模型。",
+          "is_lead": true
+        },
+        {
+          "id": "cms3n5wpl001sro82iax01xu3",
+          "title": "GitHub Copilot 发布“Harness”工作流：用单一工具完成原型、规划、实现与代码审查",
+          "url": "https://aihot.virxact.com/items/cms3n5wpl001sro82iax01xu3",
+          "role_tag": "官方",
+          "source": "GitHub Blog",
+          "summary": "GitHub Copilot 推出“Harness”工作流，让开发者通过单一 AI 工具完成从原型设计、规划、实现到代码审查的完整软件开发流程，无需追逐多种新 AI 工具。该工作流强调实用性与集成性，旨在减少工具切换带来的效率损耗。",
+          "is_lead": false
+        },
+        {
+          "id": "cms3k7su000n8roiytkztsme7",
+          "title": "用Claude和Python构建技能驱动的金融分析智能体",
+          "url": "https://aihot.virxact.com/items/cms3k7su000n8roiytkztsme7",
+          "role_tag": "综合资讯",
+          "source": "MarkTechPost（RSS）",
+          "summary": "本教程基于Anthropic的financial-services仓库，用纯Python复现其技能驱动架构。通过解析SKILL.md文件构建可搜索技能注册表，并创建可复用SkillAgent，将金融分析剧本注入Anthropic Messages API，支持迭代工具调用循环。",
+          "is_lead": false
+        },
+        {
+          "id": "cms3m8ubg001nrox37oixfg2e",
+          "title": "OpenAI 称越来越多员工用 ChatGPT 做其他岗位的工作",
+          "url": "https://aihot.virxact.com/items/cms3m8ubg001nrox37oixfg2e",
+          "role_tag": "综合资讯",
+          "source": "The Decoder：AI News（RSS）",
+          "summary": "OpenAI 分析超 80 万条与工作相关的 ChatGPT 消息后发现，43.5% 的岗位特定查询涉及另一职业，营销和工程任务交叉最多。用户用 AI 处理合同审查、数据分析、网站故障排查等原由专家负责的工作。OpenAI 认为这是岗位职责正在变化的早期信号，该趋势在缺乏专业团队的小公司尤为明显。",
+          "is_lead": false
+        },
+        {
+          "id": "cms3gqf3h01y1rondsl8z5sxy",
+          "title": "GitHub Copilot app 入门指南：多 Agent 会话工作区与 Canvas 预览",
+          "url": "https://aihot.virxact.com/items/cms3gqf3h01y1rondsl8z5sxy",
+          "role_tag": "官方",
+          "source": "GitHub Blog",
+          "summary": "GitHub Copilot app 将 AI 编码工具升级为多 Agent 会话工作区，支持同时管理多个任务线程而不丢失进度。用户可为每个会话绑定项目上下文，通过/create-canvas命令在浏览器 Canvas 中预览 UI 并直接点选修改，还能启用 Agent Merge 自动处理 PR 审查反馈和合并冲突。",
+          "is_lead": false
+        },
+        {
+          "id": "cms2p7s7h03dlro3fzjovkpwc",
+          "title": "浪费20亿Token后，我开源了帮Agent定义目标的Leader.skill",
+          "url": "https://aihot.virxact.com/items/cms2p7s7h03dlro3fzjovkpwc",
+          "role_tag": "公众号·媒体",
+          "source": "公众号：数字生命卡兹克",
+          "summary": "作者开源了Leader.skill，用于将模糊的人类需求转化为Agent可独立执行数小时的目标任务书。该Skill基于“目标七问”方法论，涵盖目的、完成态、反作弊、边界等维度，并推荐用Claude Fable 5或Kimi K3规划目标，再交由GPT-5.6 Sol或GLM-5.2等模型长程执行。项目已开源。",
+          "is_lead": false
+        },
+        {
+          "id": "cms3fuyms00mtrondudz5pjw8",
+          "title": "OpenRouter 新增图像生成模型专用 API 端点",
+          "url": "https://aihot.virxact.com/items/cms3fuyms00mtrondudz5pjw8",
+          "role_tag": "官方",
+          "source": "OpenRouter：Announcements（RSS）",
+          "summary": "OpenRouter 通过专用/api/v1/images端点提供图像生成模型服务，图像理解仍通过/chat/completions端点完成，两者共用同一 API Key 和计费体系。该平台同时公布了两种任务的完整接口合约，并修复了此前出现的“no endpoints found”错误。",
+          "is_lead": false
+        },
+        {
+          "id": "cms3elgxt0010rozq0zhpcthz",
+          "title": "甲骨文与OpenAI的3000亿美元交易后股价暴跌，市场对循环融资模式失去信心",
+          "url": "https://aihot.virxact.com/items/cms3elgxt0010rozq0zhpcthz",
+          "role_tag": "大咖博客",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "summary": "2025年9月10日甲骨文宣布与OpenAI达成3000亿美元交易后股价一度飙升43%，但如今已从307美元跌至约120美元。市场对循环融资模式日益警惕，昨日英伟达考虑为OpenAI主导的数据中心提供2500亿美元支持的消息传出后，其股价开盘下跌超4.5%。苹果因未过度投资AI反而市值超越英伟达，SpaceX则从6月高点225美元下跌超50%。",
+          "is_lead": false
+        }
+      ]
+    }
+  ],
+  "story_count": 14,
+  "date": "2026-07-28",
+  "url": "https://aihot.virxact.com/daily/2026-07-28",
+  "fetched_at": "2026-07-31T00:16:49+08:00"
+}

@@ -1,0 +1,183 @@
+{
+  "type": "weekly",
+  "vol": "2026-W20",
+  "eyebrow": "VOL.2026-W20·18STORIES·AI HOTWEEKLY",
+  "date_range": "2026-05-11~2026-05-17",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "智能体落地与模型生态分化",
+    "overview": "本周AI行业主线清晰：智能体从演示走向生产环境，同时模型生态加速分化。Anthropic以无补贴登顶令牌份额榜首，估值五日激增2000亿美元，凸显其企业级战略的成功；OpenAI推出DeployCo专注企业部署，并展示Codex自主赚取赏金的能力。模型层面，万亿参数Ring-2.6-1T、腾讯混元Hy3等新模型强调推理与智能体优化，而Thinking Machines的交互模型则重新定义人机协作。此外，AI在医疗诊断、数学研究、法律等垂直领域取得突破，但黑客利用AI发现漏洞、AI代写虚假内容被判罚等事件也警示风险。本周真正值得注意的是，智能体协调能力（如小模型指挥大模型）和工具链标准化（如Anthropic开源金融模板）正成为竞争新焦点。"
+  },
+  "stats": [
+    {
+      "value": "49",
+      "label": "独立事件"
+    },
+    {
+      "value": "183",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "智能体从演示到生产：自主执行与多任务管理",
+      "count": "4",
+      "intro": "本周多个事件表明AI智能体正从概念验证迈向实际生产。Codex自主完成安全审计并赚取赏金，展示了AI主动赚钱的雏形；Claude Code推出Agent View实现多任务集中管理，解决了多终端切换痛点；Statewright通过状态机约束提升智能体可靠性，在SWE-bench上正确率显著提升。这些进展表明，智能体已具备执行复杂工作流的能力，但可靠性仍是关键瓶颈。",
+      "stories": [
+        {
+          "id": "cmp07fzqw0nnlsllhbfy9quiz",
+          "title": "Codex自主完成安全审计并赚取赏金",
+          "url": "https://aihot.virxact.com/items/cmp07fzqw0nnlsllhbfy9quiz",
+          "source": "X：Sam Altman (@sama)"
+        },
+        {
+          "id": "cmp1uwbbx01r3slbpjkwu5l1t",
+          "title": "Claude Code 发布多任务管理工具 Agent View",
+          "url": "https://aihot.virxact.com/items/cmp1uwbbx01r3slbpjkwu5l1t",
+          "source": "X：小互 (@xiaohu)"
+        },
+        {
+          "id": "cmp39g0gg044ssl1q20jlqvkk",
+          "title": "展示 HN：Statewright——通过可视化状态机提升AI智能体可靠性",
+          "url": "https://aihot.virxact.com/items/cmp39g0gg044ssl1q20jlqvkk",
+          "source": "Hacker News：AI 热帖"
+        },
+        {
+          "id": "cmp2tlfix00jpsl1qdgepwzu9",
+          "title": "Grok接入Gmail，智能邮件助手革新收件箱管理",
+          "url": "https://aihot.virxact.com/items/cmp2tlfix00jpsl1qdgepwzu9",
+          "source": "X：cb_doge (@cb_doge)"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "模型生态分化：万亿参数、交互模型与垂直优化",
+      "count": "4",
+      "intro": "模型发布呈现多元化趋势。AntLingAGI发布万亿参数Ring-2.6-1T，强调可调节思考强度与智能体优化；腾讯混元Hy3专注复杂智能体任务，采用混合专家架构；Thinking Machines发布原生多模态交互模型，实现200毫秒级实时响应。同时，小模型指挥大模型的研究表明，智能差距可能不在于规模，而在于协调能力。模型生态正从单纯追求参数转向场景化、效率化。",
+      "stories": [
+        {
+          "id": "cmp19rigb0wflsllhe7kfkn8e",
+          "title": "AntLingAGI发布万亿参数模型Ring-2.6-1T",
+          "url": "https://aihot.virxact.com/items/cmp19rigb0wflsllhe7kfkn8e",
+          "source": "X：OpenRouter (@OpenRouter)"
+        },
+        {
+          "id": "cmp10v66r0ud4sllhnchvnjbw",
+          "title": "腾讯混元Hy3预览版发布，专注复杂智能体任务",
+          "url": "https://aihot.virxact.com/items/cmp10v66r0ud4sllhnchvnjbw",
+          "source": "X：腾讯混元 (@TencentHunyuan)"
+        },
+        {
+          "id": "cmp217uha039islbp728k2hm3",
+          "title": "Thinking Machines发布原生多模态“交互模型”，实现实时人机协作",
+          "url": "https://aihot.virxact.com/items/cmp217uha039islbp728k2hm3",
+          "source": "X：歸藏 (@op7418)"
+        },
+        {
+          "id": "cmp1529g10vbgsllhevc0s5ek",
+          "title": "小块有大智慧？这下真成真了！",
+          "url": "https://aihot.virxact.com/items/cmp1529g10vbgsllhevc0s5ek",
+          "source": "X：Berry Xia (@berryxia)"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "企业级AI落地：金融、法律与基础设施",
+      "count": "4",
+      "intro": "Anthropic开源金融AI全栈模板，包含10个端到端智能体和7个行业插件，为金融AI落地提供标准化方案；同时发布法律行业MCP连接器和插件，深度集成办公软件。OpenAI推出DeployCo专注企业部署，中国移动上线MoMA平台接入300多个模型。这些动作表明，AI企业级竞争已从模型能力转向行业解决方案和基础设施生态。",
+      "stories": [
+        {
+          "id": "cmp1e405f0xg6sllhvgli5ewp",
+          "title": "Anthropic开源金融AI全栈模板，定义行业落地新标准",
+          "url": "https://aihot.virxact.com/items/cmp1e405f0xg6sllhvgli5ewp",
+          "source": "X：小北 (@frxiaobei)"
+        },
+        {
+          "id": "cmp2xktm001gvsl1qjo07wb5a",
+          "title": "Claude进军法律行业",
+          "url": "https://aihot.virxact.com/items/cmp2xktm001gvsl1qjo07wb5a",
+          "source": "Claude：Blog（网页）"
+        },
+        {
+          "id": "cmp1810fy0w14sllhclq644mh",
+          "title": "OpenAI 推出 DeployCo 以协助企业围绕智能构建业务",
+          "url": "https://aihot.virxact.com/items/cmp1810fy0w14sllhclq644mh",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmp0rp3wn0s8ksllhrte87ikp",
+          "title": "中国移动上线AI模型中转平台MoMA，国家队入局AI基础设施竞争",
+          "url": "https://aihot.virxact.com/items/cmp0rp3wn0s8ksllhrte87ikp",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI能力突破：医疗、数学与材料科学",
+      "count": "3",
+      "intro": "AI在专业领域展现惊人能力。旧版o1模型在急诊诊断中超越人类医生，正确率达67%；菲尔兹奖得主测试ChatGPT 5.5 Pro，17分钟解决公开数学难题；MatterSim发布多任务模型MatterSim-MT，拓展材料科学模拟边界。这些突破表明AI正从通用助手向领域专家演进，但同时也引发对教育和职业未来的反思。",
+      "stories": [
+        {
+          "id": "cmp05uc1e0n97sllh7mdg4kdv",
+          "title": "旧版AI模型急诊诊断已超越人类医生",
+          "url": "https://aihot.virxact.com/items/cmp05uc1e0n97sllh7mdg4kdv",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmp1faxzp0xq5sllh4sscxyac",
+          "title": "菲尔兹奖得主亲测 ChatGPT 5.5 Pro：17 分钟出论文级成果，替学生拉响红色警报",
+          "url": "https://aihot.virxact.com/items/cmp1faxzp0xq5sllh4sscxyac",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmp2o6m6d00asslta6s0jtj3t",
+          "title": "材料科学AI多任务模型突破",
+          "url": "https://aihot.virxact.com/items/cmp2o6m6d00asslta6s0jtj3t",
+          "source": "X：Microsoft Research (@MSFTResearch)"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "安全与伦理：AI的双刃剑效应",
+      "count": "3",
+      "intro": "AI的负面影响同样不容忽视。谷歌披露犯罪黑客利用AI发现重大软件漏洞，凸显AI武器化风险；全国首例AI代写种草笔记案宣判，法院明确AI服务提供者的注意义务。此外，研究显示智能体虽执行能力强，但优化用户立场不足，提示AI对齐仍需改进。这些事件共同呼吁在推进AI应用的同时加强治理。",
+      "stories": [
+        {
+          "id": "cmp1x5c1d02asslbpovh2h2v3",
+          "title": "谷歌表示，犯罪黑客利用人工智能发现了一个重大的软件漏洞",
+          "url": "https://aihot.virxact.com/items/cmp1x5c1d02asslbpovh2h2v3",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmp251p370470slbpio1s5omy",
+          "title": "全国首例 AI 代写“种草笔记”案宣判，法院判决工具提供者赔偿平台 10 万元",
+          "url": "https://aihot.virxact.com/items/cmp251p370470slbpio1s5omy",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmp1iaef10089slnbsbubwpcr",
+          "title": "智能体执行能力强但优化用户立场不足",
+          "url": "https://aihot.virxact.com/items/cmp1iaef10089slnbsbubwpcr",
+          "source": "X：Microsoft Research (@MSFTResearch)"
+        }
+      ]
+    }
+  ],
+  "story_count": 18,
+  "period": "2026-W20",
+  "url": "https://aihot.virxact.com/weekly/2026-W20",
+  "fetched_at": "2026-07-31T00:09:03+08:00"
+}

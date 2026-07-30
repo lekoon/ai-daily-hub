@@ -1,0 +1,165 @@
+{
+  "type": "weekly",
+  "vol": "2026-W19",
+  "eyebrow": "VOL.2026-W19·15STORIES·AI HOTWEEKLY",
+  "date_range": "2026-05-04~2026-05-10",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI部署竞赛白热化，模型与生态双线突破",
+    "overview": "本周AI行业主线是工业化部署的加速与模型能力的实质性提升。OpenAI与Anthropic分别成立百亿美元合资公司，将竞争焦点从模型性能转向企业落地速度；同时，GPT-5.5、Grok 4.3等新模型在智能与速度上实现突破，Runway Characters、KroWork等产品则展示了AI从对话到实时交互、从生成代码到交付应用的跨越。此外，医疗AI的潜力与局限、企业AI就绪度等议题引发深度讨论，而Chrome悄然安装4GB模型、Coinbase裁员等事件则凸显了AI带来的隐私与就业冲击。"
+  },
+  "stats": [
+    {
+      "value": "36",
+      "label": "独立事件"
+    },
+    {
+      "value": "219",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "AI实验室竞逐企业部署，合资公司成新战场",
+      "count": "3",
+      "intro": "OpenAI与Anthropic本周分别宣布成立百亿美元级别的合资公司，旨在帮助企业克服AI部署障碍。OpenAI的“部署公司”联合TPG、Brookfield等，直接触达超2000家投资组合公司；Anthropic则与黑石、高盛等合作，聚焦中型企业。这标志着AI竞争已从模型性能演示转向工业化部署速度与路径控制，企业采用AI的瓶颈正从模型质量转向整合能力。",
+      "stories": [
+        {
+          "id": "cmorbdypp00aoslhfh38jf7h6",
+          "title": "OpenAI启动百亿美元合资公司“部署公司”加速企业AI应用",
+          "url": "https://aihot.virxact.com/items/cmorbdypp00aoslhfh38jf7h6",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmor82f3x01ggslru9az272di",
+          "title": "Anthropic联合多家顶级投资机构成立新公司，专注企业AI服务",
+          "url": "https://aihot.virxact.com/items/cmor82f3x01ggslru9az272di",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmos49izq04u8slrj0fixm8tb",
+          "title": "OpenAI 与 PwC 合作重塑 CFO 办公室",
+          "url": "https://aihot.virxact.com/items/cmos49izq04u8slrj0fixm8tb",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "模型迭代加速：更智能、更快速、更个性化",
+      "count": "3",
+      "intro": "多款前沿模型在本周发布或更新。OpenAI将ChatGPT默认模型升级为GPT-5.5 Instant，减少幻觉并增强个性化；xAI推出Grok 4.3，在工具调用和指令遵循上排名第一，支持100万token上下文；Google为Gemma 4系列发布多令牌预测草稿模型，实现3倍速度提升。这些更新表明，模型竞争正围绕智能、速度和定制化展开，同时推理效率成为关键差异化因素。",
+      "stories": [
+        {
+          "id": "cmosvyurf006uslv7elkqwpx4",
+          "title": "GPT-5.5 Instant：更智能、更清晰、更个性化",
+          "url": "https://aihot.virxact.com/items/cmosvyurf006uslv7elkqwpx4",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmosvhq5p00mosldmnll3syb3",
+          "title": "Grok 4.3正式上线API 速度与智能双突破",
+          "url": "https://aihot.virxact.com/items/cmosvhq5p00mosldmnll3syb3",
+          "source": "X：xAI (@xai)"
+        },
+        {
+          "id": "cmot0zda501jlslv7alwywtgj",
+          "title": "Google为Gemma 4系列发布了多令牌预测（MTP）草稿模型。它在不损失性能的情况下带来了3倍的速度提升。 期待在Mac Mini上测试带有MTP草稿模型…",
+          "url": "https://aihot.virxact.com/items/cmot0zda501jlslv7alwywtgj",
+          "source": "X：Testing Catalog (@testingcatalog)"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI从对话到应用：实时交互与工具链突破",
+      "count": "4",
+      "intro": "Runway推出Characters实时视频智能体，基于世界模型实现从单张图像到实时对话角色的转变；KroWork则能将对话直接固化为本地桌面应用，标志着AI从生成代码到交付软件的跨越。同时，Ollama整合Claude Desktop、Cursor团队工作流插件等工具，降低了AI应用开发门槛，竞争重点转向工作流的无缝融合。",
+      "stories": [
+        {
+          "id": "cmosfkc17006tslzd4cgxgzc9",
+          "title": "从单张图像构建实时视频智能体：Runway Characters技术解析",
+          "url": "https://aihot.virxact.com/items/cmosfkc17006tslzd4cgxgzc9",
+          "source": "Runway：News（网页）"
+        },
+        {
+          "id": "cmorgquz500koslah9ztbrylu",
+          "title": "KroWork：将对话转化为本地桌面应用的AI智能体",
+          "url": "https://aihot.virxact.com/items/cmorgquz500koslah9ztbrylu",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmospmfe100ffslplpb1jzqmg",
+          "title": "Ollama一键整合Claude Desktop，开源模型获豪华桌面体验",
+          "url": "https://aihot.virxact.com/items/cmospmfe100ffslplpb1jzqmg",
+          "source": "X：Berry Xia (@berryxia)"
+        },
+        {
+          "id": "cmoragvh00225slru1ru54n21",
+          "title": "Cursor团队发布官方工作流插件，集成17项核心开发技能",
+          "url": "https://aihot.virxact.com/items/cmoragvh00225slru1ru54n21",
+          "source": "X：邵猛 (@shao__meng)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "医疗AI：潜力显著，但临床证据仍待验证",
+      "count": "2",
+      "intro": "两项研究揭示了医疗AI的现状与挑战。OpenAI的o1系统在急诊分诊诊断中准确率达67%，优于人类医生的50%-55%，展示了AI在辅助诊断中的潜力。然而，另一项综述指出，尽管LLM在医疗领域应用广泛，但目前尚无明确证据表明其直接改善了患者治疗结果，如治愈率或死亡率。这提示AI在医疗中的价值需更多高质量随机对照试验来验证。",
+      "stories": [
+        {
+          "id": "cmoq7sxkz12epsll9qj681f38",
+          "title": "OpenAI的o1系统对急诊患者的诊断准确率为67%，而分诊医生的准确率仅为50%至55%",
+          "url": "https://aihot.virxact.com/items/cmoq7sxkz12epsll9qj681f38",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmoq7ik24129gsll9ns322nq6",
+          "title": "大语言模型（LLMs）是否改善了患者治疗结果？",
+          "url": "https://aihot.virxact.com/items/cmoq7ik24129gsll9ns322nq6",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI部署的隐忧：隐私、就业与企业就绪度",
+      "count": "3",
+      "intro": "本周多个事件凸显了AI普及带来的挑战。Google Chrome被曝未经用户同意悄然安装4GB AI模型，引发隐私担忧；Coinbase裁员14%，CEO直言AI是原因之一，公司正转型为“AI原生”组织。同时，有观点指出多数公司尚未做好迎接AI的准备，核心障碍并非技术，而是目标模糊与流程混乱。这些事件表明，AI的规模化部署需同步解决隐私、就业和组织变革问题。",
+      "stories": [
+        {
+          "id": "cmosmul3i007zsltgisdo0gts",
+          "title": "Google Chrome 被曝未经用户同意悄然安装 4 GB AI 模型",
+          "url": "https://aihot.virxact.com/items/cmosmul3i007zsltgisdo0gts",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmoswhszc009pslv7300d5ics",
+          "title": "Coinbase裁员14%，主要原因之一是AI",
+          "url": "https://aihot.virxact.com/items/cmoswhszc009pslv7300d5ics",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmoqc1r2y13cksll9xu33f702",
+          "title": "大多数公司尚未做好迎接AI的准备",
+          "url": "https://aihot.virxact.com/items/cmoqc1r2y13cksll9xu33f702",
+          "source": "X：宝玉 (@dotey)"
+        }
+      ]
+    }
+  ],
+  "story_count": 15,
+  "period": "2026-W19",
+  "url": "https://aihot.virxact.com/weekly/2026-W19",
+  "fetched_at": "2026-07-31T00:09:04+08:00"
+}

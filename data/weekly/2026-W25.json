@@ -1,0 +1,227 @@
+{
+  "type": "weekly",
+  "vol": "2026-W25",
+  "eyebrow": "VOL.2026-W25·24STORIES·AI HOTWEEKLY",
+  "date_range": "2026-06-15~2026-06-21",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI应用黄金时代与地缘博弈",
+    "overview": "本周AI行业主线是AI应用进入黄金时代，同时地缘政治与商业博弈加剧。Salesforce以36亿美元收购Fin、SpaceX以600亿美元收购Cursor等大额交易，以及WorkBuddy日活飙升至行业第二的3-4倍，标志着AI智能体从概念走向规模化落地。与此同时，美国政府封禁Anthropic的Fable、五角大楼转移AI工作流、白宫AI监管被指偏袒OpenAI等事件，凸显AI公司与政府之间的紧张关系。模型层面，MiniMax开源M3、Qwen系列发布机器人基础模型、Cartesia推出实时语音模型等，推动技术边界。企业AI订阅市场格局生变，Anthropic份额首超OpenAI。"
+  },
+  "stats": [
+    {
+      "value": "144",
+      "label": "独立事件"
+    },
+    {
+      "value": "174",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈4 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "AI应用黄金时代：收购潮与用户爆发",
+      "count": "4",
+      "intro": "本周多起大额收购和用户增长数据表明AI应用正进入规模化阶段。Salesforce以36亿美元收购Fin，旨在增强其Agentforce平台；SpaceX以600亿美元股票收购Cursor，意图追赶主要AI实验室。WorkBuddy日活达行业第二的3-4倍，非技术用户大量涌入，显示AI智能体正渗透至HR、运营等岗位。这些事件共同指向AI应用黄金时代的到来。",
+      "stories": [
+        {
+          "id": "cmqfc38a1005fsl2a21dido83",
+          "title": "Salesforce以36亿美元收购AI客服平台Fin",
+          "url": "https://aihot.virxact.com/items/cmqfc38a1005fsl2a21dido83",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmqgkvm4200l7slicgdylqprd",
+          "title": "SpaceX 以 600 亿美元股票收购 AI 编程公司 Cursor",
+          "url": "https://aihot.virxact.com/items/cmqgkvm4200l7slicgdylqprd",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmqgok4my01llslicf5vi10lj",
+          "title": "WorkBuddy日活飙升至行业第二的3-4倍，非技术用户涌入",
+          "url": "https://aihot.virxact.com/items/cmqgok4my01llslicf5vi10lj",
+          "source": "公众号：数字生命卡兹克"
+        },
+        {
+          "id": "cmqfg4orm015usl2at4movwwz",
+          "title": "AI 应用黄金时代已至：Fable 被禁、Nadella 的护城河论点与 Salesforce 收购 Fin",
+          "url": "https://aihot.virxact.com/items/cmqfg4orm015usl2at4movwwz",
+          "source": "Tomer Tunguz 博客（VC 分析）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "地缘政治与监管博弈：AI公司的两难",
+      "count": "4",
+      "intro": "美国政府与AI公司之间的紧张关系持续升级。Anthropic的Fable遭封禁，五角大楼将大部分AI工作流从Anthropic转移，白宫AI监管被指偏袒OpenAI和亚马逊。xAI因未经许可的燃气轮机被起诉，司法部以国家安全为由辩护。这些事件凸显AI公司在原则与政府合作间的艰难抉择，也反映AI已成为地缘政治工具。",
+      "stories": [
+        {
+          "id": "cmqgvsb7s00z8slpu7p31yn17",
+          "title": "Fable 遭美国政府封禁，TechCrunch 质疑真正原因并非模型越狱",
+          "url": "https://aihot.virxact.com/items/cmqgvsb7s00z8slpu7p31yn17",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmqfxtzua01mkslsp8ne75foj",
+          "title": "五角大楼将大部分日常AI工作流从Anthropic转移，目标9月前完全切断",
+          "url": "https://aihot.virxact.com/items/cmqfxtzua01mkslsp8ne75foj",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)"
+        },
+        {
+          "id": "cmqe0t4ci01r7slrd7j98j1za",
+          "title": "白宫AI监管决定被指偏袒OpenAI与亚马逊",
+          "url": "https://aihot.virxact.com/items/cmqe0t4ci01r7slrd7j98j1za",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        },
+        {
+          "id": "cmqgoj9yu01lfslicukhmblfb",
+          "title": "美国司法部援引国家安全为xAI未经许可的燃气轮机辩护",
+          "url": "https://aihot.virxact.com/items/cmqgoj9yu01lfslicukhmblfb",
+          "source": "The Decoder：AI News（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "模型开源与性能突破：M3、Qwen系列领跑",
+      "count": "5",
+      "intro": "本周多个重要模型发布。MiniMax开源428B参数的M3，成为首个从预训练阶段进行多模态交错训练的开源模型，在多项基准获开源第一。Qwen系列发布机器人操作、导航和世界模型，统一多种机器人形态。Cartesia推出Sonic 3.5和Ink 2实时语音模型，同时拥有听与说第一。这些进展推动开源模型能力边界，并降低部署成本。",
+      "stories": [
+        {
+          "id": "cmqfccohd008esl2a2ofz86v0",
+          "title": "MiniMax 开源 M3 模型权重及 MSA 技术论文",
+          "url": "https://aihot.virxact.com/items/cmqfccohd008esl2a2ofz86v0",
+          "source": "公众号：MiniMax（稀宇科技）"
+        },
+        {
+          "id": "cmqg5kvq2006hslncx7x7o1r2",
+          "title": "Qwen-RobotManip：对齐解锁机器人操作基础模型的规模化能力",
+          "url": "https://aihot.virxact.com/items/cmqg5kvq2006hslncx7x7o1r2",
+          "source": "Qwen：Blog Retrieval（API）"
+        },
+        {
+          "id": "cmqg5kvq2006gslnchk1ngslk",
+          "title": "Qwen-RobotWorld：具身智能体的无界世界",
+          "url": "https://aihot.virxact.com/items/cmqg5kvq2006gslnchk1ngslk",
+          "source": "Qwen：Blog Retrieval（API）"
+        },
+        {
+          "id": "cmqg5kvq2006eslnc27k3juhc",
+          "title": "Qwen-RobotNav：面向智能体导航系统的可扩展导航模型",
+          "url": "https://aihot.virxact.com/items/cmqg5kvq2006eslnc27k3juhc",
+          "source": "Qwen：Blog Retrieval（API）"
+        },
+        {
+          "id": "cmqgas9pf00yjsl9spz4fexrr",
+          "title": "Cartesia 发布 Sonic 3.5 与 Ink 2 实时语音模型",
+          "url": "https://aihot.virxact.com/items/cmqgas9pf00yjsl9spz4fexrr",
+          "source": "X：Testing Catalog (@testingcatalog)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "企业AI市场格局生变：Anthropic超越OpenAI",
+      "count": "3",
+      "intro": "Anthropic在5月企业AI订阅市场份额首次超越OpenAI，达41%。尽管面临政府禁令和国防部转移工作流等挑战，其企业采用量反而创纪录。OpenAI则面临缺乏护城河、微软疏远、亏损加速等危机。DeepSeek完成首轮外部融资估值超500亿美元，成为重要竞争者。市场格局正从双寡头向多极化演变。",
+      "stories": [
+        {
+          "id": "cmqh8r5nd020ysle1tvadx7vs",
+          "title": "Anthropic 5月企业AI订阅份额首超OpenAI，特朗普政府禁令反促采用量创新高",
+          "url": "https://aihot.virxact.com/items/cmqh8r5nd020ysle1tvadx7vs",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmqh6wxfh01k6sle1y2xzcqjx",
+          "title": "OpenAI 的领先优势正在快速缩小",
+          "url": "https://aihot.virxact.com/items/cmqh6wxfh01k6sle1y2xzcqjx",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        },
+        {
+          "id": "cmqggy29t00gaslevgnwfv3sl",
+          "title": "DeepSeek 完成首轮外部融资，估值超 500 亿美元",
+          "url": "https://aihot.virxact.com/items/cmqggy29t00gaslevgnwfv3sl",
+          "source": "The Decoder：AI News（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI基础设施与工具链：效率与生态之争",
+      "count": "5",
+      "intro": "AI基础设施竞争加剧。Nvidia发行200亿美元债券加入债务热潮；Cloudflare引入Ensemble团队加速推理优化；GitHub面临算力短缺转向AWS。工具链方面，Vercel发布开源智能体框架Eve，Google推出OKF知识格式，OpenRouter推出subagent委托机制。这些进展旨在降低AI应用门槛，构建更开放的生态。",
+      "stories": [
+        {
+          "id": "cmqfewpje00u4sl2awgrmj4ke",
+          "title": "Nvidia 加入 AI 债务热潮，发行 200 亿美元债券",
+          "url": "https://aihot.virxact.com/items/cmqfewpje00u4sl2awgrmj4ke",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmqf9zc150011slaktea56v8e",
+          "title": "Cloudflare 引入 Ensemble AI 团队，加速 AI 基础设施研发",
+          "url": "https://aihot.virxact.com/items/cmqf9zc150011slaktea56v8e",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmqg5imdd003gslnc6gteye02",
+          "title": "微软旗下GitHub遭遇AI算力短缺，转而向AWS寻求支持",
+          "url": "https://aihot.virxact.com/items/cmqg5imdd003gslnc6gteye02",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmqics21707rbslf0ydj558jy",
+          "title": "Vercel 发布开源 AI 智能体框架 Eve：每个智能体就是一个文件目录",
+          "url": "https://aihot.virxact.com/items/cmqics21707rbslf0ydj558jy",
+          "source": "MarkTechPost（RSS）"
+        },
+        {
+          "id": "cmqge6m08007fslmsro38gcnl",
+          "title": "Google Cloud 推出 OKF v0.1：供应商中立的 Markdown 规范，为 AI 智能体提供结构化上下文",
+          "url": "https://aihot.virxact.com/items/cmqge6m08007fslmsro38gcnl",
+          "source": "MarkTechPost（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "title": "AI伦理与社会影响：裁员潮与检测困境",
+      "count": "3",
+      "intro": "AI引发的社会问题持续发酵。科技公司今年已裁员约15万人，AI连续三个月被列为裁员首要原因。毕业生面临论文AIGC率检测荒诞困境，手写摘要被判99%AI率。Anthropic研究显示领域专业知识在AI编码中回报持续存在，但非技术用户也能高效使用。这些事件凸显AI普及带来的就业、教育等深层挑战。",
+      "stories": [
+        {
+          "id": "cmqewgm5e00nzslwahr1rt9n1",
+          "title": "AI裁员浪潮成为火药桶",
+          "url": "https://aihot.virxact.com/items/cmqewgm5e00nzslwahr1rt9n1",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmqg0mmda02ghslsp3utz9ssv",
+          "title": "毕业生陷入AI检测荒诞循环：手写摘要被判99%AI率，AI写部分0%",
+          "url": "https://aihot.virxact.com/items/cmqg0mmda02ghslsp3utz9ssv",
+          "source": "公众号：数字生命卡兹克"
+        },
+        {
+          "id": "cmqh1kwnx002asle1lo0di435",
+          "title": "Anthropic：智能体编码中专业知识回报持续存在",
+          "url": "https://aihot.virxact.com/items/cmqh1kwnx002asle1lo0di435",
+          "source": "Anthropic：Research（发表成果 · 网页）"
+        }
+      ]
+    }
+  ],
+  "story_count": 24,
+  "period": "2026-W25",
+  "url": "https://aihot.virxact.com/weekly/2026-W25",
+  "fetched_at": "2026-07-31T00:08:59+08:00"
+}

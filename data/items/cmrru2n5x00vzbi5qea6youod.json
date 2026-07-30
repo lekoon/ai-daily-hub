@@ -1,0 +1,15 @@
+{
+  "title": "MiniCPM5-2B发布：4B以下全球性能第一，适配9款芯片",
+  "source": "公众号：面壁智能（MiniCPM）",
+  "published_at": "2026-07-19 21:12",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s/rjFxrUylyGMqa5QtgypCdw",
+  "aihot_url": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
+  "curation_reason": "2B 参数做到 4B 以下综合第一，而且把数据治理和 Agent 训练流程也开源了，做端侧智能体的可以盯一下，只是还没正式开源，暂时摸不到。",
+  "ai_summary": "面壁智能联合OpenBMB发布端侧模型MiniCPM5-2B，以2B参数量在AA-Index榜单取得4B以下模型最高分17分，平均分54.26，超越Qwen3.5-2B等竞品。模型原生支持混合思考与512K上下文，已完成华为昇腾、英伟达等9款芯片的Day0适配，即将开源。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmrru2n5x00vzbi5qea6youod",
+  "url": "https://aihot.virxact.com/items/cmrru2n5x00vzbi5qea6youod",
+  "fetched_at": "2026-07-31T00:09:16+08:00"
+}

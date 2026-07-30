@@ -1,0 +1,239 @@
+{
+  "type": "weekly",
+  "vol": "2026-W28",
+  "eyebrow": "VOL.2026-W28·26STORIES·AI HOTWEEKLY",
+  "date_range": "2026-07-06~2026-07-12",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "模型开源与部署加速，AI安全与就业分化加剧",
+    "overview": "本周AI行业主线是模型能力与部署效率的双重突破，同时伴随安全、就业与地缘政治的深层分化。美团LongCat-2.0以1.6T MoE完全开源，Meta推出Muse图像/视频生成模型，标志着开源与闭源前沿的持续拉锯。部署层面，Claude Cowork向移动端开放、Gemini Managed Agents新增后台执行，以及FDE投资爆发（97.5亿美元），显示AI正从模型竞赛转向落地工程。然而，苹果研究揭示单个神经元即可绕过安全对齐，欧盟强推Chat Control 2.0，中国拟限制先进模型出口，凸显安全与监管的紧迫性。就业市场方面，斯坦福数据显示初级程序员岗位锐减19%，而AI公司裁员持续，技术替代效应已现。"
+  },
+  "stats": [
+    {
+      "value": "141",
+      "label": "独立事件"
+    },
+    {
+      "value": "148",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈4 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "开源模型与闭源前沿的竞速",
+      "count": "5",
+      "intro": "本周模型发布呈现开源与闭源并进态势。美团LongCat-2.0以MIT许可开源1.6T MoE模型，在多项基准上超越GPT-5.5，是开源社区的重要里程碑。Meta Superintelligence Labs推出Muse Image和Muse Video，在图像生成领域达到最先进水平，并集成智能体工具。xAI为Grok Voice新增21个语音，扩展多语言能力。开源与闭源模型在能力上差距缩小，但地缘政治因素可能改变开放格局。",
+      "stories": [
+        {
+          "id": "cmr7vpphy007oslgnz4aotpx4",
+          "title": "美团 LongCat-2.0 完全开源（MIT 许可），1.6T MoE 模型开放权重与推理代码",
+          "url": "https://aihot.virxact.com/items/cmr7vpphy007oslgnz4aotpx4",
+          "source": "X：美团 LongCat (@Meituan_LongCat)"
+        },
+        {
+          "id": "cmrb2mxmc0072ihl1mx0aw1bz",
+          "title": "Meta Superintelligence Labs 推出 Muse Image 和 Muse Video",
+          "url": "https://aihot.virxact.com/items/cmrb2mxmc0072ihl1mx0aw1bz",
+          "source": "X：AI at Meta (@AIatMeta)"
+        },
+        {
+          "id": "cmr9t47l20004iha5fuyk3h7z",
+          "title": "xAI 为 Grok Voice 新增 21 个旗舰语音",
+          "url": "https://aihot.virxact.com/items/cmr9t47l20004iha5fuyk3h7z",
+          "source": "xAI：News（网页）"
+        },
+        {
+          "id": "cmr8ajv5h00e0sl0d7rzs38ei",
+          "title": "NVIDIA Kyber NVL144 延迟超 12 个月至 2028",
+          "url": "https://aihot.virxact.com/items/cmr8ajv5h00e0sl0d7rzs38ei",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)"
+        },
+        {
+          "id": "cmrasueu500qmihog3d8up11t",
+          "title": "中国拟限制外国访问最强AI模型",
+          "url": "https://aihot.virxact.com/items/cmrasueu500qmihog3d8up11t",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "AI部署工程化：从模型到产品的最后一公里",
+      "count": "5",
+      "intro": "本周多个产品更新聚焦于AI智能体的部署与工程化。Claude Cowork向移动端和网页端开放，支持跨设备同步和后台任务，且90%使用场景为非软件开发的知识工作。Gemini API Managed Agents新增后台执行、远程MCP集成等功能，降低开发门槛。Cursor成立CFO Council，推动AI支出可衡量化。FDE投资爆发，12个月内承诺97.5亿美元，显示部署工程成为新瓶颈。",
+      "stories": [
+        {
+          "id": "cmrav068k01b6ihogth8k26f6",
+          "title": "Claude Cowork 向移动端和网页端开放",
+          "url": "https://aihot.virxact.com/items/cmrav068k01b6ihogth8k26f6",
+          "source": "Claude：Blog（网页）"
+        },
+        {
+          "id": "cmraw22r701jjihogh1k8hbu6",
+          "title": "Gemini API Managed Agents 新增后台执行、远程 MCP 与自定义函数等能力",
+          "url": "https://aihot.virxact.com/items/cmraw22r701jjihogh1k8hbu6",
+          "source": "Google Blog：AI（RSS）"
+        },
+        {
+          "id": "cmr9chtjn02z3slsmvkzghulm",
+          "title": "Cursor 成立 CFO Council，聚焦 AI 支出新经济学",
+          "url": "https://aihot.virxact.com/items/cmr9chtjn02z3slsmvkzghulm",
+          "source": "Cursor Blog"
+        },
+        {
+          "id": "cmraxmzfq01y0ihog3h7t344t",
+          "title": "FDE爆发：AI公司12个月承诺97.5亿美元部署工程",
+          "url": "https://aihot.virxact.com/items/cmraxmzfq01y0ihog3h7t344t",
+          "source": "Tomer Tunguz 博客（VC 分析）"
+        },
+        {
+          "id": "cmr9u2kma003gihdb8r5drdfd",
+          "title": "OfficeCLI：为AI智能体设计的开源Office套件",
+          "url": "https://aihot.virxact.com/items/cmr9u2kma003gihdb8r5drdfd",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI安全与监管：对齐脆弱性与政策博弈",
+      "count": "4",
+      "intro": "AI安全面临技术脆弱性与监管收紧双重挑战。苹果研究发现单个神经元即可绕过安全对齐，凸显当前对齐方法的脆弱性。欧盟理事会快速通过Chat Control 2.0，强制扫描加密通信，引发隐私担忧。中国拟限制先进模型出口，进一步分裂全球AI市场。Meta被曝让外包人员伪装未成年人测试竞品AI安全，引发伦理争议。",
+      "stories": [
+        {
+          "id": "cmrasd6r300i2ihog8ifwrqs5",
+          "title": "苹果研究：单个神经元即可绕过大型语言模型的安全对齐",
+          "url": "https://aihot.virxact.com/items/cmrasd6r300i2ihog8ifwrqs5",
+          "source": "Apple Machine Learning Research（RSS）"
+        },
+        {
+          "id": "cmr815l2z00pgsl04wayrv4tr",
+          "title": "欧盟理事会通过快速通道强制推行\"聊天管控\"（Chat Control 2.0）",
+          "url": "https://aihot.virxact.com/items/cmr815l2z00pgsl04wayrv4tr",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmr91yrn100noslmpusn7u7q0",
+          "title": "Meta 被曝让外包人员伪装未成年人，诱导竞争对手 AI 聊敏感话题",
+          "url": "https://aihot.virxact.com/items/cmr91yrn100noslmpusn7u7q0",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmr9jb1wn007eihe8jhd6zhrj",
+          "title": "用可解释性理解标注者安全策略",
+          "url": "https://aihot.virxact.com/items/cmr9jb1wn007eihe8jhd6zhrj",
+          "source": "Apple Machine Learning Research（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI对就业市场的结构性冲击",
+      "count": "3",
+      "intro": "AI对就业市场的影响已从预测变为现实。斯坦福数据显示美国22-25岁软件开发人员就业较峰值下降19%，入门级岗位减少28%，而年长程序员增长14%。2026年科技公司以AI为由裁员数万人，包括Microsoft、Oracle、Meta等。编程工作未消失，但初级程序员角色正在消亡。YC CEO声称每日用AI部署3.7万行代码，但被指代码质量低效，凸显数量与质量的矛盾。",
+      "stories": [
+        {
+          "id": "cmr96dq8400pdslsmu56r8muy",
+          "title": "AI颠覆初级程序员就业市场：斯坦福数据揭示年轻开发者就业锐减19%",
+          "url": "https://aihot.virxact.com/items/cmr96dq8400pdslsmu56r8muy",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmr9kq74q00mkihe8o68fnq9t",
+          "title": "2026年科技公司AI裁员名单：Microsoft、Oracle、GitLab等十家公司裁减数千岗位",
+          "url": "https://aihot.virxact.com/items/cmr9kq74q00mkihe8o68fnq9t",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmrayv5ja0293ihog3rixaqua",
+          "title": "YC CEO声称每日用AI部署3.7万行代码，开发者审查发现前端代码大量臃肿低效",
+          "url": "https://aihot.virxact.com/items/cmrayv5ja0293ihog3rixaqua",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI智能体与工具链的生态扩展",
+      "count": "5",
+      "intro": "AI智能体工具链持续丰富，从代码开发到日常办公全面渗透。Claude Code发布多个版本更新，引入动态工作流规模、修复多项问题。OpenClaw登陆HuggingFace本地应用，实现完全本地工具调用。Rowboat作为开源本地优先桌面AI助手，整合邮件、会议等数据。SGLang集成DSpark推测解码提升推理效率。这些工具降低了AI应用门槛，推动智能体从实验走向生产。",
+      "stories": [
+        {
+          "id": "cmr9u1olo002sihdbunnazaoz",
+          "title": "Claude Code v2.1.202 发布",
+          "url": "https://aihot.virxact.com/items/cmr9u1olo002sihdbunnazaoz",
+          "source": "Claude Code：GitHub Releases（RSS）"
+        },
+        {
+          "id": "cmrb58ru600tpihl166b491rz",
+          "title": "Claude Code v2.1.203 发布",
+          "url": "https://aihot.virxact.com/items/cmrb58ru600tpihl166b491rz",
+          "source": "Claude Code：GitHub Releases（RSS）"
+        },
+        {
+          "id": "cmr9jbw7a0085ihe85luucw73",
+          "title": "OpenClaw 登陆 HuggingFace 本地应用",
+          "url": "https://aihot.virxact.com/items/cmr9jbw7a0085ihe85luucw73",
+          "source": "X：OpenClaw (@openclaw)"
+        },
+        {
+          "id": "cmrb7dzge01d6ihl1bthomtam",
+          "title": "Rowboat：开源、本地优先的桌面AI助手",
+          "url": "https://aihot.virxact.com/items/cmrb7dzge01d6ihl1bthomtam",
+          "source": "Hacker News：AI 热帖"
+        },
+        {
+          "id": "cmr9h98co0470slsmqqc2ilv1",
+          "title": "SGLang 集成 DSpark 推测解码：置信度驱动的可变长度验证",
+          "url": "https://aihot.virxact.com/items/cmr9h98co0470slsmqqc2ilv1",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）"
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "title": "AI在垂直领域的突破：科研、医疗与军事",
+      "count": "4",
+      "intro": "AI在专业领域取得实质性进展。Synthetic Sciences发布开源科研工作台OpenScience，覆盖完整科研循环。Fun-ASR-Realtime实现单模型30种语言与16种方言识别，准确率领先。美国首批自主地面车辆在乌克兰参战，执行超1100次任务。阿尔伯塔省用Claude Code扫描4.66亿行代码，发现传统工具遗漏的漏洞。这些案例表明AI正从通用走向专用，解决实际痛点。",
+      "stories": [
+        {
+          "id": "cmr8reau2005fslvpmqjll6du",
+          "title": "Synthetic Sciences 发布 OpenScience：面向机器学习、生物学、物理学和化学研究的开源模型无关 AI 工作台",
+          "url": "https://aihot.virxact.com/items/cmr8reau2005fslvpmqjll6du",
+          "source": "MarkTechPost（RSS）"
+        },
+        {
+          "id": "cmr8tzbde00jjsllsayhpgjqg",
+          "title": "Fun-ASR-Realtime 发布：单模型支持30种语言与16种方言，识别准确率领先",
+          "url": "https://aihot.virxact.com/items/cmr8tzbde00jjsllsayhpgjqg",
+          "source": "公众号：通义实验室（千问）"
+        },
+        {
+          "id": "cmrafv8m40090ihuamebn107w",
+          "title": "美国首批自主地面车辆在乌克兰参战",
+          "url": "https://aihot.virxact.com/items/cmrafv8m40090ihuamebn107w",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmr9lca6e00qlihe8bn5844jk",
+          "title": "阿尔伯塔省用Claude进行政府系统安全审查",
+          "url": "https://aihot.virxact.com/items/cmr9lca6e00qlihe8bn5844jk",
+          "source": "Anthropic：Newsroom（网页）"
+        }
+      ]
+    }
+  ],
+  "story_count": 26,
+  "period": "2026-W28",
+  "url": "https://aihot.virxact.com/weekly/2026-W28",
+  "fetched_at": "2026-07-31T00:08:57+08:00"
+}

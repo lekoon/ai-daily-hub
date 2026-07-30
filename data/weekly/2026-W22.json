@@ -1,0 +1,231 @@
+{
+  "type": "weekly",
+  "vol": "2026-W22",
+  "eyebrow": "VOL.2026-W22·26STORIES·AI HOTWEEKLY",
+  "date_range": "2026-05-25~2026-05-31",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI安全与伦理成焦点，模型竞赛白热化",
+    "overview": "本周（2026-05-25至2026-05-31）AI行业主线是安全与伦理问题凸显，同时模型竞赛持续白热化。TrapDoor供应链攻击首次将AI助手作为攻击面，引发行业震动；教皇Leo XIV发布通谕警告AI风险，Anthropic联合创始人呼吁外部监督。模型方面，GPT-5.6、Claude Mythos、Qwen3.7-Max等重磅发布或爆料不断，端侧模型与开源生态也取得进展。此外，AI视频生成跨越恐怖谷，智能体框架与工具链日趋成熟。"
+  },
+  "stats": [
+    {
+      "value": "174",
+      "label": "独立事件"
+    },
+    {
+      "value": "211",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "AI安全与伦理警钟长鸣",
+      "count": "4",
+      "intro": "本周安全事件与伦理讨论密集出现。TrapDoor攻击利用AI助手配置文件实施供应链攻击，首次将AI助手作为攻击面，影响npm、PyPI等生态。教皇Leo XIV发布通谕《Magnifica Humanitas》，警告AI对人性、劳动和战争的威胁，Anthropic联合创始人Chris Olah出席并呼吁外部监督。微软Copilot Cowork被曝文件泄露问题，进一步凸显AI安全挑战。",
+      "stories": [
+        {
+          "id": "cmpjzqznj02vssl01si4neefz",
+          "title": "TrapDoor供应链攻击：AI助手成新型攻击面",
+          "url": "https://aihot.virxact.com/items/cmpjzqznj02vssl01si4neefz",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmpldcxz10ew3sl01caeact4o",
+          "title": "教皇里奥呼吁在AI时代保持“深刻的人性”",
+          "url": "https://aihot.virxact.com/items/cmpldcxz10ew3sl01caeact4o",
+          "source": "The Verge：AI（RSS）"
+        },
+        {
+          "id": "cmplkklsy0gnysl019nmpl677",
+          "title": "Anthropic联合创始人Chris Olah在教皇通谕发布会上的讲话",
+          "url": "https://aihot.virxact.com/items/cmplkklsy0gnysl019nmpl677",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmplva72h0j6jsl01yvgbp7mk",
+          "title": "微软 Copilot Cowork 存在文件泄露问题",
+          "url": "https://aihot.virxact.com/items/cmplva72h0j6jsl01yvgbp7mk",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "模型竞赛：GPT-5.6、Claude Mythos与Qwen3.7-Max",
+      "count": "5",
+      "intro": "模型发布与爆料密集。GPT-5.6内部代号iris-alpha，支持150万token上下文，预计6月发布。Anthropic的Claude Mythos解决了OpenAI提出的Erdős问题，被认为在数学发现上“严重超前”。Qwen3.7-Max成为全球第二大AI编程模型，并上线隐式缓存功能。此外，DeepSeek计划对其旗舰模型实施永久性75%折扣，价格战持续。",
+      "stories": [
+        {
+          "id": "cmpltm5n30is2sl015yqdvfvt",
+          "title": "OpenAI GPT-5.6 模型曝下月发布：AI 上下文 150 万 tokens",
+          "url": "https://aihot.virxact.com/items/cmpltm5n30is2sl015yqdvfvt",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmpn05f050tdcsl01mkpij1a9",
+          "title": "据报道Claude Mythos以“巧妙简洁的证明”解决了OpenAI里程碑式的Erdős问题",
+          "url": "https://aihot.virxact.com/items/cmpn05f050tdcsl01mkpij1a9",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmpmacj4m0mxusl014abz5r1f",
+          "title": "Qwen3.7-Max 成为全球第二AI编程模型",
+          "url": "https://aihot.virxact.com/items/cmpmacj4m0mxusl014abz5r1f",
+          "source": "X：阿里云 / Alibaba Cloud (@alibaba_cloud)"
+        },
+        {
+          "id": "cmpldyuyz0f2nsl01au9kw3uf",
+          "title": "Qwen3.7-Max隐式缓存功能上线",
+          "url": "https://aihot.virxact.com/items/cmpldyuyz0f2nsl01au9kw3uf",
+          "source": "X：通义千问 / Qwen (@Alibaba_Qwen)"
+        },
+        {
+          "id": "cmpk417ey03vssl01z5zsemms",
+          "title": "DeepSeek将对其旗舰AI模型实施永久性75%折扣",
+          "url": "https://aihot.virxact.com/items/cmpk417ey03vssl01z5zsemms",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "端侧模型与开源生态加速",
+      "count": "6",
+      "intro": "端侧模型取得突破。面壁智能开源BitCPM-CANN，基于华为昇腾训练，以及MiniCPM5-1B，在AA-Index上超越所有2B以下模型，可运行于手机和浏览器。腾讯混元发布翻译模型Hy-MT2，开源并推出小程序。Perplexity开源Unigram分词器降低CPU占用。开源工具链方面，Runway推出MCP服务器，OpenAI支持私有MCP服务器连接，进一步推动智能体生态。",
+      "stories": [
+        {
+          "id": "cmpkovqp508w4sl01zz63gssx",
+          "title": "面壁智能联合清华等开源中国首个基于华为昇腾训练的 1.58-bit 端侧大模型 BitCPM-CANN",
+          "url": "https://aihot.virxact.com/items/cmpkovqp508w4sl01zz63gssx",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmpm8mi1b0miusl01tr5zuge8",
+          "title": "面壁智能开源 MiniCPM5-1B：在 AA-Index 上超越所有 2B 参数以下模型，能跑在手机、浏览器上",
+          "url": "https://aihot.virxact.com/items/cmpm8mi1b0miusl01tr5zuge8",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmpm1qxvl0ktesl01chbln28n",
+          "title": "腾讯混元新翻译模型双榜亮眼，小程序发布",
+          "url": "https://aihot.virxact.com/items/cmpm1qxvl0ktesl01chbln28n",
+          "source": "X：腾讯混元 (@TencentHunyuan)"
+        },
+        {
+          "id": "cmpo929df03ztslv4z9v93608",
+          "title": "Perplexity开源Unigram分词器降低CPU占用",
+          "url": "https://aihot.virxact.com/items/cmpo929df03ztslv4z9v93608",
+          "source": "X：Perplexity (@perplexity_ai)"
+        },
+        {
+          "id": "cmpo55l4u030yslv4mwofhkbw",
+          "title": "Runway 推出 Model Context Protocol 服务器",
+          "url": "https://aihot.virxact.com/items/cmpo55l4u030yslv4mwofhkbw",
+          "source": "Runway：News（网页）"
+        },
+        {
+          "id": "cmpoevkk105k2slv4iklwg0qm",
+          "title": "OpenAI产品支持私有MCP服务器安全连接",
+          "url": "https://aihot.virxact.com/items/cmpoevkk105k2slv4iklwg0qm",
+          "source": "X：OpenAI Developers (@OpenAIDevs)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI视频生成跨越恐怖谷",
+      "count": "4",
+      "intro": "AI视频生成技术成熟度提升。Runway通过Project Luxo研究宣称AI生成视频已跨越恐怖谷，观众开始关注故事而非技术瑕疵。Kling AI驱动《大卫之家》实现多项行业首创，包括原生4K模型和运动控制。FastVideo Dreamverse开源，仅需7秒生成30秒1080p视频。Gemini Omni发布视频提示词指南，强调精准控制。",
+      "stories": [
+        {
+          "id": "cmpmqm3d00r0wsl018dub96w0",
+          "title": "Project Luxo：跨越AI媒体的恐怖谷",
+          "url": "https://aihot.virxact.com/items/cmpmqm3d00r0wsl018dub96w0",
+          "source": "Runway：News（网页）"
+        },
+        {
+          "id": "cmpm48qo90leysl017xmm4vhl",
+          "title": "Kling AI驱动《大卫之家》实现多项行业首创",
+          "url": "https://aihot.virxact.com/items/cmpm48qo90leysl017xmm4vhl",
+          "source": "X：可灵 Kling AI (@Kling_ai)"
+        },
+        {
+          "id": "cmpoddncn053yslv428au39s3",
+          "title": "开源FastVideo Dreamverse实时视频生成工具",
+          "url": "https://aihot.virxact.com/items/cmpoddncn053yslv428au39s3",
+          "source": "X：Sky Computing Lab (@haoailab)"
+        },
+        {
+          "id": "cmpn5d9kj0uk3sl011wu9fzo3",
+          "title": "Gemini Omni 视频提示词使用指南",
+          "url": "https://aihot.virxact.com/items/cmpn5d9kj0uk3sl011wu9fzo3",
+          "source": "X：Google AI (@GoogleAI)"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "智能体框架与工具链成熟",
+      "count": "7",
+      "intro": "智能体开发工具链日益完善。Claude Code推出安全漏洞识别插件，并更新至v2.1.152，支持技能与斜杠命令改进。Grok Build Beta向SuperGrok用户开放，并登陆Kilo IDE平台。OpenRouter完成1.13亿美元B轮融资，周处理量达25万亿token。Cognition成为全球最大独立智能体实验室，估值260亿美元。此外，KPop方法让Ring-2.6-1T在SWE-bench上突破76分，强化学习训练取得进展。",
+      "stories": [
+        {
+          "id": "cmpn5rnj30uqtsl016bosj7li",
+          "title": "Claude Code推出安全漏洞识别插件",
+          "url": "https://aihot.virxact.com/items/cmpn5rnj30uqtsl016bosj7li",
+          "source": "X：Claude Devs (@ClaudeDevs)"
+        },
+        {
+          "id": "cmpne4ihk0wscsl012kwlngba",
+          "title": "Claude Code v2.1.152 更新发布",
+          "url": "https://aihot.virxact.com/items/cmpne4ihk0wscsl012kwlngba",
+          "source": "Claude Code：GitHub Releases（RSS）"
+        },
+        {
+          "id": "cmplja6yg0gb1sl01686zrkeo",
+          "title": "Grok Build Beta版向SuperGrok用户开放",
+          "url": "https://aihot.virxact.com/items/cmplja6yg0gb1sl01686zrkeo",
+          "source": "X：xAI (@xai)"
+        },
+        {
+          "id": "cmpoa5pky04a6slv42pg4puzp",
+          "title": "Grok编程智能体登陆Kilo IDE平台",
+          "url": "https://aihot.virxact.com/items/cmpoa5pky04a6slv42pg4puzp",
+          "source": "X：xAI (@xai)"
+        },
+        {
+          "id": "cmpmq04030qtssl011r5fyxzr",
+          "title": "OpenRouter完成1.13亿美元B轮融资",
+          "url": "https://aihot.virxact.com/items/cmpmq04030qtssl011r5fyxzr",
+          "source": "X：OpenRouter (@OpenRouter)"
+        },
+        {
+          "id": "cmpogcyqy05uoslv44xoll1r2",
+          "title": "Cognition成为全球最大独立智能体实验室",
+          "url": "https://aihot.virxact.com/items/cmpogcyqy05uoslv44xoll1r2",
+          "source": "X：swyx (@swyx)"
+        },
+        {
+          "id": "cmpmsjd610rghsl01l5zfielj",
+          "title": "KPop 新方法让 Ring-2.6-1T 在 SWE-bench Verified 上突破 76 分",
+          "url": "https://aihot.virxact.com/items/cmpmsjd610rghsl01l5zfielj",
+          "source": "X：蚂蚁百灵 (@AntLingAGI)"
+        }
+      ]
+    }
+  ],
+  "story_count": 26,
+  "period": "2026-W22",
+  "url": "https://aihot.virxact.com/weekly/2026-W22",
+  "fetched_at": "2026-07-31T00:09:02+08:00"
+}

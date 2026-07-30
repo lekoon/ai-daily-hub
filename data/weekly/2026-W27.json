@@ -1,0 +1,239 @@
+{
+  "type": "weekly",
+  "vol": "2026-W27",
+  "eyebrow": "VOL.2026-W27·26STORIES·AI HOTWEEKLY",
+  "date_range": "2026-06-29~2026-07-05",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "模型军备竞赛与智能体落地",
+    "overview": "本周AI行业主线是模型能力的快速迭代与智能体应用的大规模落地。美团LongCat的Owl Alpha和LongCat-2.0以1.6万亿参数MoE和国产ASIC训练成为焦点，性能对标顶级模型；Anthropic发布Claude Sonnet 5，定价更低且智能体能力大幅提升。同时，智能体工具链全面扩展：Cursor推出iOS版，OpenClaw发布移动应用，Claude Desktop支持Linux，Claude Science科研工作台上线。安全与伦理事件引发关注：美军AI误炸学校、Claude Code被利用执行恶意代码。此外，国务院推进AI全学段教育，三星、SK海力士巨资扩产，黑石在日本投建AI数据中心，显示AI基础设施投资持续升温。"
+  },
+  "stats": [
+    {
+      "value": "111",
+      "label": "独立事件"
+    },
+    {
+      "value": "121",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈5 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "模型竞赛：国产大模型崛起与开源生态多元化",
+      "count": "4",
+      "intro": "本周最引人注目的是美团LongCat系列模型的强势表现。Owl Alpha以1.6万亿参数MoE成为OpenRouter最流行模型，性能达Gemini/Opus 4.6级别，且完全在国产ASIC上训练；随后发布的LongCat-2.0进一步专为Agentic Coding设计，支持1M上下文，定价极具竞争力。与此同时，开源生态从少数中国公司扩展到全球：新浪开源3B参数的VibeThinker-3B，在数学编程基准上媲美大200倍模型；NVIDIA发布Nemotron-3-Ultra-550B；Cohere开源旗舰模型。模型小型化与专业化趋势明显，Qwen 3.6 27B被推荐为本地开发理想选择。",
+      "stories": [
+        {
+          "id": "cmr08dev204qjslkit52gdrur",
+          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+          "url": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
+        },
+        {
+          "id": "cmqxiel9h004ysl50umg2c011",
+          "title": "新浪开源VibeThinker-3B：推理可压缩，事实知识不能",
+          "url": "https://aihot.virxact.com/items/cmqxiel9h004ysl50umg2c011",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmqy28vh30050slr1uzaev9nk",
+          "title": "Artifacts 22：Zyphra、Cohere 和 Poolside 正在扩展生态系统广度",
+          "url": "https://aihot.virxact.com/items/cmqy28vh30050slr1uzaev9nk",
+          "source": "Nathan Lambert：Interconnects（RSS）"
+        },
+        {
+          "id": "cmqzk693n002zslksfkrr5w2w",
+          "title": "Qwen 3.6 27B 是本地开发的理想选择",
+          "url": "https://aihot.virxact.com/items/cmqzk693n002zslksfkrr5w2w",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "智能体工具链全面爆发：从桌面到移动端",
+      "count": "7",
+      "intro": "智能体应用进入全平台时代。Cursor推出iOS公测版，支持云端智能体远程操控；OpenClaw发布原生iOS与Android应用，将智能体装进口袋；Claude Desktop推出Linux公测版，覆盖更多开发者。Anthropic推出Claude apps gateway，让企业在Bedrock和Google Cloud上运行Claude Code，并发布Claude Science科研工作台，提供60余项预配置技能。此外，X推出hosted X MCP，AI智能体可直接调用X API；Google发布ADK Go 2.0，支持多智能体编排。这些产品表明智能体正从单一工具演变为跨平台、跨领域的操作系统级能力。",
+      "stories": [
+        {
+          "id": "cmqzisfra009asl8hojqmr1k2",
+          "title": "从任何地点构建——Cursor for iOS 公测版发布",
+          "url": "https://aihot.virxact.com/items/cmqzisfra009asl8hojqmr1k2",
+          "source": "Cursor Blog"
+        },
+        {
+          "id": "cmqzo4q2o005oslkhjl7jdtoc",
+          "title": "OpenClaw 发布原生 iOS 与 Android 应用",
+          "url": "https://aihot.virxact.com/items/cmqzo4q2o005oslkhjl7jdtoc",
+          "source": "X：OpenClaw (@openclaw)"
+        },
+        {
+          "id": "cmr0v1pn7009kslatrt4gncmj",
+          "title": "Claude Desktop 推出 Linux 公测版",
+          "url": "https://aihot.virxact.com/items/cmr0v1pn7009kslatrt4gncmj",
+          "source": "X：Claude Devs (@ClaudeDevs)"
+        },
+        {
+          "id": "cmqzq4so7002zslki45ad5xtq",
+          "title": "为 Amazon Bedrock 和 Google Cloud 推出的 Claude apps gateway",
+          "url": "https://aihot.virxact.com/items/cmqzq4so7002zslki45ad5xtq",
+          "source": "Claude：Blog（网页）"
+        },
+        {
+          "id": "cmr0xc7sg0040slb3yenz5k02",
+          "title": "Claude Science 科研工作台正式上线",
+          "url": "https://aihot.virxact.com/items/cmr0xc7sg0040slb3yenz5k02",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmr07c62l04huslkimxy3vdw5",
+          "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+          "url": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
+          "source": "X：歸藏 (@op7418)"
+        },
+        {
+          "id": "cmr0wupt4007gsl403t7s6dbn",
+          "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+          "url": "https://aihot.virxact.com/items/cmr0wupt4007gsl403t7s6dbn",
+          "source": "Google Developers Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "安全与伦理：AI误炸、恶意代码与隐私争议",
+      "count": "3",
+      "intro": "本周多起事件凸显AI安全与伦理的紧迫性。美军首次大规模使用AI选择目标，却因情报系统脱节误炸伊朗学校，导致约120名儿童死亡，暴露AI在军事决策中的致命风险。安全研究发现，Claude Code打开GitHub仓库时可能执行隐藏恶意代码，攻击者可获完全控制，提示AI编码工具的安全设计缺陷。Meta秘密测试竞品AI安全性的方式引发争议：承包商假扮未成年向ChatGPT等发送数万条危机提示，被测试公司不知情。这些事件表明，AI的部署需要更严格的验证、透明度和伦理审查。",
+      "stories": [
+        {
+          "id": "cmqz7d8df001gslurh618qik6",
+          "title": "美军用AI选目标却误炸伊朗学校，Anthropic Claude嵌入Palantir系统首日建议约1000目标",
+          "url": "https://aihot.virxact.com/items/cmqz7d8df001gslurh618qik6",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmqz20a0a000dsly4gw09u9xt",
+          "title": "Claude Code 打开 GitHub 仓库即执行隐藏恶意代码，攻击者可获完全控制",
+          "url": "https://aihot.virxact.com/items/cmqz20a0a000dsly4gw09u9xt",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmr0kov5302qnslolcwg00yqd",
+          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+          "url": "https://aihot.virxact.com/items/cmr0kov5302qnslolcwg00yqd",
+          "source": "The Decoder：AI News（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "基础设施投资：芯片扩产与数据中心建设",
+      "count": "4",
+      "intro": "AI需求持续推动基础设施投资。三星和SK海力士计划投资5900亿美元扩产芯片，控制全球近80%高带宽内存市场，内存价格预计持续上涨。SK集团宣布到2035年建设15GW AI数据中心，总投资1000万亿韩元。黑石计划未来3-5年在日本投资300亿美元建设AI数据中心，并联合成立AI XPV平台。然而，NVIDIA的Rubin Ultra因制造问题被取消，显示硬件迭代的挑战。这些投资表明，AI算力需求远未见顶，但供应链瓶颈和成本压力正在显现。",
+      "stories": [
+        {
+          "id": "cmqyysibx00l8slxscq4crs8k",
+          "title": "三星和SK海力士计划投资5900亿美元扩产芯片，AI需求推高内存价格",
+          "url": "https://aihot.virxact.com/items/cmqyysibx00l8slxscq4crs8k",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmqyvdkok000qslf1ctykave9",
+          "title": "SK 集团会长崔泰源：到 2035 年建设 15GW AI 数据中心，总投资达 1000 万亿韩元",
+          "url": "https://aihot.virxact.com/items/cmqyvdkok000qslf1ctykave9",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmr0czddc00pyslole7byaugu",
+          "title": "黑石未来3～5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+          "url": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmqzpe7kz003xslznxpw78tx5",
+          "title": "Rubin Ultra取消，新版尺寸性能减半",
+          "url": "https://aihot.virxact.com/items/cmqzpe7kz003xslznxpw78tx5",
+          "source": "X：SemiAnalysis (@SemiAnalysis_)"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI就业与技能：替代与创造并存",
+      "count": "4",
+      "intro": "AI对就业的影响呈现复杂图景。截至2026年5月，AI相关裁员近9万个，但高AI投入企业总员工数增长10.2%，入门级岗位增长12%，表明AI在资源充裕的企业中成为扩张工具。英国职场AI采用率一年内从34%升至73%，但仅15%的深度用户获得晋升加薪优势。国务院印发规划推进AI全学段教育，目标2030年高质量教育体系基本建成。专业化趋势不可避免，通用模型在特定任务上不如专门系统。AI正重塑劳动力市场，但技能鸿沟和资源分配不均可能加剧不平等。",
+      "stories": [
+        {
+          "id": "cmr05b2wq0414slkivvyyjlbl",
+          "title": "AI就业争论变得更加混乱",
+          "url": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmr09lgpw000xslrchbxyyyvl",
+          "title": "英国职场AI采用率翻倍，仅15%“AI先锋”获得晋升加薪优势",
+          "url": "https://aihot.virxact.com/items/cmr09lgpw000xslrchbxyyyvl",
+          "source": "Google Blog：AI（RSS）"
+        },
+        {
+          "id": "cmqz1tatr01doslxsae6mpoyv",
+          "title": "国务院印发《教育发展“十五五”规划》，推进人工智能全学段教育",
+          "url": "https://aihot.virxact.com/items/cmqz1tatr01doslxsae6mpoyv",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmr0sxuxy04ubslolpethqo5e",
+          "title": "专业化为何不可避免",
+          "url": "https://aihot.virxact.com/items/cmr0sxuxy04ubslolpethqo5e",
+          "source": "Hugging Face：Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "title": "前沿研究：脑机接口、数学证明与可解释性",
+      "count": "4",
+      "intro": "本周多项研究突破值得关注。Meta发布Brain2Qwerty v2，实现非侵入式实时句子解码，有望帮助无法沟通的人群。AI用prover-verifier LLM循环攻克9个未解数学难题，展示AI在科学发现中的潜力。Anthropic提出回合平均稀疏自编码器，提升模型可解释性。OpenAI发布GeneBench-Pro，评估AI在计算生物学中的判断能力。这些研究推动AI从语言处理向更广泛的科学和认知领域扩展。",
+      "stories": [
+        {
+          "id": "cmqz708gp006kslj16zzl8far",
+          "title": "Meta发布Brain2Qwerty v2：非侵入式实时句子解码",
+          "url": "https://aihot.virxact.com/items/cmqz708gp006kslj16zzl8far",
+          "source": "X：AI at Meta (@AIatMeta)"
+        },
+        {
+          "id": "cmr190seo00nsslnlxmfddenz",
+          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
+          "url": "https://aihot.virxact.com/items/cmr190seo00nsslnlxmfddenz",
+          "source": "X：AI Safety Memes (@AISafetyMemes)"
+        },
+        {
+          "id": "cmr172w5l0072slnlncmdx7rm",
+          "title": "Anthropic 提出回合平均稀疏自编码器 (Turn-Averaged SAE)",
+          "url": "https://aihot.virxact.com/items/cmr172w5l0072slnlncmdx7rm",
+          "source": "Anthropic：Transformer Circuits（可解释性研究）"
+        },
+        {
+          "id": "cmr0wblyn0050sl40bngva2bq",
+          "title": "OpenAI 发布 GeneBench-Pro：计算生物学研究级基准测试",
+          "url": "https://aihot.virxact.com/items/cmr0wblyn0050sl40bngva2bq",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    }
+  ],
+  "story_count": 26,
+  "period": "2026-W27",
+  "url": "https://aihot.virxact.com/weekly/2026-W27",
+  "fetched_at": "2026-07-31T00:08:58+08:00"
+}

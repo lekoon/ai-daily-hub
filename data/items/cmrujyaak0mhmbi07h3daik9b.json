@@ -1,0 +1,15 @@
+{
+  "title": "小红书 dots 模型获 IMO 2026 满分金牌",
+  "source": "公众号：小红书技术（dots.llm）",
+  "published_at": "2026-07-21 19:06",
+  "score": "81",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s/EITf-SrP5o62Ljp7UGzPVw",
+  "aihot_url": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b",
+  "curation_reason": "IMO满分金牌这个里程碑，背后是模型递归自我批判能力的突破。不依赖形式化验证就能给出优雅证明，这对数学推理研究是个真信号，做推理方向的值得细读。",
+  "ai_summary": "小红书 dots 团队携内部版本 dots-note 3.0 参加第 67 届 IMO 2026，六道题均获满分，以 42/42 分取得满分金牌，全球仅 7 位人类选手获此成绩。模型不依赖形式化语言，直接读取原始 LaTeX 题目，通过递归自我批判能力端到端完成解题。dots-note 3.0 是 dots3 系列最轻量级模型，预期将开源。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmrujyaak0mhmbi07h3daik9b",
+  "url": "https://aihot.virxact.com/items/cmrujyaak0mhmbi07h3daik9b",
+  "fetched_at": "2026-07-31T00:09:10+08:00"
+}

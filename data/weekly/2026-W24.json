@@ -1,0 +1,219 @@
+{
+  "type": "weekly",
+  "vol": "2026-W24",
+  "eyebrow": "VOL.2026-W24·24STORIES·AI HOTWEEKLY",
+  "date_range": "2026-06-08~2026-06-14",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "超级应用与模型军备竞赛",
+    "overview": "本周AI行业主线是两大趋势的交汇：一是OpenAI、苹果等巨头加速将AI从聊天工具升级为跨平台超级应用/智能体平台，ChatGPT计划整合编程、图像生成与第三方服务，苹果则在WWDC推出第三代AFM模型与Apple Intelligence；二是模型性能竞赛白热化，Anthropic发布Claude Fable 5/Mythos 5实现全面SOTA，小米MiMo突破1T模型1000 tokens/s推理速度，Google推出Gemma 4 12B与Gemini 3.5 Live Translate。同时，AI智能体在编程、视频编辑、科研等场景的实用化加速，但安全与监管议题（如OpenAI IPO、欧盟DMA影响Siri上线）也持续升温。"
+  },
+  "stats": [
+    {
+      "value": "202",
+      "label": "独立事件"
+    },
+    {
+      "value": "268",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈4 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "超级应用与智能体平台化",
+      "count": "5",
+      "intro": "OpenAI正筹备ChatGPT自2022年以来最大改版，从聊天机器人转向超级应用/Agent平台，整合Codex、图像生成及第三方应用，高管称“聊天已死”，目标成为跨平台个人AI助手。苹果在WWDC推出第三代AFM模型与Apple Intelligence，将AI深度集成到操作系统。微信AI内测两种接入模式，允许开发者授权AI直接操作小程序。这些动作标志着AI产品从单一对话向全能助手的范式转变。",
+      "stories": [
+        {
+          "id": "cmq44c1hy00d9slz5itsduqad",
+          "title": "ChatGPT 要变 AgentGPT 了",
+          "url": "https://aihot.virxact.com/items/cmq44c1hy00d9slz5itsduqad",
+          "source": "X：宝玉 (@dotey)"
+        },
+        {
+          "id": "cmq404ny5005mslr29n96iugc",
+          "title": "OpenAI 仍推进超级应用计划",
+          "url": "https://aihot.virxact.com/items/cmq404ny5005mslr29n96iugc",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmq5pmqqc0166sl5icnriem6v",
+          "title": "苹果发布第三代 Apple Foundation Models（AFM）",
+          "url": "https://aihot.virxact.com/items/cmq5pmqqc0166sl5icnriem6v",
+          "source": "Apple Machine Learning Research（RSS）"
+        },
+        {
+          "id": "cmq5lakyn00nbsl3832izqutm",
+          "title": "Apple Intelligence 将强大 AI 能力融入日常体验",
+          "url": "https://aihot.virxact.com/items/cmq5lakyn00nbsl3832izqutm",
+          "source": "Apple：Newsroom（RSS）"
+        },
+        {
+          "id": "cmq4xxm1v02r4slt2bbe178yq",
+          "title": "微信AI官宣内测：两种接入模式供开发者选择",
+          "url": "https://aihot.virxact.com/items/cmq4xxm1v02r4slt2bbe178yq",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "模型性能竞赛：SOTA与推理效率双突破",
+      "count": "4",
+      "intro": "Anthropic发布Claude Fable 5和Mythos 5，在软件工程、科研等几乎所有基准上达到SOTA，价格较预览版大幅下降。小米MiMo联合TileRT实现1T参数MoE模型单节点超1000 tokens/s推理速度，采用FP4混合量化与并行推测解码。Google推出Gemma 4 12B无编码器多模态模型，性能接近26B MoE但内存减半，可在消费级笔记本运行。Cohere发布North Mini Code，30B MoE模型在编码基准上超越同类。模型竞争从单纯追求能力转向同时兼顾效率与成本。",
+      "stories": [
+        {
+          "id": "cmq6w3soi002gslbhz3kkhav0",
+          "title": "Claude Fable 5 和 Claude Mythos 5",
+          "url": "https://aihot.virxact.com/items/cmq6w3soi002gslbhz3kkhav0",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmq5bjjga06d1slt2lstyzq8i",
+          "title": "小米 MiMo-V2.5-Pro-UltraSpeed 突破 1,000 tokens/s，单台 8-GPGPU 节点运行 1T MoE 模型",
+          "url": "https://aihot.virxact.com/items/cmq5bjjga06d1slt2lstyzq8i",
+          "source": "X：小米 MiMo (@XiaomiMiMo)"
+        },
+        {
+          "id": "cmq6qqqbp0axhsl5i2ow5j5co",
+          "title": "Google DeepMind 发布 Gemma 4 12B：统一的无编码器多模态模型",
+          "url": "https://aihot.virxact.com/items/cmq6qqqbp0axhsl5i2ow5j5co",
+          "source": "Google DeepMind：Blog（RSS）"
+        },
+        {
+          "id": "cmq74dg8m006psloprllkcbmm",
+          "title": "Cohere发布North Mini Code：面向开发者的开源编码模型",
+          "url": "https://aihot.virxact.com/items/cmq74dg8m006psloprllkcbmm",
+          "source": "Hugging Face：Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI智能体实用化：编程、视频与科研",
+      "count": "5",
+      "intro": "AI智能体在多个垂直领域加速落地。Kimi Code开源Coding Agent升级，新增视频理解与权威数据源集成。Runway Aleph 2.0编辑模型可一键适配任意视频格式。Perplexity与哈佛研究表明，自主智能体比搜索快87%、成本低94%。生物学领域，Anthropic实验指出当前AI智能体在科研数据检索中准确率不足，需确定性检索层辅助。Harness-1作为20B检索子智能体，通过强化学习在8个基准上达到SOTA。",
+      "stories": [
+        {
+          "id": "cmq5a619j05ylslt2csujejwb",
+          "title": "Kimi Code 焕新升级（附视频教程）",
+          "url": "https://aihot.virxact.com/items/cmq5a619j05ylslt2csujejwb",
+          "source": "公众号：月之暗面（Kimi）"
+        },
+        {
+          "id": "cmq5eo92f076uslt21k43rdpb",
+          "title": "Runway Aleph 2.0 编辑模型：一键适配任意视频格式",
+          "url": "https://aihot.virxact.com/items/cmq5eo92f076uslt21k43rdpb",
+          "source": "X：Runway (@runwayml)"
+        },
+        {
+          "id": "cmq5gf74e07p1slt2ae83siz1",
+          "title": "Perplexity与哈佛：AI智能体提效87%降本94%",
+          "url": "https://aihot.virxact.com/items/cmq5gf74e07p1slt2ae83siz1",
+          "source": "X：Perplexity (@perplexity_ai)"
+        },
+        {
+          "id": "cmq5i5o4g0861slt2rprafeu2",
+          "title": "为生物学AI智能体铺路",
+          "url": "https://aihot.virxact.com/items/cmq5i5o4g0861slt2rprafeu2",
+          "source": "Anthropic：Research（发表成果 · 网页）"
+        },
+        {
+          "id": "cmq3eppdj06j7sl97koo7u9xf",
+          "title": "Harness-1：基于强化学习训练的有状态搜索20B检索子智能体",
+          "url": "https://aihot.virxact.com/items/cmq3eppdj06j7sl97koo7u9xf",
+          "source": "MarkTechPost（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI治理与商业：IPO、监管与公共财富",
+      "count": "5",
+      "intro": "OpenAI向SEC机密提交S-1草案，上市时间未定，同时宣布进入第三发展阶段，目标让AI普及、易用且安全。特朗普政府探讨通过公共财富基金让政府入股AI初创公司。欧盟DMA导致苹果Siri AI在欧盟延迟上线。OpenAI推出Economic Research Exchange研究AI经济影响。这些事件凸显AI行业在快速扩张的同时，正面临日益复杂的治理与商业挑战。",
+      "stories": [
+        {
+          "id": "cmq5pocki017bsl5ikjj1dzhk",
+          "title": "OpenAI 向 SEC 机密提交 S-1 草案，上市时间未定",
+          "url": "https://aihot.virxact.com/items/cmq5pocki017bsl5ikjj1dzhk",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmq5u4ypb02edsl5izrg3y8f9",
+          "title": "奥尔特曼宣布 OpenAI 进入第三发展阶段：让 AI 普及、易用且安全",
+          "url": "https://aihot.virxact.com/items/cmq5u4ypb02edsl5izrg3y8f9",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmq41cpfx00g9slr28fihcr5v",
+          "title": "特朗普政府与OpenAI讨论通过公共财富基金入股AI初创公司",
+          "url": "https://aihot.virxact.com/items/cmq41cpfx00g9slr28fihcr5v",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmq5lakyn00nesl38edfw2m19",
+          "title": "受 DMA 影响，Siri AI 在欧盟将随 iOS 27 和 iPadOS 27 延迟上线",
+          "url": "https://aihot.virxact.com/items/cmq5lakyn00nesl38edfw2m19",
+          "source": "Apple：Newsroom（RSS）"
+        },
+        {
+          "id": "cmq5j6d33000vsl38kkwk8dch",
+          "title": "OpenAI 推出 Economic Research Exchange 经济研究交流平台",
+          "url": "https://aihot.virxact.com/items/cmq5j6d33000vsl38kkwk8dch",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI赋能创意与行业应用",
+      "count": "5",
+      "intro": "AI在创意产业与垂直行业展现新可能。Luma AI Ray3.2 API提供电影级渲染集成，生数科技与华策影视共建AI视听创制中心。高德发布全球首个3D原生城市世界模型ABot-Earth0.5，10分钟生成公里级3D城市。NVIDIA与LG、KRAFTON等合作推进AI工厂与游戏适配。日本农民用ChatGPT和Codex解决农场实际问题，展示了AI在传统行业的低成本自动化潜力。",
+      "stories": [
+        {
+          "id": "cmq6vx8zl000uslbhiiucbbxy",
+          "title": "Luma AI Ray3.2 API：电影级渲染可集成",
+          "url": "https://aihot.virxact.com/items/cmq6vx8zl000uslbhiiucbbxy",
+          "source": "X：Luma AI (@LumaLabsAI)"
+        },
+        {
+          "id": "cmq50iuao03eislt2og43waqb",
+          "title": "生数科技与华策影视达成战略合作，共建AI视听创制中心",
+          "url": "https://aihot.virxact.com/items/cmq50iuao03eislt2og43waqb",
+          "source": "公众号：生数科技（Vidu·视频）"
+        },
+        {
+          "id": "cmq4tna5301m5slt2fr7nmpp7",
+          "title": "全球首个：高德发布3D原生城市世界模型ABot-Earth0.5",
+          "url": "https://aihot.virxact.com/items/cmq4tna5301m5slt2fr7nmpp7",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmq3i394000ouslqlpcl2mnr6",
+          "title": "NVIDIA 与 KRAFTON、NC、T1 在韩国 PC 房庆祝 RTX Spark 发布",
+          "url": "https://aihot.virxact.com/items/cmq3i394000ouslqlpcl2mnr6",
+          "source": "NVIDIA AI Blog"
+        },
+        {
+          "id": "cmq3p62px00llsla9chtyvf4z",
+          "title": "“我在田里雇了一名工程师，它叫 Codex” —— 北海道一个西兰花农的 8 个真实 AI 用法",
+          "url": "https://aihot.virxact.com/items/cmq3p62px00llsla9chtyvf4z",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)"
+        }
+      ]
+    }
+  ],
+  "story_count": 24,
+  "period": "2026-W24",
+  "url": "https://aihot.virxact.com/weekly/2026-W24",
+  "fetched_at": "2026-07-31T00:09:00+08:00"
+}

@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block title %}AIHOT {{ kind_names[kind] }} · {{ report.period }}{% endblock %}
+{% block body %}
+{% include "_archive.html" %}
+
+<main class="paper">
+  <header class="masthead">
+    <div class="masthead-eyebrow">{{ report.eyebrow }}</div>
+    <h1 class="masthead-title">AI<span class="accent">HOT</span> {{ kind_names[kind] }}</h1>
+    <div class="masthead-meta">{{ report.date_range }}</div>
+  </header>
+
+  {% if report.lead and report.lead.headline %}
+  <section class="lead">
+    <div class="lead-kicker">{{ report.lead.kicker or '本期主线' }}</div>
+    <h2 class="lead-headline">{{ report.lead.headline }}</h2>
+    <p class="lead-overview">{{ report.lead.overview }}</p>
+  </section>
+  {% endif %}
+
+  {% if report.stats %}
+  <section class="metrics">
+    {% for s in report.stats %}
+    <div class="metric">
+      <div class="metric-value">{{ s.value }}</div>
+      <div class="metric-label">{{ s.label }}</div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  <nav class="toc">
+    <div class="toc-head">
+      <span class="toc-heading">本期看点</span>
+      <span class="toc-meta">{{ report.themes | length }} 个主题 · {{ report.story_count }} 篇报道</span>
+    </div>
+    <ol class="toc-list">
+      {% for t in report.themes %}
+      <li><a href="#theme-{{ t.no }}" class="toc-row">
+        <span class="toc-no">{{ t.no }}</span>
+        <span class="toc-body"><span class="toc-label">{{ t.title }}</span></span>
+        <span class="toc-count">{{ t.stories | length }}</span>
+      </a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+
+  {% for t in report.themes %}
+  <section class="section" id="theme-{{ t.no }}">
+    <header class="section-header">
+      <div class="section-no">{{ t.no }}</div>
+      <h2 class="section-title">{{ t.title }}</h2>
+      <div class="section-count"><strong>{{ t.stories | length }}</strong> 篇</div>
+    </header>
+    {% if t.intro %}<p class="theme-intro">{{ t.intro }}</p>{% endif %}
+    <div class="articles">
+      {% for s in t.stories %}
+      <article class="article">
+        <h3 class="article-title">
+          {% if s.id %}<a href="{{ url_for('item', item_id=s.id) }}">{{ s.title }}</a>
+          {% else %}{{ s.title }}{% endif %}
+        </h3>
+        <div class="article-source"><span>{{ s.source }}</span></div>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</main>
+{% endblock %}

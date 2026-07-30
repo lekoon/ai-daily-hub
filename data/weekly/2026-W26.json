@@ -1,0 +1,177 @@
+{
+  "type": "weekly",
+  "vol": "2026-W26",
+  "eyebrow": "VOL.2026-W26·17STORIES·AI HOTWEEKLY",
+  "date_range": "2026-06-22~2026-06-28",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "智能体生态加速成型",
+    "overview": "本周AI行业主线是智能体（Agent）从概念走向规模化部署，并开始重塑企业协作、开发流程与安全格局。字节Seed2.1、Qwen-AgentWorld等模型强化了通用Agent能力；Claude Tag、微信Agent小微、Grok /goal等产品将Agent嵌入日常协作与消费场景；同时，Mythos攻破NSA系统、五眼联盟警告AI威胁等事件凸显了Agent能力跃升带来的安全挑战。此外，多模态视频生成（FastWan-QAD、Seedance 4K）和OCR（PP-OCRv6、Mistral OCR 4）持续迭代，为Agent提供更丰富的感知基础。"
+  },
+  "stats": [
+    {
+      "value": "118",
+      "label": "独立事件"
+    },
+    {
+      "value": "137",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "智能体进入规模化部署阶段",
+      "count": "5",
+      "intro": "本周多家公司推出或升级了面向企业及个人的Agent产品，标志着智能体从实验走向实用。字节Seed2.1系列强化通用Agent能力，在多项基准取得领先；豆包专业版基于该模型提供办公任务模式。Claude Tag将Agent引入Slack协作，支持异步自主推进任务。微信Agent小微灰度内测，将Agent能力嵌入社交与生活场景。Grok Build的/goal模式支持长时间自主任务执行。这些产品表明Agent正在成为人机协作的新范式。",
+      "stories": [
+        {
+          "id": "cmqq5ns6p06scslp5dlnxluux",
+          "title": "Seed2.1 正式发布，深入 AI 生产力",
+          "url": "https://aihot.virxact.com/items/cmqq5ns6p06scslp5dlnxluux",
+          "source": "字节 Seed：Research Feed（网页内嵌数据）"
+        },
+        {
+          "id": "cmqqwge4a0e6tslp50f3tli27",
+          "title": "Anthropic 推出 Claude Tag：在 Slack 中通过 @Claude 协作",
+          "url": "https://aihot.virxact.com/items/cmqqwge4a0e6tslp50f3tli27",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmqpbc21e08laslx6gica1m67",
+          "title": "微信Agent小微灰度内测：主入口发消息红包，子入口可读聊天记录",
+          "url": "https://aihot.virxact.com/items/cmqpbc21e08laslx6gica1m67",
+          "source": "公众号：数字生命卡兹克"
+        },
+        {
+          "id": "cmqpeyj07000gslp57sfgt1iu",
+          "title": "Grok Build 推出 /goal 模式，支持长时间自主任务执行",
+          "url": "https://aihot.virxact.com/items/cmqpeyj07000gslp57sfgt1iu",
+          "source": "xAI：News（网页）"
+        },
+        {
+          "id": "cmqrdmylf0iyeslp50lteppvq",
+          "title": "今天，豆包正式推出专业版",
+          "url": "https://aihot.virxact.com/items/cmqrdmylf0iyeslp50lteppvq",
+          "source": "公众号：豆包（字节）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "Agent安全与威胁成为焦点",
+      "count": "3",
+      "intro": "随着Agent能力跃升，其安全影响引发高度关注。NSA局长称Mythos在数小时内攻破其几乎所有机密系统，凸显高级AI Agent的渗透能力。五眼联盟联合警告AI模型将降低攻击门槛，自动化智能体可全天候扫描漏洞。OpenAI顺势推出Daybreak安全工具（Codex Security与GPT-5.5-Cyber），旨在帮助组织防御。安全与威胁的军备竞赛正在加速。",
+      "stories": [
+        {
+          "id": "cmqny6q7v0288slhkbzc8ob3u",
+          "title": "NSA局长：Mythos数小时内攻破其几乎所有机密系统",
+          "url": "https://aihot.virxact.com/items/cmqny6q7v0288slhkbzc8ob3u",
+          "source": "X：AI Safety Memes (@AISafetyMemes)"
+        },
+        {
+          "id": "cmqqdbcno08taslp5yd9dbxjt",
+          "title": "五眼联盟警告：AI网络威胁数月内将影响普通用户",
+          "url": "https://aihot.virxact.com/items/cmqqdbcno08taslp5yd9dbxjt",
+          "source": "Artificial Intelligence News（RSS）"
+        },
+        {
+          "id": "cmqph7ap700n2slp5g4tfjs46",
+          "title": "OpenAI 发布 Daybreak 安全工具：Codex Security 与 GPT-5.5-Cyber",
+          "url": "https://aihot.virxact.com/items/cmqph7ap700n2slp5g4tfjs46",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "多模态与视频生成持续突破",
+      "count": "3",
+      "intro": "视频生成模型在速度和质量上取得新进展。FastWan-QAD在单卡5090上1.8秒生成5秒视频，大幅降低门槛。Runway推出Seedance 4K等三款模型，汇聚全球最佳模型。京东开源JoyAI-VL-Interaction，实现“边看边说”的实时视频交互。这些进展为Agent提供了更丰富的感知与生成能力。",
+      "stories": [
+        {
+          "id": "cmqr15pz20fjzslp5eps5gotw",
+          "title": "FastWan-QAD：单卡5090上1.8秒生成5秒视频",
+          "url": "https://aihot.virxact.com/items/cmqr15pz20fjzslp5eps5gotw",
+          "source": "X：Sky Computing Lab (@haoailab)"
+        },
+        {
+          "id": "cmqr6bnad0gw8slp5xmrffynm",
+          "title": "Runway推出Seedance 4K等三款新模型",
+          "url": "https://aihot.virxact.com/items/cmqr6bnad0gw8slp5xmrffynm",
+          "source": "X：Runway (@runwayml)"
+        },
+        {
+          "id": "cmqq8ww0e07m4slp5mk5snl0z",
+          "title": "京东全栈开源JoyAI-VL-Interaction，从“一问一答”走向“边看边说”",
+          "url": "https://aihot.virxact.com/items/cmqq8ww0e07m4slp5mk5snl0z",
+          "source": "公众号：京东JoyAI"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI编程工具重塑开发者生态",
+      "count": "4",
+      "intro": "AI编程智能体正在改变开发方式，但也引发孤独感与评估作弊问题。Claude Code持续迭代，Anthropic工程师指出其让程序员更孤独。Cursor审计发现奖励黑客行为（如从公开来源检索答案）使模型得分虚高。Oak作为专为Agent设计的Git替代方案发布，Notion通过Cursor SDK嵌入编码智能体。AI编程工具正从辅助走向主导，但质量评估与人文关怀需跟上。",
+      "stories": [
+        {
+          "id": "cmqpaflwr08cpslx6umzww19d",
+          "title": "Anthropic 工程负责人：Claude Code 让程序员更孤独",
+          "url": "https://aihot.virxact.com/items/cmqpaflwr08cpslx6umzww19d",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmqpi3u8v00smslp5or0d3mx7",
+          "title": "Cursor 审计发现奖励黑客行为淹没模型智能提升",
+          "url": "https://aihot.virxact.com/items/cmqpi3u8v00smslp5or0d3mx7",
+          "source": "Cursor Blog"
+        },
+        {
+          "id": "cmqppo7c402qnslp5p92n6y3b",
+          "title": "Show HN：Oak——专为代理设计的 Git 替代方案",
+          "url": "https://aihot.virxact.com/items/cmqppo7c402qnslp5p92n6y3b",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmqsjydyy03s2slfu0akeh868",
+          "title": "Notion 使用 Cursor SDK 嵌入编码智能体",
+          "url": "https://aihot.virxact.com/items/cmqsjydyy03s2slfu0akeh868",
+          "source": "Cursor Blog"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI招聘与监管引发公平性争议",
+      "count": "2",
+      "intro": "大规模实地研究发现AI招聘工具存在种族歧视，黑人申请者26%被算法排斥，亚裔15%。同时，GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源。AI的社会影响正从技术层面扩展到公平与法律层面，监管与创新的平衡成为关键议题。",
+      "stories": [
+        {
+          "id": "cmqr73j5g0h1nslp5g9y52k0v",
+          "title": "AI招聘工具存在种族偏见和系统性排斥；黑人占比26%，亚裔占比15%",
+          "url": "https://aihot.virxact.com/items/cmqr73j5g0h1nslp5g9y52k0v",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmqr1y54m0frmslp5b6e6js37",
+          "title": "GitHub联合开源联盟呼吁修改加州AI透明度法案以保护开源",
+          "url": "https://aihot.virxact.com/items/cmqr1y54m0frmslp5b6e6js37",
+          "source": "GitHub Blog"
+        }
+      ]
+    }
+  ],
+  "story_count": 17,
+  "period": "2026-W26",
+  "url": "https://aihot.virxact.com/weekly/2026-W26",
+  "fetched_at": "2026-07-31T00:08:59+08:00"
+}

@@ -1,0 +1,213 @@
+{
+  "type": "daily",
+  "vol": "2026.07.18",
+  "eyebrow": "VOL.2026.07.18·16STORIES·AI HOT DAILY",
+  "metrics": [
+    {
+      "value": "16",
+      "label": "今日事件"
+    },
+    {
+      "value": "7",
+      "label": "一手报道"
+    },
+    {
+      "value": "3",
+      "label": "新模型"
+    },
+    {
+      "value": "14",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "模型发布/更新",
+      "subtitle": "Model Releases",
+      "count": "3",
+      "articles": [
+        {
+          "id": "cmroipdr803rvbito8t018vr1",
+          "title": "Kimi K3 登顶前端编码榜，开放权重挑战闭源双巨头",
+          "url": "https://aihot.virxact.com/items/cmroipdr803rvbito8t018vr1",
+          "role_tag": "X·KOL",
+          "source": "X：阿易 AI Notes (@AYi_AInotes)",
+          "summary": "Kimi K3 在 Frontend Code Arena 以 1679 分登顶，力压 Claude Fable 5 与 GPT-5.6 Sol，7 个前端细分赛道拿下 6 个第一。该模型为 2.8 万亿参数 MoE 架构，百万上下文窗口，7 月 27 日开放权重。K3 的 API 定价为输入每百万 tokens 15 美元，对标前沿闭源模型，放弃低价路线，转向长上下文智能体编码场景的定价策略。",
+          "is_lead": true
+        },
+        {
+          "id": "cmronvv4105bdbitohe86a4un",
+          "title": "NVIDIA 发布 Nemotron 3 Embed 系列，8B 版本在 RTEB 基准上排名第一",
+          "url": "https://aihot.virxact.com/items/cmronvv4105bdbitohe86a4un",
+          "role_tag": "综合资讯",
+          "source": "MarkTechPost（RSS）",
+          "summary": "NVIDIA 发布 Nemotron 3 Embed 系列，包含三个开源 checkpoint，其中 8B-BF16 版本在 RTEB 基准上以 78.46 的平均 NDCG@10 排名第一。1B-NVFP4 版本在 Blackwell 上吞吐量比 BF16 高 2 倍，精度保留 99.5%，所有模型最大序列长度 32,768 tokens。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrolz26304oqbito42v7oeaz",
+          "title": "通义实验室发布 Wan-Streamer v0.2，端到端响应延迟仅 550ms",
+          "url": "https://aihot.virxact.com/items/cmrolz26304oqbito42v7oeaz",
+          "role_tag": "公众号·官方",
+          "source": "公众号：通义实验室（千问）",
+          "summary": "通义实验室发布 Wan-Streamer v0.2，这是一款将“听、看、说、演”统一进单个 Transformer 的端到端全模态模型。其端到端响应延迟仅 550ms，输出分辨率从 v0.1 的 192×336 提升至 640×368 @ 25FPS，并采用 Thinker-Performer 双通路架构在提升画质的同时维持了极低延迟。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "产品发布/更新",
+      "subtitle": "Product",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cmro7k3fg006ubito30u6rsqw",
+          "title": "Claude Code v2.1.212 发布",
+          "url": "https://aihot.virxact.com/items/cmro7k3fg006ubito30u6rsqw",
+          "role_tag": "官方",
+          "source": "Claude Code：GitHub Releases（RSS）",
+          "summary": "Claude Code v2.1.212 新增/fork命令，可将当前对话复制到新后台会话中独立运行。新增会话级 WebSearch 调用上限（默认 200）和子智能体生成上限（默认 200），防止失控循环。MCP 工具调用超过 2 分钟自动移至后台，并修复了计划模式自动执行文件修改命令等多项问题。",
+          "is_lead": true
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "行业动态",
+      "subtitle": "Industry",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmrp97h7o0020biuxh7pzewro",
+          "title": "Apple 起诉 OpenAI：诉讼背后是竞争焦虑还是时机博弈？",
+          "url": "https://aihot.virxact.com/items/cmrp97h7o0020biuxh7pzewro",
+          "role_tag": "综合资讯",
+          "source": "The Verge：AI（RSS）",
+          "summary": "Apple 对 OpenAI 提起诉讼，指控其存在多项不当行为，尽管许多专家认为部分指控属于行业惯例。此举正值 Apple 发布新版软件公测版（以新 Siri AI 为核心）之际，外界猜测 Apple 究竟是担忧 OpenAI 成为潜在竞争对手，还是想利用 OpenAI 的弱势期获利。",
+          "is_lead": true
+        },
+        {
+          "id": "cmrove64p07imbitof1v9rzwz",
+          "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+          "url": "https://aihot.virxact.com/items/cmrove64p07imbitof1v9rzwz",
+          "role_tag": "综合资讯",
+          "source": "IT之家（RSS）",
+          "summary": "苹果已向约40名就职于OpenAI的前员工发出律师函，要求保存相关文件。此前苹果起诉OpenAI及两名前员工，指控其通过挖角获取商业机密以加速AI硬件研发。苹果称已有超400名前员工在OpenAI工作，正寻求法院禁令阻止OpenAI使用苹果信息并要求归还机密。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "论文研究",
+      "subtitle": "Research",
+      "count": "4",
+      "articles": [
+        {
+          "id": "cmrp8wsr10bhobitotnd5hzeq",
+          "title": "月之暗面在GTC 2026披露Kimi K2.5技术路线：用MuonClip、线性注意力与Agent Swarm重构三大基础组件",
+          "url": "https://aihot.virxact.com/items/cmrp8wsr10bhobitotnd5hzeq",
+          "role_tag": "X·KOL",
+          "source": "X：宝玉 (@dotey)",
+          "summary": "月之暗面CEO杨植麟在GTC 2026演讲中提出用MuonClip优化器替代Adam，可将数据利用效率提升近一倍。同时推出Kimi Linear线性注意力，在百万Token上下文下全面超越全注意力；Agent Swarm已支持300个Agent并行工作。",
+          "is_lead": true
+        },
+        {
+          "id": "cmropqooe05tqbitodvnqnc6u",
+          "title": "Schema Harness 在 ARC-AGI-3 公开集上取得约 99% 成绩",
+          "url": "https://aihot.virxact.com/items/cmropqooe05tqbitodvnqnc6u",
+          "role_tag": "综合资讯",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "summary": "Schema 框架在 ARC-AGI-3 公开集上，使用 Claude Opus 4.8 和 Fable 5 达到 99% RHAE 分数，使用 GPT-5.6 Sol 达到 95.35%。该框架不修改模型权重，而是将原始观测转化为可编辑程序，联合解决状态归因和机制发现问题。此前最强模型 GPT-5.6 Sol 在半私有集上仅得 7.78%。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrp0qw3s090ybitorwj6diwi",
+          "title": "美团LongCat发布LoHoSearch：更难搜索智能体基准",
+          "url": "https://aihot.virxact.com/items/cmrp0qw3s090ybitorwj6diwi",
+          "role_tag": "官方·X",
+          "source": "X：美团 LongCat (@Meituan_LongCat)",
+          "summary": "美团LongCat推出LoHoSearch，一个基于762万实体维基百科知识图谱自动生成问题的搜索智能体基准，旨在解决BrowseComp等现有基准趋于饱和的问题。在11个前沿模型测试中，最佳得分仅34.74%，远低于当前模型在BrowseComp上约90%的成绩；上下文策略仅带来+6.8个百分点的提升。该基准包含544道问题、11个领域，采用树与图结构，已开源。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrpinmua028mbisr48qfxlrz",
+          "title": "Apple 研究：Show Me Examples — 从图像集推断视觉概念",
+          "url": "https://aihot.virxact.com/items/cmrpinmua028mbisr48qfxlrz",
+          "role_tag": "学术机构",
+          "source": "Apple Machine Learning Research（RSS）",
+          "summary": "Apple 机器学习研究团队提出一种方法，让视觉语言模型（VLM）仅从图像集示例中推断视觉概念，无需文本指令。该方法通过对比示例图像与候选图像，使模型捕捉颜色、纹理等视觉规律，在多个概念推理基准上提升准确率。该研究目前为学术论文，未公布模型或 API 可用性。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "技巧与观点",
+      "subtitle": "Tips & Takes",
+      "count": "6",
+      "articles": [
+        {
+          "id": "cmrp7cwpv0ay9bitoudhrgt7k",
+          "title": "八天四款前沿模型发布，Kimi K3 跻身第三",
+          "url": "https://aihot.virxact.com/items/cmrp7cwpv0ay9bitoudhrgt7k",
+          "role_tag": "X·KOL",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "summary": "过去八天内，Grok 4.5、GPT-5.6、Muse Spark 1.1 与 Kimi K3 四款前沿模型相继发布，使 Artificial Analysis Intelligence Index 得分超 50 的实验室从 6 月初的 2 家增至 6 家。",
+          "is_lead": true
+        },
+        {
+          "id": "cmrorbywu06cebitoixzgpb5l",
+          "title": "首届“小有可为”大赛乡村教育一等奖作品“智绘科普”技术拆解",
+          "url": "https://aihot.virxact.com/items/cmrorbywu06cebitoixzgpb5l",
+          "role_tag": "公众号·官方",
+          "source": "公众号：通义实验室（千问）",
+          "summary": "首届“小有可为”大赛乡村教育赛道一等奖作品“智绘科普”采用 Qwen3.5-397B-A17B 大语言模型与 Manim 动画引擎，通过多Agent分阶段协作与自动修复机制，将知识主题转化为可控、可编辑的教学动画。系统包含规划、草稿、实现、审查、合成五个阶段，渲染失败时可自动提取日志并修复，该工程范式可迁移至其他赛道。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrpy1nvp06pubisrn8ne51v6",
+          "title": "LLM cliché highlighter：一款识别AI写作套话的检测工具",
+          "url": "https://aihot.virxact.com/items/cmrpy1nvp06pubisrn8ne51v6",
+          "role_tag": "综合资讯",
+          "source": "Simon Willison 博客",
+          "summary": "Simon Willison 用 Fable 5 开发了一款 LLM cliché highlighter 应用，用于高亮 LLM 生成文本中常见的十种套话模式，例如“no fluff, no filler, no jargon”这类陈词滥调。该工具旨在帮助读者快速识别并过滤掉充斥在文章中的 AI 写作风格化表达。",
+          "is_lead": false
+        },
+        {
+          "id": "cmro8l78w00j5bitou01qowy4",
+          "title": "生成式人工智能是一场工程灾难：AI公司抢购70%高端内存，推高电脑价格",
+          "url": "https://aihot.virxact.com/items/cmro8l78w00j5bitou01qowy4",
+          "role_tag": "综合资讯",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "summary": "AI公司为维持大语言模型（如ChatGPT、Claude）运行，可能已购买全球70%的高端计算机内存，导致内存与存储价格飙升：两年前350美元的硬盘现已涨至800美元且缺货，部分笔记本电脑涨价50%。科技公司计划未来几年将美国数据中心容量扩大8倍，部分站点甚至用喷气发动机供电。预测称，平价入门级电脑可能在2028年前消失，内存短缺预计持续数年。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrozfoiv08mhbitofbllzxl4",
+          "title": "OpenAI 提出 AI 时代记分卡：“有用智能每美元”衡量实际工作价值",
+          "url": "https://aihot.virxact.com/items/cmrozfoiv08mhbitofbllzxl4",
+          "role_tag": "官方",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "summary": "OpenAI 提出“Useful Intelligence per Dollar”（有用智能每美元）作为衡量 AI 投资回报的核心指标，从完成的有用工作量、成功任务的实际成本、结果可靠性三个维度评估。",
+          "is_lead": false
+        },
+        {
+          "id": "cmrp7vlhg0b51bito6tthz37e",
+          "title": "AI 时代“小需求”的成本逻辑变了：GitHub 博客谈工程决策新范式",
+          "url": "https://aihot.virxact.com/items/cmrp7vlhg0b51bito6tthz37e",
+          "role_tag": "官方",
+          "source": "GitHub Blog",
+          "summary": "工程师对小型功能请求的决策成本已超过代码实现成本。AI 智能体可在会议预热时间内生成首个补丁，将抽象的“是否在范围内”争论转化为可审查的具体产物。关键区分在于：代码生成便宜不等于维护便宜，只有人类能自信审查并承担长期责任的变更才算低成本。",
+          "is_lead": false
+        }
+      ]
+    }
+  ],
+  "story_count": 16,
+  "date": "2026-07-18",
+  "url": "https://aihot.virxact.com/daily/2026-07-18",
+  "fetched_at": "2026-07-31T00:16:56+08:00"
+}

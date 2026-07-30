@@ -1,0 +1,15 @@
+{
+  "title": "腾讯混元开源 AngelSpec 投机解码框架",
+  "source": "Tencent Hy (@TencentHunyuan)",
+  "published_at": "2026-07-29 20:43",
+  "score": "74",
+  "flags": "精选",
+  "original_url": "https://x.com/TencentHunyuan/status/2082447023626944936",
+  "aihot_url": "https://aihot.virxact.com/items/cms639jt416x6robksy69dzel",
+  "curation_reason": "做推理加速的可以试试这个端到端推测解码框架，腾讯开源了完整代码和权重，在 Hy3 上提速近 2.4 倍且吞吐更高，拿来即用。",
+  "ai_summary": "腾讯混元开源端到端投机解码框架 AngelSpec，支持训练与部署。在 Hy3-A21B 模型上，其 DFly 方案相比自回归解码实现 1.98–2.40 倍端到端加速，吞吐量比 DFlash 高 10.5–11.8%。训练代码及 Hy3-A21B MTP/DFly 草稿模型权重已开源。",
+  "content_markdown": "🚀 我们已开源 AngelSpec，这是一个支持训练与部署的端到端推测解码框架。\n\n在 Hy3-A21B 上，DFly 在 4 到 64 的测试并发度范围内，相比自回归解码实现了 1.98–2.40 倍的端到端加速，吞吐量比 DFlash 高出 10.5–11.8%。\n\n训练代码以及 Hy3-A21B MTP/DFly 草稿模型权重现已开放： GitHub：https://github.com/Tencent/AngelSpec 论文：https://arxiv.org/abs/2607.25852 文档：https://angelspec.readthedocs.io Hugging Face：https://huggingface.co/collections/AngelSlim/angelspec ModelScope：https://modelscope.cn/collections/AngelSlim/AngelSpec #Hy3 #AngelSpec #开源",
+  "id": "cms639jt416x6robksy69dzel",
+  "url": "https://aihot.virxact.com/items/cms639jt416x6robksy69dzel",
+  "fetched_at": "2026-07-31T00:17:04+08:00"
+}

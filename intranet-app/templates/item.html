@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block title %}{{ item.title }} · AIHOT{% endblock %}
+{% block body %}
+<main class="paper paper-narrow">
+  <article class="item-full">
+    <header class="item-header">
+      <h1 class="item-title">{{ item.title }}</h1>
+      <div class="item-meta">
+        {% if item.source %}<span class="role-tag">{{ item.source }}</span>{% endif %}
+        {% if item.published_at %}<span>{{ item.published_at }}</span>{% endif %}
+        {% if item.score %}<span class="score">AIHOT 评分 {{ item.score }}</span>{% endif %}
+      </div>
+      <div class="item-links">
+        {% if item.original_url %}<a href="{{ item.original_url }}" target="_blank" rel="noopener">阅读原文 ↗</a>{% endif %}
+        {% if item.aihot_url %}<a href="{{ item.aihot_url }}" target="_blank" rel="noopener">AIHOT 原页 ↗</a>{% endif %}
+      </div>
+    </header>
+
+    {% if item.curation_reason %}
+    <section class="item-box">
+      <h2>精选理由</h2>
+      <p>{{ item.curation_reason }}</p>
+    </section>
+    {% endif %}
+
+    {% if item.ai_summary %}
+    <section class="item-box">
+      <h2>AI 摘要</h2>
+      <p>{{ item.ai_summary }}</p>
+    </section>
+    {% endif %}
+
+    {% if item.content_markdown %}
+    <section class="item-content">
+      <h2>正文</h2>
+      <div class="prose">{{ item.content_markdown | md | safe }}</div>
+    </section>
+    {% endif %}
+  </article>
+</main>
+{% endblock %}

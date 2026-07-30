@@ -1,0 +1,15 @@
+{
+  "title": "开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B",
+  "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "published_at": "2026-07-30 00:09",
+  "score": "74",
+  "flags": "精选",
+  "original_url": "https://github.com/drumih/turbo-fieldfare",
+  "aihot_url": "https://aihot.virxact.com/items/cms6arrc700rbrotzo1wseql3",
+  "curation_reason": "这是我见过最极端的端侧优化，把 26B 参数塞进 2GB 内存，意味着所有 M 系 Mac 都能本地跑大模型了，开发者值得马上 clone 试试。",
+  "ai_summary": "一个开源引擎让 Gemma 4 26B 模型能在任何 M 系列 Mac 上运行，仅需 2 GB 内存。该项目已发布在 GitHub 上，大幅降低了本地运行大语言模型的硬件门槛。",
+  "content_markdown": "这是一则列表来源，站内未收录完整正文。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cms6arrc700rbrotzo1wseql3",
+  "url": "https://aihot.virxact.com/items/cms6arrc700rbrotzo1wseql3",
+  "fetched_at": "2026-07-31T00:17:03+08:00"
+}

@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block title %}AIHOT 日报 · {{ report.date }}{% endblock %}
+{% block body %}
+{% include "_archive.html" %}
+
+<main class="paper">
+  <header class="masthead">
+    <div class="masthead-eyebrow">VOL.{{ report.vol }} · {{ report.story_count }} STORIES · AI HOT DAILY</div>
+    <h1 class="masthead-title">AI<span class="accent">HOT</span> 日报</h1>
+    <div class="masthead-meta">{{ report.date }}</div>
+  </header>
+
+  <nav class="toc">
+    <div class="toc-head">
+      <span class="toc-heading">今日看点</span>
+      <span class="toc-meta">{{ report.story_count }} 篇报道</span>
+    </div>
+    <ol class="toc-list">
+      {% for sec in report.sections %}
+      <li><a href="#sec-{{ sec.no }}" class="toc-row">
+        <span class="toc-no">{{ sec.no }}</span>
+        <span class="toc-body">
+          <span class="toc-label">{{ sec.title }}</span>
+          {% if sec.articles %}<span class="toc-sub">{{ sec.articles[0].title }}</span>{% endif %}
+        </span>
+        <span class="toc-count">{{ sec.articles | length }}</span>
+      </a></li>
+      {% endfor %}
+    </ol>
+  </nav>
+
+  {% if report.metrics %}
+  <section class="metrics">
+    {% for m in report.metrics %}
+    <div class="metric">
+      <div class="metric-value">{{ m.value }}</div>
+      <div class="metric-label">{{ m.label }}</div>
+    </div>
+    {% endfor %}
+  </section>
+  {% endif %}
+
+  {% for sec in report.sections %}
+  <section class="section" id="sec-{{ sec.no }}">
+    <header class="section-header">
+      <div class="section-no">{{ sec.no }}</div>
+      <h2 class="section-title">{{ sec.title }}</h2>
+      {% if sec.subtitle %}<span class="section-subtitle">{{ sec.subtitle }}</span>{% endif %}
+      <div class="section-count"><strong>{{ sec.articles | length }}</strong> 篇</div>
+    </header>
+    <div class="articles">
+      {% for a in sec.articles %}
+      <article class="article {{ 'article-lead' if a.is_lead }}">
+        <h3 class="article-title">
+          {% if a.id %}<a href="{{ url_for('item', item_id=a.id) }}">{{ a.title }}</a>
+          {% else %}{{ a.title }}{% endif %}
+        </h3>
+        <div class="article-source">
+          {% if a.role_tag %}<span class="role-tag">{{ a.role_tag }}</span>{% endif %}
+          <span>{{ a.source }}</span>
+        </div>
+        <p class="article-summary">{{ a.summary }}</p>
+      </article>
+      {% endfor %}
+    </div>
+  </section>
+  {% endfor %}
+</main>
+{% endblock %}

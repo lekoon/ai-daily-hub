@@ -1,0 +1,195 @@
+{
+  "type": "weekly",
+  "vol": "2026-W23",
+  "eyebrow": "VOL.2026-W23·20STORIES·AI HOTWEEKLY",
+  "date_range": "2026-06-01~2026-06-07",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI基础设施竞赛与智能体生态爆发",
+    "overview": "本周AI行业主线是基础设施竞赛与智能体生态的全面爆发。一方面，Anthropic秘密提交IPO、Alphabet融资800亿美元、OpenAI启动Stargate数据中心等事件，标志着资本与算力军备竞赛进入白热化；另一方面，从Claude Code动态工作流、Perplexity Search as Code到Replit单提示词构建业务，智能体正从工具进化为自主执行复杂任务的平台。同时，开源模型在编码、长上下文等维度持续追赶闭源，而苹果、特斯拉等巨头的AI落地案例则揭示了技术栈依赖与实用化挑战。"
+  },
+  "stats": [
+    {
+      "value": "219",
+      "label": "独立事件"
+    },
+    {
+      "value": "295",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "资本与算力军备竞赛升级",
+      "count": "4",
+      "intro": "本周AI基础设施投资进入新阶段：Anthropic保密提交IPO申请，估值达9650亿美元；Alphabet计划融资800亿美元用于AI支出；OpenAI在密歇根启动1GW Stargate数据中心。这些动作表明，头部玩家正通过资本市场和超大规模基建锁定长期竞争优势。",
+      "stories": [
+        {
+          "id": "cmpvf63k406b0sl0zv0ef9647",
+          "title": "Anthropic 保密向 SEC 提交 S-1 草案",
+          "url": "https://aihot.virxact.com/items/cmpvf63k406b0sl0zv0ef9647",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmpvphtkh00j0slukzfwj1aez",
+          "title": "Alphabet将通过发行股票筹集800亿美元用于AI支出计划",
+          "url": "https://aihot.virxact.com/items/cmpvphtkh00j0slukzfwj1aez",
+          "source": "Bloomberg：Technology（RSS）"
+        },
+        {
+          "id": "cmpvlaey600deslfpl35rf3t5",
+          "title": "OpenAI在密歇根州启动Stargate 1GW数据中心建设",
+          "url": "https://aihot.virxact.com/items/cmpvlaey600deslfpl35rf3t5",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmpvej11l065tsl0zrvg9kj3a",
+          "title": "智谱：建议 A 股发行并在科创板上市",
+          "url": "https://aihot.virxact.com/items/cmpvej11l065tsl0zrvg9kj3a",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "智能体从工具进化为平台",
+      "count": "4",
+      "intro": "智能体能力本周实现质的飞跃：Claude Code新增动态工作流，可在运行时创建多智能体框架；Perplexity推出Search as Code，让智能体直接编写Python代码调用搜索栈；Replit实现单提示词构建完整业务。这些进展表明，智能体正从单一任务执行者演变为可自主编排复杂工作流的平台级能力。",
+      "stories": [
+        {
+          "id": "cmpx51hf700otslcksx7ng54n",
+          "title": "Claude Code 新增动态工作流功能",
+          "url": "https://aihot.virxact.com/items/cmpx51hf700otslcksx7ng54n",
+          "source": "Claude：Blog（网页）"
+        },
+        {
+          "id": "cmpvij4w2002vslykng47v8ya",
+          "title": "Perplexity发布Search as Code搜索架构",
+          "url": "https://aihot.virxact.com/items/cmpvij4w2002vslykng47v8ya",
+          "source": "X：Perplexity (@perplexity_ai)"
+        },
+        {
+          "id": "cmpvmm0ab00ndslfpbxb2m5kh",
+          "title": "Replit 用单个提示词构建完整业务",
+          "url": "https://aihot.virxact.com/items/cmpvmm0ab00ndslfpbxb2m5kh",
+          "source": "X：Replit (@Replit)"
+        },
+        {
+          "id": "cmpvj4oqx009islykdg19umm6",
+          "title": "xAI发布Composer 2.5",
+          "url": "https://aihot.virxact.com/items/cmpvj4oqx009islykdg19umm6",
+          "source": "xAI：News（网页）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "开源模型在编码与长上下文上追赶闭源",
+      "count": "4",
+      "intro": "本周多个开源模型在关键基准上超越闭源对手：MiniMax M3以100万token上下文和稀疏注意力架构在SWE-Bench Pro上超越GPT-5.5和Gemini 3.1 Pro；JetBrains发布12B混合专家模型Mellum2；阶跃星辰Step 3.7 Flash以极低KV-cache成本实现高效推理。开源与闭源正沿着不同增长曲线分化，开源在特定场景下展现出竞争力。",
+      "stories": [
+        {
+          "id": "cmpunu0g50002slbrlfonpoc3",
+          "title": "MiniMax M3：前沿编码、100万token上下文与原生多模态一体模型",
+          "url": "https://aihot.virxact.com/items/cmpunu0g50002slbrlfonpoc3",
+          "source": "MiniMax：Blog（网页）"
+        },
+        {
+          "id": "cmpvfn56c06fxsl0zknga1ztr",
+          "title": "介绍 Mellum2：JetBrains 推出的 12B 混合专家模型",
+          "url": "https://aihot.virxact.com/items/cmpvfn56c06fxsl0zknga1ztr",
+          "source": "Hugging Face：Blog（RSS）"
+        },
+        {
+          "id": "cmpw488y9049wslukkrk33tc9",
+          "title": "阶跃星辰Step 3.7 Flash发布，专为高效推理设计",
+          "url": "https://aihot.virxact.com/items/cmpw488y9049wslukkrk33tc9",
+          "source": "X：阶跃星辰 StepFun (@StepFun_ai)"
+        },
+        {
+          "id": "cmpwzm8ij028gsl798th4vl54",
+          "title": "微软首款高级推理AI模型MAI-Thinking-1发布",
+          "url": "https://aihot.virxact.com/items/cmpwzm8ij028gsl798th4vl54",
+          "source": "The Verge：AI（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI落地：从工厂到消费电子的实用化挑战",
+      "count": "4",
+      "intro": "AI正加速渗透至实体场景：NVIDIA发布工厂运营蓝图，富士康采用后预计根源分析时间缩短80%；特斯拉FSD完成6000公里零干预横穿加拿大；苹果WWDC将推本地运行Gemini蒸馏模型，但技术栈高度依赖外部。这些案例既展示了AI的实用价值，也暴露了技术栈依赖、安全漏洞等现实挑战。",
+      "stories": [
+        {
+          "id": "cmpuse81v00hrsl0zr2uqw9km",
+          "title": "NVIDIA 发布工厂运营蓝图，为工厂提供自主智能管理智能体",
+          "url": "https://aihot.virxact.com/items/cmpuse81v00hrsl0zr2uqw9km",
+          "source": "NVIDIA Blog：Agentic AI（网页）"
+        },
+        {
+          "id": "cmpt5p76d07g3sluzcbxft4f4",
+          "title": "6000 多公里全程零干预：特斯拉 FSD 完成全球首次横穿加拿大自动驾驶",
+          "url": "https://aihot.virxact.com/items/cmpt5p76d07g3sluzcbxft4f4",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmptqxpc00056slpme4gyxf5n",
+          "title": "苹果WWDC将推AI升级：Gemini蒸馏模型本地运行，但技术栈外部依赖显著",
+          "url": "https://aihot.virxact.com/items/cmptqxpc00056slpme4gyxf5n",
+          "source": "X：Kim (@kimmonismus)"
+        },
+        {
+          "id": "cmpvmvuc000r2slfpabxe89ry",
+          "title": "Meta的AI被利用来劫持Instagram账号",
+          "url": "https://aihot.virxact.com/items/cmpvmvuc000r2slfpabxe89ry",
+          "source": "The Verge：订阅版科技（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI安全与治理成为全球焦点",
+      "count": "4",
+      "intro": "本周AI安全议题密集出现：Anthropic扩展Project Glasswing计划，利用AI扫描关键基础设施漏洞；OpenAI呼吁设立全球AI安全研究所保护青少年；佛罗里达州起诉OpenAI涉ChatGPT相关谋杀案。同时，Anthropic支持美国AI行政令，表明行业正从被动应对转向主动参与治理框架构建。",
+      "stories": [
+        {
+          "id": "cmpwoaoyd04pcslsnnqfm8490",
+          "title": "Anthropic扩展Project Glasswing计划",
+          "url": "https://aihot.virxact.com/items/cmpwoaoyd04pcslsnnqfm8490",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmpwrifyw0017sl79bcjk20i4",
+          "title": "OpenAI呼吁通过全球领导力推进青年AI安全与机遇",
+          "url": "https://aihot.virxact.com/items/cmpwrifyw0017sl79bcjk20i4",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmpvl6hcy00b3slfp8iajt5kg",
+          "title": "佛罗里达州起诉OpenAI与Sam Altman：涉多起ChatGPT相关谋杀案",
+          "url": "https://aihot.virxact.com/items/cmpvl6hcy00b3slfp8iajt5kg",
+          "source": "Ars Technica：AI（RSS）"
+        },
+        {
+          "id": "cmpx6ffoc010yslckfofiel4y",
+          "title": "Anthropic支持美国AI行政令实施",
+          "url": "https://aihot.virxact.com/items/cmpx6ffoc010yslckfofiel4y",
+          "source": "X：Anthropic (@AnthropicAI)"
+        }
+      ]
+    }
+  ],
+  "story_count": 20,
+  "period": "2026-W23",
+  "url": "https://aihot.virxact.com/weekly/2026-W23",
+  "fetched_at": "2026-07-31T00:09:01+08:00"
+}
