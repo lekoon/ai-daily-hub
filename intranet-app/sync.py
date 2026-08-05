@@ -10,7 +10,7 @@ import argparse
 import json
 import sys
 import time
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
 import requests
@@ -94,6 +94,16 @@ def main():
         db.upsert_item(item_id, data)
         n_items += 1
         time.sleep(0.05)
+
+    # 兜底：index.json 可能因 CDN 缓存延迟而缺少当天日报，
+    # 直接按“今天（北京时间）”再拉一次，保证内网 9:30 能拿到当日数据
+    today = datetime.now(timezone(timedelta(hours=8))).date().isoformat()
+    if today not in index.get("daily", []) and not db.has_report("daily", today):
+        data, _ = load_json(f"data/daily/{today}.json")
+        if data is not None:
+            db.upsert_report("daily", today, data)
+            n_reports += 1
+            print(f"兜底补充：今日日报 {today}")
 
     db.set_meta("last_sync", started)
     db.set_meta("remote_updated_at", index.get("updated_at", ""))
