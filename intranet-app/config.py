@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = os.environ.get("AIHUB_DB", str(BASE_DIR / "aihub.db"))
 
 # GitHub 仓库（爬虫数据所在仓库），格式 "用户名/仓库名"
-SYNC_REPO = os.environ.get("AIHUB_REPO", "YOUR_NAME/ai-daily-hub")
+SYNC_REPO = os.environ.get("AIHUB_REPO", "lekoon/ai-daily-hub")
 SYNC_BRANCH = os.environ.get("AIHUB_BRANCH", "main")
 
 
