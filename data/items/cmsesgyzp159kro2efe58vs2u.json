@@ -1,0 +1,15 @@
+{
+  "title": "蚂蚁百灵发布Ling-3.0-flash开源权重",
+  "source": "Ant Ling (@AntLingAGI)",
+  "published_at": "2026-08-04 23:03",
+  "score": "66",
+  "flags": "精选",
+  "original_url": "https://x.com/AntLingAGI/status/2084656533489754475",
+  "aihot_url": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u",
+  "curation_reason": "蚂蚁百灵开放 Ling-3.0-flash 权重并直接给出 BF16 和 FP8 量化版本，让开发者能根据硬件条件灵活选择精度与推理速度。",
+  "ai_summary": "今天，我们发布了 Ling-3.0-flash 的开源权重。🎉\n\n官方 BF16 和 FP8 量化版本现已可用，您可以根据自己的硬件、性能要求和部署需求选择最合适的版本。",
+  "content_markdown": "今天，我们正式发布 Ling-3.0-flash 的开源权重。🎉\n\n官方 BF16 和 FP8 量化版本现已可用，你可以根据硬件条件、性能要求和部署需求选择最合适的版本。",
+  "id": "cmsesgyzp159kro2efe58vs2u",
+  "url": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u",
+  "fetched_at": "2026-08-05T23:47:35+08:00"
+}

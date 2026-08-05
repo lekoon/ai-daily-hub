@@ -1,0 +1,233 @@
+{
+  "type": "monthly",
+  "vol": "2026-07",
+  "eyebrow": "VOL.2026-07·25STORIES·AI HOTMONTHLY",
+  "date_range": "2026-07-01~2026-07-31",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "智能体落地与算力竞逐",
+    "overview": "本期主线是AI从模型竞赛转向智能体落地与基础设施竞逐。模型层面，Anthropic发布Claude Sonnet 5，Google推出Nano Banana 2 Lite与Gemini Omni Flash，美团开源LongCat-2.0，NVIDIA发布扩散语言模型，模型能力持续提升且价格下降。产品层面，智能体应用加速渗透：X推出hosted X MCP，Acti发布智能体键盘，xAI推出Voice Agent Builder，昆仑万维发布Skywork Tags，蚂蚁阿宝开放公测。基础设施方面，黑石投资日本AI数据中心，Meta计划出售算力，AWS派驻工程师，Cloudflare推出AI流量管理与Monetization Gateway。同时，行业治理与争议并存：Anthropic在Claude Code中植入隐写术识别中国用户引发信任危机，Meta秘密测试竞品安全引发争议。整体来看，智能体正从工具走向平台，算力成为核心资源，行业在快速扩张中面临治理挑战。"
+  },
+  "stats": [
+    {
+      "value": "556",
+      "label": "独立事件"
+    },
+    {
+      "value": "556",
+      "label": "条精选"
+    },
+    {
+      "value": "31",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈4 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "模型迭代与开源生态",
+      "count": "5",
+      "intro": "本期多家机构发布新模型，性能提升且价格下降，开源模型成为重要力量。Anthropic发布Claude Sonnet 5，性能接近Opus 4.8但定价更低；Google推出Nano Banana 2 Lite和Gemini Omni Flash，主打速度与成本；美团开源LongCat-2.0，采用1.6T参数MoE架构，在国产算力集群上训练；NVIDIA发布扩散语言模型，提升生成吞吐量。这些发布显示模型能力持续增强，同时价格竞争加剧，开源模型在编程等场景中逐步获得采用。",
+      "stories": [
+        {
+          "id": "cmr0yev3s005cslw8omm20ml6",
+          "title": "Claude Sonnet 5 发布",
+          "url": "https://aihot.virxact.com/items/cmr0yev3s005cslw8omm20ml6",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmr0ucc880030slatw1gfkq2h",
+          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
+          "url": "https://aihot.virxact.com/items/cmr0ucc880030slatw1gfkq2h",
+          "source": "Google DeepMind：Blog（RSS）"
+        },
+        {
+          "id": "cmr08dev204qjslkit52gdrur",
+          "title": "美团 LongCat 发布旗舰模型 LongCat-2.0",
+          "url": "https://aihot.virxact.com/items/cmr08dev204qjslkit52gdrur",
+          "source": "X：硅基流动 SiliconFlow (@SiliconFlowAI)"
+        },
+        {
+          "id": "cmr1js18u03imslnld2yrjboo",
+          "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
+          "url": "https://aihot.virxact.com/items/cmr1js18u03imslnld2yrjboo",
+          "source": "公众号：龙猫LongCat（美团）"
+        },
+        {
+          "id": "cmr1ti4v001xlsl8zovi1yoqa",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+          "url": "https://aihot.virxact.com/items/cmr1ti4v001xlsl8zovi1yoqa",
+          "source": "MarkTechPost（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "智能体应用加速落地",
+      "count": "5",
+      "intro": "智能体正从概念走向实际应用，多家公司推出面向用户或开发者的智能体产品。X推出hosted X MCP，让AI智能体直连X API；Acti发布基于Gemini的智能体键盘，用自然语言创建快捷方式；xAI推出Voice Agent Builder，无代码创建语音智能体；昆仑万维发布Skywork Tags，将AI智能体接入工作群聊；蚂蚁阿宝开放公测，以对话方式安排办事。这些产品降低了智能体使用门槛，推动其在日常场景中的渗透。",
+      "stories": [
+        {
+          "id": "cmr07c62l04huslkimxy3vdw5",
+          "title": "X（Twitter）发布 hosted X MCP，AI 智能体可直连 X API",
+          "url": "https://aihot.virxact.com/items/cmr07c62l04huslkimxy3vdw5",
+          "source": "X：歸藏 (@op7418)"
+        },
+        {
+          "id": "cmr0yab2e003oslw8uw5zghrc",
+          "title": "Acti 将 AI 智能体直接放入手机键盘",
+          "url": "https://aihot.virxact.com/items/cmr0yab2e003oslw8uw5zghrc",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmr2a81sq066ssl8z8vo7so2x",
+          "title": "xAI 发布 Voice Agent Builder 测试版",
+          "url": "https://aihot.virxact.com/items/cmr2a81sq066ssl8z8vo7so2x",
+          "source": "xAI：News（网页）"
+        },
+        {
+          "id": "cmr2x3a7n0c0tsl8zxytx1kfx",
+          "title": "昆仑万维天工3.2发布Skywork Tags，AI智能体加入工作群聊",
+          "url": "https://aihot.virxact.com/items/cmr2x3a7n0c0tsl8zxytx1kfx",
+          "source": "公众号：昆仑万维（天工）"
+        },
+        {
+          "id": "cmr2x7ii20c2jsl8zygz5iw9n",
+          "title": "AI 版支付宝开放公测，蚂蚁阿宝无需邀请码即可体验",
+          "url": "https://aihot.virxact.com/items/cmr2x7ii20c2jsl8zygz5iw9n",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "基础设施与算力投资",
+      "count": "5",
+      "intro": "算力成为AI发展的核心资源，科技巨头和投资机构加大投入。黑石计划在日本投资300亿美元建设AI数据中心，并与阿波罗、博通成立AI XPV平台；Meta计划推出云业务出售算力；AWS投入10亿美元派驻工程师协助客户落地AI；Cloudflare推出AI流量管理和Monetization Gateway，为网站提供变现方案。这些动态显示，算力基础设施的建设和商业化正在加速。",
+      "stories": [
+        {
+          "id": "cmr0czddc00pyslole7byaugu",
+          "title": "黑石未来3～5年拟投300亿美元在日本建AI数据中心，联合成立AI XPV平台",
+          "url": "https://aihot.virxact.com/items/cmr0czddc00pyslole7byaugu",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmr259c3104wjsl8z81g6p5op",
+          "title": "Meta效仿SpaceX，将过剩AI算力变现",
+          "url": "https://aihot.virxact.com/items/cmr259c3104wjsl8z81g6p5op",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmr1qbf1w012isl8zibrcgm2h",
+          "title": "亚马逊 AWS 砸 10 亿美元，派遣工程师进驻客户公司",
+          "url": "https://aihot.virxact.com/items/cmr1qbf1w012isl8zibrcgm2h",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmr25x2x2051tsl8ze3nntrkd",
+          "title": "Cloudflare 推出全新AI流量管理选项：区分搜索、智能体与训练爬虫，保护广告页面",
+          "url": "https://aihot.virxact.com/items/cmr25x2x2051tsl8ze3nntrkd",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmr25x2x1051qsl8zip6dakji",
+          "title": "Cloudflare 推出 Monetization Gateway：通过 x402 协议为任何资源收费",
+          "url": "https://aihot.virxact.com/items/cmr25x2x1051qsl8zip6dakji",
+          "source": "Cloudflare Blog"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI治理与信任争议",
+      "count": "3",
+      "intro": "随着AI应用深入，治理和信任问题凸显。Anthropic在Claude Code中植入隐写术识别中国用户，引发信任危机；Meta秘密测试竞品安全，被指违反服务条款；商务部解除对Claude Fable 5的出口管制，显示政策调整。这些事件表明，AI发展需要在创新与合规之间寻求平衡。",
+      "stories": [
+        {
+          "id": "cmr1bxokg01eoslnlem278yfq",
+          "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
+          "url": "https://aihot.virxact.com/items/cmr1bxokg01eoslnlem278yfq",
+          "source": "公众号：数字生命卡兹克"
+        },
+        {
+          "id": "cmr0kov5302qnslolcwg00yqd",
+          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
+          "url": "https://aihot.virxact.com/items/cmr0kov5302qnslolcwg00yqd",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmr1b37su016jslnl980vxul0",
+          "title": "商务部解除Claude Fable 5等出口管制",
+          "url": "https://aihot.virxact.com/items/cmr1b37su016jslnl980vxul0",
+          "source": "X：Anthropic (@AnthropicAI)"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "开发者工具与工作流",
+      "count": "4",
+      "intro": "开发者工具持续演进，提升AI应用开发效率。Google发布ADK Go 2.0和Genkit Agents API，简化多智能体应用构建；Claude Code更新增加后台智能体通知和/dataviz技能；阿里巴巴发布Page Agent，实现网页DOM自然语言操控；Cloudflare推出AI流量管理。这些工具降低了开发门槛，推动了智能体应用的普及。",
+      "stories": [
+        {
+          "id": "cmr0wupt4007gsl403t7s6dbn",
+          "title": "ADK Go 2.0 发布：构建可靠的多智能体应用，新增基于图的工作流引擎、人工参与循环与动态编排",
+          "url": "https://aihot.virxact.com/items/cmr0wupt4007gsl403t7s6dbn",
+          "source": "Google Developers Blog（RSS）"
+        },
+        {
+          "id": "cmr2a5ylh066ksl8zdcmac2cd",
+          "title": "用 Genkit 构建智能体全栈应用",
+          "url": "https://aihot.virxact.com/items/cmr2a5ylh066ksl8zdcmac2cd",
+          "source": "Google Developers Blog（RSS）"
+        },
+        {
+          "id": "cmr2jtg2z08nvsl8zt9pagjoe",
+          "title": "Claude Code v2.1.198 发布",
+          "url": "https://aihot.virxact.com/items/cmr2jtg2z08nvsl8zt9pagjoe",
+          "source": "Claude Code：GitHub Releases（RSS）"
+        },
+        {
+          "id": "cmr3zye9z00qfslw2sg1izmks",
+          "title": "阿里巴巴发布 Page Agent：开源 JavaScript 库实现网页 DOM 自然语言操控",
+          "url": "https://aihot.virxact.com/items/cmr3zye9z00qfslw2sg1izmks",
+          "source": "MarkTechPost（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "title": "AI对就业与技能的影响",
+      "count": "3",
+      "intro": "AI对就业市场的影响成为关注焦点。数据显示AI相关裁员接近9万个，但高AI投入企业员工增长10.2%；英国职场AI采用率翻倍，但仅15%的深度用户获得晋升加薪优势；具身智能数据采集员岗位出现，日薪200元起。这些现象表明，AI正在重塑就业结构，技能差距可能加剧不平等。",
+      "stories": [
+        {
+          "id": "cmr05b2wq0414slkivvyyjlbl",
+          "title": "AI就业争论变得更加混乱",
+          "url": "https://aihot.virxact.com/items/cmr05b2wq0414slkivvyyjlbl",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmr09lgpw000xslrchbxyyyvl",
+          "title": "英国职场AI采用率翻倍，仅15%“AI先锋”获得晋升加薪优势",
+          "url": "https://aihot.virxact.com/items/cmr09lgpw000xslrchbxyyyvl",
+          "source": "Google Blog：AI（RSS）"
+        },
+        {
+          "id": "cmr00f9t902pgslkiofzqdgx2",
+          "title": "具身智能数据采集员：日薪200元起，给机器人当老师",
+          "url": "https://aihot.virxact.com/items/cmr00f9t902pgslkiofzqdgx2",
+          "source": "公众号：数字生命卡兹克"
+        }
+      ]
+    }
+  ],
+  "story_count": 25,
+  "period": "2026-07",
+  "url": "https://aihot.virxact.com/monthly/2026-07",
+  "fetched_at": "2026-08-05T23:47:27+08:00"
+}

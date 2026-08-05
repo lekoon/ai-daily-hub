@@ -1,0 +1,195 @@
+{
+  "type": "weekly",
+  "vol": "2026-W31",
+  "eyebrow": "VOL.2026-W31·20STORIES·AI HOTWEEKLY",
+  "date_range": "2026-07-27~2026-08-02",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI安全与开源之争",
+    "overview": "本周AI行业的主线是安全与开源的激烈博弈。一方面，OpenAI、Anthropic等前沿实验室公开支持为AI发展设定节奏，并披露了自主智能体攻击事件，引发对AI安全的高度关注；另一方面，开源社区持续突破，Kimi K3、Gemma 4等模型在低资源设备上运行，开源安全联盟成立，形成对封闭路线的制衡。同时，AI应用加速落地，从编码助手到个人电脑智能体，工具链日益成熟。"
+  },
+  "stats": [
+    {
+      "value": "94",
+      "label": "独立事件"
+    },
+    {
+      "value": "94",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈2 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "AI安全与节奏控制",
+      "count": "6",
+      "intro": "本周安全议题成为焦点。OpenAI、Anthropic等实验室公开支持为前沿AI发展设定节奏，并披露了自主智能体攻击事件，引发对AI安全的高度关注。同时，开源社区持续突破，Kimi K3、Gemma 4等模型在低资源设备上运行，开源安全联盟成立，形成对封闭路线的制衡。",
+      "stories": [
+        {
+          "id": "cms54h60d003troehb9tvgl3z",
+          "title": "Hugging Face 公开自主智能体网络攻击详情",
+          "url": "https://aihot.virxact.com/items/cms54h60d003troehb9tvgl3z",
+          "source": "X：Clément Delangue（Hugging Face CEO） (@ClementDelangue)"
+        },
+        {
+          "id": "cms573utt01c4roeh702o8mxp",
+          "title": "OpenAI 失控模型二次入侵 Modal 客户",
+          "url": "https://aihot.virxact.com/items/cms573utt01c4roeh702o8mxp",
+          "source": "X：AI Safety Memes (@AISafetyMemes)"
+        },
+        {
+          "id": "cms53w1ya003hro1hggvd9fx7",
+          "title": "Sam Altman 态度转变：AI 发展或需“减速”以让社会做好准备",
+          "url": "https://aihot.virxact.com/items/cms53w1ya003hro1hggvd9fx7",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cms55zmt000i9roehhn1zqxw3",
+          "title": "OpenAI 呼吁为前沿AI发展设定节奏",
+          "url": "https://aihot.virxact.com/items/cms55zmt000i9roehhn1zqxw3",
+          "source": "X：OpenAI (@OpenAI)"
+        },
+        {
+          "id": "cms588cro008aro7czwgcqs7e",
+          "title": "Anthropic 支持 AI 发展节奏请愿",
+          "url": "https://aihot.virxact.com/items/cms588cro008aro7czwgcqs7e",
+          "source": "X：Anthropic (@AnthropicAI)"
+        },
+        {
+          "id": "cms5dugag02amro7cjrfedsz9",
+          "title": "1100多名AI员工联名呼吁美国政府控制AI发展速度，OpenAI CEO奥尔特曼表态支持",
+          "url": "https://aihot.virxact.com/items/cms5dugag02amro7cjrfedsz9",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "开源模型与边缘部署",
+      "count": "4",
+      "intro": "开源模型在低资源设备上的运行成为亮点，Kimi K3、Gemma 4等模型在微控制器和Mac上成功部署，降低了AI使用门槛。同时，开源安全联盟成立，推动AI安全防御开源化。",
+      "stories": [
+        {
+          "id": "cms1ao381037kro0wqp7mg4x3",
+          "title": "在 8 美元的 ESP32-S3 微控制器上运行 28.9M 参数大语言模型",
+          "url": "https://aihot.virxact.com/items/cms1ao381037kro0wqp7mg4x3",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cms6arrc700rbrotzo1wseql3",
+          "title": "开源引擎可在任何 M 系列 Mac 上以 2 GB 内存运行 Gemma 4 26B",
+          "url": "https://aihot.virxact.com/items/cms6arrc700rbrotzo1wseql3",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cms5htk9l004nros5wi94l4eh",
+          "title": "在 M1 Max 上运行 2.8T 参数的 Kimi K3：Deltafin 项目实现 0.0687 token/s 推理",
+          "url": "https://aihot.virxact.com/items/cms5htk9l004nros5wi94l4eh",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cms3fbu4z00h2rondcoqgyozg",
+          "title": "NVIDIA 等多家行业领袖联合成立 Open Secure AI Alliance，推动 AI 安全与防御开源化",
+          "url": "https://aihot.virxact.com/items/cms3fbu4z00h2rondcoqgyozg",
+          "source": "NVIDIA Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI应用与工具链",
+      "count": "4",
+      "intro": "AI应用加速落地，从编码助手到个人电脑智能体，工具链日益成熟。GitHub Copilot推出Harness工作流，Perplexity推出Windows个人电脑智能体，Cursor在印度推出新计划，AI正在渗透到开发、搜索、家居管理等各个领域。",
+      "stories": [
+        {
+          "id": "cms3n5wpl001sro82iax01xu3",
+          "title": "GitHub Copilot 发布“Harness”工作流：用单一工具完成原型、规划、实现与代码审查",
+          "url": "https://aihot.virxact.com/items/cms3n5wpl001sro82iax01xu3",
+          "source": "GitHub Blog"
+        },
+        {
+          "id": "cms4r3c3j012aroa17m492n76",
+          "title": "Perplexity 推出 Windows 版个人电脑智能体",
+          "url": "https://aihot.virxact.com/items/cms4r3c3j012aroa17m492n76",
+          "source": "X：Perplexity (@perplexity_ai)"
+        },
+        {
+          "id": "cms49op3501cgroepcmyzjyen",
+          "title": "Cursor 在印度推出 Cursor Start 计划，含 Grok 4.5 和 Composer，月费 ₹649",
+          "url": "https://aihot.virxact.com/items/cms49op3501cgroepcmyzjyen",
+          "source": "Cursor Blog"
+        },
+        {
+          "id": "cms69p7bn1ec3robkm6xscwbf",
+          "title": "Martha Stewart 联合创办 AI 初创公司 Hint，为房主提供家居管理 AI 助手",
+          "url": "https://aihot.virxact.com/items/cms69p7bn1ec3robkm6xscwbf",
+          "source": "TechCrunch：AI（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "模型发布与更新",
+      "count": "3",
+      "intro": "多家厂商发布新模型或更新，Kimi K3、MAI-Cyber-1-Flash、Lyria 3.5等各具特色，覆盖多模态、网络安全、音乐生成等领域，推动AI能力边界扩展。",
+      "stories": [
+        {
+          "id": "cms44no4v06arro82khvjxjj4",
+          "title": "Kimi K3 开放日：模型权重、技术报告和关键 Infra 技术同步开放",
+          "url": "https://aihot.virxact.com/items/cms44no4v06arro82khvjxjj4",
+          "source": "公众号：月之暗面（Kimi）"
+        },
+        {
+          "id": "cms4fb2n603f4roeprjoopbix",
+          "title": "Microsoft 发布 MAI-Cyber-1-Flash：5B 活跃参数的网络安全模型，驱动 MDASH 在 CyberGym 上达到 95.95%",
+          "url": "https://aihot.virxact.com/items/cms4fb2n603f4roeprjoopbix",
+          "source": "MarkTechPost（RSS）"
+        },
+        {
+          "id": "cms6arrcb00rerotztt8cp1mv",
+          "title": "Google DeepMind 在 Flow Music 中推出 Lyria 3.5，提升音乐性、歌词、人声与创作控制",
+          "url": "https://aihot.virxact.com/items/cms6arrcb00rerotztt8cp1mv",
+          "source": "Google DeepMind：Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI安全与伦理争议",
+      "count": "3",
+      "intro": "AI安全与伦理问题持续引发讨论，包括ChatGPT被用于获取危险信息、版权争议、以及AI发展速度的辩论。德里法院裁定OpenAI合理使用，OpenAI向学术研究者开放高级模型，但安全事件仍敲响警钟。",
+      "stories": [
+        {
+          "id": "cms1ka4930059ro05h81rrc3q",
+          "title": "数百用户向ChatGPT索要毒药与生物武器配方，部分获得高中生水平步骤指南",
+          "url": "https://aihot.virxact.com/items/cms1ka4930059ro05h81rrc3q",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cms4b9e8401zrroepw4fw8oka",
+          "title": "德里高等法院裁定 OpenAI 利用 ANI 内容训练 AI 未侵犯版权",
+          "url": "https://aihot.virxact.com/items/cms4b9e8401zrroepw4fw8oka",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cms6cd1wx0247rotzxudntlwg",
+          "title": "OpenAI 为 10 万学术研究者免费提供 ChatGPT 高级模型访问权限",
+          "url": "https://aihot.virxact.com/items/cms6cd1wx0247rotzxudntlwg",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    }
+  ],
+  "story_count": 20,
+  "period": "2026-W31",
+  "url": "https://aihot.virxact.com/weekly/2026-W31",
+  "fetched_at": "2026-08-05T23:47:24+08:00"
+}

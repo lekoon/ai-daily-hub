@@ -1,0 +1,15 @@
+{
+  "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
+  "source": "NVIDIA Blog（RSS）",
+  "published_at": "2026-08-04 23:00",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://blogs.nvidia.com/blog/alpamayo-2-super-open-model-now-available",
+  "aihot_url": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
+  "curation_reason": "开放商业许可与可解释推理输出结合，自动驾驶团队能直接审查模型决策链，为安全验证提供透明度，降低从研发到商用部署的转换成本。",
+  "ai_summary": "NVIDIA Alpamayo 2 Super 现已开放商用，基于 Cosmos 3 Super Reasoner 构建，采用强化学习后训练，支持轨迹预测、因果链推理、元动作、自动标注及视觉问答等多任务输出。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsesrlcn15j6ro2ecpj577wj",
+  "url": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
+  "fetched_at": "2026-08-05T23:47:30+08:00"
+}

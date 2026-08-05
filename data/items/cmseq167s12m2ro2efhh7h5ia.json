@@ -1,0 +1,15 @@
+{
+  "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
+  "source": "Cloudflare Blog",
+  "published_at": "2026-08-04 21:00",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://blog.cloudflare.com/local-tracing",
+  "aihot_url": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
+  "curation_reason": "本地trace让agent能看到请求失败在哪个操作，将调试循环从反复加日志缩短为一次本地查询，适合依赖coding agents的开发团队。",
+  "ai_summary": "Cloudflare 即日起在 wrangler dev 和 vite dev 中自动为本地 Worker 调用捕获 OpenTelemetry 追踪，无需安装 SDK 或配置智能体。智能体可通过 Local Explorer API 查询追踪数据，定位失败操作、修复本地环境并验证结果。开发者也可在浏览器界面 Local Explorer 中可视化查看 spans、时序、错误及关联控制台日志。",
+  "content_markdown": "从今天起，`wrangler dev` 和 `vite dev` 会自动为本地 Worker 调用捕获 OpenTelemetry 追踪数据。当 Cloudflare 的工具检测到智能体会话时，它会将智能体指向 Local Explorer API——一个本地调试 API，智能体可以在其中查询这些追踪数据。你无需安装 SDK、启用追踪、配置智能体，甚至无需在提示词中提及可观测性。\n\n提示词可以简单到只需这样写：\n\n这建立在多年来对本地开发的持续投入之上，从引入 Miniflare 到让本地模式成为 Wrangler 3 的默认选项。本地追踪让编码智能体在代码部署之前，就能从开发环境中获得结构化的反馈。\n\n智能体自动发现 Local Explorer API\n\n作为其正常工作流程的一部分，智能体会启动 `wrangler dev` 或 `vite dev` 来运行和测试 Worker。当开发服务器识别到受支持的编码智能体会话时，它会自动打印一条提示，看起来像这样：\n\nLocal Explorer 是一个基于浏览器的界面和 REST API，用于在开发期间查看和编辑本地资源数据，以及查询可观测性数据。该 API 的根路径提供 OpenAPI 架构，因此智能体可以在运行时发现可用端点，而无需硬编码指令。\n\n自动捕获的追踪数据可通过该 API 中的只读可观测性端点获取，并附带与之关联的控制台日志。智能体可以查询这些遥测数据，然后使用 API 的其他操作来检查本地 Worker 和绑定，或检查 D1、KV、R2、Durable Objects 和 Workflows 中的状态。\n\n找到故障并验证修复\n\n以 POST /api/orders 为例，它会从 KV 中检索活动购物车，将结账详情保存到 D1，并向 Queue 发送一条消息以进行订单处理。在一次架构变更之后，该端点突然开始返回 500 状态码。\n\n没有本地追踪时\n\n500 错误无法指明是哪个操作失败了。智能体会在 KV、D1 和 Queue 周围添加日志，重新运行请求，检查输出，然后重复这一过程。每一轮循环都要花费时间并消耗 token，而智能体还需要从文本中重建请求。\n\n有了本地追踪\n\n智能体复现了该错误，并查询了只读的可观测性端点。追踪数据显示 KV 读取成功，D1 插入失败，报错为“没有名为 delivery_window 的列”，Queue 也从未被调用。你的智能体使用 Local Explorer API 访问与你在此处看到的相同的追踪数据：\n\n智能体使用 API 检查 D1 架构。它发现添加 delivery_window 的迁移文件存在于仓库中，但尚未在本地应用，于是应用了该迁移，重新发送请求，并查询新的追踪记录。问题已解决。\n\n在一次本地循环中，智能体识别出失败的操作，修复了本地环境，并验证了结果，全程无需部署或添加临时日志。\n\n在 Local Explorer 中探索追踪和日志\n\n智能体通过 API 查询本地遥测数据，而你作为人类开发者，可以在 Local Explorer 中可视化同样的数据——这是内置于本地开发服务器中的基于浏览器的界面。除了浏览本地绑定状态外，你还可以选择某个请求来检查其 span、耗时、属性、错误以及关联的控制台日志。\n\nLocal Explorer 运行在与你的 Worker 相同的 localhost 源上，而不是在 Cloudflare 仪表盘中。在 Wrangler 中按 e 键，或访问本地服务器上的 /cdn-cgi/explorer 即可打开它。\n\n工作原理\n\n当我们推出 Workers Tracing 时，我们直接将插桩构建到了 workerd 中——这是驱动 Workers 的开源运行时。无需 SDK 或任何代码更改，运行时即可捕获以下 span：\n\nFetch 调用：所有出站 HTTP 请求，包括耗时、状态码和请求元数据。\n\n绑定调用：与 KV、R2、D1、Durable Objects、Queues 及其他绑定的每一次交互。\n\n处理器调用：每次调用的完整生命周期，从 fetch 到 scheduled 再到 queue 处理器。\n\n你的应用发出的任何自定义 span 也会与这些自动 span 一同显示。\n\nWrangler 和 Cloudflare Vite 插件使用 Miniflare 在本地以相同的运行时运行你的 Worker，这使得这些插桩在本地开发期间也可用。\n\nMiniflare 会收集运行时事件和控制台输出，将其组装成 OpenTelemetry 追踪和关联日志，然后将遥测数据写入一个基于 SQLite 的内部 Durable Object，该对象充当本地追踪存储。Local Explorer API 通过本地开发服务器公开这些数据，智能体可以轻松查询追踪和日志，并检查本地状态。\n\n更新 Wrangler 或 Cloudflare Vite 插件，具体取决于你的项目使用哪一个：\n\n然后像往常一样，让你的智能体在本地进行调试。你的智能体已经可以在本地编写和运行你的 Worker——现在它还能看到发生了什么、修复失败的部分，并在你部署之前验证结果。查看文档以了解更多信息！",
+  "id": "cmseq167s12m2ro2efhh7h5ia",
+  "url": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
+  "fetched_at": "2026-08-05T23:47:52+08:00"
+}

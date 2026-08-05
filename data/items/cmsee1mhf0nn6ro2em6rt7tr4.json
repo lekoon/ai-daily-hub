@@ -1,0 +1,15 @@
+{
+  "title": "腾讯混元发布 Hy ASR 3.0 preview：真正懂上下文的语音识别",
+  "source": "公众号：腾讯混元",
+  "published_at": "2026-08-04 16:12",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498223&idx=1&sn=ae271ec2c72723393d3e1d8074a33205",
+  "aihot_url": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4",
+  "curation_reason": "将 LLM 语义理解融入语音识别，上下文纠错和热词注入降低了专业场景的接入成本，元宝已集成可体验。",
+  "ai_summary": "腾讯混元发布新一代语音识别模型 Hy ASR 3.0 preview，基于大语言模型 Hy3 与 MoE 架构，融合高精度识别与语义理解。其在开源评测集中中文普通话 WER 3.34%、英语 WER 2.62%、粤语 WER 3.12%，并支持上下文纠错、热词注入及高噪耳语等场景。该模型已上线腾讯云 API，元宝 App 首发并免费开放。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsee1mhf0nn6ro2em6rt7tr4",
+  "url": "https://aihot.virxact.com/items/cmsee1mhf0nn6ro2em6rt7tr4",
+  "fetched_at": "2026-08-05T23:47:37+08:00"
+}

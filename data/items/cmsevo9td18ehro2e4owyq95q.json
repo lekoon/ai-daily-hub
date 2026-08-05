@@ -1,0 +1,15 @@
+{
+  "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+  "source": "OpenRouter：Announcements（RSS）",
+  "published_at": "2026-08-04 08:00",
+  "score": "73",
+  "flags": "精选",
+  "original_url": "https://openrouter.ai/blog/announcements/ori-harness",
+  "aihot_url": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q",
+  "curation_reason": "把十个环境变量压缩成一条cli命令，且根据模型自动切换工具搜索等设置，让网关切换不再伴生配置摩擦。",
+  "ai_summary": "OpenRouter 发布 ori CLI，用户安装并登录后即可获得针对 Claude Code、Codex、OpenCode、Hermes 等 harness 的优化配置，省去手动设置大量环境变量的麻烦。",
+  "content_markdown": "我们经常看到用户试图把自己常用的开发框架（harness）与 OpenRouter 配合使用时，不得不编写临时脚本或复杂配置来反复调整，才能勉强适配。有些框架只需极简配置，可能设置一个环境变量就够了，但像 Claude Code 这样的框架则需要配置更多内容。\n\n现在你可以安装 ori CLI，用 OpenRouter 登录，立刻就能获得一套开箱即用的优化配置，与你所有常用的开发框架无缝配合：\n\n# Install ori cli curl -fsSL https://openrouter.ai/labs/ori/install.sh | bash\n\nori # Log in to OpenRouter\n\n# Set up and optimized for OpenRouter ori claude ori codex ori opencode ori hermes # ... more to come\n\n如果我只是改几个设置就能搞定，为什么还需要这个？\n\n在使用 OpenRouter 这类网关时，要想让 Claude Code 获得与使用 Anthropic 官方框架时相同的开箱即用体验，你需要设置大量环境变量……\n\nANTHROPIC_BASE_URL=https://openrouter.ai/api ANTHROPIC_AUTH_TOKEN=<openrouter-api-key> ANTHROPIC_API_KEY= OPENROUTER_API_KEY=<openrouter-api-key> CLAUDE_CODE_SKIP_FAST_MODE_ORG_CHECK=1 CLAUDE_CODE_ENABLE_GATEWAY_MODEL_DISCOVERY=1 ENABLE_TOOL_SEARCH=true CLAUDE_CODE_SIMPLE_SYSTEM_PROMPT=1 ANTHROPIC_DEFAULT_HAIKU_MODEL=~anthropic/claude-haiku-latest ANTHROPIC_DEFAULT_SONNET_MODEL=~anthropic/claude-sonnet-latest ANTHROPIC_DEFAULT_OPUS_MODEL=~anthropic/claude-opus-latest ANTHROPIC_DEFAULT_FABLE_MODEL=~anthropic/claude-fable-latest[1m] ANTHROPIC_DEFAULT_FABLE_MODEL_NAME=Fable\n\n对于 Anthropic 模型，启用 ENABLE_TOOL_SEARCH 可以为你节省将近一半的系统提示词 token 消耗，这也是现代 Claude 模型在检测到官方框架时的默认设置……\n\n工具搜索（tool search）也会显著改变智能体的行为：当工具搜索被禁用时，Claude 完成同样的任务会消耗更多 token、需要更多轮次，而且会更频繁地使用 Todo 工具！\n\n然而，目前大多数开源模型根本不支持工具搜索。在 ori claude 中，我们会检测你的 --model 参数，并根据你正在使用的模型自动切换为最优设置。未来，我们计划进一步深化这一能力，根据模型来优化工具设置、系统提示词的详细程度等更多方面。\n\n就这么简单\n\nClaude Code 是一个特别棘手的例子，但我们会为众多开发框架持续优化 ori harness。目前我们支持：\n\nClaude Code\n\nCodex\n\nOpenCode\n\nHermes\n\n欢迎试用！\n\n一些未来的计划和想法：\n\n更好地支持桌面应用\n\n一个工具栏小组件，用于跟踪你的用量，并一键全局切换到 OpenRouter\n\n为 OpenCode 和 Pi 等框架内置 WebSearch 插件\n\n如果以上任何一项让你感兴趣，或者你对某个希望我们支持的框架有反馈，欢迎加入 Discord，在 #ori-feedback 频道给我们留言。",
+  "id": "cmsevo9td18ehro2e4owyq95q",
+  "url": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q",
+  "fetched_at": "2026-08-05T23:47:46+08:00"
+}

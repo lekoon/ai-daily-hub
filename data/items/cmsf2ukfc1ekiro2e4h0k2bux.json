@@ -1,0 +1,15 @@
+{
+  "title": "MiniMax-H3 通过 MLX 移植可在 Apple Silicon 上运行",
+  "source": "Simon Willison 博客",
+  "published_at": "2026-08-05 03:10",
+  "score": "74",
+  "flags": "精选",
+  "original_url": "https://simonwillison.net/2026/Aug/4/minimax-h3-mlx",
+  "aihot_url": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux",
+  "curation_reason": "在 M5 Max 上生成本地视频的 45 分钟耗时，为判断这类模型何时能进入日常工作流提供了具体的参照。",
+  "ai_summary": "MiniMax 发布 MiniMax-H3，一个可接受文本、图像、音频和视频并生成最长 15 秒带音频视频片段的通用全模态生成系统。Python 包 PipeNetwork/minimax-h3-mlx 将其移植到 MLX，支持 Apple Silicon 运行。作者在 M5 Max MacBook Pro 上实测，下载约 115 GB 模型文件，视频生成耗时不到 45 分钟。",
+  "content_markdown": "Simon Willison 的博客\n\n2026年8月4日 - 链接博客\n\nPipeNetwork/minimax-h3-mlx。MiniMax 两天前发布了 MiniMax-H3——他们将其描述为“一个通用的、全模态生成系统”，实际上这意味着它可以接受文本、图像、音频和视频输入，并利用这些输入生成最长 15 秒、包含音频的视频片段。\n\n这个 Python 包将其移植到 MLX，以便在 Apple Silicon 上运行。\n\n我在我的 M5 Max MacBook Pro 上成功运行了它。我克隆了仓库，并按如下方式运行模型：\n\n# First download the models uvx --from huggingface_hub hf download MiniMaxAI/MiniMax-H3 \\ --include 'FL2VA/*' --exclude 'FL2VA/transformer/*' uvx --from huggingface_hub hf download pipenetwork/MiniMax-H3-MLX-8bit\n\n# Now run the prompt uv run --with mlx-vlm \\ --with-requirements requirements.txt python scripts/generate.py \\ \"a rainbow colored skunk leaps over a mossy log in a supermarket\" \\ -o skunk.mp4 \\ -c ~/.cache/huggingface/hub/models--MiniMaxAI--MiniMax-H3/snapshots/fa9c8ab1eaa21c8ae25e7e40b83b2e6002f340af/FL2VA \\ -t ~/.cache/huggingface/hub/models--pipenetwork--MiniMax-H3-MLX-8bit/snapshots/3ac52081470b0488921c3ec3ba84a39097bf2361\n\n以下是我根据提示词生成的视频：\n\n一只彩虹色的臭鼬在超市里跃过一根长满苔藓的原木\n\n视频 · 前往原文观看\n\n它下载了约 115 GB 的模型文件，视频生成耗时不到 45 分钟。\n\n视频效果令人印象深刻，但音频听起来像是奇怪的类似语音的噪音，因为我没有为音频部分提供任何提示词指导。提示词指南（我在这次实验前没有阅读）包含了大量关于如何让音频正常工作的信息。\n\n2026年8月4日",
+  "id": "cmsf2ukfc1ekiro2e4h0k2bux",
+  "url": "https://aihot.virxact.com/items/cmsf2ukfc1ekiro2e4h0k2bux",
+  "fetched_at": "2026-08-05T23:48:06+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Reflex 开源 XY：基于 Rust 的超快 Python 绘图库，可保持 1 亿点图表交互流畅",
+  "source": "MarkTechPost（RSS）",
+  "published_at": "2026-08-04 16:57",
+  "score": "79",
+  "flags": "精选",
+  "original_url": "https://www.marktechpost.com/2026/08/04/reflex-open-sources-xy-a-rust-backed-super-fast-python-charting-library-that-keeps-100-million-point-charts-interactive",
+  "aihot_url": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw",
+  "curation_reason": "通过Rust核心和二进制输出，XY将千万级点的交互渲染稳定在0.08秒，并让HTML导出体积从259 MiB缩至258 KiB，这对金融、基因组学等需原始数据钻取的大数据场景有直接落地价值。",
+  "ai_summary": "Reflex AI 发布 Apache-2.0 许可的 Python 交互式 2D 绘图库 XY，通过 Rust 原生核心、二进制缓冲传输和 WebGL2 渲染，在 1 万至 1 亿点范围内保持约 0.08 秒的渲染时间。",
+  "content_markdown": "Reflex AI 发布了 XY，这是一个采用 Apache-2.0 许可的 Python 图表库，用于交互式 2D 可视化。大多数 Python 图表技术栈会为每一行数据创建一个可绘制对象，因此当数据量超过几十万点后，渲染、悬停和缩放性能就会下降。XY 将工作负载转移到原生 Rust 核心中，向浏览器发送类型化的二进制缓冲区而非 JSON，并使用 WebGL2 进行绘制。根据基准测试数据，XY 在 10,000 个数据点时的耗时保持在 0.071 秒，在 1 亿个数据点时为 0.081 秒。它通过 `pip install xy` 安装，要求 Python 3.11 或更高版本。\n\n它是否可部署\n\nXY 目前处于早期 alpha 阶段，版本号为 0.0.1。它通过 `pip install xy` 安装，要求 Python 3.11 或更高版本。\n\n这对应了一个清晰的部署边界。初创公司和中等规模的数据团队现在就可以将其用于内部数据分析、Notebook 和可分享的产出物。受监管的企业应进行试点，而不是将其置于面向客户的关键路径上。在行数确实是瓶颈的场景中，它的适用性最强：量化金融（逐笔成交数据）、基因组学和生物信息学（曼哈顿图、等位基因频率扫描）、可观测性和遥测、天文学以及地理空间分析。下面是一行命令的安装方法。\n\npip install xy\n\n解释说明\n\n表示层级如何工作\n\nXY 在 Python 端的 ColumnStore 中保留规范的 f64 列，并为每条轨迹选择一种渲染表示方式。当前默认策略是：对于长有序折线，超过 10,000 行时启用 M4 抽稀；超过 200,000 个点时启用自动散点密度化。密度网格默认为 512×384 个单元。文档明确指出，这些是 1.0 版本之前的策略阈值，而非 API 保证。\n\n由于精确值保留在 Python 端，当当前层级具有精确映射时，悬停、选择和 `pick()` 仍能解析到原始行。缩放到一个较窄的窗口时，会为填充后的对齐窗口返回精确的可见点，而附近的平移则从该缓存窗口渲染，无需再次发起请求。Reflex 在此刻意保持谨慎，不做过度宣称：密度化本质上是分箱并由 GPU 渲染的，并非全 GPU 摄取管道，而且摄取、分箱和抽稀仍然会随源数据行数的增加而扩展。\n\n性能\n\n该基准测试通过真实浏览器驱动每个库，并且只有在画布内容被验证正确且在 10 帧字节完全一致的画面中保持稳定后，才会停止计时。测量数据来自一台 Apple M5 Pro，每个单元格运行一次。\n\n点数XYMatplotlib (WebAgg)Plotly (scattergl)\n\n1M0.084 秒0.357 秒0.614 秒\n\n10M0.083 秒2.804 秒3.367 秒\n\n50M0.076 秒13.385 秒✕\n\n100M0.081 秒✕✕\n\n这意味着在 10M 点数时速度提升 34 倍，在 50M 点数时提升 177 倍。在 10M 点数时，XY 的 Python 端峰值内存为 0.32 GiB，而 Matplotlib 为 0.84 GiB，Plotly 为 1.86 GiB。当 density=False 时，XY 仍能在 5.26 GiB 内存下于 1.343 秒内绘制 1 亿个精确标记点。Reflex 还报告称其能渲染完整的 OpenStreetMap 数据集——即 100 亿个点。\n\n一个包含 1000 万个点的交互式散点图可导出为 258 KiB 的 HTML 文件，而据称 Plotly 的等效文件大小为 259 MiB。从 1M 到 100M 行，该文件大小始终保持在 258 KiB 附近。\n\nAPI 表面与集成\n\n图表通过标记、坐标轴、图例、工具提示和注释以声明式方式组合而成。目前提供十四种图表类型，包括散点图、折线图、面积图、直方图、箱线图、小提琴图、ECDF、热力图、六边形分箱图和等高线图。样式可通过稳定的 DOM 插槽接受 CSS 和 Tailwind 类。对于迁移，`import xy.pyplot as plt` 可以运行常见的 Matplotlib pyplot 代码，但兼容性指南指出并非所有功能都受支持。一个独立的 reflex-xy 适配器可以将任何图表转换为 Reflex 组件，无需 JavaScript 或 iframe。\n\n关键要点\n\nXY 通过绘制屏幕范围内的表示形式（而非逐行标记），在 10k 到 1 亿个点之间保持了约 0.08 秒的渲染时间。\n\nRust 核心加上二进制传输协议，将 1000 万点的交互式导出文件从 Plotly 的 259 MiB 缩减至 258 KiB。\n\n精确的 f64 列保留在 Python 中，因此悬停、选择和缩放下钻仍能返回原始数据行。\n\n目前即可部署用于笔记本、内部仪表板和可共享的 HTML；但 0.0.1 alpha 版本表明其尚不适合关键路径应用。\n\n最适合的应用场景是金融、基因组学、遥测和天文学，这些领域目前默认在绘图前进行采样。\n\n请查看 GitHub 仓库和技术细节。此外，欢迎在 Twitter 上关注我们，别忘了加入我们超过 15 万成员的 ML SubReddit 并订阅我们的新闻通讯。等等！你在用 Telegram 吗？现在你也可以在 Telegram 上找到我们。",
+  "id": "cmsefnjpn0q20ro2el7g7lyjw",
+  "url": "https://aihot.virxact.com/items/cmsefnjpn0q20ro2el7g7lyjw",
+  "fetched_at": "2026-08-05T23:47:42+08:00"
+}

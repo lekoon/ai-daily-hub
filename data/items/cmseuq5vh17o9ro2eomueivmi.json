@@ -1,0 +1,15 @@
+{
+  "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
+  "source": "SenseTime (@SenseTime_AI)",
+  "published_at": "2026-08-04 23:46",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://x.com/SenseTime_AI/status/2084667189479837741",
+  "aihot_url": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
+  "curation_reason": "把推理和图像生成整合进单一模型流，信息图模式和逐步教程展示了从推理到可视化的直接路径，为需要图文连贯输出的应用提供了可探索的开源方案。",
+  "ai_summary": "商汤发布开源模型 SenseNova U1，可在统一流程中同时进行推理与图像生成。其信息图模式可将单条提示词转为结构化幻灯片，交错模式则逐步生成图文内容，如演示六步画龙教程。模型已上线 SenseNova Studio、HuggingFace 及 GitHub。",
+  "content_markdown": "感谢 Dan 测试 SenseNova U1 -- 我们的开源 AI 模型，在统一流程中同时完成推理与图像生成。\n\n✅ 信息图模式：将 1 条提示词转化为结构化幻灯片（图标、分节、版式） ✅ 交错模式：逐步构建文本 + 图像 -- 观看它演示 6 步画龙教程\n\n✏️ SenseNova Studio：https://unify.light-ai.top/ （试用信息图；也可加入 Discord 体验文本-图像交错生成） 🤗HF：https://huggingface.co/sensenova/SenseNova-U1-8B-MoT-Infographic-V2 🛠️https://github.com/OpenSenseNova/SenseNova-U1 👾Discord：https://discord.com/invite/BuTXPHmQub\n\n📹 https://www.youtube.com/watch?v=CRxmuQPCbOo",
+  "id": "cmseuq5vh17o9ro2eomueivmi",
+  "url": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
+  "fetched_at": "2026-08-05T23:47:31+08:00"
+}

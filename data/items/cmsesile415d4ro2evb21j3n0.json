@@ -1,0 +1,15 @@
+{
+  "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+  "source": "Rohan Paul (@rohanpaul_ai)",
+  "published_at": "2026-08-04 22:58",
+  "score": "78",
+  "flags": "精选",
+  "original_url": "https://x.com/rohanpaul_ai/status/2084655258102546579",
+  "aihot_url": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
+  "curation_reason": "速度成为比资金更稀缺的输入时，大额算力合同可能流向更快供电的中间商，这带来了传统云合同没有的对手方风险，也让硬件商和矿场成为供应链节点。",
+  "ai_summary": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议，约合每年 17 亿美元。Volta 估值 24 亿美元，硬件几乎全为租用：算力来自比特币矿商 Bitdeer 挪威 121MW 站点，芯片由 Nvidia 供应、Dell 组装。Anthropic 买的是交付速度，代价是承担超大规模云厂商合同从未有过的交易对手风险。",
+  "content_markdown": "Anthropic 与成立仅数月的基础设施初创公司 Volta 签署了 100 亿美元的计算服务协议。\n\n过去，这种规模的合同通常会落到亚马逊、微软或谷歌手中，因为只有它们才拥有前沿训练所需的土地、电力和资产负债表。\n\n在资金是稀缺资源的时代，这一格局得以维持；但如今电力才是稀缺资源，而三大云厂商在为新站点供电方面的速度，并不比新入局者更快。\n\n因此，这笔交易最终花落 Volta Infra--这家初创公司在从包括 Nvidia 和 Michael Dell 家族办公室在内的投资方处筹集约 3 亿美元后，估值达到 24 亿美元。\n\n这家初创公司几乎不拥有任何硬件。\n\n其算力来自 Bitdeer--一家比特币矿商，将其挪威站点的 121MW 电力以约 47 亿美元的合同价格出租了 16 年。\n\nNvidia 负责供应芯片，Dell 负责系统集成，而夹在中间的公司则负责融资、合同和客户对接。\n\n对于一家如此年轻的公司来说，承担所有这些成本相当沉重，因此 Volta 与 Azora 安排了一项 50 亿美元的计划来资助建设。\n\n首席执行官 Ricard Boada 首次公开描述了这一安排--这是一项价值 100 亿美元的合作伙伴关系，每年为其公司带来约 17 亿美元的收入。\n\n风险则落在另一方--一家 24 亿美元的公司承诺提供 100 亿美元的服务，而设备却是从矿商那里租来的。\n\nAnthropic 在这里购买的是时间表而非服务器，而速度的代价如今包含了任何超大规模云厂商合同都从未承担过的交易对手风险。\n\n---\n\nbloomberg. com/news/articles/2026-08-04/anthropic-inks-10-billion-computing-deal-with-new-cloud-startup",
+  "id": "cmsesile415d4ro2evb21j3n0",
+  "url": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
+  "fetched_at": "2026-08-05T23:47:54+08:00"
+}
