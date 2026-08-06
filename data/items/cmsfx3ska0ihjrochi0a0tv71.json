@@ -1,0 +1,15 @@
+{
+  "title": "烧了5亿token后，我给Codex和Claude Code做Skill上下文瘦身的新技巧",
+  "source": "公众号：卡尔的AI沃茨",
+  "published_at": "2026-08-05 14:46",
+  "score": "74",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3MTk3NzYzNw%3D%3D&mid=2247509161&idx=1&sn=bd9aa077bbc46a6049ad66af6d15af0f",
+  "aihot_url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71",
+  "curation_reason": "把低频 Skill 从全局暴露转为触发词动态加载，提供了工具多而上下文有限时的一种治理思路，量化了 token 节省，方法可迁移到其他 Agent 管理。",
+  "ai_summary": "作者为Codex和Claude Code中300多个Skill做上下文瘦身，发现每次新会话仅Skill列表就占约9.9k token，按7月使用强度粗算，多余Skill列表约吃掉4到5亿token的上下文空间。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsfx3ska0ihjrochi0a0tv71",
+  "url": "https://aihot.virxact.com/items/cmsfx3ska0ihjrochi0a0tv71",
+  "fetched_at": "2026-08-06T11:59:52+08:00"
+}

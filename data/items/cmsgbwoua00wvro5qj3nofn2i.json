@@ -1,0 +1,15 @@
+{
+  "title": "Claude Platform 发布 8 月 5 日版本说明：推理钩子进入 Beta 测试",
+  "source": "Claude Platform：开发者版本说明（RSS）",
+  "published_at": "2026-08-05 08:00",
+  "score": "57",
+  "flags": "",
+  "original_url": "https://platform.claude.com/docs/en/release-notes/overview#august-5-2026",
+  "aihot_url": "https://aihot.virxact.com/items/cmsgbwoua00wvro5qj3nofn2i",
+  "curation_reason": "",
+  "ai_summary": "Claude Platform 面向 Claude Enterprise 组织推出推理钩子（Inference hooks）Beta 版。该功能可将 claude.ai、Cowork 和 Claude Code 中的每个受管控提示词交由组织的 AI 安全服务器进行允许或拒绝判定，再继续推理。请求经过签名，失败处理可配置，每次拒绝都会记录在合规性 Activity Feed 中。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsgbwoua00wvro5qj3nofn2i",
+  "url": "https://aihot.virxact.com/items/cmsgbwoua00wvro5qj3nofn2i",
+  "fetched_at": "2026-08-06T11:59:32+08:00"
+}

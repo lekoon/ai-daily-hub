@@ -1,0 +1,15 @@
+{
+  "title": "LangChain 如何为 Kubernetes 构建自主 SRE 智能体",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-06 00:24",
+  "score": "49",
+  "flags": "",
+  "original_url": "https://www.langchain.com/blog/how-we-build-an-autonomous-sre-agent-for-kubernetes-deployments",
+  "aihot_url": "https://aihot.virxact.com/items/cmsgb0jc7028uro3pnxg6blix",
+  "curation_reason": "",
+  "ai_summary": "LangChain 基于 Deep Agents 为 Kubernetes 部署构建了自主 SRE 智能体，可自动执行运维任务，并对变更操作引入人工审批机制。该智能体使用 LangSmith 进行全链路追踪，并通过 evals 评估系统性能，兼顾自动化效率与运维安全。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsgb0jc7028uro3pnxg6blix",
+  "url": "https://aihot.virxact.com/items/cmsgb0jc7028uro3pnxg6blix",
+  "fetched_at": "2026-08-06T12:00:00+08:00"
+}

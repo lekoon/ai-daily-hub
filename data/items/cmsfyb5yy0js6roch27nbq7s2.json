@@ -1,0 +1,15 @@
+{
+  "title": "美国上诉法院推翻禁令，Perplexity AI 购物智能体重返 Amazon",
+  "source": "The Decoder：AI News（RSS）",
+  "published_at": "2026-08-05 18:31",
+  "score": "75",
+  "flags": "精选",
+  "original_url": "https://the-decoder.com/us-appeals-court-allows-perplexitys-ai-shopping-agent-back-on-amazon",
+  "aihot_url": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2",
+  "curation_reason": "判决将AI代理行为归因于用户，为代理访问外部平台提供了首个联邦上诉判例，直接影响智能体商业部署的法律边界。",
+  "ai_summary": "美国第九巡回上诉法院推翻了此前阻止 Perplexity 在 Amazon 平台使用 AI 购物智能体的禁令，认定是用户而非 Perplexity 本身通过智能体访问 Amazon，因此违反联邦计算机欺诈法的指控难以成立。这是美国联邦上诉法院首次就 AI 智能体合法性作出裁决，但案件本身尚未了结。Amazon 表示不同意该裁决并正在评估下一步选项。",
+  "content_markdown": "Nano Banana 2 由 THE DECODER 提供提示词\n\n要点\n\n美国一家上诉法院推翻了此前阻止初创公司 Perplexity 在亚马逊上使用其 AI 购物智能体的禁令。\n\n法院裁定，是用户本人通过智能体访问亚马逊，而非这家 AI 公司。因此，违反联邦计算机欺诈法的指控很可能不成立。\n\n亚马逊此前起诉 Perplexity，原因是其 AI 智能体会登录客户账户并下单。这是美国联邦上诉法院首次就 AI 智能体的合法性作出裁决，但案件本身仍未了结。\n\n美国一家上诉法院推翻了针对 Perplexity 的禁令。理由是：访问亚马逊的是用户，而非这家 AI 公司。\n\n位于旧金山的美国第九巡回上诉法院推翻了此前阻止 Perplexity 在亚马逊平台上使用其智能体 AI 购物工具的禁令。据路透社报道，法院认为，亚马逊关于 Perplexity 的 AI 智能体违反联邦计算机欺诈法的指控很可能无法成立。\n\n决定性因素在于行为归属问题。该法律禁止未经许可访问计算机并获取信息。但上诉法院认定，是用户通过智能体访问了亚马逊平台，而非 Perplexity 本身。法院在这一问题上支持了该初创公司的论点。\n\n这是美国联邦上诉法院首次就 AI 智能体能否代表用户合法访问在线平台作出裁决。这一答案对整个领域都至关重要。智能体系统能够在有限的人类监督下进行规划、推理并执行任务。它们可以在网络上浏览、购物并完成交易。\n\n亚马逊并不接受这一结果。“我们尊重但不认同今天关于初步禁令的裁决，”一位发言人表示，并补充说公司仍然充满信心，正在权衡各种选择。“我们对自己的案件仍然充满信心，正在评估下一步行动。”Perplexity 发言人 Jesse Dwyer 则表示：“Perplexity 将继续为互联网用户选择任何他们想要的 AI 的权利而斗争。”\n\n从 11 月的诉讼到上诉逆转\n\n亚马逊于去年 11 月起诉 Perplexity，指控这家初创公司通过其 Comet 浏览器及内置的 AI 智能体，秘密访问亚马逊私人客户账户。该智能体可以登录购物账户并代表用户下单。亚马逊在诉状中声称存在安全风险，并称 Perplexity 无视其多次要求停止该行为的要求。这家初创公司则称该诉讼毫无根据，是“赤裸裸的企图”，目的是让亚马逊客户远离 Comet，因为 AI 智能体“没有眼睛，看不到亚马逊向用户铺天盖地投放的广告”。\n\n今年 3 月，加利福尼亚州一家联邦法院暂时禁止 Perplexity 在亚马逊上使用智能体 AI。法官 Maxine Chesney 认为有“强有力的证据”表明，Perplexity 在获得用户许可但未经亚马逊授权的情况下访问了受密码保护的账户。该初创公司还被责令删除亚马逊数据的副本。目前该禁令已失效，但案件本身尚未作出裁决。\n\n亚马逊曾主张，第三方 AI 必须透明运作并尊重既有的 API，并援引了其自身的工具，如“Buy For Me”和“Rufus”助手。Perplexity 首席执行官 Aravind Srinivas 称这是“霸凌”，并辩称代表用户行事的智能体应享有与人类用户相同的权利。两家公司之间的商业关系为这场纠纷增添了另一层复杂性。Perplexity 是 AWS 客户，承诺金额达数亿美元，而 Jeff Bezos 也是这家初创公司的投资者之一。\n\n路透社",
+  "id": "cmsfyb5yy0js6roch27nbq7s2",
+  "url": "https://aihot.virxact.com/items/cmsfyb5yy0js6roch27nbq7s2",
+  "fetched_at": "2026-08-06T11:59:45+08:00"
+}

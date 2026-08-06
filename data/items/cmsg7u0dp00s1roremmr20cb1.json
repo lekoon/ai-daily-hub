@@ -1,0 +1,15 @@
+{
+  "title": "SpaceX 宣布 AI 算力上太空，独家采用 Nvidia Vera Rubin",
+  "source": "AYi (@AYi_AInotes)",
+  "published_at": "2026-08-05 22:30",
+  "score": "75",
+  "flags": "精选",
+  "original_url": "https://x.com/AYi_AInotes/status/2085010659150852220",
+  "aihot_url": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1",
+  "curation_reason": "SpaceX 把数据中心推到轨道，同时解决了地面 AI 的电力、占地和散热瓶颈，这步棋让算力规模不再受地理限制，会影响后续超大规模 AI 投资的选址逻辑。",
+  "ai_summary": "SpaceX 在财报电话会上宣布，未来所有 AI 算力（地面及轨道）将独家采用 Nvidia Vera Rubin 架构，2026 年底总算力超 2GW，2027 年底接近 10GW。同步公布 Starmind 计划，2027 年起发射搭载 Rubin GPU 与 Vera CPU 的轨道 AI 卫星星座，明年开始发射，算力经星链激光链路回传。消息公布后 AMD 股价跌 8%。",
+  "content_markdown": "大家都在刷SpaceX上市首份财报,没人注意Musk扔的王炸:@SpaceX 要把AI数据中心搬到太空去,\n而且不是科幻和概念PPT,\n明年就开始发射。\n\n就在昨天的财报电话会上,\nMusk直接宣布:\nSpaceX未来所有的AI算力,\n不管是地面数据中心还是轨道上的,\n独家使用Nvidia最新的Vera Rubin架构。\n\n2026年底,总算力超过2GW,\n2027年底,接近10GW。\n\n这是什么概念?\n现在全球最大的超算也就几百兆瓦,\n10GW是十个超算的规模,\nSpaceX直接一步迈进全球最大AI基础设施玩家的行列。\n\n但这还不是最炸的,\n最炸的是他们同步公布的Starmind计划:\n一整个轨道AI卫星星座,\n2027年开始发射,\n每一颗卫星里,直接塞Nvidia Rubin GPU加Vera CPU,\n真正的数据中心级太空算力。\n地面的数据中心也省事,\n直接用同一套设计,\n把太阳能板和散热器拆了就行。\n\n很多人第一反应是这也太扯了,\n但你仔细想,这事儿逻辑硬得可怕。\n现在地面上搞AI,最大的瓶颈是什么?\n不是GPU,是电,是散热,是地。\n一个10GW的数据中心,\n要占多少地,要拉多少电,要建多少冷却塔,\n审批要多少年,\n这些问题在太空里全部不存在。\n\n太阳是免费的,\n真空是最好的散热器,\n轨道上的空间要多少有多少。\n\n以前这事儿不成立,\n是因为发射成本太高,\n现在Starship把发射成本打下来了,\n把一公斤东西送到轨道的成本马上就要降到几百美元甚至更低,\n太空计算突然就从科幻变成了经济账。\n\n而且这不是什么遥远的愿景,\n他们已经和@NVIDIAGeForce 联合设计好了Starmind AI1计算载荷,\n\n@elonmusk 原话是\"这不是遥远的未来,我们预计明年就开始发射\"。\n计算在轨道上跑,结果通过星链的激光链路传回来,\n你在地面上用,根本感觉不到区别。\n\n这个消息一出来,\n@AMD 股价直接跌了8%。\n\n这可是SpaceX,\n是现在全世界最能把疯狂想法变成现实的公司,\n加上Nvidia最新的芯片,\n再加上Starship的发射能力,\n这三家凑在一起,\n等于直接给\"轨道数据中心\"这个概念盖了章。\n\n他们还在申请最多一百万颗卫星的FCC许可,\n这个野心,\n已经不是和谁竞争的问题了,\n是直接把AI算力的上限给掀了。\n\n我们这代人从接触电脑开始,\n所有的计算都发生在地面上,\n在机房里,在数据中心里,\n从明年开始,\n我们用的AI,\n可能有一部分真的是在天上算的。\n\n这一天,可能会比所有人想的都近。\n\n### 引用推文\n\n> Elon Musk：SpaceX 已承诺独家使用 Nvidia GPU,因为它们是最优秀的。",
+  "id": "cmsg7u0dp00s1roremmr20cb1",
+  "url": "https://aihot.virxact.com/items/cmsg7u0dp00s1roremmr20cb1",
+  "fetched_at": "2026-08-06T11:59:43+08:00"
+}

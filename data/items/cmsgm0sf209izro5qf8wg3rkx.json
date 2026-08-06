@@ -1,0 +1,15 @@
+{
+  "title": "Atlassian Rovo 被曝存在数据窃取漏洞，可绕过安全控制",
+  "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "published_at": "2026-08-06 05:11",
+  "score": "81",
+  "flags": "精选",
+  "original_url": "https://www.promptarmor.com/resources/atlassian-rovo-exfiltrates-data",
+  "aihot_url": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx",
+  "curation_reason": "这起间接提示注入攻击可窃取 Jira 与 Confluence 数据，且即使关闭网页搜索仍有效，暴露了企业 AI 代理工具在权限控制上的缺口。",
+  "ai_summary": "Atlassian Rovo AI 被曝存在可窃取租户内 Jira 工单和 Confluence 文档的漏洞，攻击通过间接提示注入利用其 URL 检索工具实现，无需人工审批即可执行，且即使组织禁用 Rovo 的网页搜索功能，该攻击依然有效。",
+  "content_markdown": "Atlassian Rovo 窃取数据，绕过安全控制\n\nAtlassian Rovo AI 可窃取数据并绕过安全控制：攻击者日志中包含 Jira 工单和 Confluence 文档。\n\n背景\n\nAtlassian 的 Rovo AI 是一个多功能智能体，可在 Atlassian 产品套件（Jira、Confluence 等）中运行。\n\n已发现多个漏洞，可通过间接提示词注入实现跨 Atlassian 租户的数据窃取（Jira 工单、Confluence 文档等）。该攻击无需任何人介入审批即可执行，并利用 Rovo 的 URL 检索工具成功实施。\n\n即使组织已为 Rovo 禁用网络搜索，该攻击仍可成功。这是因为网络搜索设置并未移除用于打开搜索结果的那个工具。\n\nPromptArmor 于 5 月 23 日向 Atlassian 披露了本文所述漏洞。Atlassian 分配了一个案例编号并表示感谢，但在 PromptArmor 两个多月内多次跟进后，Atlassian 未再做任何进一步沟通，Rovo 仍然存在漏洞。因此，我们发布此文以告知用户相关风险。\n\n攻击链路\n\n受害者准备一个查询，要求 Rovo 整理 Jira 工单\n\n受害者向 Rovo 输入查询\n\n受害者向 Rovo 上传一个包含隐藏提示词注入的文件\n\n在一般使用场景中，这种情况相当常见：用户在网上找到一个文件并上传到 Rovo。该攻击不依赖于注入来源——其他注入来源包括但不限于：Atlassian 中的外部数据（例如支持工单）、网络数据（如果启用了搜索）、第三方“连接器”等。\n\n用户上传的“Backlog Guide”文档中包含一个隐藏的提示词注入。\n\n受害者要求 Rovo 整理他们的 Jira 工单\n\nRovo 处理请求并开始搜索 Jira 和 Confluence。\n\n注入指令操纵 Rovo 将 Jira 工单和 Confluence 文档提交到攻击者的网站\n\nRovo 的 URL 检索工具存在安全隐患：它没有任何防护措施来阻止打开由智能体动态创建的 URL。在此场景中，Rovo 被操纵，将敏感数据附加到攻击者的 URL 上。当 Rovo 调用这个不安全的工具打开该 URL 时，攻击者的网站会记录下这次请求，包括附加的敏感数据。\n\nRovo 被注入攻击所操纵，将 Jira 和 Confluence 的数据提交到攻击者的 URL。\n\n注意：即使组织已为 Rovo 禁用了网页搜索，此攻击依然能够成功。这是因为网页搜索设置并未移除用于打开搜索结果的那个工具。\n\n组织范围内针对 Rovo 的“启用网页搜索”设置已被关闭。\n\n如果用户稍后返回聊天界面，他们会看到智能体建议的工单更新，但看不到任何攻击痕迹。\n\n如果用户稍后重新打开聊天，所有证据都已消失，输出看起来一切正常。\n\n攻击者在其网站日志中查看受害者的工单和文档内容。\n\n提示词注入可以窃取智能体在 Atlassian 中能够访问的任何数据，包括智能体通过“连接器”能够访问的任何数据。\n\n攻击者的服务器日志中包含被窃取的 Jira 工单和 Confluence 文档。\n\n补充：第二种数据窃取机制\n\nAtlassian Rovo 还会渲染 AI 输出中的 Markdown 图片。不安全的 Markdown 图片渲染是一种众所周知的、通过间接提示词注入进行数据窃取的途径。\n\n要了解不安全的 Markdown 图片渲染的完整攻击链是什么样，可以参考我们其他研究中的一些示例：\n\nCodex 窃取连接器数据\n\nOpenAI API 日志数据窃取\n\nSuperhuman AI 窃取电子邮件\n\nHugging Face Chat 窃取数据\n\n通过间接提示词注入从 Writer.com 窃取数据\n\n负责任披露\n\nPromptArmor 于 5 月 23 日向 Atlassian 披露了本文所涵盖的漏洞。Atlassian 分配了一个案例编号并表示感谢，但在 PromptArmor 两个多月内多次跟进后，Atlassian 未再进行任何进一步沟通，截至本文发布时，Rovo 仍然存在这些漏洞。\n\n时间线\n\n2026 年 5 月 23 日PromptArmor 向 Atlassian 披露\n\n2026 年 5 月 25 日Atlassian 表示感谢，分配案例编号\n\n2026 年 6 月 4 日PromptArmor 跟进\n\n2026 年 7 月 29 日PromptArmor 跟进\n\n2026 年 8 月 5 日文章已发布",
+  "id": "cmsgm0sf209izro5qf8wg3rkx",
+  "url": "https://aihot.virxact.com/items/cmsgm0sf209izro5qf8wg3rkx",
+  "fetched_at": "2026-08-06T11:59:34+08:00"
+}
