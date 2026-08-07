@@ -1,0 +1,15 @@
+{
+  "title": "NVIDIA Cosmos 3：开放世界模型如何推动物理 AI 前沿",
+  "source": "NVIDIA Blog（RSS）",
+  "published_at": "2026-08-06 21:00",
+  "score": "71",
+  "flags": "精选",
+  "original_url": "https://blogs.nvidia.com/blog/open-world-models-physical-ai",
+  "aihot_url": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh",
+  "curation_reason": "介绍 Cosmos 3 作为开放物理 AI 基础模型的架构、基准表现和行业用例，为需要定制世界模型的机器人、自动驾驶和视觉 AI 团队提供了可直接参考的技术路线。",
+  "ai_summary": "NVIDIA 发布 Cosmos 3，一个基于混合 Transformer 架构的开放物理 AI 基础全模态模型，整合视觉推理、世界生成与动作预测。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmshjdgsn0gf5ronkj2dwsbwh",
+  "url": "https://aihot.virxact.com/items/cmshjdgsn0gf5ronkj2dwsbwh",
+  "fetched_at": "2026-08-07T11:44:00+08:00"
+}

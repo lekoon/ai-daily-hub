@@ -1,0 +1,15 @@
+{
+  "title": "Agent Plugins 1.0.0 发布：谷歌、亚马逊、微软等支持的统一智能体插件规范",
+  "source": "Google Developers Blog（RSS）",
+  "published_at": "2026-08-07 00:53",
+  "score": "75",
+  "flags": "精选",
+  "original_url": "https://developers.googleblog.com/agent-plugins-package-your-skills-tools-and-more",
+  "aihot_url": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03",
+  "curation_reason": "此前不同AI编码代理和IDE的插件需要单独适配，Agent Plugins通过统一manifest和目录结构，使单个插件可跨工具复用，降低了多代理环境的分发成本。",
+  "ai_summary": "Agent Plugins 1.0.0 是一项由谷歌、亚马逊、微软等支持的中立目录规范，将 Agent Skills 和 MCP 服务器打包为单一可移植单元。通过标准化 plugin.json 清单和固定目录布局，开发者无需为不同 AI 编码智能体和 IDE 维护单独封装。谷歌已作为核心维护者加入，并在 Agents CLI 和 Data Agent Kit 中提供支持。",
+  "content_markdown": "站内暂未收录这条内容的完整正文。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmshra4es0oycronk0wcvjv03",
+  "url": "https://aihot.virxact.com/items/cmshra4es0oycronk0wcvjv03",
+  "fetched_at": "2026-08-07T11:44:03+08:00"
+}

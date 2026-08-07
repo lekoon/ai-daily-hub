@@ -1,0 +1,15 @@
+{
+  "title": "Databricks 详解什么是 Tool Calling",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-07 05:31",
+  "score": "58",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/what-is-tool-calling",
+  "aihot_url": "https://aihot.virxact.com/items/cmsi5gv1x1133ronkwrumkhtz",
+  "curation_reason": "",
+  "ai_summary": "Tool calling 是 AI 模型调用外部工具和 API 的能力，让模型能突破自身局限、执行实时数据获取或具体操作。该机制通常涉及模型生成结构化请求、系统调度执行并将结果返回模型，从而完成更复杂的任务。Databricks 从概念、工作原理到应用场景对这一能力进行了系统说明。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsi5gv1x1133ronkwrumkhtz",
+  "url": "https://aihot.virxact.com/items/cmsi5gv1x1133ronkwrumkhtz",
+  "fetched_at": "2026-08-07T11:44:37+08:00"
+}

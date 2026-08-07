@@ -1,0 +1,15 @@
+{
+  "title": "面壁智能 AMNESIAC：反向图灵测试 AI 审讯游戏",
+  "source": "OpenBMB (@OpenBMB)",
+  "published_at": "2026-08-06 21:00",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://x.com/OpenBMB/status/2085350175782949094",
+  "aihot_url": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb",
+  "curation_reason": "将摄像头面部信号、语音对话和LoRA角色塑形组合进一个可玩演示，为交互式AI角色提供了比常见聊天机器人更丰富的多模态模板。",
+  "ai_summary": "面壁智能 OpenBMB 在 #BuildSmall 黑客松推出 AMNESIAC，一款反向图灵测试交互游戏：玩家需说服 AI 审讯官 A.M.N. 自己是人类。该游戏由 MiniCPM-o 4.5 驱动实时对话与推理，VoxCPM 生成审讯官语音，并结合摄像头面部表情、脉搏信号与响应计时进行多模态审讯。项目已开源至 HuggingFace。",
+  "content_markdown": "AMNESIAC - 一款反向图灵测试 AI 审讯游戏 🪞\n\n由开发者 @HetanshWaghela 在 #BuildSmall 黑客松期间创作，AMNESIAC 颠覆了图灵测试：你能说服 AI 你是人类吗？\n\n在这款互动体验中，用户面对的是 A.M.N.，一位通过摄像头和麦克风分析面部表情、脉搏信号和响应时机的 AI 审讯官，它会根据人类的反应不断调整提问。\n\n由 MiniCPM-o 和 VoxCPM 驱动，AMNESIAC 能够： 🧠 利用 MiniCPM-o 4.5 理解用户回复并生成实时审讯对话 🎙️ 通过 VoxCPM 语音生成打造独特的 AI 审讯官人格 👁️ 结合端侧面部分析和生物特征信号，构建更具沉浸感的交互体验 ✨ 使用自定义语音数据集上的 LoRA 微调，塑造一种冷静、临床感的 AI 语音风格\n\nAMNESIAC 展示了多模态和语音模型如何将感知、推理与语音相结合，创造出更具表现力的 AI 角色。\n\n探索它： 🤗 https://huggingface.co/spaces/build-small-hackathon/amnesiac\n\n模型： 🔗 MiniCPM-o 4.5：http://huggingface.co/openbmb/MiniCPM-o-4_5 🔗 VoxCPM：http://huggingface.co/openbmb/VoxCPM2",
+  "id": "cmshjbfzc0gceronkw6dqhrsb",
+  "url": "https://aihot.virxact.com/items/cmshjbfzc0gceronkw6dqhrsb",
+  "fetched_at": "2026-08-07T11:44:36+08:00"
+}
