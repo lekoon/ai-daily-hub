@@ -1,0 +1,15 @@
+{
+  "title": "扩展分类流映射（Categorical Flow Maps）规模",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-07 08:00",
+  "score": "64",
+  "flags": "精选",
+  "original_url": "https://machinelearning.apple.com/research/scaling-categorical-flow-maps",
+  "aihot_url": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
+  "curation_reason": "研究将分类流映射扩展到大规模语言建模，为连续扩散替代自回归提供了实验证据，可能影响模型架构选择。",
+  "ai_summary": "连续扩散与流匹配模型有望成为语言建模中自回归方法的有力替代，可解锁加速采样与倾斜等连续模态优势。近期研究通过高斯分布与one-hot编码数据分布间的简单流匹配过程，实现离散数据的连续生成，并借助分类流映射（CFMs）验证了加速采样的可行性，样本质量具有竞争力。",
+  "content_markdown": "连续扩散与流匹配模型有望成为自回归方法在大语言建模（LM）领域的有力替代方案，因为它们解锁了目前仅限连续模态使用的一系列优势，包括加速采样和倾斜（tilting）。近期，多项研究证明了通过在高斯分布与独热编码数据分布之间进行简单流匹配过程来连续生成离散数据的可能性。这些研究还进一步展示了通过类别流映射（Categorical Flow Maps，CFMs）实现加速采样的可行性，从而获得了具有竞争力的样本……",
+  "id": "cmsj4jrne24d5ronkvb40rucl",
+  "url": "https://aihot.virxact.com/items/cmsj4jrne24d5ronkvb40rucl",
+  "fetched_at": "2026-08-08T10:52:03+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Arbitrage：利用优势感知投机实现高效推理",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-07 08:00",
+  "score": "51",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/arbitrage-efficient-reasoning",
+  "aihot_url": "https://aihot.virxact.com/items/cmsjjjvzz0bczroo5piheqn26",
+  "curation_reason": "",
+  "ai_summary": "现代大语言模型通过长思维链实现强大推理能力，但推理计算成本高昂。投机解码（Speculative Decoding）用快速但不精确的草稿模型提议 token，再由更强的目标模型并行验证，以加速推理。然而，语义等价步骤中的 token 不匹配会导致不必要的拒绝，传统 token 级投机解码因此受限。",
+  "content_markdown": "Modern Large Language Models achieve impressive reasoning capabilities with long Chain of Thoughts, but they incur substantial computational cost during inference, and this motivates techniques to improve the performance-cost ratio. Among these techniques, Speculative Decoding accelerates inference by employing a fast but inaccurate draft model to auto-regressively propose tokens, which are then verified in parallel by a more capable target model. However, due to unnecessary rejections caused by token mismatches in semantically equivalent steps, traditional token-level Speculative Decoding…",
+  "id": "cmsjjjvzz0bczroo5piheqn26",
+  "url": "https://aihot.virxact.com/items/cmsjjjvzz0bczroo5piheqn26",
+  "fetched_at": "2026-08-08T10:52:06+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code 会话间可互发消息",
+  "source": "ClaudeDevs (@ClaudeDevs)",
+  "published_at": "2026-08-08 03:55",
+  "score": "73",
+  "flags": "精选",
+  "original_url": "https://x.com/ClaudeDevs/status/2085817074816070014",
+  "aihot_url": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
+  "curation_reason": "跨会话传递上下文不再是复制粘贴，摘要消息让多个并行任务间保持连贯成为可能，降低了开发者维护长流程的心智负担。",
+  "ai_summary": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n无需在另一个会话中重新解释自己，你现在可以让 Claude 代为传达。它会发送一份摘要（而非你的历史记录或文件），另一个会话会在任务进行中接收该摘要。",
+  "content_markdown": "Claude Code 新功能：你的会话现在可以互相发送消息了。\n\n不必再在另一个会话中重新解释一遍，你现在可以直接让 Claude 去做这件事。它会发送一份摘要（而不是你的历史记录或文件），另一个会话会在任务进行中接收到这份摘要。",
+  "id": "cmsjdsk6p076rroo561c8askl",
+  "url": "https://aihot.virxact.com/items/cmsjdsk6p076rroo561c8askl",
+  "fetched_at": "2026-08-08T10:51:45+08:00"
+}

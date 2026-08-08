@@ -1,0 +1,15 @@
+{
+  "title": "独立开发者用 VoxCPM 克隆网红声音，让 AI 终于\"会聊天\"了",
+  "source": "公众号：面壁智能（MiniCPM）",
+  "published_at": "2026-08-07 14:41",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg3Mzg2MTg2NQ%3D%3D&mid=2247498927&idx=1&sn=c5fbfaac5ede8b1008d17337a1bdc70b",
+  "aihot_url": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5",
+  "curation_reason": "案例的实践价值在于澄清了实时对话 TTS 环节的选择逻辑：中文原生支持与默认参数平衡往往优于盲目追求极致克隆，这一取舍对同类项目具直接参考。",
+  "ai_summary": "独立开发者叶小叔用面壁智能开源的 VoxCPM 克隆千万粉丝网红声音，搭建 STT → LLM → VoxCPM（TTS）三段式实时对话管道，TTS 首包延迟不到 1 秒，端到端体感 2 到 3 秒。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsil63w11iawronkshdpjgy5",
+  "url": "https://aihot.virxact.com/items/cmsil63w11iawronkshdpjgy5",
+  "fetched_at": "2026-08-08T10:52:11+08:00"
+}

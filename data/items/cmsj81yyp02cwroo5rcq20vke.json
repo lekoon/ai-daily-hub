@@ -1,0 +1,15 @@
+{
+  "title": "LangChain 推出 Managed Deep Agents 公开测试版",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-08 01:24",
+  "score": "62",
+  "flags": "精选",
+  "original_url": "https://www.langchain.com/blog/managed-deep-agents-is-now-in-public-beta",
+  "aihot_url": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
+  "curation_reason": "托管执行、内存和沙箱等基础能力被封装成生产化服务，让 Agent 从原型到上线不再需要单独搭建这些工程设施。",
+  "ai_summary": "LangChain 的 Managed Deep Agents 进入公开测试版，可将 Deep Agents 部署到托管的 LangSmith 运行时。该服务提供持久化执行、记忆、沙箱、通道、评估（evals）及生产级基础设施。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsj81yyp02cwroo5rcq20vke",
+  "url": "https://aihot.virxact.com/items/cmsj81yyp02cwroo5rcq20vke",
+  "fetched_at": "2026-08-08T10:51:53+08:00"
+}

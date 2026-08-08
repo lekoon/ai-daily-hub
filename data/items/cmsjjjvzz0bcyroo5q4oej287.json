@@ -1,0 +1,15 @@
+{
+  "title": "超越下一个 token 预测：扩散语言模型与自回归语言模型的性能对比研究",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-07 08:00",
+  "score": "44",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/diffusion-autoregressive-performance",
+  "aihot_url": "https://aihot.virxact.com/items/cmsjjjvzz0bcyroo5q4oej287",
+  "curation_reason": "",
+  "ai_summary": "苹果机器学习研究团队系统对比了扩散语言模型（DLMs）与自回归语言模型（ARMs）的性能表现。ARMs 虽在多项 NLP 任务上精度领先，但因逐 token 生成的顺序依赖导致算术强度较低。DLMs 作为新兴范式展现出潜力，研究对其性能特征进行了详细刻画。",
+  "content_markdown": "Large Language Models (LLMs) have achieved state-of-the-art performance on a broad range of Natural Language Processing (NLP) tasks, including document processing and code generation. Autoregressive Language Models (ARMs), which generate tokens sequentially conditioned on all previous tokens, have been the predominant paradigm for LLMs. While these models have achieved high accuracy across a range of downstream tasks, they exhibit low arithmetic intensity due to the inherent sequential dependency in next-token prediction. Recently, Diffusion Language Models (DLMs) have emerged as a promising…",
+  "id": "cmsjjjvzz0bcyroo5q4oej287",
+  "url": "https://aihot.virxact.com/items/cmsjjjvzz0bcyroo5q4oej287",
+  "fetched_at": "2026-08-08T10:52:07+08:00"
+}
