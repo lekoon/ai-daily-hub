@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code v2.1.225 发布：新增网关支出限额支持与工作区信任提示",
+  "source": "Claude Code：GitHub Releases（RSS）",
+  "published_at": "2026-08-08 09:09",
+  "score": "50",
+  "flags": "",
+  "original_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.225",
+  "aihot_url": "https://aihot.virxact.com/items/cmsjpzjuu0h0wroo54ok9y37u",
+  "curation_reason": "",
+  "ai_summary": "Claude Code v2.1.225 为用量警告新增网关支出限额支持，达到限额时提示将显示上限、重置时间及操作者消息。该版本还为不受信任目录中的 claude agents 增加工作区信任提示，并修复了 MCP OAuth 服务器在 macOS 上的间歇性 401 错误、跨会话消息滞留及 Remote Control 会话恢复后对话历史损坏等问题。",
+  "content_markdown": "What's changed\n\nAdded gateway spend-limit support to Claude Code's usage warning; the limit-reached message now names the cap, its reset time, and the operator's message (requires the gateway on 2.1.225)\n\nAdded a workspace trust prompt to claude agents for untrusted directories, matching the behavior of claude\n\nFixed a transient 401 replacing a long-lived CLAUDE_CODE_OAUTH_TOKEN with a stored login's short-lived token, breaking headless sessions until restart\n\nFixed MCP OAuth servers on macOS intermittently failing with a burst of 401 errors, as if never authenticated, after a keychain read timed out\n\nFixed auto mode counting a safety-filter refusal of its own permission check toward the consecutive-block limit; the action is still denied, but the model is now told to move on rather than retry\n\nFixed cross-session messages staying parked without a notice or expiry in headless sessions and during startup\n\nFixed conversation history breaking on Remote Control session resume after very large conversations were compacted\n\nFixed hovering over a session in another project in the agents list changing the directory the next agent starts in\n\nFixed claude self-hosted-runner registering and then failing every session when --base-dir cannot be created or written; it now exits at startup with a clear error\n\nFixed Claude Code on the web sessions being misreported as stuck, re-sending a growing event backlog on every reconnect\n\nImproved Remote Control: photos attached from the Claude app are now shown to Claude directly instead of being read from disk with a separate tool call\n\n[VSCode] Fixed Focus view folding away the latest to-do list, a pending question's context, and settled answers; thinking-only folds show \"Thought for Ns\" and re-collapse when their turn completes\n\nSendMessage can now start a conversation with your Remote Control sessions on other machines by name (ListAgents shows them as name [ref]), instead of only replying after they message you first\n\nSendMessage: a Remote Control recipient you already confirmed is never swapped for a same-named session on this machine when its own list couldn't be checked",
+  "id": "cmsjpzjuu0h0wroo54ok9y37u",
+  "url": "https://aihot.virxact.com/items/cmsjpzjuu0h0wroo54ok9y37u",
+  "fetched_at": "2026-08-09T10:58:32+08:00"
+}
