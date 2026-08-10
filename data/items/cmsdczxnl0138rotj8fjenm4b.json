@@ -1,0 +1,15 @@
+{
+  "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
+  "source": "SenseTime (@SenseTime_AI)",
+  "published_at": "2026-08-03 22:40",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://x.com/SenseTime_AI/status/2084288424236782073",
+  "aihot_url": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b",
+  "curation_reason": "8B 参数的小模型在生成和编辑上接近闭源水平，有望降低轻量化多模态应用的门槛，但预览版功能可能尚不完整。",
+  "ai_summary": "商汤推出 SenseNova U1.5-Lite-Preview，一个基于 NEO-Unify 架构的轻量级原生统一多模态模型，仅 8B-MoT 参数即可达到商业闭源模型的生成与编辑质量。",
+  "content_markdown": "推出 SenseNova U1.5-Lite-Preview。\n\n这是我们轻量级、原生统一多模态模型的早期开源预览版--基于原生 NEO-Unify 架构构建，能够原生地理解、推理、生成和编辑多种模态内容。仅凭 8B-MoT 参数，它就提供了媲美商业闭源模型的生成和编辑质量。\n\n🌟本次预览带来： 🔹最高 4K 分辨率，呈现更丰富的细节和更少的视觉伪影 🔹更强的中英文文本渲染和复杂版面构图能力 🔹更精准的视觉控制，支持长文本、多约束条件的提示词 🔹更可靠的原生图像编辑，涵盖参考图引导的风格迁移、多参考图合成、局部信息图编辑和文本编辑\n\n🌟相比 U1，在生成和编辑基准上的提升： 🔹Qwen-Image-Bench：47.14 → 55.20（使用 PE） 🔹ImgEdit-Bench：3.90 → 4.37 🔹GEdit-Bench-en：7.47 → 8.17 🔹GEdit-Bench-zh：7.42 → 8.05\n\n从 U1 到 U1.5，这段开源之旅体现了我们在基础模型层面的持续创新。同时，面向创作者的生产级模型 U1 Pro 也即将开放公测。\n\n🛠️ GitHub：https://github.com/OpenSenseNova/SenseNova-U1/blob/feat/u1.5_preview/docs/u1.5_preview.md 🤗 Hugging Face：https://huggingface.co/sensenova/SenseNova-U1.5-8B-MoT-Preview 👾 Discord：https://discord.com/invite/BuTXPHmQub",
+  "id": "cmsdczxnl0138rotj8fjenm4b",
+  "url": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b",
+  "fetched_at": "2026-08-10T11:08:04+08:00"
+}

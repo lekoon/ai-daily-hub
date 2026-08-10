@@ -1,0 +1,15 @@
+{
+  "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+  "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "published_at": "2026-08-04 00:24",
+  "score": "76",
+  "flags": "精选",
+  "original_url": "https://github.com/lyogavin/airllm",
+  "aihot_url": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1",
+  "curation_reason": "将 70B 模型推理压缩到 4GB 显存，让不带专用显卡的开发者也能本地测试大模型，但实际推理速度和质量仍需根据用例评估。",
+  "ai_summary": "AirLLM 项目支持在单块 4GB 显存 GPU 上运行 70B 参数大模型推理，无需多卡或大规模显存配置。该项目已开源，相关讨论在 Hacker News 上获得 103 点热度，引发社区关注。",
+  "content_markdown": "站内暂未收录这条内容的完整正文。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsdg55m700l4roca3x3gtfb1",
+  "url": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1",
+  "fetched_at": "2026-08-10T11:08:13+08:00"
+}

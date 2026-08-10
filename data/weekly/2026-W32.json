@@ -1,0 +1,225 @@
+{
+  "type": "weekly",
+  "vol": "2026-W32",
+  "eyebrow": "VOL.2026-W32·25STORIES·AIHOTWEEKLY",
+  "date_range": "2026-08-03~2026-08-09",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "开源模型与智能体基建加速",
+    "overview": "本周AI行业主线是开源模型的密集发布与智能体基础设施的快速演进。Qwen3.8-Max以2.4T参数开源最强编码模型，商汤、蚂蚁、腾讯混元等也相继推出开源模型，推动前沿能力平民化。与此同时，Cloudflare Agents Week、微软Orchard、Google Agent Skills等事件标志着智能体开发与部署的底层工具链日趋成熟。欧盟AI法案透明度规则生效，为行业划定了合规红线。此外，Anthropic与Volta的百亿算力协议、Palantir CEO对前沿实验室的批评，折射出算力军备竞赛与产业话语权争夺的加剧。"
+  },
+  "stats": [
+    {
+      "value": "122",
+      "label": "独立事件"
+    },
+    {
+      "value": "122",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "开源模型密集发布，前沿能力走向平民化",
+      "count": "5",
+      "intro": "本周多家机构发布开源模型，显著降低前沿AI的使用门槛。Qwen3.8-Max以2.4T参数成为Qwen家族最强模型，并首次开源Max级权重；商汤SenseNova U1及U1.5-Lite-Preview实现统一推理与图像生成；蚂蚁百灵Ling-3.0-flash、NVIDIA Alpamayo 2 Super等也开放商用。这些发布意味着开源模型在编码、多模态等领域的性能已逼近闭源，推动AI能力民主化。",
+      "stories": [
+        {
+          "id": "cmscldw820c4kroeu7bw1kb27",
+          "title": "Qwen3.8-Max 发布：开源最强编码与协作模型，2.4T 参数",
+          "url": "https://aihot.virxact.com/items/cmscldw820c4kroeu7bw1kb27",
+          "source": "Qwen：Blog Retrieval（API）"
+        },
+        {
+          "id": "cmseuq5vh17o9ro2eomueivmi",
+          "title": "商汤 SenseNova U1 开源：统一推理与图像生成",
+          "url": "https://aihot.virxact.com/items/cmseuq5vh17o9ro2eomueivmi",
+          "source": "X：商汤 SenseTime (@SenseTime_AI)"
+        },
+        {
+          "id": "cmsdczxnl0138rotj8fjenm4b",
+          "title": "商汤发布 SenseNova U1.5-Lite-Preview 开源模型",
+          "url": "https://aihot.virxact.com/items/cmsdczxnl0138rotj8fjenm4b",
+          "source": "X：商汤 SenseTime (@SenseTime_AI)"
+        },
+        {
+          "id": "cmsesgyzp159kro2efe58vs2u",
+          "title": "蚂蚁百灵发布Ling-3.0-flash开源权重",
+          "url": "https://aihot.virxact.com/items/cmsesgyzp159kro2efe58vs2u",
+          "source": "X：蚂蚁百灵 (@AntLingAGI)"
+        },
+        {
+          "id": "cmsesrlcn15j6ro2ecpj577wj",
+          "title": "NVIDIA Alpamayo 2 Super 开放商用，面向 Robotaxi 与自动驾驶的前沿开源模型",
+          "url": "https://aihot.virxact.com/items/cmsesrlcn15j6ro2ecpj577wj",
+          "source": "NVIDIA Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "智能体基础设施爆发，开发与部署工具链成型",
+      "count": "7",
+      "intro": "Cloudflare开启Agents Week，推出面向智能体的运行时、入站TCP支持及本地追踪调试；微软开源Orchard训练框架；Google发布Agent Skills治理流程；OpenRouter推出ori CLI简化配置。这些进展表明智能体开发正从零散实践走向标准化、平台化，为大规模部署奠定基础。",
+      "stories": [
+        {
+          "id": "cmsc1kf110wjirohvp8a4eouo",
+          "title": "Cloudflare 开启 Agents Week：探讨面向智能体的 Agent Cloud 形态",
+          "url": "https://aihot.virxact.com/items/cmsc1kf110wjirohvp8a4eouo",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmsdal06c16pxroeu5xtlavmg",
+          "title": "Cloudflare 推出 @cloudflare/computer 预览版：为智能体提供虚拟文件系统与多执行环境",
+          "url": "https://aihot.virxact.com/items/cmsdal06c16pxroeu5xtlavmg",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmsdal06d16pyroeu00obye0v",
+          "title": "Cloudflare Workers 与 Containers 现已支持入站 TCP 连接和 gRPC",
+          "url": "https://aihot.virxact.com/items/cmsdal06d16pyroeu00obye0v",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmseq167s12m2ro2efhh7h5ia",
+          "title": "Cloudflare 让智能体通过本地追踪调试 Workers",
+          "url": "https://aihot.virxact.com/items/cmseq167s12m2ro2efhh7h5ia",
+          "source": "Cloudflare Blog"
+        },
+        {
+          "id": "cmsdnp8wy035jro0oflgpii8f",
+          "title": "微软开源 Orchard 智能体训练框架",
+          "url": "https://aihot.virxact.com/items/cmsdnp8wy035jro0oflgpii8f",
+          "source": "X：Microsoft Research (@MSFTResearch)"
+        },
+        {
+          "id": "cmsddya2a01t3rotjo94tdap8",
+          "title": "Google Agent Skills 幕后：如何构建、测试与规模化",
+          "url": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8",
+          "source": "Google AI：DEV 作者专属（RSS）"
+        },
+        {
+          "id": "cmsevo9td18ehro2e4owyq95q",
+          "title": "OpenRouter 推出 ori CLI：为 Claude Code 等 Harness 提供开箱即用的优化配置",
+          "url": "https://aihot.virxact.com/items/cmsevo9td18ehro2e4owyq95q",
+          "source": "OpenRouter：Announcements（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "模型效率与端侧部署成为竞争焦点",
+      "count": "5",
+      "intro": "多款模型通过架构创新或量化技术实现在消费级硬件上运行：Swiftlet在Mac上运行80B模型、AirLLM在4GB GPU上运行70B模型、Soup在4GB显存微调8B模型、DeepSeek V4 Flash在单颗MI300X上高效推理。同时，GPT-5.6 Luna降价80%永久生效，反映效率提升带来的成本下降。这些进展意味着AI推理成本正快速降低，端侧部署成为现实。",
+      "stories": [
+        {
+          "id": "cmsebb0mc0kn1ro2ejvmi5lg8",
+          "title": "Swiftlet：在 Mac 上运行 80B 版 Qwen（内存 4.3 GB），在 iPhone 上运行 35B 版",
+          "url": "https://aihot.virxact.com/items/cmsebb0mc0kn1ro2ejvmi5lg8",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmsdg55m700l4roca3x3gtfb1",
+          "title": "AirLLM 实现单块 4GB GPU 运行 70B 模型推理",
+          "url": "https://aihot.virxact.com/items/cmsdg55m700l4roca3x3gtfb1",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmsezylz31cadro2eoq1np3vh",
+          "title": "Soup v0.72.4：在4 GB显存笔记本GPU上微调8B模型",
+          "url": "https://aihot.virxact.com/items/cmsezylz31cadro2eoq1np3vh",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmseo63z710lvro2eblsf93az",
+          "title": "在单颗 AMD MI300X 上运行 DeepSeek V4 Flash",
+          "url": "https://aihot.virxact.com/items/cmseo63z710lvro2eblsf93az",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmse7yrut0gupro2ejfet4a10",
+          "title": "GPT-5.6 Luna降价80%永久生效",
+          "url": "https://aihot.virxact.com/items/cmse7yrut0gupro2ejfet4a10",
+          "source": "X：Tibo (@thsottiaux)"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI安全与合规：监管落地与产业自律并行",
+      "count": "4",
+      "intro": "欧盟《人工智能法案》透明度规则正式生效，违规最高罚1500万欧元，为AI披露设定强制性标准；工信部发布L3/L4自动驾驶安全强制性国标，2027年实施；OpenAI公布第三方评估新保障措施；Linux基金会发布SAFE指南强化智能体网络安全。这些事件表明，AI治理正从原则讨论走向具体法规与工程实践。",
+      "stories": [
+        {
+          "id": "cmsdkgj9m00hnro0ocrleteo0",
+          "title": "欧盟《人工智能法案》透明度规则生效，违规最高罚 1500 万欧元",
+          "url": "https://aihot.virxact.com/items/cmsdkgj9m00hnro0ocrleteo0",
+          "source": "The Verge：AI（RSS）"
+        },
+        {
+          "id": "cmsek09wz0vq7ro2eayzzt3uq",
+          "title": "工信部发布首部L3/L4自动驾驶系统安全要求强制性国标，2027年7月实施",
+          "url": "https://aihot.virxact.com/items/cmsek09wz0vq7ro2eayzzt3uq",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmsf5ea0u1gt2ro2e6t8w9b5l",
+          "title": "OpenAI 说明第三方网络安全评估事件并公布新保障措施",
+          "url": "https://aihot.virxact.com/items/cmsf5ea0u1gt2ro2e6t8w9b5l",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmseoh97u10w7ro2egtvmv47y",
+          "title": "AI 领袖提出 SAFE 指南，强化智能体网络安全透明度",
+          "url": "https://aihot.virxact.com/items/cmseoh97u10w7ro2egtvmv47y",
+          "source": "NVIDIA Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "算力军备竞赛与产业话语权争夺",
+      "count": "4",
+      "intro": "Anthropic与成立仅数月的Volta签署100亿美元算力协议，凸显算力需求紧迫与交易对手风险；Palantir CEO批评前沿实验室“马克思主义”，主张企业掌控数据；EA与Paramount高管则强调AI在游戏与媒体中的务实应用。这些动态反映AI产业链上下游在算力、数据与价值分配上的博弈加剧。",
+      "stories": [
+        {
+          "id": "cmsesile415d4ro2evb21j3n0",
+          "title": "Anthropic 与成立仅数月的云初创公司 Volta 签署 100 亿美元算力协议",
+          "url": "https://aihot.virxact.com/items/cmsesile415d4ro2evb21j3n0",
+          "source": "X：Rohan Paul (@rohanpaul_ai)"
+        },
+        {
+          "id": "cmsdv83cg000lro2eyp49endp",
+          "title": "Palantir 强劲季度后，CEO Alex Karp 称 AI 行业“马克思主义”",
+          "url": "https://aihot.virxact.com/items/cmsdv83cg000lro2eyp49endp",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmsdo0x3203dmro0ovomuyfqx",
+          "title": "EA 首席战略官谈生成式 AI 如何进入可游玩的实时游戏世界",
+          "url": "https://aihot.virxact.com/items/cmsdo0x3203dmro0ovomuyfqx",
+          "source": "Runway：News（网页）"
+        },
+        {
+          "id": "cmsdgioa500wcroca80g0rdcu",
+          "title": "Paramount CTO Phil Wiser：AI 属于史上最伟大技术趋势，但“iPhone 时刻”尚未到来",
+          "url": "https://aihot.virxact.com/items/cmsdgioa500wcroca80g0rdcu",
+          "source": "Runway：News（网页）"
+        }
+      ]
+    }
+  ],
+  "story_count": 25,
+  "period": "2026-W32",
+  "url": "https://aihot.virxact.com/weekly/2026-W32",
+  "fetched_at": "2026-08-10T11:07:53+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Google Agent Skills 幕后：如何构建、测试与规模化",
+  "source": "Google AI：DEV 作者专属（RSS）",
+  "published_at": "2026-08-03 22:33",
+  "score": "63",
+  "flags": "精选",
+  "original_url": "https://dev.to/googleai/behind-the-scenes-how-we-build-test-and-scale-google-agent-skills-1am5",
+  "aihot_url": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8",
+  "curation_reason": "标准化目录、自动化链接检查和持续评估的完整流程，可帮助团队避免技能库随规模扩大而失控。",
+  "ai_summary": "Google Agent Skills 团队详解其开源技能库的构建与治理流程：项目始于 Google Cloud Next 2026 前的“swarm”冲刺，发布后 GitHub 星标超 15,000。为保证规模化下的质量，每个技能须通过标准化目录结构、CI/CD 流水线（含 linter、链接检查、AI 辅助清单）及提交时与每周的持续评估，并优先引用远程 MCP 工具。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsddya2a01t3rotjo94tdap8",
+  "url": "https://aihot.virxact.com/items/cmsddya2a01t3rotjo94tdap8",
+  "fetched_at": "2026-08-10T11:08:11+08:00"
+}

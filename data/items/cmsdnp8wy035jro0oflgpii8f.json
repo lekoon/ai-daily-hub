@@ -1,0 +1,15 @@
+{
+  "title": "微软开源 Orchard 智能体训练框架",
+  "source": "Microsoft Research (@MSFTResearch)",
+  "published_at": "2026-08-04 03:43",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://x.com/MSFTResearch/status/2084364547142418722",
+  "aihot_url": "https://aihot.virxact.com/items/cmsdnp8wy035jro0oflgpii8f",
+  "curation_reason": "框架将 agent 训练评估所需基础设施统一，降低重复工程成本，尤其适合资源有限但需要强性能 agent 的研究场景，但本次发布未给出具体性能基准，尚需实际验证。",
+  "ai_summary": "Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体。它降低了复杂性，同时通过让研究人员复用同一套基础设施，支持较小模型也能实现强劲性能。https://msft.it/6019a8fqP",
+  "content_markdown": "Orchard 是一个面向研究社区的开源框架，用于跨任务类型训练和评估 AI 智能体。它通过让研究人员复用同一套基础设施来降低复杂性，同时支持较小模型也能实现强劲性能。https://msft.it/6019a8fqP",
+  "id": "cmsdnp8wy035jro0oflgpii8f",
+  "url": "https://aihot.virxact.com/items/cmsdnp8wy035jro0oflgpii8f",
+  "fetched_at": "2026-08-10T11:08:10+08:00"
+}
