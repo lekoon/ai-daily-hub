@@ -1,0 +1,15 @@
+{
+  "title": "Qwen-MM-Plugins 让智能体原生支持多模态",
+  "source": "Qwen (@Alibaba_Qwen)",
+  "published_at": "2026-08-10 12:04",
+  "score": "71",
+  "flags": "精选",
+  "original_url": "https://x.com/Alibaba_Qwen/status/2086664887560970531",
+  "aihot_url": "https://aihot.virxact.com/items/cmsmpwjyh0b0drohfw1hpbbzh",
+  "curation_reason": "让智能体直接获得视觉、文档和 3D 感知能力，把原本需要单独集成的工作流变成一组可调用的插件，原型开发速度可能因此加快。",
+  "ai_summary": "👀 看见只是开始。\n\n借助 Qwen-MM-Plugins，让你的智能体原生支持多模态——读取图片、视频和文档，编辑视频，处理 3D/CAD，以及更多。\n\n从多模态模型 → 多模态智能体。🚀\n\n观看实际效果：https://github.com/QwenLM/Qwen-MM-Plugins",
+  "content_markdown": "👀 看见，只是开始。\n\n借助 Qwen-MM-Plugins，让你钟爱的智能体框架原生支持多模态--读取图片、视频与文档，编辑视频，处理 3D/CAD，以及更多能力。\n\n从多模态模型 → 多模态智能体。🚀\n\n观看实际演示： https://github.com/QwenLM/Qwen-MM-Plugins",
+  "id": "cmsmpwjyh0b0drohfw1hpbbzh",
+  "url": "https://aihot.virxact.com/items/cmsmpwjyh0b0drohfw1hpbbzh",
+  "fetched_at": "2026-08-11T11:00:50+08:00"
+}

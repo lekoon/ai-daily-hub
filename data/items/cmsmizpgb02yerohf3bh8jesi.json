@@ -1,0 +1,15 @@
+{
+  "title": "我花了54个小时，做了一个可能更公平的AI大模型排行榜。",
+  "source": "公众号：数字生命卡兹克",
+  "published_at": "2026-08-10 08:52",
+  "score": "61",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685059&idx=1&sn=a329fe9999ac2419470c7eca9a97acd3",
+  "aihot_url": "https://aihot.virxact.com/items/cmsmizpgb02yerohf3bh8jesi",
+  "curation_reason": "聚合榜单的难点在于不同榜的排名含金量不可比，作者用 Bradley-Terry 模型将问题转为成对比较，为评估模型综合能力提供了比简单平均更合理的框架。",
+  "ai_summary": "作者耗时54小时开发并免费开放了一个聚合多家可信榜单的AI大模型综合排行榜LatentRank。该榜单采用Bradley-Terry成对比较算法，并加入先验限制小样本结果，以解决不同榜单规模、领先幅度和模型缺失带来的评分偏差。目前榜单前五名中，Opus 5超过Fable 5位居前列。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsmizpgb02yerohf3bh8jesi",
+  "url": "https://aihot.virxact.com/items/cmsmizpgb02yerohf3bh8jesi",
+  "fetched_at": "2026-08-11T11:00:55+08:00"
+}

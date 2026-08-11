@@ -1,0 +1,15 @@
+{
+  "title": "OpenChamber：一个基于代理的开发环境",
+  "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "published_at": "2026-08-10 08:46",
+  "score": "70",
+  "flags": "精选",
+  "original_url": "https://openchamber.dev/",
+  "aihot_url": "https://aihot.virxact.com/items/cmsmjglqx034prohfslczvkpb",
+  "curation_reason": "将多模型并行、日程化任务和跨设备工作区整合到同一界面，减少了切工具的时间，适合需要在多个 AI 代理间协调的开发者。",
+  "ai_summary": "OpenChamber 是一个基于代理的开发环境，可跨桌面、浏览器、手机和 VS Code 使用，支持会话目标、多模型并行运行与融合、变更走查、从 issue 到 PR 的完整流程及定时任务。该工具基于 OpenCode SDK，完全开源且免费，代码和会话内容均保存在本地，远程访问可通过 UI 密码和端到端加密的 Private Relay 保护。",
+  "content_markdown": "一个智能体开发环境。\n\n下载\n\n你可以用 OpenChamber 做什么。\n\n会话目标\n\n设定一个终点线。智能体会一轮接一轮地持续朝它努力——即使应用已关闭。\n\n多模型运行与融合\n\n在最多五个模型上运行同一个任务。保留最佳结果，或融合各模型最强的部分。\n\n变更讲解\n\n一个大型差异（diff），被分组为有序步骤，解释变更如何组合在一起。\n\n预览\n\n指向你正在运行的应用中的某个元素，然后把它背后的一切都发送给智能体。\n\n从 issue 到 pull request\n\n从 GitHub issue 或 PR 开始，把失败的检查结果发回去，无需离开即可完成合并。\n\n定时任务\n\n按 cron 计划运行一个提示词。将其与会话目标配对，以瞄准某个结果。\n\n你的工作区，无处不在。\n\n在桌面端、浏览器、手机和 VS Code 之间切换，而不会丢失上下文。\n\n桌面应用\n\nmacOS、Windows 和 Linux 应用\n\n多窗口项目工作流\n\n适用于 Finder、终端和编辑器的“在…中打开”快捷方式\n\n用于开发服务器、SSH 转发和本地 URL 的项目操作\n\n浏览器 / PWA / 移动端\n\n从任何地方通过浏览器访问\n\n适合手机和平板的控制界面\n\n原生移动应用，现已进入测试阶段\n\n一个 UI 密码门禁，让浏览器访问可以随时公开使用\n\n后台通知和跨标签页会话活动\n\n代码编辑器\n\n编辑器原生工作流\n\n直接从工具输出中打开文件\n\n对选中内容和文件进行右键上下文操作\n\n用于并行多模型运行的智能体管理器\n\n深受开发者喜爱\n\n早期用户不断描述着同样的事情：更少的标签页跳转，更少的猜测，更多稳定的前进动力。\n\n在多年于 IDE 和 TUI 之间切换之后，我找到了满足我一切需求的完美平衡点：Openchamber。\n\nBoris\n\n@Boripheus\n\nHarsha Kotcherlakota\n\nhkay-dev\n\n“我只想说这个应用本身太出色了。打磨程度简直不真实。我早在 OpenChamber 还是个小项目的时候就见过它，我想大概是几个月前吧，现在它已经变得面目一新。真是了不起的工作。最新版本及其流式功能正是我所能要求的一切，甚至更多。它华丽而流畅。”\n\nSrikanth.CashlessConsumer\n\n@logic\n\n“Opencode + OhMyOpencode + Openchamber。这真是套精心调制的技术栈。VSCode 现在看起来就像过时的 notepad++ 了。”\n\nDaniel Duma\n\n@drdanponders\n\n“别再拿 Openclaw 写代码了！改用 OpenCode 和 OpenChamber！”\n\n富足心态\n\n@1un4rPunk\n\n“说真的，我几乎花了整整一周时间想找一个能合理编排智能体的工具，而作为一个开发者（实际上，是 DevOps），openchamber 是唯一一个让我觉得自然又合乎逻辑的。”\n\n隐私与数据\n\n你的工作内容不会被收集或发送到任何地方。你的代码和会话内容都保留在你的机器上，当工作区离开 localhost 时，远程访问也可以受到保护。\n\n代码和会话始终归你所有\n\n项目名称、路径、提示词、代码、差异（diffs）和会话内容均不会被 OpenChamber 收集。\n\n远程访问受到保护\n\n浏览器访问可以通过 UI 密码进行门控，隧道链接可以在不再需要时轮换或撤销。\n\n私有中继（Private Relay），无开放端口\n\n通过一次性二维码配对设备，并通过私有中继连接，无需开放端口或暴露公共服务器。该连接采用端到端加密，可随时撤销。\n\n隐私可审查\n\nOpenChamber 是开源的，因此隐私模型在代码中清晰可见，而不是隐藏在政策语言背后。\n\nOpenChamber 常见问题解答\n\n是的。OpenChamber 是开源的，代码可在 GitHub 上获取。\n\nOpenChamber 目前基于 OpenCode SDK 运行——我们选择它是因为它提供了目前最好的开源智能体体验。使用以下命令安装：\n\ncurl -fsSL https://opencode.ai/install | bash\n\n。\n\n是的。OpenChamber 本身可以免费使用。\n\n是的。你可以通过浏览器 UI 远程打开它，在需要时使用隧道，并通过 UI 密码保护访问。\n\n还有更多问题？请查阅文档。",
+  "id": "cmsmjglqx034prohfslczvkpb",
+  "url": "https://aihot.virxact.com/items/cmsmjglqx034prohfslczvkpb",
+  "fetched_at": "2026-08-11T11:00:51+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code 自动模式默认开启原理",
+  "source": "ClaudeDevs (@ClaudeDevs)",
+  "published_at": "2026-08-10 23:58",
+  "score": "69",
+  "flags": "精选",
+  "original_url": "https://x.com/ClaudeDevs/status/2086844755770757531",
+  "aihot_url": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar",
+  "curation_reason": "视频拆解了 auto mode 的安全判断逻辑，帮用户理解自动执行与仍需人工确认的边界，适合想更高效使用 Claude Code 的开发者校准信任预期。",
+  "ai_summary": "我们最近将自动模式设为 Claude Code 的默认选项，这意味着你不再需要批准每一个操作。\n\n但什么决定某个操作是否可以安全运行？看看它是如何工作的：",
+  "content_markdown": "我们最近将自动模式设为 Claude Code 的默认选项，这意味着你不再需要批准每一个操作。\n\n但什么决定某个操作是否可以安全运行？看看它是如何工作的：",
+  "id": "cmsnfpcwf05ecrohfuzbjwyar",
+  "url": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar",
+  "fetched_at": "2026-08-11T11:00:53+08:00"
+}

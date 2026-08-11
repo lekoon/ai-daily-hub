@@ -1,0 +1,15 @@
+{
+  "title": "Omnigent 上下文策略如何阻断\"致命三重奏\"组合攻击",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-11 02:30",
+  "score": "59",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/innocent-until-combined-blocking-lethal-trifecta-omnigent-contextual-policies",
+  "aihot_url": "https://aihot.virxact.com/items/cmsnkk68z0byorohfynveywic",
+  "curation_reason": "",
+  "ai_summary": "Omnigent 的上下文策略（Contextual Policies）可阻断“致命三重奏”组合攻击——即多个看似无害的请求叠加后形成的恶意行为。该机制在单个请求层面不设防，而是在组合上下文中识别并拦截风险，从而在不牺牲正常功能的前提下提升安全性。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsnkk68z0byorohfynveywic",
+  "url": "https://aihot.virxact.com/items/cmsnkk68z0byorohfynveywic",
+  "fetched_at": "2026-08-11T11:00:57+08:00"
+}

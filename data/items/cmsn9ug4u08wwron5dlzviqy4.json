@@ -1,0 +1,15 @@
+{
+  "title": "Linear 如何构建 Linear Agent：在系统提示词、工具设计与系统技能中划定边界",
+  "source": "Linear：Now（RSS）",
+  "published_at": "2026-08-10 20:19",
+  "score": "58",
+  "flags": "",
+  "original_url": "https://linear.app/now/how-we-built-linear-agent",
+  "aihot_url": "https://aihot.virxact.com/items/cmsn9ug4u08wwron5dlzviqy4",
+  "curation_reason": "",
+  "ai_summary": "Linear Agent 的价值在于完成未预设的工作，因此团队未为其编写固定路径，而是通过系统提示词、工具设计、产品模型、运行范围及底层自定义 harness 划定边界。系统提示词聚焦沟通风格、硬性边界与产品概念解释；工具设计将约束编码进参数，使无效操作难以执行。团队还引入系统技能作为组合单元，按需渐进加载，避免一次性暴露过多上下文。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsn9ug4u08wwron5dlzviqy4",
+  "url": "https://aihot.virxact.com/items/cmsn9ug4u08wwron5dlzviqy4",
+  "fetched_at": "2026-08-11T11:01:08+08:00"
+}

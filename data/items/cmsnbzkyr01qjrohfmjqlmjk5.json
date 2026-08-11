@@ -1,0 +1,15 @@
+{
+  "title": "智能体真的会用电脑吗？a16z 用数据给出答案",
+  "source": "a16z：News（RSS）",
+  "published_at": "2026-08-10 22:00",
+  "score": "72",
+  "flags": "精选",
+  "original_url": "https://www.a16z.news/p/can-agents-use-a-computer-yet-weve",
+  "aihot_url": "https://aihot.virxact.com/items/cmsnbzkyr01qjrohfmjqlmjk5",
+  "curation_reason": "用 OSWorld 基准和一线案例回答了计算机使用代理能否可靠运行，更重要的判断是基础模型正在成为可替换层，真正的壁垒在于上下文、验证和故障处理。",
+  "ai_summary": "a16z 数据显示，计算机操作智能体在 OSWorld-Verified 基准上的最佳成绩已从一年前的 42% 升至 85%，超过人类测试者约 72% 的水平，Claude Fable 5 以 85% 领先。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsnbzkyr01qjrohfmjqlmjk5",
+  "url": "https://aihot.virxact.com/items/cmsnbzkyr01qjrohfmjqlmjk5",
+  "fetched_at": "2026-08-11T11:01:05+08:00"
+}
