@@ -1,0 +1,15 @@
+{
+  "title": "ZCode全面升级：Goal、Subagents、Remote Control与闲时任务四大功能上线",
+  "source": "公众号：智谱（GLM）",
+  "published_at": "2026-08-11 13:52",
+  "score": "71",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494052&idx=1&sn=ee3ab3d0f4550e9120927c53a27522c9",
+  "aihot_url": "https://aihot.virxact.com/items/cmso95agg0ig3rofwaqvy9crw",
+  "curation_reason": "Goal模式将复杂任务从需要开发者逐轮推动变为设定目标后自行迭代，搭配Subagents并行协作，适合跨文件重构和全栈开发的长流程任务。",
+  "ai_summary": "ZCode针对GLM深度优化，今日上线Goal、Subagents、Remote Control与闲时任务四大功能。在Z.ai Code Bench测试中，GLM-5.2搭配ZCode较搭配Claude Code任务整体通过率高2.39%；ZCode缓存命中率超98%，叠加1.5倍限时额度加成后，GLM Coding Plan整体使用量接近常规额度的1.8倍。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmso95agg0ig3rofwaqvy9crw",
+  "url": "https://aihot.virxact.com/items/cmso95agg0ig3rofwaqvy9crw",
+  "fetched_at": "2026-08-12T11:19:51+08:00"
+}

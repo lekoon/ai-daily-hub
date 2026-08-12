@@ -1,0 +1,15 @@
+{
+  "title": "NVIDIA 为何需要新供电架构以扩展 AI 算力性能",
+  "source": "NVIDIA Blog（RSS）",
+  "published_at": "2026-08-11 23:00",
+  "score": "57",
+  "flags": "",
+  "original_url": "https://blogs.nvidia.com/blog/800-vdc-power-architecture-ai-factory",
+  "aihot_url": "https://aihot.virxact.com/items/cmsoswb3i05ksrohdjycjrgpi",
+  "curation_reason": "",
+  "ai_summary": "NVIDIA 主张以 800 VDC 直流配电替代传统交流多次转换，以降低损耗、支撑 AI 算力扩展。NVIDIA 与 Google、Microsoft 通过 OCP 联合制定该架构，已发布白皮书及 LVDC 固态变压器规范 v0.3，超 80 家设备商正据此开发产品。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsoswb3i05ksrohdjycjrgpi",
+  "url": "https://aihot.virxact.com/items/cmsoswb3i05ksrohdjycjrgpi",
+  "fetched_at": "2026-08-12T11:20:03+08:00"
+}

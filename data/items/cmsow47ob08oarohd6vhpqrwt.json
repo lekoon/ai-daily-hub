@@ -1,0 +1,15 @@
+{
+  "title": "Gemini 助力 Database Migration Service 加速 PostgreSQL 迁移",
+  "source": "Google Cloud：Databases（RSS）",
+  "published_at": "2026-08-12 00:00",
+  "score": "72",
+  "flags": "精选",
+  "original_url": "https://cloud.google.com/blog/products/databases/accelerate-postgresql-migrations-with-gemini-in-dms",
+  "aihot_url": "https://aihot.virxact.com/items/cmsow47ob08oarohd6vhpqrwt",
+  "curation_reason": "将AI编解能力直接嵌入数据库迁移流程，不同于通用聊天工具，它能感知全量Schema上下文，并保留审查与校验环节，更适合企业级迁移场景。",
+  "ai_summary": "Google Cloud 在 Database Migration Service（DMS）中推出由 Gemini 驱动的 AI 辅助代码转换，可将 Oracle 或 SQL Server 的存储过程、触发器和自定义函数转换为 PostgreSQL PL/pgSQL 代码。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsow47ob08oarohd6vhpqrwt",
+  "url": "https://aihot.virxact.com/items/cmsow47ob08oarohd6vhpqrwt",
+  "fetched_at": "2026-08-12T11:19:49+08:00"
+}

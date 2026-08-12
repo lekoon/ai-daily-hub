@@ -1,0 +1,15 @@
+{
+  "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
+  "source": "NVIDIA Blog（RSS）",
+  "published_at": "2026-08-11 21:00",
+  "score": "76",
+  "flags": "精选",
+  "original_url": "https://blogs.nvidia.com/blog/local-ai-open-source-models-agents-nemotron",
+  "aihot_url": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
+  "curation_reason": "本地运行 30B MoE 模型并声称 4 倍加速，与开源路由器结合可自动分配任务到最合适模型，给控制推理成本提供了新路径。",
+  "ai_summary": "NVIDIA 发布 Nemotron 3.5 Lightning，一款可定制的开源 30B 混合专家（MoE）模型，专为常驻智能体设计。相比同类开源模型，其 token 生成速度最高提升 4 倍，任务完成时间缩短 30%。该模型采用开放权重，支持用户微调以匹配特定任务，并可在 RTX PC、DGX Spark 及 Jetson 等设备上运行。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsoolxde07isrop2eb5rrtvq",
+  "url": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
+  "fetched_at": "2026-08-12T11:19:42+08:00"
+}

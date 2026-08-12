@@ -1,0 +1,15 @@
+{
+  "title": "Ling-3.0-tiny 正式开源：1.3B 激活参数如何进入真实任务",
+  "source": "公众号：蚂蚁百灵（Ling）",
+  "published_at": "2026-08-11 17:20",
+  "score": "72",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyODk2MDQwNw%3D%3D&mid=2247487491&idx=1&sn=fcb14aceb054f9a24e22525d3dae6fa0",
+  "aihot_url": "https://aihot.virxact.com/items/cmsogatbh0qdgrofwzm7gdk0a",
+  "curation_reason": "以1.3B激活参数取得接近4B激活模型的综合能力，同时Agent分数超越部分30B+模型，多精度开源和本地部署方案让轻量Agent应用更易落地。",
+  "ai_summary": "蚂蚁百灵开源 Ling-3.0-tiny，一款总参数 7.9B、推理时仅激活 1.3B 参数的原生混合推理模型，同步提供 BF16、FP8 和 INT4 三个版本。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsogatbh0qdgrofwzm7gdk0a",
+  "url": "https://aihot.virxact.com/items/cmsogatbh0qdgrofwzm7gdk0a",
+  "fetched_at": "2026-08-12T11:19:46+08:00"
+}

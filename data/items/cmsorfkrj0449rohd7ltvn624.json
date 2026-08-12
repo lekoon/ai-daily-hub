@@ -1,0 +1,15 @@
+{
+  "title": "Electric 加入 Databricks，将 WASM Postgres 引入 AI 智能体沙箱",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-11 15:00",
+  "score": "48",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/electric-joins-databricks-bring-wasm-postgres-ai-agent-sandboxes",
+  "aihot_url": "https://aihot.virxact.com/items/cmsorfkrj0449rohd7ltvn624",
+  "curation_reason": "",
+  "ai_summary": "Databricks 宣布 Electric 团队加入，将 WASM Postgres 引入 AI 智能体沙箱。该技术让智能体在隔离环境中运行本地数据库，支持实时数据同步与离线操作，提升构建可靠、可验证智能体应用的效率。Electric 的加入将强化 Databricks 在智能体基础设施领域的布局。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsorfkrj0449rohd7ltvn624",
+  "url": "https://aihot.virxact.com/items/cmsorfkrj0449rohd7ltvn624",
+  "fetched_at": "2026-08-12T11:20:07+08:00"
+}

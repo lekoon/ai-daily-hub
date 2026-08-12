@@ -1,0 +1,15 @@
+{
+  "title": "Databricks 开源 Metals v2：面向数百万行代码库的 Java 和 Scala 语言服务器",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-12 03:00",
+  "score": "58",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/open-sourcing-metals-v2-databricks-java-and-scala-language-server-multi-million-line-codebases",
+  "aihot_url": "https://aihot.virxact.com/items/cmsp25dko03pvrort4v2ifnsx",
+  "curation_reason": "",
+  "ai_summary": "Databricks 开源 Metals v2，这是其面向数百万行代码库的 Java 和 Scala 语言服务器。Metals v2 专为智能体驱动的开发场景设计，旨在提升大规模代码库中的编辑与导航性能。目前 Databricks 的大部分代码已由智能体编写，该工具服务于工程师仍需要手动介入的环节。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsp25dko03pvrort4v2ifnsx",
+  "url": "https://aihot.virxact.com/items/cmsp25dko03pvrort4v2ifnsx",
+  "fetched_at": "2026-08-12T11:19:53+08:00"
+}

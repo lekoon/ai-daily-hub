@@ -1,0 +1,15 @@
+{
+  "title": "AMIE 研究医疗 AI 系统首次展示实时临床视频问诊能力",
+  "source": "Google Blog：AI（RSS）",
+  "published_at": "2026-08-12 01:00",
+  "score": "69",
+  "flags": "精选",
+  "original_url": "https://blog.google/innovation-and-ai/models-and-research/google-research/amie-video-consultations",
+  "aihot_url": "https://aihot.virxact.com/items/cmsoxbh180a00rohdooafsmzp",
+  "curation_reason": "AMIE 在视频中融合视觉与听觉线索进行诊断，展示了多模态临床推理的可行性，对远程医疗产品方向有参考价值。",
+  "ai_summary": "Google Research 与 Google DeepMind 推进医疗 AI 系统 AMIE，实现实时临床视频问诊，首次在此场景展示专家级 AI 能力。该系统基于 Gemini 和 Project Astra 构建，可解读视觉与听觉线索、引导虚拟体格检查并实时诊断推理。随机研究中，临床评估者对 AMIE 的病史采集、诊断准确性等核心能力给予好评，患者演员也更偏好视频体验。",
+  "content_markdown": "当你去看医生时，问诊远不止于言语交流——医生会留意咳嗽、观察步态，或注意到明显的不适迹象。如今，Google Research 和 Google DeepMind 正在推进我们的研究型医疗 AI 系统 AMIE，使其迈向实时临床视频问诊，并在此场景中首次展示了专家级 AI 能力。AMIE 基于 Gemini 和 Project Astra 构建，采用多智能体架构，现在能够解读视觉和听觉线索、引导虚拟体格检查，并实时进行诊断性推理。\n\n在一项采用模拟问诊的随机研究中，研究人员让患者扮演者与一组初级保健医生进行互动，临床评估者对 AMIE 在核心临床能力方面给予了积极评价，包括病史采集的全面性、诊断准确性、处理方案适当性以及沟通质量。患者扮演者也更偏好视频问诊体验，而非文字聊天。\n\nAMIE 目前仍是一个研究系统，在负责任地投入真实世界临床部署之前，还需要更多研究，但它让我们得以一窥健康 AI 的未来图景。更多内容请参阅 Google Research 博客。",
+  "id": "cmsoxbh180a00rohdooafsmzp",
+  "url": "https://aihot.virxact.com/items/cmsoxbh180a00rohdooafsmzp",
+  "fetched_at": "2026-08-12T11:20:13+08:00"
+}
