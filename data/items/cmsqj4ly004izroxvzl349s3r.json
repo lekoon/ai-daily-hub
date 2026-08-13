@@ -1,0 +1,15 @@
+{
+  "title": "Claude in Chrome 侧边栏升级为 Claude Cowork 会话",
+  "source": "Claude：Blog（网页）",
+  "published_at": "2026-08-13 04:15",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://claude.com/blog/cowork-chrome-side-panel",
+  "aihot_url": "https://aihot.virxact.com/items/cmsqj4ly004izroxvzl349s3r",
+  "curation_reason": "把浏览器扩展升级为与桌面、网页、移动共享的 Cowork 会话，解决以往侧边栏与主应用上下文割裂的问题，长流程任务可以在不同设备间接力。",
+  "ai_summary": "Claude in Chrome 浏览器扩展的侧边栏现已升级为 Claude Cowork 会话，对话会保存至历史记录，技能和连接器可在浏览器中工作，且任务可在桌面、网页和移动端应用间无缝切换。",
+  "content_markdown": "在浏览器中给 Claude 分配任务，跨标签页操作，并在桌面端、移动端和网页应用中继续对话。\n\nCategory [Product announcements](https://claude.com/blog/category/announcements)\n\nProduct [Claude Cowork](https://claude.com/product/cowork) Claude apps\n\nDate August 12, 2026\n\nReading time 5 min\n\nShare [Copy link](https://claude.com/blog/cowork-chrome-side-panel#)https://claude.com/blog/cowork-chrome-side-panel\n\nChrome 侧边栏中的 Claude 现已升级为 Claude Cowork 会话。对话会保存到你的历史记录中，你的技能和连接器也可以在浏览器中正常使用，在某个标签页中开始的任务可以在 Claude 桌面端、网页端和移动端应用中完成。该功能目前面向 Max 和 Team 套餐开放，并将在未来几周内逐步向 Pro 用户推出。\n\nClaude in Chrome 是一款浏览器扩展，让 Claude 能够查看你当前所在的页面并在其中执行操作，包括点击链接、输入文本、在页面间导航以及填写表单，全程使用你现有的登录状态。\n\n你日常使用的许多工具都能直接连接到 Claude，但其他一些工具则不行，例如内部仪表盘、遗留系统和供应商门户。借助 Claude in Chrome，Claude 可以通过浏览器在这些应用中工作。\n\n此前，侧边栏中的会话与 Claude 应用中的会话是相互独立的，因此上下文和对话无法在两者之间传递。现在，侧边栏运行的是与桌面端、网页端和移动端相同的 Claude Cowork 会话，适用于更长时间、多步骤的工作。由于会话与你的账号绑定，而非单一设备，你可以在浏览器中开始工作，稍后在别处继续。\n\n举个例子，假设你正在整理一份预算电子表格，需要从多个供应商门户中提取发票信息。现在，你可以让 Claude in Chrome 收集金额和日期，它会打开相关标签页、读取每张发票并生成电子表格。然后，你可以在桌面端应用中继续该会话，从电脑中添加文件，或导入上个月的预算并询问变化情况，从而在不同界面间保持工作上下文。\n\n了解风险\n\nClaude in Chrome 与任何在浏览器中操作的 AI 智能体一样，都面临相同的风险，主要是提示词注入。恶意行为者会将指令隐藏在网页内容中，例如网页、电子邮件或文档。这些指令可能对你不可见，但它们可以引导 Claude 执行你从未打算执行的操作。\n\n自试点以来，我们新增了对 Claude 自身行为的检查。使用“自动批准”功能，Claude 即可在任务中持续推进，无需在每一步都停下来请求许可。在提交表单、发送消息或下载文件等任何重要操作之前，都会有一项独立检查，将操作与您最初的要求进行比对，并拦截任何不匹配的操作。这样既减少了中断，又保持了监督。\n\n对于某些不可逆或代价较高的操作，例如购买商品或分享个人数据，Claude 仍会事先征询您的意见。虽然这些措施显著降低了风险，但无法完全消除风险。提示注入是一个不断演变的目标，因此我们会持续寻找新的攻击方式，并将所学经验融入我们发布的每一款模型中。我们建议您从信任的网站开始使用，我们的安全指南中还提供了更多最佳实践。\n\n快速上手\n\n要在 Chrome 中使用 Claude，请从 Chrome 网上应用店安装它，登录，然后打开侧边栏。新的侧边栏目前适用于 Max 和 Team 套餐，并将在未来几周内向 Pro 用户推出。在企业版套餐中，Claude in Chrome 默认处于关闭状态。管理员可以将其开启，并将其限制在已批准的域名内。请参阅管理员设置指南。\n\n您仍然需要使用 Claude 桌面应用来处理计算机上的文件或与其他应用程序交互。Claude in Chrome 目前还不能在其他基于 Chromium 的浏览器或移动设备上运行。",
+  "id": "cmsqj4ly004izroxvzl349s3r",
+  "url": "https://aihot.virxact.com/items/cmsqj4ly004izroxvzl349s3r",
+  "fetched_at": "2026-08-13T11:23:27+08:00"
+}
