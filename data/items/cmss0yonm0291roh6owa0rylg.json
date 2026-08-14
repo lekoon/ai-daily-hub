@@ -1,0 +1,15 @@
+{
+  "title": "Firetiger 团队加入 Cursor",
+  "source": "Cursor Blog",
+  "published_at": "2026-08-14 03:00",
+  "score": "51",
+  "flags": "",
+  "original_url": "https://cursor.com/blog/firetiger",
+  "aihot_url": "https://aihot.virxact.com/items/cmss0yonm0291roh6owa0rylg",
+  "curation_reason": "",
+  "ai_summary": "Firetiger 团队正式加入 Cursor。该公司构建面向生产环境的智能体，可监控发布、捕获回归、调查事件并将发现反馈给编码智能体。Firetiger 由 Rustam Lalkaka 和 Achille Roussel 于 2024 年创立，此前曾在 Cloudflare、Twitch、Segment 和 Twilio 构建大型生产系统。",
+  "content_markdown": "I'm excited to announce that the Firetiger team is joining Cursor.\n\nFiretiger builds agents that work on software once it reaches production. They monitor rollouts, catch regressions, investigate incidents, and pass what they find back to coding agents.\n\nThe company was founded in 2024 by Rustam Lalkaka and Achille Roussel, who helped build and operate some of the largest production systems on the internet, at Cloudflare, Twitch, Segment, and Twilio.\n\nThey started Firetiger because they saw the potential for agents to remove operational toil and make production systems more reliable. Since then, coding agents have made it much easier to generate and ship code. But much of software engineering happens after the code is written, from getting changes safely into production to understanding and fixing what goes wrong once they're there.\n\nAgents that write code should also be able to tell whether it works in production. Today, those systems are mostly separate. Cursor and Firetiger bring them closer together so an agent can ship a change, see how it behaves, and respond when something goes wrong.\n\nYou'll see Firetiger's work show up across Cursor as we build more of the path from writing code to running it in production. This is part of a broader investment in long-running, autonomous, context-aware agents for teams. That work also includes Cursor Origin, our Git forge built for the agentic era, and soon Change Monitors, which watch deployed changes and flag problems as they appear.\n\nWe're looking forward to building this with Rustam, Achille, and the rest of the Firetiger team.\n\nRelated posts\n\nSeries A and Magic",
+  "id": "cmss0yonm0291roh6owa0rylg",
+  "url": "https://aihot.virxact.com/items/cmss0yonm0291roh6owa0rylg",
+  "fetched_at": "2026-08-14T11:20:54+08:00"
+}

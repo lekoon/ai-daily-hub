@@ -1,0 +1,15 @@
+{
+  "title": "Google Sheets 推出 Sheets canvas：用 Gemini 将表格数据变为交互式迷你应用",
+  "source": "Google Blog：AI（RSS）",
+  "published_at": "2026-08-14 00:45",
+  "score": "61",
+  "flags": "精选",
+  "original_url": "https://blog.google/products-and-platforms/products/workspace/sheets-canvas-for-google-sheets-spreadsheets",
+  "aihot_url": "https://aihot.virxact.com/items/cmsrtfqyv04btro0nle3m5b20",
+  "curation_reason": "与单独 BI 工具不同，Sheets canvas 直接在原表上生成可读写界面，临时仪表盘能沿用表格的共享和权限体系，降低轻量场景的搭建成本。",
+  "ai_summary": "Google Sheets 发布新功能 Sheets canvas，基于 Gemini 构建，用户只需用自然语言提示词即可将表格数据转化为交互式仪表盘、学习追踪器、座位表等“迷你应用”。",
+  "content_markdown": "谷歌表格的一项新功能——Sheets canvas，可将行列数据转化为交互式仪表盘、自定义学习追踪器、座位表等，只需一条简单提示词即可完成。\n\nEric Birnbaum\n\nGoogle Sheets 产品管理总监\n\n电子表格是整理和理解数据的强大工具，但盯着成百上千的行列有时会让人感到有些不知所措。无论你是在筹备婚礼、追踪学校作业、管理梦幻橄榄球阵容，还是对比副业收入，你都希望快速从数据中看到自己需要的信息。\n\n为了帮你实现这一点，我们推出了 Sheets canvas——一项由 Gemini 驱动的新功能，可将你的 Google Sheets 电子表格转化为自定义的交互式“迷你应用”。只需一条简单的自然语言提示词，你就能将数据转化为易于理解、更易于使用的可视化体验。\n\n以全新方式可视化你的数据\n\nSheets canvas 是一个动态的读写层，直接覆盖在你的电子表格数据之上。这意味着你可以按照自己想象的任何布局，对数据进行可视化整理、编辑和导航。\n\n以下是它如此强大的原因。\n\n无需编码：无需公式或编程。只需描述你想要的内容——比如“创建一个可视化学习追踪器”——Gemini 就会为你构建出来。\n\n始终同步：无论你是在 canvas 上还是在表格中做出更改，更新都会在 canvas 和原始表格之间实时同步。\n\n易于调整：你可以通过提示 Gemini 对布局、设计、功能等进行修改，持续打磨和优化你的 Sheets canvas。\n\n完全协作：由于它作为 Google Sheets 中的一个标签页存在，你的 canvas 可以像普通表格一样与任何人共享。\n\n看看它的实际效果\n\n我们将 Sheets canvas 设计得与你的想象力一样灵活。以下是一些示例，展示你今天就可以如何使用它。\n\n1. 轻松掌控整个学年\n\n对学生来说，管理多门科目和截止日期本身就是一份全职工作。借助 Sheets canvas，你可以将一长串作业清单转化为交互式学习辅助工具。追踪进度、设置提醒、可视化未来一周的安排，让你永远不会错过任何截止日期。\n\n2. 称霸你的梦幻橄榄球联赛\n\n使用 Sheets canvas 将你的梦幻球队提升到新高度，为你的阵容打造终极指挥中心。创建自定义仪表盘来追踪球员表现、并排比较数据，并清晰可视化你的夺冠之路——这一切都由你表格中的数据驱动。\n\n3. 简化婚礼筹备\n\n统筹座位安排和餐食选择这件事，现在变得无比轻松。Sheets canvas 能将你的宾客回复数据转化为交互式座位表。只需将宾客拖放到对应餐桌，即可高枕无忧，因为你的核心表格会始终保持最新状态。\n\n立即体验\n\nSheets canvas 现已面向 Google AI Pro 和 Ultra 订阅用户在全球范围内提供英文版。即日起，该功能将逐步向使用 Business 或 Enterprise Standard 及 Plus 方案的 Google Workspace 客户，以及 Google AI Pro for Education 附加订阅用户推出。\n\n准备好以全新视角看待你的数据了吗？打开 Google Sheets 电子表格，在 Ask Gemini 侧边面板中选择“Create canvas”选项即可开始使用。更多技巧请参阅这篇文章。",
+  "id": "cmsrtfqyv04btro0nle3m5b20",
+  "url": "https://aihot.virxact.com/items/cmsrtfqyv04btro0nle3m5b20",
+  "fetched_at": "2026-08-14T11:20:46+08:00"
+}

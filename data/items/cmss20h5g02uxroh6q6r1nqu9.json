@@ -1,0 +1,15 @@
+{
+  "title": "Claude 接管应用日常维护：388 个 PR 的实践",
+  "source": "Boris Cherny (@bcherny)",
+  "published_at": "2026-08-14 05:27",
+  "score": "66",
+  "flags": "精选",
+  "original_url": "https://x.com/bcherny/status/2088014489438621990",
+  "aihot_url": "https://aihot.virxact.com/items/cmss20h5g02uxroh6q6r1nqu9",
+  "curation_reason": "这套做法的增量在于把日常维护拆成可复用的定时例程，并通过当日 PR 反馈迭代提示词，使机械性代码改动从逐条审查转向批量合并。",
+  "ai_summary": "Boris Cherny 尝试让 Claude 接管其应用的日常维护，通过 Slack 频道运行崩溃模糊测试、重复代码统一、死代码移除等日常任务。数周内自动开出 388 个 PR，其中 180 个经 Claude Code Review 和人工审核后合并。Claude 通常一次就能改对，出错时可通过调整例程次日改进。",
+  "content_markdown": "过去几周我一直在尝试的一个奇怪实验，是让 Claude 接管我们应用的日常维护工作。目前已经看到一些早期迹象，表明这可能是可行的。\n\n设置很简单：我们有一个名为 proj-claude-maintains-apps 的 Slack 频道。在其中，Claude Tag 在 iOS、Android、桌面端、Web、CLI 和 Agent SDK 上运行一系列日常任务：\n\n• 崩溃模糊测试器：在模拟器中打开应用并四处点击，寻找导致崩溃的方式，然后定位根本原因并修复崩溃 - 重复代码统一器：扫描代码库中相似但略有差异的抽象，并提交 PR 来统一它们 - 死代码清理器：移除静态不可达的代码，并对疑似死代码添加日志以检查其是否真的无用，如果是，第二天再将其删除 - 抽象警察：修复抽象泄漏问题 - 还有更多……\n\n结果出乎意料地积极。在过去几周里，这些日常任务在我们的代码库中提交了 388 个 PR，其中 180 个在 Claude Code Review 和人工审核后已被合并。我们现在正在思考如何简化这一流程，让合并这类机械性变更变得更容易。\n\nClaude 通常一次就能把这些 PR 做对，如果没做对，我们会让 Claude 调整它的日常任务，以便第二天做得更好。有时需要几天的调优。\n\n要尝试类似的工作流程，可以询问 Claude Code 或 Tag，或者直接在 https://claude.ai/code/routines 创建一些日常任务。下面是我实际使用的一些提示词。\n\n有没有人尝试过类似的工作流程？",
+  "id": "cmss20h5g02uxroh6q6r1nqu9",
+  "url": "https://aihot.virxact.com/items/cmss20h5g02uxroh6q6r1nqu9",
+  "fetched_at": "2026-08-14T11:21:01+08:00"
+}

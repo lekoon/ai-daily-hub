@@ -1,0 +1,15 @@
+{
+  "title": "当\"遗忘\"无需成本：利用低影响力数据点降低机器学习计算开销",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-13 08:00",
+  "score": "41",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/unlearning-low-influence-points",
+  "aihot_url": "https://aihot.virxact.com/items/cmsrrgfq302mbro0ns0eqnzc8",
+  "curation_reason": "",
+  "ai_summary": "苹果机器学习研究团队提出，在模型遗忘任务中，对训练数据中影响可忽略的点无需逐一移除，从而降低计算成本。通过对比语言与视觉任务中的影响力函数，他们识别出对模型输出影响极小的数据子集，并据此优化遗忘流程。该方法挑战了现有遗忘技术对所有遗忘集数据点一视同仁的做法。",
+  "content_markdown": "As concerns around data privacy in machine learning grow, the ability to unlearn, or remove, specific data points from trained models becomes increasingly important. While state of the art unlearning methods have emerged in response, they typically treat all points in the forget set equally. In this work, we challenge this approach by asking whether points that have a negligible impact on the model’s learning need to be removed. Through a comparative analysis of influence functions across language and vision tasks, we identify subsets of training data with negligible impact on model outputs…",
+  "id": "cmsrrgfq302mbro0ns0eqnzc8",
+  "url": "https://aihot.virxact.com/items/cmsrrgfq302mbro0ns0eqnzc8",
+  "fetched_at": "2026-08-14T11:20:59+08:00"
+}

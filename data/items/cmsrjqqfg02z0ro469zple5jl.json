@@ -1,0 +1,15 @@
+{
+  "title": "DeepSeek Harness v0.1 开发者预览版发布",
+  "source": "DeepSeek (@deepseek_ai)",
+  "published_at": "2026-08-13 21:02",
+  "score": "66",
+  "flags": "精选",
+  "original_url": "https://x.com/deepseek_ai/status/2087887408440164663",
+  "aihot_url": "https://aihot.virxact.com/items/cmsrjqqfg02z0ro469zple5jl",
+  "curation_reason": "插件化把模型、工具、会话拆成可替换单元，影响在于选择智能体框架时可以从整体选型转为逐组件比较，降低被单一编排方案绑定的迁移成本。",
+  "ai_summary": "DeepSeek Harness v0.1 现已推出开发者预览版，并以 MIT 许可证开源。该智能体框架基于 Cordis 元框架构建，核心设计为“一切皆插件”，模型、工具、技能、会话、沙箱、文件系统、循环、编排及 UI 均可自由组合、替换和扩展。",
+  "content_markdown": "🧩 DeepSeek Harness v0.1 现已推出开发者预览版！\n\n🔹 我们正面向全球构建智能体框架的开发者开放，并以 MIT 许可证开源整个代码库。 🔹 DeepSeek Harness 由 Cordis 元框架驱动，其核心设计理念是：一切皆为插件。模型、工具、技能、会话、沙箱、文件系统、循环、编排以及 UI 全部以插件形式实现，并且可以自由混搭、替换和扩展。\n\n立即体验！ https://github.com/deepseek-ai/deepseek-harness",
+  "id": "cmsrjqqfg02z0ro469zple5jl",
+  "url": "https://aihot.virxact.com/items/cmsrjqqfg02z0ro469zple5jl",
+  "fetched_at": "2026-08-14T11:20:41+08:00"
+}

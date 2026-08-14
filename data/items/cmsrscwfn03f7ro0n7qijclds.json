@@ -1,0 +1,15 @@
+{
+  "title": "Google DeepMind 推出 Gemini 3.7 Flash：面向编程与智能体的最强工作模型",
+  "source": "Google DeepMind：Blog（RSS）",
+  "published_at": "2026-08-14 01:04",
+  "score": "72",
+  "flags": "精选",
+  "original_url": "https://deepmind.google/blog/introducing-gemini-3-7-flash",
+  "aihot_url": "https://aihot.virxact.com/items/cmsrscwfn03f7ro0n7qijclds",
+  "curation_reason": "相比 3.6 Flash，价格减半且 FrontierCode 和 DeepSWE 分数提升，让成本敏感型编码智能体团队有了新的性价比基线。",
+  "ai_summary": "Google DeepMind 发布 Gemini 3.7 Flash，距 3.6 Flash 仅三周，主打编程与智能体任务，输入/输出价格分别为每百万 token $0.75 和 $3.75，为原 3.6 Flash 的一半。",
+  "content_markdown": "这是我们迄今最智能、最适合编程与智能体任务的主力模型。\n\n语音\n\n今天，我们在广受欢迎的 Flash 系列所取得的进展基础上，推出 Gemini 3.7 Flash——这是我们迄今最智能、最适合编程与智能体任务的主力模型。\n\n此次发布距 Gemini 3.6 Flash 仅三周，直接得益于开发者反馈和算法创新，我们期待将这些成果应用到未来的模型中。3.7 Flash 在软件工程、知识工作和 Web 开发工作流方面均带来显著提升——其每百万 token 的入门价格仅为 3.6 Flash 原始定价的一半。\n\n更强大的智能，应对复杂工作流\n\n3.7 Flash 在调试和问题解决等编程任务上较 3.6 Flash 有显著提升。它在首次通过的代码准确率上表现更高，并在生成生产级代码方面有所改进，这一点可见于 FrontierCode 1.1 Main（43.6% 对比 34.4%）和 DeepSWE v1.1（65.3% 对比 49.0%）的成绩。\n\n在 Web 开发方面，3.7 Flash 能用更少的提示词生成更实用的布局和功能完整的应用。在 UI 生成方面，该模型展现出高度的设计遵循度，并能基于参考输入（无论是截图、图片还是完整的设计系统）实现同等水准的输出。它在 Arena.ai 的 WebDev Arena 上以 1588 对比 1538 的 Elo 评分胜过 3.6 Flash。\n\n在金融、法律和生物科学等知识密集型领域，3.7 Flash 带来了更强的推理能力和更高的准确性。它在 GDP.pdf 基准（34.0% 对比 22.0%，该评测用于测试模型处理复杂文档的能力）上显著优于 3.6 Flash。它还在 AutomationBench 上超越 3.6 Flash，表明它能更有效地完成真实世界的业务流程（30.4% 对比 17.0%）。\n\n从一段简单的文本提示词到一个完整可玩的 3D 游戏。我们使用 Gemini 3.7 Flash 结合 Nano Banana 实时动态生成角色、物品和纹理。\n\n一次生成即可得到惊艳的交互式落地页。我们使用 Gemini 3.7 Flash 来编排子智能体，并借助 Gemini Omni 打造流畅、交互式的视差组件。\n\n一个正在使用 Gemini 3.7 Flash 训练的机器人模型，该模型在 3 智能体图循环中利用多模态理解能力，帮助机器人更快地学习。\n\n从静态 PDF 到交互式数据故事。观看复杂的年度报告如何被转化为引人入胜的网页体验，并配有实时图表和汇总洞察。\n\n更出色的开发者体验与更优价格\n\nGemini 3.7 Flash 相比 3.6 Flash 带来了显著提升的开发者体验。它能更好地适应障碍，在需要时澄清意图，并以更高的保真度遵循指令。它的思考更加缜密，在多步骤规划和工具调用上投入更多精力。更严谨的执行意味着在工程工作流中需要更少的人工监督和更少的重试。\n\n3.7 Flash 将在今年年底前以优惠价格提供，即每 1M 输入 token 0.75 美元，每 1M 输出 token 3.75 美元。这一价格结合增强的模型性能，使开发者和客户能够经济高效地扩展生产级智能体。\n\n早期客户反馈凸显了 3.7 Flash 的性能和精准度，以低成本实现了显著优于 3.6 Flash 的结果。\n\n使用 3.7 Flash 升级 Gemini Spark\n\n面向超过 160 个国家/地区的 Google AI Pro 和 Ultra 订阅用户提供的 Gemini Spark，将从今天开始使用 Gemini 3.7 Flash。我们在 I/O 大会上推出了 Spark，将其定位为全天候运行的个人 AI 智能体，在您的指导下代表您采取行动。此次模型更新使 Spark 在知识工作方面更加高效，改进了对 Google Workspace 应用的工具使用能力，为复杂的多技能工作流提供了更高的准确性和输出质量。\n\n借助 3.7 Flash，Gemini Spark 可以通过整合文件、起草电子邮件和更新状态文档，更高效地将想法转化为行动。\n\n以安全为先构建\n\n我们持续努力提升 Frontier Safety 安全防护措施的覆盖范围和稳健性。Gemini 3.7 Flash 在发布时配备了更新的安全防护措施，针对化学、生物、放射性和核（CBRN）领域以及网络攻击领域的滥用行为进行防范，同时根据我们在生物弹性方面的方针和网络安全计划，支持有益的用例。\n\n更多信息，请参阅 3.7 Flash 模型卡。\n\n立即试用\n\n开发者：在 Google Antigravity 中探索智能体优先的工作流，或通过 Google AI Studio 和 Android Studio 在 Gemini API 中立即开始构建。从我们的开发者指南入手。\n\n企业用户：在 Gemini Enterprise Agent Platform 和 Gemini Enterprise 应用中访问 3.7 Flash。\n\n个人用户：可通过 Spark 使用，这是 Gemini 应用中面向支持国家/地区的 Google AI Pro 和 Ultra 订阅用户的 24/7 全天候个人智能体。\n\n详细基准测试\n\n在您的收件箱中获取来自 Google 的最新资讯",
+  "id": "cmsrscwfn03f7ro0n7qijclds",
+  "url": "https://aihot.virxact.com/items/cmsrscwfn03f7ro0n7qijclds",
+  "fetched_at": "2026-08-14T11:20:37+08:00"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "小红书开源连续自回归语音合成模型 dots.tts：打造可持续扩展的 TTS 基座",
+  "source": "公众号：小红书技术（dots.llm）",
+  "published_at": "2026-08-13 17:59",
+  "score": "75",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496062&idx=1&sn=d4c48926c5d7607f129dfea03699a6c0",
+  "aihot_url": "https://aihot.virxact.com/items/cmsrcljcc0uanroz24r5ebcz9",
+  "curation_reason": "连续自回归跳过离散 Token 的信息损失，又用语义编码器回灌历史抑制累积误差，为音色克隆和低步数流式共用同一基座提供了路径。",
+  "ai_summary": "小红书 dots 团队开源 20 亿参数全连续端到端自回归语音合成模型 dots.tts，在 Seed-TTS-Eval 三个子集上取得最佳平均内容准确度和平均说话人相似度。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsrcljcc0uanroz24r5ebcz9",
+  "url": "https://aihot.virxact.com/items/cmsrcljcc0uanroz24r5ebcz9",
+  "fetched_at": "2026-08-14T11:20:36+08:00"
+}
