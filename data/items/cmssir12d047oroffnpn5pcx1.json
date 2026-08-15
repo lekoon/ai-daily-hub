@@ -1,0 +1,15 @@
+{
+  "title": "GLM-5.3 发布：编程能力开源第一，并涌现网络安全能力",
+  "source": "公众号：智谱（GLM）",
+  "published_at": "2026-08-14 13:31",
+  "score": "73",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzkyMzI3NzQ0Mg%3D%3D&mid=2247494084&idx=1&sn=a2e5cd9a534a4825feb3633ea1b6d492",
+  "aihot_url": "https://aihot.virxact.com/items/cmssir12d047oroffnpn5pcx1",
+  "curation_reason": "把网络安全能力作为开源卖点，价值在于让缺乏闭源安全服务的中小团队也能开展漏洞审计，改变防御能力只集中在少数机构的现状。",
+  "ai_summary": "智谱发布GLM-5.3，基于与GLM-5.2相同的基座，通过极致的后训练Scaling提升智能上界，编程能力较前代提升50%，在Terminal Bench 3.0等公开基准中取得开源第一，并接近Claude Fable 5。模型在白盒代码审查等安全任务中表现持平Mythos 5，在CyberGym测试中得分84.5%。模型权重将在两周后开源，即日起上线ZCode、AutoClaw等工具。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmssir12d047oroffnpn5pcx1",
+  "url": "https://aihot.virxact.com/items/cmssir12d047oroffnpn5pcx1",
+  "fetched_at": "2026-08-15T10:09:45+08:00"
+}

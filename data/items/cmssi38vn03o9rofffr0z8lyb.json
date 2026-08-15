@@ -1,0 +1,15 @@
+{
+  "title": "DeepSeek V4 Pro 登陆硅基流动，1M 上下文",
+  "source": "SiliconFlow (@SiliconFlowAI)",
+  "published_at": "2026-08-14 12:55",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://x.com/SiliconFlowAI/status/2088127458558271885",
+  "aihot_url": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb",
+  "curation_reason": "每百万缓存命中 0.44 美元与 1M 上下文组合，使 Agent 工作流在长上下文成本测算上有了更具体参照。",
+  "ai_summary": "DeepSeek-V4-Pro-0813 正式上线硅基流动 SiliconFlow，提供 Day-0 支持，具备 1M 上下文窗口及低/高/最大三档推理强度，更侧重编码、工具调用与智能体工作流，仍保持 MIT 开源协议。定价为输入 $1.32/M、输出 $3.96/M、缓存命中 $0.44/M。同系列 DeepSeek-V4-Flash-0731 则面向追求速度与成本效益的日常生产场景。",
+  "content_markdown": "这次是官宣了。DeepSeek V4 Pro 正式上线。🚀\n\n@deepseek_ai DeepSeek-V4-Pro-0813 现已登陆 SiliconFlow，并享受 Day-0 支持--拥有更多空间去思考、构建和交付。\n\n🧠 1M 上下文窗口 ⚙️ 低 / 高 / 最大 三档推理强度 🛠️ 更侧重于编码、工具调用与智能体工作流\n\n没错--依然开源，依然 MIT 许可。🔓\n\n💸 定价 $1.32 / 百万输入 token $3.96 / 百万输出 token $0.44 / 百万缓存命中 token\n\n你该选哪个？ ⚡ DeepSeek-V4-Flash-0731 → 面向快速、高性价比的工作负载与日常生产环境 🧠 DeepSeek-V4-Pro-0813 → 面向复杂推理、编码与智能体工作流\n\n选好档位，开始构建吧。 → http://siliconflow.com",
+  "id": "cmssi38vn03o9rofffr0z8lyb",
+  "url": "https://aihot.virxact.com/items/cmssi38vn03o9rofffr0z8lyb",
+  "fetched_at": "2026-08-15T10:09:47+08:00"
+}

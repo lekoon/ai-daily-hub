@@ -1,0 +1,15 @@
+{
+  "title": "OpenAI and Anthropic in price war as Chinese AI rivals gain ground",
+  "source": "Ars Technica：AI（RSS）",
+  "published_at": "2026-08-14 22:27",
+  "score": "76",
+  "flags": "精选",
+  "original_url": "https://arstechnica.com/ai/2026/08/openai-and-anthropic-in-price-war-as-chinese-ai-rivals-gain-ground",
+  "aihot_url": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av",
+  "curation_reason": "价格战让模型API的成本弹性成为现实，原先因账单压力转向中国厂商的用户，可能在OpenAI和Anthropic降价后重新比较能力与价格。",
+  "ai_summary": "",
+  "content_markdown": "美国顶尖AI实验室如OpenAI和Anthropic正在发布更便宜的模型，以留住对价格敏感的客户，这些客户正转向中国竞争对手提供的低价替代方案。\n\n这场价格战正值AI账单不断上涨、迫使企业限制使用并寻求更廉价模型之际，这也帮助包括月之暗面和DeepSeek在内的中国开发者从硅谷到欧洲赢得了用户。\n\nOpenAI近日表示，将其“最快且最实惠的模型”GPT-5.6 Luna的价格下调80%。Anthropic则推出了Claude Opus 5，宣称该系统具备“前沿智能……而价格仅为该公司最强模型Fable 5的一半”。\n\n据Silicon Data的token价格指数显示，这些举措已帮助降低了客户为美国顶尖实验室模型支付的价格，自7月中旬以来下降了近四分之一。Token是语言模型处理的数据单位，也是许多客户账单的计算依据。\n\n这些降价标志着美国AI公司的一次转变——它们此前一直以性能为核心激烈竞争，推出专有的“封闭”模型。而能力日益增强的中国“开放”模型——开发者可以自由下载和修改——也对价格形成了下行压力。\n\n与此同时，OpenAI和Anthropic正筹划以万亿美元估值进行首次公开募股，而投资者则在寻求证据，证明该行业在AI上的巨额投入能够产生回报。\n\n企业AI用户正面临成本压力，因为Anthropic和OpenAI正在将部分企业客户从固定订阅制转向按使用量计费的模式，即企业根据其消耗的计算资源付费。\n\n一些企业通过限制AI使用量或测试更便宜的替代方案来应对账单上涨。DoorDash和Airbnb等公司已表示，它们已开始使用中国制造的模型以控制成本。\n\nArs视频\n\n科学家如何回应科学否认者\n\n这一转变恰逢中国多家实验室密集发布新模型，大幅缩小了与美国领先模型之间的性能差距，这在美国科技行业引发了担忧——美国开发者即使在大举投入以维持技术优势的同时，也可能流失客户。\n\nAI 实验室提供一系列能力和价格各异的模型，具体成本还会因模型版本和所使用的“努力”设置而进一步变化。客户通常按输入 token 和输出 token 计费，前者用于衡量输入模型的数据量，后者则衡量模型生成的回复内容。\n\n美国实验室最新的降价主要针对中端产品，使其与中国产品相比更具竞争力。例如，OpenAI 将 GPT-5.6 Luna 的价格从每百万输入 token 1 美元降至 0.20 美元，每百万输出 token 从 6 美元降至 1.20 美元。\n\nAnthropic 推出的 Opus 5 定价为每百万输入 token 5 美元、每百万输出 token 25 美元——是其 Fable 5 模型价格的一半。本周，该公司叫停了对 Sonnet 5 模型原定于 9 月生效的涨价计划。\n\n然而，标称 token 价格并不能直接用于比较不同 AI 模型。能力更强的模型有时可以用更少的 token 或更少的尝试次数完成任务，这意味着一个按标称 token 价格看似更贵的模型，最终的总成本反而可能更低。\n\n此外，大多数模型可以在不同的“努力”设置下运行，这会改变回答问题所用的算力，并同时影响性能和完成任务的最终成本。\n\nArtificial Analysis 对模型在数学、科学、编码和推理等多个领域进行基准测试，其结果显示，Anthropic 的 Opus 5 在“中等”努力设置下的单任务性能与成本，与月之暗面 Kimi K3 在“最高”努力设置下的表现相当。OpenAI 的 GPT-5.6 Luna 在“最高”努力设置下的表现与 DeepSeek 的 V4 Flash 在“最高”设置下相近，但单任务成本约为后者的两倍。\n\nAnthropic 和 OpenAI 均拒绝置评。\n\n一位接近 Anthropic 的人士表示，Opus 5 的定价低于其旗舰产品 Fable 5，是因为这家初创公司“构建模型家族的方式就是如此，与竞争对手没有任何关联”。\n\nHostinger 的 AI 技术负责人 Mantas Lukauskas 指出，最顶尖模型的定价“持平甚至上涨”。Hostinger 是一家自 2020 年起便使用大语言模型的网站托管服务商。\n\n他还表示，近期的定价变动是对 Anthropic 和 OpenAI 等公司能否守住其最先进产品价格的“首次真正考验”：“美国实验室砍掉了中端产品，正在死守高端市场。”\n\n1. 乌克兰无人机在实弹军事演习中全歼美军整支坦克旅\n\n2. 大规模供应链攻击导致数 TB 量级凭据泄露\n\n3. 新 Instagram 标志是 AI 垃圾内容的完美化身\n\n4. 《X 档案》电影 R 级导演剪辑版还原了 Chris Carter 最初的恐怖构想\n\n5. 最大全电动飞机首飞测试仅耗电 5 美元",
+  "id": "cmst2gs6d02lmro06sb7as7av",
+  "url": "https://aihot.virxact.com/items/cmst2gs6d02lmro06sb7as7av",
+  "fetched_at": "2026-08-15T10:09:50+08:00"
+}

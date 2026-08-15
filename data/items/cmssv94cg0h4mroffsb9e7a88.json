@@ -1,0 +1,15 @@
+{
+  "title": "dots3-note Preview 开源：280B 参数轻量模型，主打长程智能体与多模态推理",
+  "source": "公众号：小红书技术（dots.llm）",
+  "published_at": "2026-08-14 19:25",
+  "score": "79",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=Mzg4OTc2MzczNg%3D%3D&mid=2247496140&idx=1&sn=5239a5fbb115c58d2ae0056bb32789ff",
+  "aihot_url": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88",
+  "curation_reason": "除开源模型外，TEMPO 让同一智能体在每个宏观步骤切换为 critic，用测试时推理估计回报，给稀疏奖励长程任务的强化学习训练提供了可借鉴的结构。",
+  "ai_summary": "小红书技术开源 dots3-note Preview，这是 dots3 系列最轻量模型，总参数 280B、激活参数 16B，支持 512K 上下文及文本、视觉、语音多模态理解，并针对复杂推理和长程 Agent 任务优化。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmssv94cg0h4mroffsb9e7a88",
+  "url": "https://aihot.virxact.com/items/cmssv94cg0h4mroffsb9e7a88",
+  "fetched_at": "2026-08-15T10:09:43+08:00"
+}
