@@ -1,0 +1,46 @@
+{
+  "type": "daily",
+  "vol": "2026.08.16",
+  "eyebrow": "VOL.2026.08.16·1STORIES·AIHOT DAILY",
+  "metrics": [
+    {
+      "value": "1",
+      "label": "今日事件"
+    },
+    {
+      "value": "0",
+      "label": "一手报道"
+    },
+    {
+      "value": "0",
+      "label": "新模型"
+    },
+    {
+      "value": "1",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "论文研究",
+      "subtitle": "Research",
+      "count": "1",
+      "articles": [
+        {
+          "id": "cmsuaf2hr05zgroe0y1e7275v",
+          "title": "AI生成书籍正淹没亚马逊，并拉低人类作者的单书收入",
+          "url": "https://aihot.virxact.com/items/cmsuaf2hr05zgroe0y1e7275v",
+          "role_tag": "综合资讯",
+          "source": "The Decoder：AI News（RSS）",
+          "summary": "一项对14,419本自出版电子书的分析显示，AI生成书籍正以数量而非质量挤占人类作者市场，即便未检测到AI文本的书籍，单书收入也在下滑。2023年Q1至2026年Q1，书目总量增长38.3倍，而季度收入仅增长8.9倍；在八个类型中，七个类型的无AI文本书籍单书收入下降。",
+          "is_lead": true
+        }
+      ]
+    }
+  ],
+  "story_count": 1,
+  "date": "2026-08-16",
+  "url": "https://aihot.virxact.com/daily/2026-08-16",
+  "fetched_at": "2026-08-16T10:16:59+08:00"
+}
