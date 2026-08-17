@@ -1,0 +1,237 @@
+{
+  "type": "weekly",
+  "vol": "2026-W33",
+  "eyebrow": "VOL.2026-W33·27STORIES·AIHOTWEEKLY",
+  "date_range": "2026-08-10~2026-08-16",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "智能体走向主流",
+    "overview": "本周AI行业主线是智能体（Agent）的全面主流化：从模型、基础设施到应用与安全，各环节均围绕智能体展开。模型层面，Meta、NVIDIA、xAI、微软等密集发布面向智能体工作流的开源或专用模型，如Muse Glimmer、Nemotron 3.5 Lightning、Grok 4.6、MAI-Thinking-1；基础设施层面，SGLang、OpenRouter、Databricks等优化推理与工具链；应用层面，Claude Code默认开启自动模式、千问开放平台上线、ChatGPT桌面端导入其他智能体数据；安全层面，提示注入攻击基本解决、上下文策略阻断组合攻击、API漏洞曝光。同时，Gemini月活破10亿、Anthropic拟IPO等标志性事件，显示AI正加速渗透日常与商业。"
+  },
+  "stats": [
+    {
+      "value": "82",
+      "label": "独立事件"
+    },
+    {
+      "value": "82",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "智能体模型密集发布",
+      "count": "5",
+      "intro": "本周多家机构发布面向智能体工作流的新模型，强调本地运行、长上下文与工具调用能力。Meta开源Muse Glimmer（30B，消费级硬件可跑），NVIDIA推出Nemotron 3.5 Lightning（30B MoE，速度提升4倍），xAI发布Grok 4.6强化长时运行智能体，微软首发自研推理模型MAI-Thinking-1，阿里开源Qwen3.8-2.4T-A95B（2.4T MoE）。这些模型均针对智能体场景优化，显示行业竞争焦点正从通用对话转向智能体执行能力。",
+      "stories": [
+        {
+          "id": "cmsn2u3mt067ero8opidmwvz7",
+          "title": "Meta 发布开源模型 Muse Glimmer",
+          "url": "https://aihot.virxact.com/items/cmsn2u3mt067ero8opidmwvz7",
+          "source": "X：AI at Meta (@AIatMeta)"
+        },
+        {
+          "id": "cmsoolxde07isrop2eb5rrtvq",
+          "title": "NVIDIA 推出 Nemotron 3.5 Lightning，加速本地智能体任务",
+          "url": "https://aihot.virxact.com/items/cmsoolxde07isrop2eb5rrtvq",
+          "source": "NVIDIA Blog（RSS）"
+        },
+        {
+          "id": "cmsqabu0f001krouc6sfhic2d",
+          "title": "xAI 发布 Grok 4.6，强化长时运行智能体能力",
+          "url": "https://aihot.virxact.com/items/cmsqabu0f001krouc6sfhic2d",
+          "source": "xAI：News（网页）"
+        },
+        {
+          "id": "cmsqbnb8j01nrroosmwa5r6mj",
+          "title": "微软首发自研推理模型MAI-Thinking-1",
+          "url": "https://aihot.virxact.com/items/cmsqbnb8j01nrroosmwa5r6mj",
+          "source": "X：Mustafa Suleyman（Microsoft AI CEO） (@mustafasuleyman)"
+        },
+        {
+          "id": "cmsqagyyz00yuroucf55e5fue",
+          "title": "阿里开放 Qwen3.8-2.4T-A95B 模型权重：2.4T MoE、激活 95B、原生 256K 上下文",
+          "url": "https://aihot.virxact.com/items/cmsqagyyz00yuroucf55e5fue",
+          "source": "IT之家（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "智能体基础设施与工具链升级",
+      "count": "6",
+      "intro": "智能体的普及带动基础设施优化。SGLang为Muse Glimmer和Nemotron 3.5 Lightning提供Day-0支持，OpenRouter推出新版Auto路由器与实时网页搜索基准，Databricks开源Metals v2并引入WASM Postgres沙箱，OpenChamber提供跨平台代理开发环境。这些工具旨在提升智能体的推理效率、开发体验与可靠性，降低构建复杂智能体的门槛。",
+      "stories": [
+        {
+          "id": "cmsn68brx03q2ron5vwp3pwta",
+          "title": "SGLang 为 Muse Glimmer 提供 Day-0 支持，针对本地智能体工作流优化推理",
+          "url": "https://aihot.virxact.com/items/cmsn68brx03q2ron5vwp3pwta",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）"
+        },
+        {
+          "id": "cmsnejv4i042qrohff64pz0jh",
+          "title": "OpenRouter 推出由市场智慧驱动的新版 Auto 路由器",
+          "url": "https://aihot.virxact.com/items/cmsnejv4i042qrohff64pz0jh",
+          "source": "OpenRouter：Announcements（RSS）"
+        },
+        {
+          "id": "cmsq9h6gs01x5ronde8fdla7e",
+          "title": "OpenRouter 推出实时网页搜索基准测试：如何为智能体选择引擎、深度与模型",
+          "url": "https://aihot.virxact.com/items/cmsq9h6gs01x5ronde8fdla7e",
+          "source": "OpenRouter：Announcements（RSS）"
+        },
+        {
+          "id": "cmsp25dko03pvrort4v2ifnsx",
+          "title": "Databricks 开源 Metals v2：面向数百万行代码库的 Java 和 Scala 语言服务器",
+          "url": "https://aihot.virxact.com/items/cmsp25dko03pvrort4v2ifnsx",
+          "source": "Databricks：Blog（RSS）"
+        },
+        {
+          "id": "cmsorfkrj0449rohd7ltvn624",
+          "title": "Electric 加入 Databricks，将 WASM Postgres 引入 AI 智能体沙箱",
+          "url": "https://aihot.virxact.com/items/cmsorfkrj0449rohd7ltvn624",
+          "source": "Databricks：Blog（RSS）"
+        },
+        {
+          "id": "cmsmjglqx034prohfslczvkpb",
+          "title": "OpenChamber：一个基于代理的开发环境",
+          "url": "https://aihot.virxact.com/items/cmsmjglqx034prohfslczvkpb",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "智能体应用与产品落地",
+      "count": "6",
+      "intro": "智能体正从技术走向实际应用。Claude Code自动模式默认开启，ChatGPT桌面端支持导入其他智能体数据，千问开放平台上线覆盖十余领域服务，Zapier用ChatGPT Work改造营销流程，Linear Agent通过系统提示词与工具设计划定边界。这些产品展示了智能体在编程、办公、生活服务等场景的实用价值，也引发对AI内容侵蚀社交人味的讨论。",
+      "stories": [
+        {
+          "id": "cmsnfpcwf05ecrohfuzbjwyar",
+          "title": "Claude Code 自动模式默认开启原理",
+          "url": "https://aihot.virxact.com/items/cmsnfpcwf05ecrohfuzbjwyar",
+          "source": "X：Claude Devs (@ClaudeDevs)"
+        },
+        {
+          "id": "cmsp0j1ph027prortm21absbh",
+          "title": "ChatGPT 桌面端支持导入其他智能体工作数据",
+          "url": "https://aihot.virxact.com/items/cmsp0j1ph027prortm21absbh",
+          "source": "X：OpenAI Developers (@OpenAIDevs)"
+        },
+        {
+          "id": "cmsmlho8005dmrohfoz27j6em",
+          "title": "千问开放平台上线：租房、寄快递、查理财等十余领域服务可对话办理",
+          "url": "https://aihot.virxact.com/items/cmsmlho8005dmrohfoz27j6em",
+          "source": "公众号：千问APP（阿里）"
+        },
+        {
+          "id": "cmsntacii0j0urohfz48viimb",
+          "title": "Zapier 如何用 ChatGPT Work 改造核心营销流程",
+          "url": "https://aihot.virxact.com/items/cmsntacii0j0urohfz48viimb",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmsn9ug4u08wwron5dlzviqy4",
+          "title": "Linear 如何构建 Linear Agent：在系统提示词、工具设计与系统技能中划定边界",
+          "url": "https://aihot.virxact.com/items/cmsn9ug4u08wwron5dlzviqy4",
+          "source": "Linear：Now（RSS）"
+        },
+        {
+          "id": "cmsnx040k01glrofwfqxdc8h5",
+          "title": "微信小微AI帮写与AI点评内测：朋友圈最后一点人味正在消失",
+          "url": "https://aihot.virxact.com/items/cmsnx040k01glrofwfqxdc8h5",
+          "source": "公众号：数字生命卡兹克"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "智能体安全与风险",
+      "count": "4",
+      "intro": "随着智能体能力增强，安全问题凸显。Anthropic称已基本解决提示注入攻击，Databricks提出上下文策略阻断组合攻击，但研究人员发现API漏洞可读取加密推理过程，tl;dv会议记录泄露暴露租户隔离缺失。这些事件表明，智能体的安全防护需从模型训练、系统设计到数据管理多层面协同，任何环节的疏漏都可能导致严重风险。",
+      "stories": [
+        {
+          "id": "cmsm5mk1109hdroy9apis4bb7",
+          "title": "Anthropic 称已基本解决提示注入攻击",
+          "url": "https://aihot.virxact.com/items/cmsm5mk1109hdroy9apis4bb7",
+          "source": "X：Boris Cherny (@bcherny)"
+        },
+        {
+          "id": "cmsnkk68z0byorohfynveywic",
+          "title": "Omnigent 上下文策略如何阻断“致命三重奏”组合攻击",
+          "url": "https://aihot.virxact.com/items/cmsnkk68z0byorohfynveywic",
+          "source": "Databricks：Blog（RSS）"
+        },
+        {
+          "id": "cmsoydypn029yro3yvsi036au",
+          "title": "研究人员发现可读取ChatGPT等模型加密推理过程的API漏洞",
+          "url": "https://aihot.virxact.com/items/cmsoydypn029yro3yvsi036au",
+          "source": "The Decoder：AI News（RSS）"
+        },
+        {
+          "id": "cmsnbc14r0aezron58wsytu43",
+          "title": "tl;dv 逾18.1万段AI会议录音被公开暴露，可实时闯入他人通话",
+          "url": "https://aihot.virxact.com/items/cmsnbc14r0aezron58wsytu43",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "行业格局与资本动向",
+      "count": "6",
+      "intro": "AI行业资本与市场格局加速演变。英伟达联合六大机构融资5000亿美元建AI工厂，Anthropic最快9月IPO估值9650亿美元，Gemini月活破10亿成谷歌增长最快产品，SaaS龙头因AI获得估值溢价。同时，英伟达开发万亿参数开源模型Nemotron 4，可能冲击现有闭源模型格局。这些事件显示AI投资热度不减，但循环融资与估值泡沫的担忧也开始浮现。",
+      "stories": [
+        {
+          "id": "cmsnrwnsb0i1erohfuhfjc4q6",
+          "title": "英伟达联合六大机构融资5000亿美元建AI工厂",
+          "url": "https://aihot.virxact.com/items/cmsnrwnsb0i1erohfuhfjc4q6",
+          "source": "X：Jensen Huang (@JensenHuang)"
+        },
+        {
+          "id": "cmso58oqr0b7trofwl3dcmz7y",
+          "title": "消息称 Anthropic 最快今年 9 月上市，向投资者淡化 AI 模型竞争等挑战",
+          "url": "https://aihot.virxact.com/items/cmso58oqr0b7trofwl3dcmz7y",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmsoxh6oa0a3drohdskp7cb9u",
+          "title": "Gemini月活破10亿，成谷歌增长最快产品",
+          "url": "https://aihot.virxact.com/items/cmsoxh6oa0a3drohdskp7cb9u",
+          "source": "X：Sundar Pichai (@sundarpichai)"
+        },
+        {
+          "id": "cmsoylk4i02drro3yt4l3vhyn",
+          "title": "每个类别都有赢家：AI 时代 SaaS 龙头的估值溢价",
+          "url": "https://aihot.virxact.com/items/cmsoylk4i02drro3yt4l3vhyn",
+          "source": "Tomer Tunguz 博客（VC 分析）"
+        },
+        {
+          "id": "cmsostkpq05iurohd30b8ubmy",
+          "title": "消息称英伟达开发万亿参数开源 AI 模型 Nemotron 4，目标挑战全球顶级",
+          "url": "https://aihot.virxact.com/items/cmsostkpq05iurohd30b8ubmy",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmsoq4td202ghrohdxxsbd756",
+          "title": "英伟达循环融资达到新高度，黄仁勋是否过度出牌？",
+          "url": "https://aihot.virxact.com/items/cmsoq4td202ghrohdxxsbd756",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）"
+        }
+      ]
+    }
+  ],
+  "story_count": 27,
+  "period": "2026-W33",
+  "url": "https://aihot.virxact.com/weekly/2026-W33",
+  "fetched_at": "2026-08-17T10:15:58+08:00"
+}

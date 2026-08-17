@@ -1,0 +1,55 @@
+{
+  "type": "daily",
+  "vol": "2026.08.17",
+  "eyebrow": "VOL.2026.08.17·2STORIES·AIHOT DAILY",
+  "metrics": [
+    {
+      "value": "2",
+      "label": "今日事件"
+    },
+    {
+      "value": "1",
+      "label": "一手报道"
+    },
+    {
+      "value": "0",
+      "label": "新模型"
+    },
+    {
+      "value": "2",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "技巧与观点",
+      "subtitle": "Tips & Takes",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmswesk6a0r2hrovml2edcl2c",
+          "title": "Qwen 3.8 27B 表现出色，但默认推理强度过高导致过度思考",
+          "url": "https://aihot.virxact.com/items/cmswesk6a0r2hrovml2edcl2c",
+          "role_tag": "综合资讯",
+          "source": "Simon Willison 博客",
+          "summary": "阿里 Qwen 实验室发布 Apache 2 许可的 27B 参数视觉大模型 Qwen 3.8 27B，官方基准显示其超越前代 Qwen 3.6 27B 及闭源 Qwen 3.7-Plus。",
+          "is_lead": true
+        },
+        {
+          "id": "cmsw88ide0liyrovmhjpvtel2",
+          "title": "The hyping of Anthropic’s IPO",
+          "url": "https://aihot.virxact.com/items/cmsw88ide0liyrovmhjpvtel2",
+          "role_tag": "大咖博客",
+          "source": "Gary Marcus：The Road to AI We Can Trust（RSS）",
+          "summary": "对 Anthropic IPO 静默期流传的 2028 年 1900 亿美元级营收预测，文章提示其多基于匿名信源和未披露算法，可帮助在追踪上市进展时区分已核实数据与传闻。",
+          "is_lead": false
+        }
+      ]
+    }
+  ],
+  "story_count": 2,
+  "date": "2026-08-17",
+  "url": "https://aihot.virxact.com/daily/2026-08-17",
+  "fetched_at": "2026-08-17T10:15:50+08:00"
+}
