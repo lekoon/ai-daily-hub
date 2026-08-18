@@ -1,0 +1,15 @@
+{
+  "title": "Cursor 推出 Origin 代码托管服务，作为 GitHub 的替代方案",
+  "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "published_at": "2026-08-18 06:14",
+  "score": "81",
+  "flags": "精选",
+  "original_url": "https://cursor.com/changelog/origin-code-hosting",
+  "aihot_url": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+  "curation_reason": "与外部 GitHub 托管相比，Origin 把源码、PR 和 agent 放进同一环境，免去跨工具切换，影响已用 Cursor 做开发的团队对代码审查与 CI 集成的组织方式。",
+  "ai_summary": "Cursor 今日起向所有付费计划用户开放 Origin 代码托管的早期测试版，提供仓库、拉取请求、代码浏览及 GitHub 同步功能。用户可创建以 cursor.com/codebase/ 为前缀的仓库，或将 GitHub 仓库同步至 Origin，双向同步评论与审查。Vercel、Depot 和 Buildkite 集成已可用，智能体功能即将推出。",
+  "content_markdown": "Origin 代码托管\n\n2026年8月17日 · 更新日志\n\nCursor 现在可以托管你的代码了。\n\nOrigin 今天开始在所有付费套餐中以早期测试版形式推出。我们从基础功能入手，专为智能体规模而设计：代码仓库、拉取请求、代码浏览和 GitHub 同步。智能体原生功能即将上线。\n\nOrigin 代码仓库\n\n新的 Codebase 标签页是 Origin 代码仓库的所在地。\n\n点击 +New 创建新仓库并为其命名。完成后，页面会显示如何安装 CLI，并提供克隆仓库或推送本地项目的命令。推送后，你的代码就托管在 Origin 上了。\n\n创建第一个仓库时，为你的代码库命名。该名称会成为每个仓库 URL 的一部分：cursor.com/codebase/acme-corp。\n\n导入你的 GitHub 仓库\n\n你的 GitHub 仓库可以与 Cursor 托管的仓库并存。将 GitHub 连接到 Cursor，选择你的组织，就能看到可以同步的仓库。选择一个，Cursor 就会将其拉取进来。你可以自行选择同步内容，也可以随时断开仓库连接。任何对已同步仓库拥有读写权限的人都可以在 Cursor 中查看它。\n\n同步的仓库会实时更新。可以从 Origin 中的副本进行浏览、搜索和拉取。推送仍会发送到 GitHub，对于任何在 GitHub 上启动的内容，GitHub 仍然是唯一事实来源。每个仓库名称旁的图标会标明哪些由 Cursor 托管，哪些来自 GitHub。\n\n拉取请求\n\n每个仓库都有拉取请求。打开一个即可查看时间线、提交、检查和文件变更。审阅差异、发表评论并合并。\n\n同步仓库上的拉取请求双向同步：在 Cursor 中评论会发布到 GitHub，在 GitHub 上回复或回应会在几秒内显示在 Cursor 中。在 GitHub 上有分配给你的审阅任务？直接在 Cursor 中审阅并合并。\n\n每个仓库中的智能体\n\n你的代码、PR 和智能体现在都在同一个地方。向 Cursor 询问你正在浏览的代码相关问题。它可以回答、做出修改、更新 PR 或推送分支。\n\nCursor 仓库的应用扩展\n\n我们正在构建一个应用生态系统，让你的整个技术栈与 Origin 无缝协作。与 Vercel、Depot 和 Buildkite 的集成已经可用，更多集成即将推出。\n\n从仓库的 Apps 标签页连接 Vercel 后，每个 PR 都会获得一个预览部署环境，你可以在其中进行测试和发表评论。合并后，它就会发布到生产环境。对于 CI，可以连接 Depot 或 Buildkite。两者都能运行你现有的 GitHub Actions 工作流，而 Buildkite 还能运行其原生流水线。\n\n设置\n\n每个仓库都有设置。可以查看 GitHub 仓库的同步状态、管理谁有访问权限，以及查看已连接了哪些应用。\n\nOrigin 从今天开始向所有付费计划用户推出早期测试版，但管理员选择退出的企业组织除外。为你的代码库命名，并创建你的第一个仓库。\n\n更多信息请参阅我们的文档，或今天就行动起来。",
+  "id": "cmsxsvb5s0a4troz0z2q2nu3h",
+  "url": "https://aihot.virxact.com/items/cmsxsvb5s0a4troz0z2q2nu3h",
+  "fetched_at": "2026-08-18T10:11:09+08:00"
+}
