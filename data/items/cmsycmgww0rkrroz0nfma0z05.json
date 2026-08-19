@@ -1,0 +1,15 @@
+{
+  "title": "设计 AI 评测：先求清晰，再谈可视化",
+  "source": "Google AI：DEV 作者专属（RSS）",
+  "published_at": "2026-08-18 15:00",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://dev.to/googleai/designing-ai-evals-clarity-now-and-visualization-next-4eii",
+  "aihot_url": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05",
+  "curation_reason": "把技能评估拆成模型基线、技能条件与多维事实打分，让团队用同一套脚本量化技能增量，而不是凭单次演示做判断。",
+  "ai_summary": "本文演示如何用开源评测框架 Inspect AI 和 Harbor 评估 agent 技能，并借助 Google Sheets 和 Data Studio 进行可视化分析。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmsycmgww0rkrroz0nfma0z05",
+  "url": "https://aihot.virxact.com/items/cmsycmgww0rkrroz0nfma0z05",
+  "fetched_at": "2026-08-19T10:14:07+08:00"
+}

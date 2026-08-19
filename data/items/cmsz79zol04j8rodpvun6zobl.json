@@ -1,0 +1,15 @@
+{
+  "title": "Mojo 语言正式开源，编译器与工具链全面开放",
+  "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+  "published_at": "2026-08-19 05:26",
+  "score": "74",
+  "flags": "精选",
+  "original_url": "https://www.modular.com/blog/mojo-open-source",
+  "aihot_url": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl",
+  "curation_reason": "Mojo 从闭源编译器转为可自行构建的工具链，开发者能直接查看和修改标准库实现，减少对厂商二进制分发的单一依赖。",
+  "ai_summary": "Mojo🔥 语言现已正式开源，采用 Apache 2.0 许可证（含 LLVM 例外），编译器、工具链及全部源码已发布至 modular GitHub 仓库。Mojo 上周刚达成 1.0 版本（源码稳定），此次开源涵盖整个编译器与工具链。目前暂不接受编译器相关贡献，计划年底前开放，标准库自 2024 年起已接受社区贡献。",
+  "content_markdown": "Mojo🔥 现已开源！\n\nModular 团队\n\n公司\n\n我们很高兴地宣布，Mojo🔥 语言现已根据 Apache 2.0 许可证（含 LLVM 例外条款）完全开源！Mojo 编译器、工具链以及构建该语言所需的一切源代码，现已在我们的 modular GitHub 仓库中提供。\n\nMojo 语言是一场大胆的押注：一种比旧语言走得更远的新型通用编程语言。Mojo 整合了编译器与编程语言研究的最新成果，以解锁 GPU、AI 加速器及其他先进算力。过去四年，Mojo 一直以开放社区、封闭编译器的方式开发。上周 Mojo 达到 1.0 版本（实现源码稳定性），而今天我们激动地宣布，将整个编译器与工具链全部开源。\n\nApache 2：一种宽松许可证\n\nApache 2.0 许可证是编程语言和编译器的黄金标准，因为它提供了极大的灵活性，可用于各类应用。该许可证的 LLVM 扩展条款进一步扩大了这些自由，允许构建和分发由 Mojo 编译出的二进制文件。我们希望你能在所能想象的尽可能多的应用场景中采用和使用 Mojo。\n\n我们的开源策略是经过深思熟虑的：我们发现，小而紧密的设计团队（而非委员会）最适合找到一门语言的“灵魂”，但更广泛社区的反馈对于避免回声室效应至关重要。因此，我们首先开源了 Mojo 标准库，随后发布了数十万行用 Mojo 编写的内核代码、工具和支持内容。我们与社区反馈和公开设计提案共同构建，现在开源编译器。随着 Mojo 不断成熟，我们将继续进一步开放我们的流程。\n\n如何获取并构建编译器\n\nMojo 语言的所有代码现已在主 modular GitHub 仓库中提供。首先，将该仓库克隆到本地：\n\nbash\n\ngit clone https://github.com/modular/modular.git\n\ncd modular\n\n然后，要从源码构建 Mojo 编译器并针对 Mojo 文件运行它，你可以使用一条构建命令：\n\nbash\n\n./bazelw run --config=build-mojo KGEN:mojo -- run hello.mojo\n\n在 Modular，我们使用 Bazel 来管理 Mojo 和 MAX 复杂的构建流程与缓存。这一条命令就能下载或构建出编译 Mojo 编译器及 Mojo 标准库所需的全部内容。`--config=build-mojo` 这个标志会告诉构建系统，使用你本地系统上的源代码从头编译所有内容。\n\n这也适用于 Mojo 标准库的开发——你可以修改编译器或库代码，并通过以下命令运行完整的测试套件：\n\nbash\n\n./bazelw test --config=build-mojo mojo/stdlib/test/...\n\n如果你不直接开发编译器本身，可以使用 `--config=prebuilt-mojo` 标志，构建系统会下载最新的编译器夜间二进制发行版，为你节省一些编译时间。请注意，如果你要定制 MAX 内核或模型，目前仍然需要一个预构建的 Mojo 编译器。\n\n贡献\n\nMojo 标准库自 2024 年起就开始接受外部贡献，我们非常感谢每一位帮助推动这门语言发展的人。我们学到的一点（尤其是在当今 AI 编程的时代）是，我们需要审慎地处理贡献。因此，我们目前还不准备接受对编译器和工具链的贡献。我们的目标是在今年年底前开始接受对编译器和工具链的贡献，届时我们会分享更多细节。\n\n如果你在阅读 Mojo 编译器源码时有任何疑问，或者想分享你正在做的工作，欢迎加入我们的论坛。克隆源代码，告诉我们你正在用 Mojo 语言构建什么。我们非常期待将 Mojo 向世界开放，并见证它的成长！\n\n从 Modular 了解更多\n\n查看所有博客\n\n与 Modular 一起构建 AI 的未来\n\n立即开始——免费\n\n查看版本\n\n视频 · 前往原文观看\n\n立即注册\n\n立即注册我们的云平台，轻松上手。\n\n浏览开放模型\n\n浏览我们的模型目录，或部署你自己的自定义模型\n\n浏览模型",
+  "id": "cmsz79zol04j8rodpvun6zobl",
+  "url": "https://aihot.virxact.com/items/cmsz79zol04j8rodpvun6zobl",
+  "fetched_at": "2026-08-19T10:13:52+08:00"
+}
