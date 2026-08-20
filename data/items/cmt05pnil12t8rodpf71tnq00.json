@@ -1,0 +1,15 @@
+{
+  "title": "苹果研究：LLM 类人行为的多维度分析--模型行为、用户因素与系统提示词的影响",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-19 08:00",
+  "score": "52",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/human-like-behaviors-llms",
+  "aihot_url": "https://aihot.virxact.com/items/cmt05pnil12t8rodpf71tnq00",
+  "curation_reason": "",
+  "ai_summary": "苹果机器学习研究团队对 LLM 的类人行为（如表达想法与情绪、与用户建立关系、拒绝请求并保持边界）进行了多维度分析，涵盖其普遍性、潜在影响与可控性。研究采用 LLM-as-a-judge 与人工评估相结合的方法，样本规模超过 21,000 条数据，旨在为研究者与实践者提供关于何时及何种类型类人行为的决策依据。",
+  "content_markdown": "Large language models (LLMs) exhibit a wide range of human-like behaviors, from expressing thoughts and emotions, to engaging in relationship-building with users, to refusing requests and maintaining boundaries. Despite their prevalence, researchers and practitioners lack methods and empirical insights to make informed decisions about when and what types of human-like behaviors LLMs should exhibit. To fill this gap, we present a multi-dimensional analysis of the prevalence, potential effects, and controllability of these behaviors using LLM-as-a-judge and human evaluation. Across 21,000…",
+  "id": "cmt05pnil12t8rodpf71tnq00",
+  "url": "https://aihot.virxact.com/items/cmt05pnil12t8rodpf71tnq00",
+  "fetched_at": "2026-08-20T10:12:46+08:00"
+}

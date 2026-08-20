@@ -1,0 +1,15 @@
+{
+  "title": "倒排索引遍历的 P-完全性：布尔查询 DAG 的复杂度评估",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-19 08:00",
+  "score": "42",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/the-p-completeness-of-inverted-index-traversal",
+  "aihot_url": "https://aihot.virxact.com/items/cmt0eab5901fzro2oaa87wvg6",
+  "curation_reason": "",
+  "ai_summary": "现代 AI 智能体依赖搜索基础设施执行神经符号推理，常编译为深层嵌套的非单调布尔查询。标准倒排索引查询评估策略面临严重理论限制：有状态迭代器模型（Document-at-a-Time）受 NC^1 公式评估结构约束，展开重汇聚逻辑时最坏情况查询复杂度呈 O(2^|Q|) 指数级爆炸。",
+  "content_markdown": "Modern AI agents increasingly rely on search infrastructure to execute complex, neuro-symbolic reasoning workflows. These workflows often compile into deeply nested, non-monotonic Boolean queries over text fields. However, standard query evaluation strategies over inverted indices face severe theoretical limits when handling these structures. Stateful iterator models (Document-at-a-Time) are structurally bounded by NC^1 formula evaluation, suffering a worst-case O(2^|Q|) exponential blowup in query complexity when unrolling re-convergent logic. Conversely, recursive materialization models…",
+  "id": "cmt0eab5901fzro2oaa87wvg6",
+  "url": "https://aihot.virxact.com/items/cmt0eab5901fzro2oaa87wvg6",
+  "fetched_at": "2026-08-20T10:12:47+08:00"
+}

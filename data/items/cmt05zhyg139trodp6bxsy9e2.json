@@ -1,0 +1,15 @@
+{
+  "title": "Liquid AI 发布 LFM2.5 系列 QAD Q4_0 量化检查点，恢复 97% 精度损失",
+  "source": "Hugging Face：Blog（RSS）",
+  "published_at": "2026-08-19 21:48",
+  "score": "64",
+  "flags": "精选",
+  "original_url": "https://huggingface.co/blog/LiquidAI/qad",
+  "aihot_url": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2",
+  "curation_reason": "QAD 量化蒸馏恢复 Q4_0 模型九成六以上 BF16 精度，对应树莓派和手机等边缘设备，在保持低内存与高吞吐的同时缩小与全精度模型的差距。",
+  "ai_summary": "Liquid AI 发布基于量化感知蒸馏（QAD）训练的 LFM2.5-230M、350M、1.2B-Instruct 和 2.6B 四款 Q4_0 GGUF 检查点，在保持原生 Q4_0 内存与速度的同时，恢复 BF16 平均精度损失的 97%。",
+  "content_markdown": "今天，我们发布 QAD Q4_0 GGUF 文件。这些是针对 LFM2.5-230M、LFM2.5-350M、LFM2.5-1.2B-Instruct 和 LFM2.5-2.6B 的更新版 4-bit 检查点。它们让开发者能够以 Q4_0 的内存占用和速度运行 LFM2.5 模型，而不会出现通常的质量下降：\n\n采用量化感知蒸馏（QAD）训练：将高精度教师模型蒸馏到量化学生模型中\n\n与原生 Q4_0 相同的内存和速度：它们保持了 Q4_0 GGUF 的低内存占用和高吞吐量\n\n恢复率：量化导致的 BF16 平均精度损失中，有 97% 得以恢复\n\n基准测试结果\n\n对于全部四个模型，我们将它们发布的、通过训练后量化（PTQ）生成的 GGUF 文件与训练得到的 QAD Q4_0 检查点，在一套涵盖推理、指令遵循、工具使用和智能体能力的基准测试套件上进行了对比：GPQA Diamond、MMLU-Pro、IFEval、IFBench、Multi-IF 和 BFCLv4。BF16 GGUF 作为该格式内的性能上限参考。我们还额外加入了一项规模匹配的数学评测：LFM2.5-230M 和 LFM2.5-350M 使用 GSM8K，LFM2.5-1.2B-Instruct 和 LFM2.5-2.6B 使用 AIME25。我们报告五次重复实验的平均值。\n\n在全部四个模型上，QAD 都显著提升了 Q4_0 检查点的性能。QAD 检查点分别保留了各自 BF16 基线性能的 97.1%、96.5%、97.4% 和 96.6%。\n\n真实边缘硬件上的速度与体积\n\n我们在四个目标设备上测量了 LFM2.5-230M、LFM2.5-350M、LFM2.5-1.2B-Instruct 和 LFM2.5-2.6B 这四个模型的解码吞吐量：MacBook Pro、NucBox EVO-X2、三星 Galaxy S26 Ultra 和 Raspberry Pi 5。MacBook Pro 和 NucBox 使用 GPU 推理，而三星和 Raspberry Pi 使用 Arm CPU 推理。在完成性能分析的情况下，BF16 和 F16 作为全精度参考一并展示。\n\n230M 和 350M 的 QAD Q4_0 检查点在评估误差范围内达到了 Q5_K_M 的质量水平，同时解码吞吐量高出 4-33%。1.2B 和 2.6B 的 QAD Q4_0 检查点达到了 Q4_K_M 的质量水平，同时吞吐量高出 3-14%。QAD Q4_0 检查点还匹配了 Unsloth 的 UD-Q4_K_XL（在适用情况下，即针对 230M 和 1.2B 模型），这是一个强大的外部训练后量化检查点。\n\n如何使用 QAD GGUF 文件\n\n使用 llama.cpp 或任何支持 GGUF Q4_0 工件的运行时来使用这些文件。\n\nllama-cli -hf LiquidAI/LFM2.5-350M \\ --hf-file LFM2.5-350M-QAD-Q4_0.gguf \\ -p \"What is C. elegans?\"\n\n开始使用 QAD GGUF 文件\n\nQAD GGUF 格式模型今天已在 Hugging Face 上线：LFM2.5-230M、LFM2.5-350M、LFM2.5-1.2B-Instruct 和 LFM2.5-2.6B。\n\n我们非常期待看到你的创作。\n\n引用\n\n如需引用，请使用以下参考文献或 BibTeX：\n\nLiquid AI, \"LFM2.5 Q4_0: Quantization-Aware Distillation for Edge Deployment\", Liquid AI Blog, Aug 2026.\n\n或使用 BibTeX 引用\n\n@article{liquidAI2026Q40, author = {Liquid AI}, title = {LFM2.5 Q4_0: Quantization-Aware Distillation for Edge Deployment}, journal = {Liquid AI Blog}, year = {2026}, note = {www.liquid.ai/blog/qad}, }",
+  "id": "cmt05zhyg139trodp6bxsy9e2",
+  "url": "https://aihot.virxact.com/items/cmt05zhyg139trodp6bxsy9e2",
+  "fetched_at": "2026-08-20T10:12:33+08:00"
+}

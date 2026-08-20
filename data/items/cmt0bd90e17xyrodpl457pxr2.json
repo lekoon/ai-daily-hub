@@ -1,0 +1,15 @@
+{
+  "title": "Databricks 如何从单一提示词设计高效的 Genie Agents",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-20 00:00",
+  "score": "40",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/designing-effective-genie-agents-single-prompt",
+  "aihot_url": "https://aihot.virxact.com/items/cmt0bd90e17xyrodpl457pxr2",
+  "curation_reason": "",
+  "ai_summary": "Databricks 发布指南，探讨如何从单一提示词设计高效的 Genie Agents。文章指出，通用智能体在处理收入等查询时，往往只会抓取第一个相关数据表，而 Genie Agents 通过更精准的提示词设计，能更准确地定位和回答用户问题。该指南旨在帮助开发者优化智能体行为，提升查询结果的准确性和相关性。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmt0bd90e17xyrodpl457pxr2",
+  "url": "https://aihot.virxact.com/items/cmt0bd90e17xyrodpl457pxr2",
+  "fetched_at": "2026-08-20T10:12:52+08:00"
+}
