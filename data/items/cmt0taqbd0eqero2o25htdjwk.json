@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code v2.1.237 发布：修复 LLM 网关提示词缓存，新增\"简洁\"输出风格",
+  "source": "Claude Code：GitHub Releases（RSS）",
+  "published_at": "2026-08-20 08:54",
+  "score": "50",
+  "flags": "",
+  "original_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.237",
+  "aihot_url": "https://aihot.virxact.com/items/cmt0taqbd0eqero2o25htdjwk",
+  "curation_reason": "",
+  "ai_summary": "Claude Code v2.1.237 修复了使用 LLM 网关或自定义 base URL 的会话中的提示词缓存问题，并新增内置“简洁”输出风格。该风格下 Claude 直接给出结果，跳过开场白和叙述，但工作完成度不变，可在 /config 的 Output style 下选择。",
+  "content_markdown": "What's changed\n\nFixed prompt caching for sessions using an LLM gateway or custom base URL\n\nAdded a built-in \"Concise\" output style: Claude leads with results and skips preamble and narration, while doing the work just as thoroughly. Select it under Output style in /config.",
+  "id": "cmt0taqbd0eqero2o25htdjwk",
+  "url": "https://aihot.virxact.com/items/cmt0taqbd0eqero2o25htdjwk",
+  "fetched_at": "2026-08-21T10:19:55+08:00"
+}

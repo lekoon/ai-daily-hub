@@ -1,0 +1,15 @@
+{
+  "title": "LangSmith 预览构建：如何在合并前测试智能体变更",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-21 00:48",
+  "score": "48",
+  "flags": "",
+  "original_url": "https://www.langchain.com/blog/langsmith-preview-builds-test-agent-changes-before-production",
+  "aihot_url": "https://aihot.virxact.com/items/cmt1syh3c06wkroovu6hir326",
+  "curation_reason": "",
+  "ai_summary": "LangSmith 预览构建让团队在合并智能体变更前，于临时的、类生产环境的部署中测试拉取请求分支。该功能旨在降低变更上线风险，使智能体改动验证更贴近真实运行条件。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmt1syh3c06wkroovu6hir326",
+  "url": "https://aihot.virxact.com/items/cmt1syh3c06wkroovu6hir326",
+  "fetched_at": "2026-08-21T10:19:56+08:00"
+}

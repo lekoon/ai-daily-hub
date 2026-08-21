@@ -1,0 +1,15 @@
+{
+  "title": "数据受限下的多语言知识迁移：Apple 提出基于词汇干预的新方法",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-20 08:00",
+  "score": "47",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/multilingual-knowledge-transfer-lexical-interventions",
+  "aihot_url": "https://aihot.virxact.com/items/cmt1nax0o02deroovp316md4c",
+  "curation_reason": "",
+  "ai_summary": "Apple 研究团队提出一种基于词汇干预的多语言知识迁移方法，旨在解决低资源语言训练数据不足时，模型难以从高资源语言获取科学推理、常识推断和世界知识的问题。该方法无需大量平行语料、翻译系统或辅助模型，为数据受限场景下的跨语言知识迁移提供了更高效的替代方案。",
+  "content_markdown": "Cross-lingual knowledge transfer is critical for building high-performing multilingual language models for languages with insufficient training data. When target language data is scarce, the knowledge required for many downstream tasks involving scientific reasoning, commonsense inference, and world knowledge must be acquired primarily from the high-resource language, making effective knowledge transfer essential. Existing methods for improving such cross-lingual knowledge transfer require large amounts of parallel data, translation systems, auxiliary models, or additional training stages that…",
+  "id": "cmt1nax0o02deroovp316md4c",
+  "url": "https://aihot.virxact.com/items/cmt1nax0o02deroovp316md4c",
+  "fetched_at": "2026-08-21T10:20:00+08:00"
+}

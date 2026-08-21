@@ -1,0 +1,15 @@
+{
+  "title": "AlloyDB ScaNN 如何将向量搜索扩展到 100 亿向量",
+  "source": "Google Cloud：Databases（RSS）",
+  "published_at": "2026-08-21 00:00",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://cloud.google.com/blog/products/databases/alloydb-scann-index-four-level-tree-improves-vector-search",
+  "aihot_url": "https://aihot.virxact.com/items/cmt1r7jjh05lgroovc4zwypj6",
+  "curation_reason": "四层树把搜索复杂度从 O(N^1/2) 逐级降到 O(N^1/4)，配合内存优化让向量索引扩到百亿规模，这会影响依赖大规模向量检索的 RAG 应用在做容量规划时的性能假设。",
+  "ai_summary": "AlloyDB 的 ScaNN 索引现已支持超过 100 亿向量的规模，通过全新的四层树架构（预览版）实现，将查询复杂度从 O(N^1/2) 降至 O(N^1/4)。内部测试中，该架构在 100 亿向量规模下可实现 p95 延迟不超过 51 毫秒、召回率达 95%。该功能可通过快速入门指南部署，新用户可享受 30 天免费试用。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmt1r7jjh05lgroovc4zwypj6",
+  "url": "https://aihot.virxact.com/items/cmt1r7jjh05lgroovc4zwypj6",
+  "fetched_at": "2026-08-21T10:19:47+08:00"
+}

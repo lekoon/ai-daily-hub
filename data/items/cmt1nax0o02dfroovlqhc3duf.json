@@ -1,0 +1,15 @@
+{
+  "title": "数据约束下的混合预训练缩放定律",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-20 08:00",
+  "score": "43",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/scaling-laws-mixture-pretraining",
+  "aihot_url": "https://aihot.virxact.com/items/cmt1nax0o02dfroovlqhc3duf",
+  "curation_reason": "",
+  "ai_summary": "苹果机器学习研究团队通过2000余次语言模型训练实验，系统研究了稀缺目标数据与通用数据混合预训练中的权衡问题。研究发现，目标数据占比过低会导致模型对目标领域暴露不足，而占比过高则因重复样本过多引发收益递减乃至过拟合，为数据约束下的混合预训练策略提供了量化依据。",
+  "content_markdown": "As language models scale, the amount of data they require grows – yet many target data sources, such as low-resource languages or specialized domains, are inherently limited in size. A common strategy is to mix this scarce but valuable target data with abundant generic data, which presents a fundamental trade-off: too little target data in the mixture underexposes the model to the target domain, while too much target data repeats the same examples excessively, yielding diminishing returns and eventual overfitting. We study this trade-off across more than 2,000 language-model training runs…",
+  "id": "cmt1nax0o02dfroovlqhc3duf",
+  "url": "https://aihot.virxact.com/items/cmt1nax0o02dfroovlqhc3duf",
+  "fetched_at": "2026-08-21T10:20:01+08:00"
+}

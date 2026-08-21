@@ -1,0 +1,15 @@
+{
+  "title": "Claude Platform 正式上线 Computer Use、Skills API 与 Files API，新增浏览器操作工具",
+  "source": "Claude：Blog（网页）",
+  "published_at": "2026-08-21 04:27",
+  "score": "63",
+  "flags": "精选",
+  "original_url": "https://claude.com/blog/computer-use-skills-api-files-api",
+  "aihot_url": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew",
+  "curation_reason": "这次正式版让 computer use 每轮可执行多个动作，浏览器工具按页面结构而非像素定位元素，长流程任务的调用次数和执行时间可能明显下降，对无 API 系统上的自动化团队影响直接。",
+  "ai_summary": "Anthropic 宣布 Computer Use、Skills API 与 Files API 在 Claude Platform 全面可用，并新增浏览器操作工具，让智能体可操作软件、调用团队技能并返回成品文件。",
+  "content_markdown": "Category [Product announcements](https://claude.com/blog/category/announcements) [Agents](https://claude.com/blog/category/agents) [Enterprise AI](https://claude.com/blog/category/enterprise-ai)\n\nProduct [Claude Platform](https://claude.com/platform/api)\n\nDate August 20, 2026\n\nReading time 5 min\n\nShare [Copy link](https://claude.com/blog/computer-use-skills-api-files-api#)https://claude.com/blog/computer-use-skills-api-files-api\n\n计算机操作（Computer use）、技能 API（Skills API）和文件 API（Files API）今天在 Claude 平台上全面开放。计算机操作还新增了一个浏览器操作工具，适用于在 Web 应用中工作的智能体。三者结合，你可以构建能够操作软件、运用团队专业知识并返回成品文件的智能体。\n\n在 Claude 平台上构建智能体\n\n计算机操作让你构建能够操作其所见软件的智能体。给定一张截图，智能体会像坐在键盘前的人一样点击、输入和滚动。这使它能够在那些从未为自动化而构建的应用中工作。新的浏览器操作工具将这一能力扩展到 Web 领域。除了截图之外，智能体还会读取页面结构，并针对特定字段或按钮进行操作，而不是屏幕上的某个位置。\n\n技能 API 和文件 API 让你能够将你的专业知识和文档赋予该智能体。技能是一个包含指令、脚本和模板的文件夹，Claude 仅在任务需要时才加载它。借助技能 API，你可以上传并管理自己技能的版本，然后将它们附加到任何请求中。它们在 Claude 的代码执行沙箱中运行，因此你无需自行托管任何内容。文件 API 是智能体读取和写入文档的存储空间：上传一次 PDF 或电子表格，在后续请求中通过其 ID 引用它，而无需重新发送，并可下载智能体创建的文件。\n\n假设你正在构建一个理赔智能体。它从文件 API 读取受理文档，遵循一个编码了团队申报流程的技能，通过浏览器操作工具在保险公司的 Web 门户中完成提交，并将确认信息保存为文件。已全面开放的代码执行和 Web 搜索也适用于同一流程。\n\n全面开放带来的新变化\n\n计算机操作：更新后的计算机操作工具让 Claude 每次轮次可执行多个操作，而不是每次模型调用只执行一个操作，因此任务可以在更少的调用次数和更短的时间内完成。根据我们的 BAA 协议，计算机操作现在也适用于受 HIPAA 监管的工作负载。\n\n浏览器操作工具：今天在计算机操作中新增。它使用相同的多操作轮次，并增加了页面结构，因此智能体定位 Web 元素比仅依赖像素更可靠。\n\nSkills API：一种更简单的 API，用于上传和管理你自己技能的版本。\n\nFiles API：自动文件过期、5 倍更高的速率限制，以及每个组织 1 TB 的存储空间。\n\n“我们的智能体运行在那些没有 API 的医疗和保险系统内部。在新的计算机使用工具上，我们最长的理赔流程从 32 分钟缩短到 13 分钟，在我们测试的每一个流程中，单任务成本下降了约 30%，完成率达到 100%，而且我们的提示词完全没改。”\n\nDavide Locatelli，研究工程师\n\n“Skills API 为我们提供了一种直接的方式，将专门的文档创建能力构建到 Box Agent 中。对一家银行来说，一项技能可以捕捉公司的信贷方法论和已批准的备忘录格式；Box Agent 将其应用于 Box 中已有的财务报表和交易文档，并生成一份有来源依据的信贷备忘录供分析师审阅。银行无需从零构建每个复杂流程，就能获得相应的智能体。”\n\nMatthew Midson，银行业务董事总经理\n\n快速开始\n\n计算机使用工具、浏览器使用工具、Skills API 和 Files API 现已在 Claude 平台上提供。Skills API 和 Files API 也可通过 Microsoft Foundry 获取，更新后的计算机使用和浏览器使用工具即将登陆 Google Cloud 的 Vertex AI。在迁移期间，现有的 beta 集成仍可继续使用。请参阅计算机使用、浏览器使用工具、Skills API 和 Files API 的文档以开始使用。",
+  "id": "cmt1z1q5n0c93roovlvh40tew",
+  "url": "https://aihot.virxact.com/items/cmt1z1q5n0c93roovlvh40tew",
+  "fetched_at": "2026-08-21T10:19:49+08:00"
+}
