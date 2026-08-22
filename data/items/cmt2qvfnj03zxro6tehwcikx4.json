@@ -1,0 +1,15 @@
+{
+  "title": "DeepSeek-V4-Flash-Vision-Exp 发布",
+  "source": "DeepSeek：API 更新日志",
+  "published_at": "2026-08-21 17:26",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://api-docs.deepseek.com/zh-cn/updates#%E6%97%B6%E9%97%B4-2026-08-21",
+  "aihot_url": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4",
+  "curation_reason": "实验版在纯文本能力与正式版持平的基础上补齐视觉，多模态 Agent 基准接近 Opus-4.8，让依赖视觉的 DeepSeek 工作流无需切换后端即可评估更强感知能力。",
+  "ai_summary": "DeepSeek 上线实验性多模态视觉理解模型 DeepSeek-V4-Flash-Vision-Exp，可通过设置 model='deepseek-v4-flash-vision-exp' 在 API 平台访问。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmt2qvfnj03zxro6tehwcikx4",
+  "url": "https://aihot.virxact.com/items/cmt2qvfnj03zxro6tehwcikx4",
+  "fetched_at": "2026-08-22T10:10:15+08:00"
+}

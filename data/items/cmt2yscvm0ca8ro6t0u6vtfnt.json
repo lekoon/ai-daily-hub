@@ -1,0 +1,15 @@
+{
+  "title": "面壁智能 OpenBMB 推出 MathForm，面向 Lean 4 数学自动形式化的开源框架、数据集与模型",
+  "source": "OpenBMB (@OpenBMB)",
+  "published_at": "2026-08-21 21:01",
+  "score": "69",
+  "flags": "精选",
+  "original_url": "https://x.com/OpenBMB/status/2090786300194590816",
+  "aihot_url": "https://aihot.virxact.com/items/cmt2yscvm0ca8ro6t0u6vtfnt",
+  "curation_reason": "数学形式化的难点是编译通过但语义漂移，该框架用检索规划和语义一致性反馈迭代修正，并开源数据集和 8B 模型，给小模型做形式化提供了可复用路径。",
+  "ai_summary": "面壁智能 OpenBMB 推出 MathForm，一个面向 Lean 4 数学自动形式化的开源框架、数据集与模型。其 FormalVerse 数据集含 367K+ 已验证示例；在匹配 100K 预算下，基于其训练的模型 Consistency Check 达 60.32%，优于 FineLeanCorpus（46.53%）与 NuminaMath-LEAN（41.49%）。",
+  "content_markdown": "🧮 介绍 MathForm：一个用于 Lean 4 数学自动形式化的开源框架、数据集与模型。\n\n将数学形式化，能让数学知识变得可被机器检验，但其意义远不止于把命题翻译成代码。模型必须将每个概念映射到 Mathlib 中正确的类型与定义上。一段形式化命题即使能通过编译，仍可能曲解原始问题。\n\n亮点 ✨ MathForm 框架：检索增强、验证引导的数据构建。检索规划器会提取命题所需的 Mathlib 定义与既有形式化内容。随后，生成器会根据 Lean 编译器的诊断信息与语义一致性反馈，对输出进行最多 3 轮的修订。\n\nFormalVerse 数据集：367K+ 个经过验证的 Lean 4 示例。每个示例都将自然语言命题与经过验证的 Lean 4 代码配对，覆盖多个数学领域与来源。\n\n结果 📊 • 在匹配的 100K 预算、相同配方与初始化条件下，基于 FormalVerse 训练的模型达到 60.32% 的一致性检查通过率，而基于 FineLeanCorpus 训练的为 46.53%，基于 NuminaMath-LEAN 训练的为 41.49% • MathForm-8B 在六个基准上达到 88.06% 的语法检查与 72.37% 的一致性检查 Pass@8，以四分之一的模型规模超越了 ReForm-32B 与 Goedel-Formalizer-V2-32B • 在难度最高的 FATE-H / FATE-X 子集上，其一致性检查分别达到 63% / 37%，比最强的专用基线高出 10 个和 12 个百分点\n\n🔗 资源 📄 论文：http://arxiv.org/abs/2608.14221 📚 数据集：http://huggingface.co/datasets/openbmb/FormalVerse 🤖 模型：http://huggingface.co/openbmb/MathForm-8B 💻 代码：http://github.com/openbmb/MathForm",
+  "id": "cmt2yscvm0ca8ro6t0u6vtfnt",
+  "url": "https://aihot.virxact.com/items/cmt2yscvm0ca8ro6t0u6vtfnt",
+  "fetched_at": "2026-08-22T10:10:13+08:00"
+}
