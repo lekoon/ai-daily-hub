@@ -1,0 +1,183 @@
+{
+  "type": "weekly",
+  "vol": "2026-W34",
+  "eyebrow": "VOL.2026-W34·18STORIES·AIHOTWEEKLY",
+  "date_range": "2026-08-17~2026-08-23",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI 基础设施与安全并进",
+    "overview": "本周 AI 行业主线是基础设施与安全并进。OpenRouter 与 Stripe 合并，成为 AI 推理分发的重要节点；NVIDIA 锁定电力资源，凸显算力扩张的能源瓶颈。模型层面，开源与闭源竞争加剧，GLM-5.3 与 Qwen3.8-27B 等模型在性能上逼近闭源旗舰，同时成本更低。安全方面，OpenAI 与 Anthropic 因网络攻击风险放缓模型开发，强化安全防护，并推动民主监督。此外，AI 应用向教育、科学、设计等领域渗透，智能体开发工具链日益成熟。"
+  },
+  "stats": [
+    {
+      "value": "47",
+      "label": "独立事件"
+    },
+    {
+      "value": "47",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "推理基础设施整合与算力扩张",
+      "count": "3",
+      "intro": "OpenRouter 与 Stripe 合并，每日处理超 10 万亿 token，成为 AI 推理分发的重要枢纽。NVIDIA 与 SB Energy 合作锁定电力容量，为 OpenAI 等提供算力支持，凸显能源在 AI 扩张中的关键作用。同时，LMSYS 等团队优化推理性能，降低服务成本。",
+      "stories": [
+        {
+          "id": "cmt0d2tsl1961rodpnvzxo4cc",
+          "title": "OpenRouter 宣布加入 Stripe",
+          "url": "https://aihot.virxact.com/items/cmt0d2tsl1961rodpnvzxo4cc",
+          "source": "OpenRouter：Announcements（RSS）"
+        },
+        {
+          "id": "cmsx9jvre05y6romms3bo1umb",
+          "title": "NVIDIA 与 SB Energy 合作锁定俄亥俄州 PORTS-Pike 园区电力容量，OpenAI 将入驻",
+          "url": "https://aihot.virxact.com/items/cmsx9jvre05y6romms3bo1umb",
+          "source": "NVIDIA Blog（RSS）"
+        },
+        {
+          "id": "cmt0e7sxo01eiro2o4l4y9jmh",
+          "title": "突破 DeepSeek-V4-Pro 服务极限：H20 上的多场景优化方法",
+          "url": "https://aihot.virxact.com/items/cmt0e7sxo01eiro2o4l4y9jmh",
+          "source": "LMSYS：Blog（Chatbot Arena 团队）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "开源模型性能逼近闭源旗舰",
+      "count": "3",
+      "intro": "GLM-5.3 与 Qwen3.8-27B 等开源模型在性能上逼近甚至超越闭源旗舰，同时成本更低。GLM-5.3 在 AA 智能指数中与闭源旗舰同级，Qwen3.8-27B 登顶智能指数。开源生态的繁荣得益于 NVIDIA 等公司的资助，但基础模型训练门槛升高，社区兴趣转向微调。",
+      "stories": [
+        {
+          "id": "cmszeb2mx0b3srodpef1ub0j0",
+          "title": "GLM-5.3上线：AA智能指数60分并列开源第一，成本更低",
+          "url": "https://aihot.virxact.com/items/cmszeb2mx0b3srodpef1ub0j0",
+          "source": "公众号：智谱（GLM）"
+        },
+        {
+          "id": "cmsyyp5v302yoro20yixaalt7",
+          "title": "笔记本模型也能媲美云端前沿模型：Qwen3.8-27B 登顶智能指数",
+          "url": "https://aihot.virxact.com/items/cmsyyp5v302yoro20yixaalt7",
+          "source": "Tomer Tunguz 博客（VC 分析）"
+        },
+        {
+          "id": "cmsxfcx2n036jroi2rxg0tdmq",
+          "title": "开源模型生态的未来：Nvidia 押注“教所有人炼 token”",
+          "url": "https://aihot.virxact.com/items/cmsxfcx2n036jroi2rxg0tdmq",
+          "source": "Nathan Lambert：Interconnects（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "AI 安全与治理成为焦点",
+      "count": "4",
+      "intro": "OpenAI 与 Anthropic 因网络攻击风险放缓模型开发，暂停强化学习训练，并强化安全防护。OpenAI 启动民主监督计划，资助独立研究，并推出 ChatGPT for Teens 加强青少年保护。安全事件引发对模型能力的反思，推动行业建立更严格的安全标准。",
+      "stories": [
+        {
+          "id": "cmsz0hbsg05l0ro204080cotv",
+          "title": "OpenAI 在“关键网络能力”时代放缓模型开发节奏",
+          "url": "https://aihot.virxact.com/items/cmsz0hbsg05l0ro204080cotv",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmt0mqceo08lzro2o6xi3rlk4",
+          "title": "Anthropic 在网络关键能力时代放缓模型开发：暂停 RL 训练并强化安全防护",
+          "url": "https://aihot.virxact.com/items/cmt0mqceo08lzro2o6xi3rlk4",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmsz3p3rp01t1rodp1d431n7i",
+          "title": "OpenAI 启动新计划，强化国家安全领域 AI 的民主监督",
+          "url": "https://aihot.virxact.com/items/cmsz3p3rp01t1rodp1d431n7i",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmsykcnkt0yh1roz0a9h404r5",
+          "title": "OpenAI 推出 ChatGPT for Teens：面向青少年的学习体验与更强安全保护",
+          "url": "https://aihot.virxact.com/items/cmsykcnkt0yh1roz0a9h404r5",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI 应用深入垂直领域",
+      "count": "4",
+      "intro": "AI 在科学、设计、教育等垂直领域加速落地。Claude 在蛋白质设计中表现优异，Google 推出 PhotoScan 用于健康评估，Runway 辅助体育场馆设计，Google 搜索推出 AI 学习工具。这些应用展示了 AI 从通用对话向专业任务的延伸。",
+      "stories": [
+        {
+          "id": "cmsz8gh3n06e4rodpl8l2syek",
+          "title": "Claude 如何加速蛋白质设计与分析化学研究",
+          "url": "https://aihot.virxact.com/items/cmsz8gh3n06e4rodpl8l2syek",
+          "source": "Anthropic：Research（发表成果 · 网页）"
+        },
+        {
+          "id": "cmsxq3q3x07h2roz0z906es50",
+          "title": "PhotoScan：用智能手机照片估算胰岛素抵抗，精度接近DXA",
+          "url": "https://aihot.virxact.com/items/cmsxq3q3x07h2roz0z906es50",
+          "source": "Google Research：Blog（网页）"
+        },
+        {
+          "id": "cmsyuee7f000irobqbzybcq21",
+          "title": "Populous 如何用 Runway 呈现全球标志性场馆设计",
+          "url": "https://aihot.virxact.com/items/cmsyuee7f000irobqbzybcq21",
+          "source": "Runway：News（网页）"
+        },
+        {
+          "id": "cmt0he5pq04q2ro2ojil0908q",
+          "title": "Google 搜索推出 5 项 AI 学习工具",
+          "url": "https://aihot.virxact.com/items/cmt0he5pq04q2ro2ojil0908q",
+          "source": "Google Blog：AI（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "智能体开发与工具链成熟",
+      "count": "4",
+      "intro": "智能体开发工具链日益成熟，从支付、监控到安全框架均有新进展。AgentCore 提供支付中间件，OpenRouter 推出 Activity 仪表盘，Google 开源零信任智能体示例。企业应用案例显示智能体已进入生产环境，如 ABC Legal 部署 50 多个智能体。",
+      "stories": [
+        {
+          "id": "cmsxebmb6021wroi2l5h9u16e",
+          "title": "AgentCore Payments 中间件为 LangChain 智能体提供 API 支付能力",
+          "url": "https://aihot.virxact.com/items/cmsxebmb6021wroi2l5h9u16e",
+          "source": "LangChain：Blog（RSS）"
+        },
+        {
+          "id": "cmsx7ffrz049uromm6en3if02",
+          "title": "OpenRouter 推出 Activity 仪表盘与 Analytics API：按智能体、模型、请求追踪 AI 使用成本",
+          "url": "https://aihot.virxact.com/items/cmsx7ffrz049uromm6en3if02",
+          "source": "OpenRouter：Announcements（RSS）"
+        },
+        {
+          "id": "cmsxv0p3v0bntroz0227a6b3j",
+          "title": "用 Google 的 Agent Development Kit 构建零信任 AI 智能体",
+          "url": "https://aihot.virxact.com/items/cmsxv0p3v0bntroz0227a6b3j",
+          "source": "Google Developers Blog（RSS）"
+        },
+        {
+          "id": "cmsxi809j02vnroswjnpyp2gv",
+          "title": "ABC Legal 如何借助 Claude Managed Agents 让每位员工成为构建者",
+          "url": "https://aihot.virxact.com/items/cmsxi809j02vnroswjnpyp2gv",
+          "source": "Claude：Blog（网页）"
+        }
+      ]
+    }
+  ],
+  "story_count": 18,
+  "period": "2026-W34",
+  "url": "https://aihot.virxact.com/weekly/2026-W34",
+  "fetched_at": "2026-08-24T10:18:52+08:00"
+}

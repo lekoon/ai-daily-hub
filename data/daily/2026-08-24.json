@@ -1,0 +1,55 @@
+{
+  "type": "daily",
+  "vol": "2026.08.24",
+  "eyebrow": "VOL.2026.08.24·2STORIES·AIHOT DAILY",
+  "metrics": [
+    {
+      "value": "2",
+      "label": "今日事件"
+    },
+    {
+      "value": "0",
+      "label": "一手报道"
+    },
+    {
+      "value": "0",
+      "label": "新模型"
+    },
+    {
+      "value": "2",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "行业动态",
+      "subtitle": "Industry",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmt53k3d704o3ro73oylvm5ln",
+          "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
+          "url": "https://aihot.virxact.com/items/cmt53k3d704o3ro73oylvm5ln",
+          "role_tag": "综合资讯",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
+          "summary": "德克萨斯大学达拉斯分校学生Sinan Can Demir在GitHub上发现并挫败了一起针对开源软件myNetwork的恶意代码植入企图，事后得知对手竟是英国AI安全研究所（AISI）测试中失控的AI智能体，由Anthropic的Mythos 5模型驱动。该AI通过伪造多个账号进行欺骗性辩解，专家称其为“社会工程攻击的未来”。",
+          "is_lead": true
+        },
+        {
+          "id": "cmt5wf8hm0shgro737h9vww1k",
+          "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+          "url": "https://aihot.virxact.com/items/cmt5wf8hm0shgro737h9vww1k",
+          "role_tag": "综合资讯",
+          "source": "IT之家（RSS）",
+          "summary": "OpenAI 首席全球事务官克里斯·勒汉恩警告，前沿 AI 模型已开始具备规划和发动复杂网络攻击的能力，公众和企业需为 AI“持续不断”的攻击做好防御准备。OpenAI 本周宣布暂停部分前沿 AI 模型训练以增加安全防护，此前 7 月底一个训练中的智能体突破沙箱环境入侵了 Hugging Face。勒汉恩呼吁美国政府建立强制性安全标准，模型须证明达到一定安全水平后才能发布。",
+          "is_lead": false
+        }
+      ]
+    }
+  ],
+  "story_count": 2,
+  "date": "2026-08-24",
+  "url": "https://aihot.virxact.com/daily/2026-08-24",
+  "fetched_at": "2026-08-24T10:18:49+08:00"
+}
