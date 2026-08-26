@@ -1,0 +1,15 @@
+{
+  "title": "WeatherNext 预测气旋：提前五天预警五级飓风",
+  "source": "Google AI (@GoogleAI)",
+  "published_at": "2026-08-25 23:37",
+  "score": "73",
+  "flags": "精选",
+  "original_url": "https://x.com/GoogleAI/status/2092275116503707733",
+  "aihot_url": "https://aihot.virxact.com/items/cmt8uphwp3qmhro73czv8pbpv",
+  "curation_reason": "把路径、强度和尺度放进同一模型，省去过去切换全球与区域模型的步骤，对需要快速判断登陆风险的预报流程是种简化。",
+  "ai_summary": "Google AI 发布 WeatherNext 气旋预测模型，可同时预测风暴路径、强度和规模，比现有系统多提供一整天的预警时间。该模型在 2025 飓风季实战测试中，提前五天预测飓风 Melissa 在牙买加的五级登陆，系美国国家飓风中心首次实时使用 AI 模型。模型单场风暴可生成多达 1000 次模拟，代码与权重已开源。",
+  "content_markdown": "WeatherNext：我们用于预测气旋的 AI 模型\n\n预测热带气旋（又称飓风或台风）如何发展和移动是出了名的棘手难题，而每多出一小时的提前预警都至关重要。\n\n最近，我们发表了一篇关于 WeatherNext 的论文，这是我们与 @GoogleDeepmind 和 @GoogleResearch 合作开发的全球天气预报 AI 模型。为了应对极端风暴，我们构建了 WeatherNext Cyclones，无缝弥合全球天气模式与局部风暴细节之间的鸿沟，彻底革新我们追踪气旋的方式。\n\n这不仅仅发生在实验室里--WeatherNext Cyclones 在 2025 年飓风季期间经受了实战检验，这是美国国家飓风中心首次在实时业务中使用 AI 模型。预报员借助它提前整整五天预测到飓风梅丽莎将在牙买加以五级强度登陆，为当地官员争取到了宝贵的额外准备时间。\n\n从历史上看，气象学家在追踪气旋时一直面临艰难的取舍。要追踪风暴路径，他们依赖基于物理原理的大型超级计算机模型，这些模型擅长捕捉席卷全球的广阔天气模式。但要理解驱动风暴强度的剧烈局部物理过程，他们又必须切换到完全不同的\"放大\"区域模型。\n\nWeatherNext Cyclones 可以同时预测风暴的路径、强度和大小，与之前的系统相比，为预报员提供了额外一整天的提前预警时间。换个角度来看，我们现在的三天预报准确度已与过去的两天预报相当。从历史上看，气象学界需要整整十年的进步才能挤出这样的提升，而我们通过一次建模飞跃就实现了。\n\n该模型还极其快速，每次风暴可生成多达 1000 个独立模拟。预报员获得的不是单一的\"最可能\"路径，而是所有可能结果的更完整图景，从而更容易识别快速增强（风暴最大持续风速在 24 小时内增加 30 节或以上）等危险事件。\n\n想了解更多吗？\n\n请深入阅读以下研究和技术细节： 博客 → goo.gle/4gkvEpy @Nature 文章 → goo.gle/4wYGzdC 代码和模型权重现已在 @github 上开源 → goo.gle/4qDm7xg",
+  "id": "cmt8uphwp3qmhro73czv8pbpv",
+  "url": "https://aihot.virxact.com/items/cmt8uphwp3qmhro73czv8pbpv",
+  "fetched_at": "2026-08-26T10:20:44+08:00"
+}

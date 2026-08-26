@@ -1,0 +1,15 @@
+{
+  "title": "OpenWorker 新版发布，内置网络安全智能体",
+  "source": "Andrew Ng (@AndrewYNg)",
+  "published_at": "2026-08-26 02:16",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://x.com/AndrewYNg/status/2092315079576555806",
+  "aihot_url": "https://aihot.virxact.com/items/cmt90wf1p06j9roly5e34fmu3",
+  "curation_reason": "OpenWorker 把漏洞、依赖和云配置检查放进可本地运行的开源 agent，安全团队能在代码不出本机的前提下审计工具链，比闭源方案多一层透明。",
+  "ai_summary": "Andrew Ng 旗下开源智能体 OpenWorker 发布新版，强化安全工作流。其 harness 完全开源，安全团队可审计无后门。新版内置代码漏洞扫描、依赖供应链注入检测和云安全配置检查三类网络安全智能体，并支持本地运行开源权重模型以保护敏感代码。",
+  "content_markdown": "OpenWorker -- 一个开源智能体，不只是聊天，还能在你的笔记本电脑上完成任务 -- 刚刚发布了一个新版本，包含许多面向安全工作流的功能。\n\n在我们首次发布之后，许多用户发现它对网络安全特别有用。攻击者已经在使用 AI；OpenWorker 致力于让防御者获得同样的优势。运行一个智能体需要（i）一个模型和（ii）一个 harness（模型周围的软件）。由于 OpenWorker 的 harness 是完全开源的，安全团队可以对其进行审计，以确保我们没有构建任何会将你的代码和数据泄露给某家公司甚至外国对手的后门。\n\nOpenWorker 现在内置了网络安全智能体，用于（i）扫描你的代码以查找漏洞。（ii）扫描依赖项以发现供应链注入。（iii）检查你的云安全配置以寻找攻击面。这使得开发人员能够在部署之前完成更多的安全工作（即所谓的\"左移\"运动的一部分）。\n\n你可以选择模型：你可以在本地完全运行开放权重模型，这样敏感代码就不会离开你的机器。这有助于开展合法的安全工作（例如复现已知漏洞以进行防御），而这些工作可能会触发领先闭源模型的拒绝。或者使用你的 ChatGPT 订阅，或使用 Ox Alpha 等隐身预览模型，或通过 API 密钥使用任何模型。\n\n也感谢所有开源贡献者！\n\n与 @rohitcprasad 一起工作，所以也请关注他，以获取更频繁的更新。\n\n试试看：https://openworker.com/ 代码：https://github.com/andrewyng/openworker",
+  "id": "cmt90wf1p06j9roly5e34fmu3",
+  "url": "https://aihot.virxact.com/items/cmt90wf1p06j9roly5e34fmu3",
+  "fetched_at": "2026-08-26T10:20:47+08:00"
+}

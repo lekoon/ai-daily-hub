@@ -1,0 +1,15 @@
+{
+  "title": "LangChain 评测 CSV 数据问答系统：智能体、检索与 LLM 评估",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-26 05:16",
+  "score": "55",
+  "flags": "",
+  "original_url": "https://www.langchain.com/blog/benchmarking-question-answering-over-csv-data",
+  "aihot_url": "https://aihot.virxact.com/items/cmt96t9tm0audrolyiu4rtbez",
+  "curation_reason": "",
+  "ai_summary": "LangChain 发布针对 CSV 数据问答系统的基准评测，涵盖智能体、检索与 LLM 评估方法。文章提供基准测试结果、调试洞察及开源代码，帮助开发者构建更优的 CSV 数据问答系统。评测聚焦于实际应用中的性能表现与常见问题。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmt96t9tm0audrolyiu4rtbez",
+  "url": "https://aihot.virxact.com/items/cmt96t9tm0audrolyiu4rtbez",
+  "fetched_at": "2026-08-26T10:21:17+08:00"
+}

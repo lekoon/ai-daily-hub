@@ -1,0 +1,15 @@
+{
+  "title": "LangChain 与 Airbyte 集成：让数据摄取达到生产级就绪",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-26 05:12",
+  "score": "61",
+  "flags": "精选",
+  "original_url": "https://www.langchain.com/blog/making-data-ingestion-production-ready-a-langchain-powered-airbyte-destination",
+  "aihot_url": "https://aihot.virxact.com/items/cmt96t9tm0augrolyx2c3vi84",
+  "curation_reason": "Airbyte 目标端把调度、切分与嵌入选项接入 LangChain，让数据源到 RAG 索引的更新由手动脚本转为可配置流程。",
+  "ai_summary": "LangChain 与 Airbyte 的集成方案旨在将检索应用扩展至生产环境。该方案通过调度、文本拆分和 50 多种嵌入模型实现数据摄取自动化，帮助开发者构建可规模化的生产级数据管道。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmt96t9tm0augrolyx2c3vi84",
+  "url": "https://aihot.virxact.com/items/cmt96t9tm0augrolyx2c3vi84",
+  "fetched_at": "2026-08-26T10:20:52+08:00"
+}

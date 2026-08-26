@@ -1,0 +1,15 @@
+{
+  "title": "Claude 记忆功能全面打通聊天与 Cowork，用户可逐条查看和编辑",
+  "source": "Claude：Blog（网页）",
+  "published_at": "2026-08-26 02:02",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it",
+  "aihot_url": "https://aihot.virxact.com/items/cmt8z2eko055crolytaitdxv8",
+  "curation_reason": "价值在把跨会话记忆变成可逐条编辑的文件，修改一处旧公司名就能在后续所有对话中生效，降低长期项目协作里反复交代背景的成本。",
+  "ai_summary": "Claude 即日起将聊天与 Claude Cowork 的记忆统一，用户在任一场景对话时都能调用此前积累的上下文，减少重复解释。记忆会在聊天过程中实时更新，用户可在 Memory 设置中按主题查看、编辑或删除每条记忆。健康、信仰等敏感话题默认不存储，但可在设置中开启，且敏感识别号、犯罪记录等始终不会被保存。",
+  "content_markdown": "Category [Product announcements](https://claude.com/blog/category/announcements)\n\nProduct [Claude Cowork](https://claude.com/product/cowork)\n\nDate August 25, 2026\n\nReading time 2 min\n\nShare [Copy link](https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it#)https://claude.com/blog/claudes-memory-works-everywhere-and-you-decide-whats-in-it\n\n从今天起，你在聊天中使用的记忆与 Claude Cowork 中的记忆完全一致。现在，无论你在哪里与 Claude 协作，它都会从它已经了解你的信息出发。你可以按主题逐条查看 Claude 记住的所有内容，并编辑或删除其中任意一条。默认情况下，Claude 不会将健康、信仰等敏感主题存入记忆，但如果这些正是你厌倦反复解释的话题，你可以在记忆设置中将其开启。\n\nClaude Cowork 与聊天之间共享同一份记忆\n\nCowork 现在具备记忆功能，且与你聊天时使用的记忆相同，这意味着你可以减少重复解释，更多地从上次中断的地方继续。当 Cowork 在云端运行任务时，Claude 从你聊天中记住的信息会出现在那里，反之亦然。你在数月对话中积累的上下文——例如你的 Q3 优先事项和项目状态——在你向 Cowork 下达任务的那一刻就已就位，而 Cowork 中产生的内容也会带回聊天中。\n\n让 Cowork 为你的经理起草一份进展更新，它已经知道你的经理是谁，以及她喜欢什么样的更新写法。在聊天中为你要组织的会议头脑风暴议程；当 Cowork 编制预算和后勤文档时，它知道参会人数、所在城市和演讲嘉宾。在聊天中解释一次你的团队如何定义指标，之后 Cowork 构建的每一份季度业务回顾演示文稿都会使用这些指标，无需重新说明。\n\n记忆随聊天实时更新\n\nClaude 现在会在你聊天时即时向记忆中添加主题，而不是在对话结束后进行总结。提到你的项目截止日期推迟到了九月，你的下一次对话就已经知道，无需你再说“记住这一点”。你可以随时暂停记忆或重置记忆。\n\n查看并编辑已保存的记忆\n\nClaude 记住的所有内容都以文件列表的形式呈现在记忆设置中的“主题”下，你可以逐条阅读、编辑或删除。这些文件都很简短，一次修正就能处处受益：在一个文件中更正你公司的旧名称，此后所有对话都会使用正确名称。\n\n自行决定是否希望 Claude 记住敏感主题\n\n默认情况下，Claude 不会存储与个人或敏感主题相关的信息，例如您的健康状况、种族、民族、宗教信仰、政治立场、性别认同及其他类似领域。\n\n但有些人认为敏感的内容，另一些人可能觉得让 Claude 记住会很有用。如果您选择开启“在记忆中包含敏感主题”，Claude 在为您推荐每周备餐食谱时，就会记住您对麸质过敏这类信息。\n\n开启该设置后，每次 Claude 将涉及这些主题的内容存入记忆时，您都会看到一条提示。Claude 会从当下开始保存敏感主题信息。您在开启该设置之前的内容不会被追溯保存。您可以随时关闭此设置。\n\n为保护您的安全与隐私，即使您开启了敏感主题记忆功能，Claude 也不会存储某些主题。这包括敏感身份识别号码（如社保号、政府身份证号等）、犯罪记录、移民身份，或任何违反我们可接受使用政策（AUP）的内容。当 Claude 无法将上述任何信息更新到记忆中时，它会告知您。更多信息请访问帮助中心。\n\n快速上手\n\n在 Free、Pro 和 Max 套餐中，记忆功能在网页端、桌面端和移动端均默认开启。请注意，将敏感主题存入记忆的功能默认是关闭的。在 iOS 和 Android 设备上，请将移动应用更新至最新版本，以获取最新功能。对于 Team 和 Enterprise 套餐，管理员控制其组织的可用性，且记忆功能对个人用户默认关闭，直到用户自行开启。\n\n请访问“设置 > 记忆”来开启记忆功能，并控制 Claude 可以记住哪些内容。",
+  "id": "cmt8z2eko055crolytaitdxv8",
+  "url": "https://aihot.virxact.com/items/cmt8z2eko055crolytaitdxv8",
+  "fetched_at": "2026-08-26T10:20:49+08:00"
+}

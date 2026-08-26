@@ -1,0 +1,15 @@
+{
+  "title": "STARFlow2：用归一化流桥接语言模型，实现统一多模态生成",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-25 08:00",
+  "score": "52",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/starflow2-multimodal-generation",
+  "aihot_url": "https://aihot.virxact.com/items/cmt8qe8m43krcro733w0g56m6",
+  "curation_reason": "",
+  "ai_summary": "STARFlow2 提出将自回归归一化流与语言模型统一，用于多模态生成。该方法观察到自回归归一化流与 LLM 共享因果掩码、KV-cache 机制和从左到右结构，从而弥合文本与图像生成的架构差异，避免离散 token 化带来的视觉保真度损失。",
+  "content_markdown": "Unified multimodal models that understand, reason over, and generate interleaved text–image sequences remain structurally fragmented: existing approaches either sacrifice visual fidelity through discrete tokenization, impose structural asymmetry by combining causal text generation with iterative diffusion-based denoising, or degrade pretrained understanding when adapting vision-language models for generation. We observe that autoregressive normalizing flows are autoregressive Transformers—sharing the same causal mask, KV-cache mechanism, and left-to-right structure as LLMs—making them the most…",
+  "id": "cmt8qe8m43krcro733w0g56m6",
+  "url": "https://aihot.virxact.com/items/cmt8qe8m43krcro733w0g56m6",
+  "fetched_at": "2026-08-26T10:21:10+08:00"
+}
