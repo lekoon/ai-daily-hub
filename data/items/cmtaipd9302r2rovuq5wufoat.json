@@ -1,0 +1,15 @@
+{
+  "title": "IDEA Prune：生成式语言模型预训练中的集成放大-剪枝流程",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-26 08:00",
+  "score": "52",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/idea-prune-pipeline",
+  "aihot_url": "https://aihot.virxact.com/items/cmtaipd9302r2rovuq5wufoat",
+  "curation_reason": "",
+  "ai_summary": "Apple 研究团队提出 IDEA Prune，将放大模型预训练纳入结构化剪枝流程，形成集成式 enlarge-and-prune 管线。该研究探讨两个关键问题：即使放大模型从不部署，预训练它是否值得；以及如何优化该流程以提升 token 效率。相比从头训练目标尺寸模型，该流程在有限推理预算下展现出更高的 token 效率。",
+  "content_markdown": "Recent advancements in large language models have intensified the need for efficient and deployable models within limited inference budgets. Structured pruning pipelines have shown promise in token efficiency compared to training target-size models from scratch. In this paper, we advocate incorporating enlarged model pretraining, which is often ignored in previous works, into pruning. We study the enlarge-and-prune pipeline as an integrated system to address two critical questions: whether it is worth pretraining an enlarged model even when the model is never deployed, and how to optimize the…",
+  "id": "cmtaipd9302r2rovuq5wufoat",
+  "url": "https://aihot.virxact.com/items/cmtaipd9302r2rovuq5wufoat",
+  "fetched_at": "2026-08-27T18:48:39+08:00"
+}

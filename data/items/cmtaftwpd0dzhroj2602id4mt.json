@@ -1,0 +1,15 @@
+{
+  "title": "用 WikiBench 评估 OpenWiki：维基文档能否提升编码智能体表现",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-27 00:15",
+  "score": "43",
+  "flags": "",
+  "original_url": "https://www.langchain.com/blog/evaluating-openwiki-with-wikibench",
+  "aihot_url": "https://aihot.virxact.com/items/cmtaftwpd0dzhroj2602id4mt",
+  "curation_reason": "",
+  "ai_summary": "LangChain 自建 WikiBench 基准，测试生成式维基文档对编码智能体的辅助效果。将维基与源代码搭配使用，得分高于仅用源代码，且成本更低。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtaftwpd0dzhroj2602id4mt",
+  "url": "https://aihot.virxact.com/items/cmtaftwpd0dzhroj2602id4mt",
+  "fetched_at": "2026-08-27T18:48:42+08:00"
+}

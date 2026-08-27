@@ -1,0 +1,15 @@
+{
+  "title": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 压缩至 440MB，已落地哔哩哔哩直播弹幕翻译",
+  "source": "公众号：腾讯混元",
+  "published_at": "2026-08-26 16:04",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498367&idx=1&sn=f1a5cf87eb06015cbe995bd5ef8b5d0a",
+  "aihot_url": "https://aihot.virxact.com/items/cmta7honk0553roj21gque0zw",
+  "curation_reason": "相比精度数字，这套量化给出 x86 优化和直播弹幕实测数据，让端侧替代云翻译 API 的成本与隐私权衡有了可对照的工程基线。",
+  "ai_summary": "腾讯混元将端侧翻译模型 Hy-MT2-1.8B 通过 2-bit 与 1.25-bit 量化方案压缩至 574MB 和 440MB，翻译质量几乎无损，在 FLORES-200 上优于 Microsoft Translator 等商业 API。该模型已联合英特尔完成 x86 适配，并在哔哩哔哩直播弹幕实时翻译中落地，单条弹幕翻译耗时 500~800ms。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmta7honk0553roj21gque0zw",
+  "url": "https://aihot.virxact.com/items/cmta7honk0553roj21gque0zw",
+  "fetched_at": "2026-08-27T18:48:11+08:00"
+}
