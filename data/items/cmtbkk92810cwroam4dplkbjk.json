@@ -1,0 +1,15 @@
+{
+  "title": "Lakebase Postgres：面向智能体时代的对象存储与 WAL 架构",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-27 15:18",
+  "score": "52",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/object-storage-wal-lakebase-postgres-agentic-era",
+  "aihot_url": "https://aihot.virxact.com/items/cmtbkk92810cwroam4dplkbjk",
+  "curation_reason": "",
+  "ai_summary": "Databricks 推出 Lakebase Postgres，将对象存储与 WAL 结合，解决智能体与传统 OLTP 数据库交互时的存储层瓶颈。新架构面向智能体时代设计，旨在提升数据读写效率与扩展性。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtbkk92810cwroam4dplkbjk",
+  "url": "https://aihot.virxact.com/items/cmtbkk92810cwroam4dplkbjk",
+  "fetched_at": "2026-08-28T20:24:28+08:00"
+}

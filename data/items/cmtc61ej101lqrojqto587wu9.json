@@ -1,0 +1,15 @@
+{
+  "title": "Midjourney 开放 V8.2 图像编辑模型测试",
+  "source": "Midjourney：Updates（RSS）",
+  "published_at": "2026-08-28 07:32",
+  "score": "64",
+  "flags": "精选",
+  "original_url": "https://updates.midjourney.com/edit-model-for-v8",
+  "aihot_url": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9",
+  "curation_reason": "这一版把图像引用数量从单参考提升到最多四张，做多素材融合时不必先拼接成单图再喂给模型，能减少中间步骤。",
+  "ai_summary": "Midjourney 开始向所有用户开放其首个 V8.2 图像编辑模型的测试。该模型支持指令编辑、以图生图（最多同时引用 4 张参考图）、局部重绘与扩画，并兼容个性化、moodboards 和 srefs 功能。用户可通过网页端或 Discord 的 `--edit` 命令使用，官方同步更新了 midjourney.com 与 alpha.midjourney.com 的界面。",
+  "content_markdown": "大家好！今天我们将开始让所有人测试我们的首个 V8.2 图像编辑模型！\n\n该模型支持：\n\n通过指令编辑图像\n\n使用其他图像生成图像（取代 omni-reference），一次最多可引用 4 张图像\n\n更改图像的特定区域（局部重绘）或扩展画布（扩图）\n\n使用个性化设置、情绪板和 sref（在此版本中，情绪板/sref 配合一些额外的提示词方向可能效果更佳）\n\n使用该模型的方式：\n\n将图像拖入提示词栏中“附加到提示词”下方\n\n在灯箱右下角点击“编辑”\n\n点击左侧的“编辑”标签并上传图像\n\n在 Discord 上输入 --edit url...\n\n我们已更新了 midjourney.com 主站和 alpha.midjourney.com 的界面，alpha 版本将快速迭代，包含大量针对该模型界面重构的实验。\n\n这里会有很多边缘情况，因此我们需要你帮助找出不符合预期的场景。如果某张图像效果不佳，请尝试点击灯箱右侧的难过表情符号，或在灯箱中打开该图像时提供 jobid/url。\n\n我们也非常希望听到你关于如何改进该模型用户界面的想法。请在 #ideas-and-features 中分享你的想法或模型边缘情况。\n\n如果你想分享使用新模型的成果，欢迎在 #edit-showcase 中交流或分享。\n\n接下来会有很多快速跟进更新，但我们已准备好作为更大的社区开始测试，希望你们玩得开心！\n\n❤️",
+  "id": "cmtc61ej101lqrojqto587wu9",
+  "url": "https://aihot.virxact.com/items/cmtc61ej101lqrojqto587wu9",
+  "fetched_at": "2026-08-28T20:24:22+08:00"
+}
