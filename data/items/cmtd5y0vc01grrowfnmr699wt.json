@@ -1,0 +1,15 @@
+{
+  "title": "LLM 并非（始终）符合贝叶斯：量化 LLM 概率信念的内部（不）一致性",
+  "source": "Apple Machine Learning Research（RSS）",
+  "published_at": "2026-08-28 08:00",
+  "score": "52",
+  "flags": "",
+  "original_url": "https://machinelearning.apple.com/research/llms-not-consistently-bayesian",
+  "aihot_url": "https://aihot.virxact.com/items/cmtd5y0vc01grrowfnmr699wt",
+  "curation_reason": "",
+  "ai_summary": "苹果机器学习研究团队提出一种新方法，将 LLM 视为信息处理规则，利用其与贝叶斯更新的信息处理差距，研究模型如何根据证据更新概率信念的内部（不）一致性。实验评估了 LLM 在医学、科学、法律等复杂领域的信念更新表现，揭示其概率推理与贝叶斯理想之间的系统性偏差。",
+  "content_markdown": "Modern AI systems are being deployed in complex domains such as medicine, science, and law, where there is often not a single correct answer given the observed evidence. Such systems must be able to represent and update uncertain beliefs about the world as new evidence arrives to make rational decisions. We introduce the novel technique of studying LLMs as information processing rules and utilize the information processing gap—the deviation from Bayes updates—to study the internal (in)consistencies of how LLMs update their probabilistic beliefs from evidence. Our extensive experiments evaluate…",
+  "id": "cmtd5y0vc01grrowfnmr699wt",
+  "url": "https://aihot.virxact.com/items/cmtd5y0vc01grrowfnmr699wt",
+  "fetched_at": "2026-08-29T15:34:14+08:00"
+}

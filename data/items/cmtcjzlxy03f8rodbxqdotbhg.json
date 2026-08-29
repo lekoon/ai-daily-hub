@@ -1,0 +1,15 @@
+{
+  "title": "腾讯混元发布 Hy4 preview：770B 总参数、1M 上下文，开源上线",
+  "source": "公众号：腾讯混元",
+  "published_at": "2026-08-28 14:03",
+  "score": "82",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzkwODU2OTQyNQ%3D%3D&mid=2247498484&idx=1&sn=0db140a12b8e18601ac933788045c831",
+  "aihot_url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
+  "curation_reason": "官方盲测中它与 GLM-5.3、Kimi K3 的分差不足 0.1，选型时 1M 上下文和开源部署成本可能比榜单排名更实际。",
+  "ai_summary": "腾讯混元发布新一代旗舰模型 Hy4 preview，总参数 770B、激活参数 49B、上下文长度 1M，现已开源并在腾讯云 TokenHub 和 OpenRouter 上线。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtcjzlxy03f8rodbxqdotbhg",
+  "url": "https://aihot.virxact.com/items/cmtcjzlxy03f8rodbxqdotbhg",
+  "fetched_at": "2026-08-29T15:33:46+08:00"
+}

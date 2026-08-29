@@ -1,0 +1,15 @@
+{
+  "title": "AI Runtime 上的快速容错 PyTorch 训练",
+  "source": "Databricks：Blog（RSS）",
+  "published_at": "2026-08-28 09:15",
+  "score": "44",
+  "flags": "",
+  "original_url": "https://www.databricks.com/blog/fast-fault-tolerant-pytorch-training-ai-runtime",
+  "aihot_url": "https://aihot.virxact.com/items/cmtcaa8js02c7roee2cpljoll",
+  "curation_reason": "",
+  "ai_summary": "Databricks AI Runtime 通过优化 PyTorch 训练流程，显著提升大规模训练效率，核心指标“goodput”成为衡量训练效率的关键。该方案在故障容错与性能之间取得平衡，减少因节点故障导致的训练中断与重启开销，从而提升整体吞吐量。适用于需要长时间稳定运行的大规模分布式训练场景。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtcaa8js02c7roee2cpljoll",
+  "url": "https://aihot.virxact.com/items/cmtcaa8js02c7roee2cpljoll",
+  "fetched_at": "2026-08-29T15:34:23+08:00"
+}
