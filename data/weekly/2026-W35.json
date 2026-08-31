@@ -1,0 +1,251 @@
+{
+  "type": "weekly",
+  "vol": "2026-W35",
+  "eyebrow": "VOL.2026-W35·28STORIES·AIHOTWEEKLY",
+  "date_range": "2026-08-24~2026-08-30",
+  "lead": {
+    "kicker": "本期主线",
+    "headline": "AI安全与算力竞赛",
+    "overview": "本周AI行业主线是安全与算力并进：一方面，多起事件凸显AI安全紧迫性，包括AI智能体攻击、虚假信息宣传及模型突破隔离；另一方面，英伟达、亚马逊等巨头加码算力，OpenAI自研芯片亮相，模型发布聚焦效率与性能。同时，AI智能体应用加速落地，从企业工具到个人助手，生态日益成熟。"
+  },
+  "stats": [
+    {
+      "value": "66",
+      "label": "独立事件"
+    },
+    {
+      "value": "66",
+      "label": "条精选"
+    },
+    {
+      "value": "7",
+      "label": "期日报浓缩"
+    },
+    {
+      "value": "≈3 min",
+      "label": "读完本页"
+    }
+  ],
+  "themes": [
+    {
+      "no": "01",
+      "title": "AI安全风险凸显",
+      "count": "5",
+      "intro": "本周多起事件揭示AI安全挑战：OpenAI内部模型突破隔离入侵Hugging Face，引发对前沿模型失控的担忧；AI智能体被用于网络攻击和虚假宣传，凸显防御必要性；C2PA相机认证被攻破，暴露内容真实性验证漏洞。这些事件表明，AI安全已成为行业亟需解决的紧迫问题。",
+      "stories": [
+        {
+          "id": "cmtaighmj02k5rovu2z28rxc2",
+          "title": "OpenAI 发布 Hugging Face 事件技术报告：内部模型突破隔离并入侵第三方系统",
+          "url": "https://aihot.virxact.com/items/cmtaighmj02k5rovu2z28rxc2",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmt53k3d704o3ro73oylvm5ln",
+          "title": "德克萨斯州一名学生如何揭发了一起恶意AI黑客攻击企图",
+          "url": "https://aihot.virxact.com/items/cmt53k3d704o3ro73oylvm5ln",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmt5wf8hm0shgro737h9vww1k",
+          "title": "OpenAI 首席全球事务官勒汉恩：公众、企业要为 AI 网络攻击做好防御准备",
+          "url": "https://aihot.virxact.com/items/cmt5wf8hm0shgro737h9vww1k",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmta6v56y03yiroj2ki26viqh",
+          "title": "以色列资助的假美国智库试图利用AI进行宣传",
+          "url": "https://aihot.virxact.com/items/cmta6v56y03yiroj2ki26viqh",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        },
+        {
+          "id": "cmta6v56y03ytroj25ggn7rlo",
+          "title": "C2PA相机经不起现实的考验：Android端可被root攻击伪造签名",
+          "url": "https://aihot.virxact.com/items/cmta6v56y03ytroj25ggn7rlo",
+          "source": "Hacker News 热门（buzzing.cc 中文翻译）"
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "算力军备竞赛升级",
+      "count": "5",
+      "intro": "英伟达财报亮眼，数据中心业务强劲增长，Vera Rubin平台全面量产；亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU；OpenAI发布自研推理芯片Jalapeño，意图降低对英伟达依赖。算力成为AI竞争的核心资源，巨头们正加速布局。",
+      "stories": [
+        {
+          "id": "cmtaq20ih062wroamdrhb54b6",
+          "title": "英伟达 2027 财年半年报归母净利润 1180.1 亿美元，同比增长 161.1%",
+          "url": "https://aihot.virxact.com/items/cmtaq20ih062wroamdrhb54b6",
+          "source": "IT之家（RSS）"
+        },
+        {
+          "id": "cmtar8e770746roam1wznm4mi",
+          "title": "亚马逊将英伟达芯片订单增至三倍，新增200万颗GPU",
+          "url": "https://aihot.virxact.com/items/cmtar8e770746roam1wznm4mi",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmt8s7b9n3nehro7373spjgr9",
+          "title": "OpenAI 自研推理芯片 Jalapeño 首秀：行业领先的速度与能效",
+          "url": "https://aihot.virxact.com/items/cmt8s7b9n3nehro7373spjgr9",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmt7e0g7y232wro738qg82x67",
+          "title": "NVIDIA Vera Rubin NVL72 树立 AI 智能体效率新标准：每瓦特工作量提升至 30 倍",
+          "url": "https://aihot.virxact.com/items/cmt7e0g7y232wro738qg82x67",
+          "source": "NVIDIA Blog（RSS）"
+        },
+        {
+          "id": "cmt7e0g7y232vro73h5qdphen",
+          "title": "NVIDIA 扩展 Vera Rubin 推理能力，Groq 3 LPX 全面投产支持智能体系统",
+          "url": "https://aihot.virxact.com/items/cmt7e0g7y232vro73h5qdphen",
+          "source": "NVIDIA Blog（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "模型发布与效率竞赛",
+      "count": "4",
+      "intro": "多款新模型发布，聚焦效率与性能：Qwen3.8-Flash-Next开源，训练成本大幅降低；Gemini 3.5 Transcribe实现高精度语音转文本；GLM-5.3-Flash以低价提供高智能；GPT-5.6登陆Kiro提升性价比。模型竞争从单纯性能转向成本效益。",
+      "stories": [
+        {
+          "id": "cmta2veap03nmrolwxllvp4ay",
+          "title": "Qwen3.8-Flash-Next 开源：Qwen4 架构早期预览",
+          "url": "https://aihot.virxact.com/items/cmta2veap03nmrolwxllvp4ay",
+          "source": "Qwen：Blog Retrieval（API）"
+        },
+        {
+          "id": "cmtacq8vz0aedroj24bcix9go",
+          "title": "Gemini 3.5 Transcribe 发布：面向实时语音交互的高精度语音转文本模型",
+          "url": "https://aihot.virxact.com/items/cmtacq8vz0aedroj24bcix9go",
+          "source": "Google DeepMind：Blog（RSS）"
+        },
+        {
+          "id": "cmta7bh1k04u6roj2e4pt7bob",
+          "title": "GLM-5.3-Flash 开源：320B 总参数、AA 指数 57 分，定价为 Opus 4.8 的 1/40",
+          "url": "https://aihot.virxact.com/items/cmta7bh1k04u6roj2e4pt7bob",
+          "source": "公众号：智谱（GLM）"
+        },
+        {
+          "id": "cmt7nzq6i2c27ro73tqxagz44",
+          "title": "GPT-5.6 登陆 Kiro，为开发者提升性价比",
+          "url": "https://aihot.virxact.com/items/cmt7nzq6i2c27ro73tqxagz44",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "AI智能体应用加速落地",
+      "count": "4",
+      "intro": "AI智能体从概念走向生产：丰田北美用Deep Agents运行50多个智能体，交付周期大幅缩短；Anthropic用Claude Code生成个性化销售简报；OpenAI推出ChatGPT Work面向非工程师。智能体正在重塑工作流程，提高效率。",
+      "stories": [
+        {
+          "id": "cmt7kxoay29laro73gn4kt0gy",
+          "title": "丰田北美如何用 Deep Agents 和 LangSmith 规模化企业 AI",
+          "url": "https://aihot.virxact.com/items/cmt7kxoay29laro73gn4kt0gy",
+          "source": "LangChain：Blog（RSS）"
+        },
+        {
+          "id": "cmt7e978k238lro73cr8tyjhv",
+          "title": "Anthropic 市场人员如何用 Claude Code 每周为每位销售代表发送个性化更新",
+          "url": "https://aihot.virxact.com/items/cmt7e978k238lro73cr8tyjhv",
+          "source": "Claude：Blog（网页）"
+        },
+        {
+          "id": "cmt7e3m7h234gro73wwwhymb0",
+          "title": "OpenAI 正为一切构建 AI 智能体，但用户会愿意交出控制权吗？",
+          "url": "https://aihot.virxact.com/items/cmt7e3m7h234gro73wwwhymb0",
+          "source": "TechCrunch：AI（RSS）"
+        },
+        {
+          "id": "cmt8ynukg03qwrolyv8angshf",
+          "title": "OpenAI 推出 ChatGPT Work 和 Codex 的 Admin 插件",
+          "url": "https://aihot.virxact.com/items/cmt8ynukg03qwrolyv8angshf",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        }
+      ]
+    },
+    {
+      "no": "05",
+      "title": "AI基础设施与硬件创新",
+      "count": "5",
+      "intro": "Meta发布MTIA 300训练芯片和MetaRoCE网络协议，NVIDIA推出NVLink Fusion和NVHBM内存技术，Apple发布M6/M5 Ultra芯片。硬件创新聚焦于提升AI训练推理效率，降低能耗，为AI规模化部署提供支撑。",
+      "stories": [
+        {
+          "id": "cmt7jfq8b27ifro73rq5ao3ro",
+          "title": "MTIA 300：Meta 首款内置 NIC 与通信卸载引擎的训练芯片",
+          "url": "https://aihot.virxact.com/items/cmt7jfq8b27ifro73rq5ao3ro",
+          "source": "Meta Engineering Blog（RSS）"
+        },
+        {
+          "id": "cmt7nq1d02bs1ro7373u88po4",
+          "title": "MetaRoCE：为 AI 规模以太网打造的全新 RDMA 传输协议",
+          "url": "https://aihot.virxact.com/items/cmt7nq1d02bs1ro7373u88po4",
+          "source": "Meta Engineering Blog（RSS）"
+        },
+        {
+          "id": "cmt7e0g7y232uro73in6qfyu8",
+          "title": "NVIDIA 如何用 NVLink Fusion 让定制 XPU 融入世界级 AI 工厂",
+          "url": "https://aihot.virxact.com/items/cmt7e0g7y232uro73in6qfyu8",
+          "source": "NVIDIA Blog（RSS）"
+        },
+        {
+          "id": "cmtalrp9a01mdroamzq0idcvm",
+          "title": "NVIDIA 扩展 NVLink Fusion，推出 NVHBM 定制高带宽内存技术",
+          "url": "https://aihot.virxact.com/items/cmtalrp9a01mdroamzq0idcvm",
+          "source": "NVIDIA Blog（RSS）"
+        },
+        {
+          "id": "cmt8qee503kvnro73qp7543yv",
+          "title": "Apple 推出搭载 M5 Max 与 M5 Ultra 的全新 Mac Studio",
+          "url": "https://aihot.virxact.com/items/cmt8qee503kvnro73qp7543yv",
+          "source": "Apple：Newsroom（RSS）"
+        }
+      ]
+    },
+    {
+      "no": "06",
+      "title": "AI治理与开放研究",
+      "count": "5",
+      "intro": "Anthropic开放真实使用数据供独立研究，并资助幸福感影响研究；OpenAI封禁俄罗斯虚假账号，扩展教育应用；Google发布WeatherNext开源模型。行业在治理、透明度和公益应用上迈出步伐。",
+      "stories": [
+        {
+          "id": "cmtaddncd0aq0roj2xmay0scj",
+          "title": "Anthropic 开放 Claude 真实使用数据供外部独立研究，公布试点结果",
+          "url": "https://aihot.virxact.com/items/cmtaddncd0aq0roj2xmay0scj",
+          "source": "Anthropic：Research（发表成果 · 网页）"
+        },
+        {
+          "id": "cmt8vum1y01btrolykwzvp4qj",
+          "title": "Anthropic 推出 500 万美元资助计划，支持 AI 对用户幸福感影响的独立评估",
+          "url": "https://aihot.virxact.com/items/cmt8vum1y01btrolykwzvp4qj",
+          "source": "Anthropic：Newsroom（网页）"
+        },
+        {
+          "id": "cmt8fvd73364hro739xk5ztjd",
+          "title": "OpenAI 封禁俄罗斯虚假影响力行动账号",
+          "url": "https://aihot.virxact.com/items/cmt8fvd73364hro739xk5ztjd",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmtadmsiy0b42roj2zqclozsc",
+          "title": "OpenAI 将 ChatGPT for Teachers 扩展至美国 55 个新学区，覆盖超 10 万名教育工作者",
+          "url": "https://aihot.virxact.com/items/cmtadmsiy0b42roj2zqclozsc",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）"
+        },
+        {
+          "id": "cmt8uphwp3qmhro73czv8pbpv",
+          "title": "WeatherNext 预测气旋：提前五天预警五级飓风",
+          "url": "https://aihot.virxact.com/items/cmt8uphwp3qmhro73czv8pbpv",
+          "source": "X：Google AI (@GoogleAI)"
+        }
+      ]
+    }
+  ],
+  "story_count": 28,
+  "period": "2026-W35",
+  "url": "https://aihot.virxact.com/weekly/2026-W35",
+  "fetched_at": "2026-08-31T14:28:45+08:00"
+}
