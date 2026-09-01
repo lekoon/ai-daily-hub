@@ -1,0 +1,15 @@
+{
+  "title": "DeepSeek V4 Flash 0731 开源，登顶开源模型前三",
+  "source": "Artificial Analysis (@ArtificialAnlys)",
+  "published_at": "2026-08-01 05:38",
+  "score": "78",
+  "flags": "精选",
+  "original_url": "https://x.com/ArtificialAnlys/status/2083306229074739285",
+  "aihot_url": "https://aihot.virxact.com/items/cms9hiyz80fdvro9kepvm1qvk",
+  "curation_reason": "DeepSeek 把 V4 Flash 的智能效率往前推了一步，MIT 许可让商业应用毫无顾虑，做轻量级部署的团队可以立刻换上。",
+  "ai_summary": "DeepSeek 发布开源模型 DeepSeek V4 Flash 0731，在 Artificial Analysis 智能指数上得分 50，位列开源模型前三。该模型采用 MIT 许可，总参数 284B（激活 13B），FP4/FP8 混合精度约 167GB，与 V4 Flash 架构和定价一致，并已上线官方 API。",
+  "content_markdown": "DeepSeek V4 Flash 0731 现已开放权重！\n\n@deepseek_ai 刚刚发布了其新的 flash 层级模型 DeepSeek V4 Flash 0731 的权重。在 Artificial Analysis 智能指数上获得 50 分，它跻身排行榜上开放权重模型的前三名。权重以 MIT 许可证发布，允许不受限制的商业使用和修改。\n\nDeepSeek V4 Flash 0731 与此前发布的 DeepSeek V4 Flash 共享完全相同的架构和定价。其总参数量为 284B（13B 激活），以混合 FP4/FP8 精度发布，总文件大小约 167GB，在智能指数与总参数量的对比中，它位于我们的帕累托前沿上。在开放权重模型中，DeepSeek V4 Flash 0731 在其规模级别上实现了智能水平的显著跃升。DeepSeek V4 Flash 0731 现在也可通过 DeepSeek 的第一方 API 使用。\n\n欢迎访问 Artificial Analysis，将 DeepSeek V4 Flash 0731 与其他领先的开放权重和专有模型进行比较：http://artificialanalysis.ai/models",
+  "id": "cms9hiyz80fdvro9kepvm1qvk",
+  "url": "https://aihot.virxact.com/items/cms9hiyz80fdvro9kepvm1qvk",
+  "fetched_at": "2026-09-01T13:55:39+08:00"
+}

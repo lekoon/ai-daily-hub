@@ -1,0 +1,15 @@
+{
+  "title": "Claude Code 连接器可复用至 Artifacts",
+  "source": "Thariq (@trq212)",
+  "published_at": "2026-08-04 05:13",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://x.com/trq212/status/2084387303959740449",
+  "aihot_url": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu",
+  "curation_reason": "大多数人只连接 Connector 到 Claude，未意识到 Claude Code 也会继承这些连接，在代码操作中直接访问邮件、日历等服务。",
+  "ai_summary": "我想很多人没有意识到——如果你连接了一个 Claude 连接器（例如你的 Gmail、日历、Slack 等），Claude Code 也将能够使用它们，包括在 Artifacts 中。",
+  "content_markdown": "我觉得很多人没有意识到--如果你连接了 Claude Connector（比如你的 Gmail、日历、Slack 等），Claude Code 也能使用它们，包括在 Artifacts 中。",
+  "id": "cmsdqxlyq00giromaftad8bdu",
+  "url": "https://aihot.virxact.com/items/cmsdqxlyq00giromaftad8bdu",
+  "fetched_at": "2026-09-01T13:56:08+08:00"
+}

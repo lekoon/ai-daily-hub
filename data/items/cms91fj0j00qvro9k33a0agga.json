@@ -1,0 +1,15 @@
+{
+  "title": "教程：用 Antigravity SDK 与 Google Cloud 构建自主财务审计智能体团队",
+  "source": "Google AI：DEV 作者专属（RSS）",
+  "published_at": "2026-07-31 19:07",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://dev.to/googleai/hands-on-tutorial-building-an-autonomous-financial-audit-agent-team-with-antigravity-sdk-google-13de",
+  "aihot_url": "https://aihot.virxact.com/items/cms91fj0j00qvro9k33a0agga",
+  "curation_reason": "这是一篇完整的多智能体财务审计实战，从零搭建到部署全链路，代码和架构图齐全。想做企业级 Agent 的开发者能直接复用其中最小权限、安全护栏和可观测性模式。",
+  "ai_summary": "本教程演示如何用 Google Antigravity SDK 与 Google Cloud 构建多智能体财务对账系统，将供应商交易与 PDF 发票核对。系统由审计编排器、数据研究员、发票分析器和对账引擎四个智能体组成，并设有人工合规门控，将超过 $1,000 的差异升级人工审核。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cms91fj0j00qvro9k33a0agga",
+  "url": "https://aihot.virxact.com/items/cms91fj0j00qvro9k33a0agga",
+  "fetched_at": "2026-09-01T13:56:04+08:00"
+}

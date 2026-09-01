@@ -1,0 +1,15 @@
+{
+  "title": "OpenAI Astra 以约2000美元证明10项数学难题",
+  "source": "Greg Brockman (@gdb)",
+  "published_at": "2026-08-01 15:39",
+  "score": "70",
+  "flags": "精选",
+  "original_url": "https://x.com/gdb/status/2083457463337287721",
+  "aihot_url": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h",
+  "curation_reason": "OpenAI用内部Astra模型证明了10个重要数学猜想，成本才2000美元，这比论文本身更值得关注，理论领域可能从纯人力变成AI驱动的研究范式。",
+  "ai_summary": "OpenAI 用下一代模型 Astra 内部版解决了数学与理论计算机科学领域的10项重大进展，总成本约2000美元（按 Sol API 价格计算）。Astra 证明了非 sofic 群的存在，并推翻 Connes 刚性猜想，成果涵盖 von Neumann 代数、高维球堆积、电路复杂度等。OpenAI 已发布全部10项证明，附 Lean 证书与 CoT 逐步推导。",
+  "content_markdown": "数学与理论计算机科学领域的十项重大进展。\n\n这些问题是通过我们下一代主要模型的内部版本 Astra 解决的，按 Sol API 价格计算，总成本约为 2000 美元。\n\n### 引用推文\n\n> Sebastien Bubeck：是的，非软性群确实存在：这一论断是 Astra（我们的下一代重大模型）证明的众多全新优美成果之一。 我们将发布 10 个此类 Astra 证明，每个都附带完整的 Lean 证书和链式推理（CoT）逐步讲解。这些成果涵盖范围广泛，从冯·诺依曼代数（对 Connes 刚性猜想的反证），到高维球堆积的更好界、电路复杂度、多色...",
+  "id": "cmsa302cc01xaro41omun2e1h",
+  "url": "https://aihot.virxact.com/items/cmsa302cc01xaro41omun2e1h",
+  "fetched_at": "2026-09-01T13:55:56+08:00"
+}

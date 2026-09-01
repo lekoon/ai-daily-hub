@@ -1,0 +1,15 @@
+{
+  "title": "Gemini Enterprise Agent Platform 的 Agent 与模型评测服务正式 GA",
+  "source": "Google Developers Blog（RSS）",
+  "published_at": "2026-07-31 00:00",
+  "score": "54",
+  "flags": "",
+  "original_url": "https://developers.googleblog.com/agent-and-model-evaluations-in-gemini-enterprise-agent-platform-are-now-ga",
+  "aihot_url": "https://aihot.virxact.com/items/cms969wj705q5ro9kiuis3s85",
+  "curation_reason": "",
+  "ai_summary": "Google 宣布 Gemini Enterprise Agent Platform 的评测服务正式全面可用（GA），为开发者提供统一引擎，可在本地开发实验和线上生产流量中一致地衡量智能体质量。",
+  "content_markdown": "Agent Platform's evaluation service is now generally available, providing developers with a unified engine to measure agent quality consistently across local development experiments and live production traffic. You can evaluate agents using over 20 pre-built metrics, DeepMind-backed adaptive rubrics, or custom code-based and LLM-as-a-judge metrics stored in a centralized, versioned registry. The service integrates directly into existing workflows via the Agent Platform SDK, agents-cli, and ADK, offering built-in user and environment simulators to automate complex multi-turn testing and streamline CI pipelines.",
+  "id": "cms969wj705q5ro9kiuis3s85",
+  "url": "https://aihot.virxact.com/items/cms969wj705q5ro9kiuis3s85",
+  "fetched_at": "2026-09-01T13:55:46+08:00"
+}

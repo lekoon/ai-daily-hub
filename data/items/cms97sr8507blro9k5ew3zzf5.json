@@ -1,0 +1,15 @@
+{
+  "title": "LangChain 推出 ReviewBench：用真实 PR 反馈评测代码审查智能体",
+  "source": "LangChain：Blog（RSS）",
+  "published_at": "2026-08-01 00:58",
+  "score": "50",
+  "flags": "",
+  "original_url": "https://www.langchain.com/blog/evaluating-code-review-agents-with-reviewbench",
+  "aihot_url": "https://aihot.virxact.com/items/cms97sr8507blro9k5ew3zzf5",
+  "curation_reason": "",
+  "ai_summary": "LangChain 构建了 ReviewBench，一个用于评测代码审查智能体的基准，其评估依据来自可信审查者对真实 PR 的反馈。该基准旨在衡量智能体在代码审查任务中的表现，为开发者提供更贴近实际场景的评测标准。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cms97sr8507blro9k5ew3zzf5",
+  "url": "https://aihot.virxact.com/items/cms97sr8507blro9k5ew3zzf5",
+  "fetched_at": "2026-09-01T13:55:48+08:00"
+}

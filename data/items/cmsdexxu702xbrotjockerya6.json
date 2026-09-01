@@ -1,0 +1,15 @@
+{
+  "title": "OpenRouter 推出 Ori Eval 简化评估流程",
+  "source": "OpenRouter (@OpenRouter)",
+  "published_at": "2026-08-03 23:31",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://x.com/OpenRouter/status/2084301100078027143",
+  "aihot_url": "https://aihot.virxact.com/items/cmsdexxu702xbrotjockerya6",
+  "curation_reason": "以任务为中心的评估思路回应了「没有最好模型」的共识，但实现细节与评估基准仍未披露，现阶段更适合作为轻量级选型试探。",
+  "ai_summary": "推出 Ori Eval：编写首个评估的最简单方式。\n\n没有绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 处理代码库中的每项任务，然后评估结果。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
+  "content_markdown": "推出 Ori Eval：编写你的第一个评测最简单的方式。\n\n不存在绝对最好的模型，只有最适合每项任务的模型。Ori Eval 利用 OpenRouter 的 API 来处理你代码库中的每项任务，然后对结果进行评估。\n\ncurl -fsSL https://openrouter.ai/skills/spawn-ori-eval",
+  "id": "cmsdexxu702xbrotjockerya6",
+  "url": "https://aihot.virxact.com/items/cmsdexxu702xbrotjockerya6",
+  "fetched_at": "2026-09-01T13:55:50+08:00"
+}
