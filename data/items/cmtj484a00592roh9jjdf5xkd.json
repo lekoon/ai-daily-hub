@@ -1,0 +1,15 @@
+{
+  "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
+  "source": "Artificial Analysis (@ArtificialAnlys)",
+  "published_at": "2026-09-02 04:12",
+  "score": "78",
+  "flags": "精选",
+  "original_url": "https://x.com/ArtificialAnlys/status/2094881171066978525",
+  "aihot_url": "https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd",
+  "curation_reason": "评测方参与预发布评估，给出多档 effort 的得分与每任务成本对比，读者可据此权衡 Claude Fable 5.1 的智能与开销。",
+  "ai_summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+  "content_markdown": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但尽管缓存读取价格下调 75%，其单任务成本仍比 Fable 5 高出 20%\n\n我们为 @AnthropicAI 提供了 Claude Fable 5.1 的预发布评测支持。在最大推理强度下，该模型在 Artificial Analysis 智能指数上取得 66 分，这是我们测得的最高分数，领先于 Claude Opus 5（最大强度，63 分）、Claude Fable 5（最大强度，62 分）、GPT-5.6 Sol（最大强度，61 分）和 Grok 4.6（高强度，61 分）。我们使用 Anthropic 的\"默认\"服务端回退机制对模型进行了评测，该机制会将安全标记的请求路由至 Claude Opus 4.8 或 Claude Opus 5；在智能指数评测中，回退机制处理了约 4% 的输出 token。\n\n关键要点\n\n➤ 前沿智能，多项基准测试全面提升：Fable 5.1 在智能指数上较 Fable 5 提升 4 分。在 HLE 上，Fable 5.1 取得 59.1% 的成绩，超过此前由 Claude Fable 5 保持的 55.5% 最佳纪录。在 Terminal-Bench v2.1（91.4%）和 SciCode（62.0%）上，它取得了我们所见过的最高分数（微弱领先），在 τ3-Banking 上较 Fable 5 提升 9 分\n\n➤ 缓存读取价格下调 75%，但 Fable 5.1 的单任务成本仍然更高：Anthropic 已将缓存读取价格从每 100 万缓存输入 token 1 美元下调至 0.25 美元，标准定价保持不变，仍为每 100 万输入/输出 token 10 美元/50 美元。Fable 5.1（最大强度）在智能指数上的单任务成本为 3.76 美元，比 Fable 5（最大强度）高出 20%，因为它消耗的输\n\n➤ 上下文窗口：100 万 token，与 Anthropic 近期其他发布一样，支持图像和文本输入\n\n➤ 定价：Fable 5.1 保留了 Fable 5 的输入、输出和缓存写入价格，分别为每百万 token 10 美元、50 美元和 12.5 美元，但缓存命中的价格已降至每百万 token 0.25 美元，相对此前下降了 75%，这将显著降低智能体工作负载的成本。",
+  "id": "cmtj484a00592roh9jjdf5xkd",
+  "url": "https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd",
+  "fetched_at": "2026-09-02T13:18:09+08:00"
+}

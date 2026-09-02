@@ -1,0 +1,142 @@
+{
+  "type": "daily",
+  "vol": "2026.09.02",
+  "eyebrow": "VOL.2026.09.02·9STORIES·AIHOT DAILY",
+  "metrics": [
+    {
+      "value": "9",
+      "label": "今日事件"
+    },
+    {
+      "value": "6",
+      "label": "一手报道"
+    },
+    {
+      "value": "2",
+      "label": "新模型"
+    },
+    {
+      "value": "9",
+      "label": "信源"
+    }
+  ],
+  "sections": [
+    {
+      "no": "01",
+      "title": "模型发布/更新",
+      "subtitle": "Model Releases",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmtj42kz5057qroh9yw6fjh9h",
+          "title": "OpenAI 评定 Astra 达到网络安全 Critical 能力阈值，将受限发布",
+          "url": "https://aihot.virxact.com/items/cmtj42kz5057qroh9yw6fjh9h",
+          "role_tag": "官方",
+          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
+          "summary": "OpenAI 宣布 Astra 在其 Preparedness Framework 下达到 Critical 网络安全能力阈值，是首个被评定为该级别的模型，可在少人干预下发现未知漏洞并构建利用链。",
+          "is_lead": true
+        },
+        {
+          "id": "cmtj04igz04xproel00pt2oju",
+          "title": "Anthropic 发布 Claude Fable 5.1 与 Claude Mythos 5.1",
+          "url": "https://aihot.virxact.com/items/cmtj04igz04xproel00pt2oju",
+          "role_tag": "官方",
+          "source": "Claude Platform：开发者版本说明（RSS）",
+          "summary": "Anthropic 发布 Claude Fable 5.1（claude-fable-5-1），面向长时间运行的智能体编码、知识工作与研究，Claude Mythos 5.1 面向 Project Glasswing 参与者。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "02",
+      "title": "产品发布/更新",
+      "subtitle": "Product",
+      "count": "3",
+      "articles": [
+        {
+          "id": "cmtiy0v6k01dproel63pg10os",
+          "title": "Google DeepMind 为 Gemini 推出 agentic 视频理解功能",
+          "url": "https://aihot.virxact.com/items/cmtiy0v6k01dproel63pg10os",
+          "role_tag": "官方",
+          "source": "Google DeepMind：Blog（RSS）",
+          "summary": "Google DeepMind 为 Gemini 3.7 Flash、3.6 Flash 和 3.5 Flash-Lite 推出 agentic video understanding，模型动态扫描视频片段，相比固定帧率处理 token 消耗最多降低 88%，成本最多降低 66%，准确率最多提升 7%。",
+          "is_lead": true
+        },
+        {
+          "id": "cmtitozyq04j2ro9ydv3oxgsd",
+          "title": "Hugging Face 发布 @huggingface/kernels，提供 207 个 WebGPU 内核用于浏览器本地 AI 推理",
+          "url": "https://aihot.virxact.com/items/cmtitozyq04j2ro9ydv3oxgsd",
+          "role_tag": "官方",
+          "source": "Hugging Face：Blog（RSS）",
+          "summary": "Hugging Face WebAI 团队发布 @huggingface/kernels 库及 207 个以独立仓库形式托管在 Hub 上的 WebGPU 内核（Apache-2.0），每个内核带 manifest、正确性测试、基准用例和 WGSL 着色器模板。",
+          "is_lead": false
+        },
+        {
+          "id": "cmtivvilg06f0ro9yk5dt7mrc",
+          "title": "Google Workspace 推出图像创作编辑工具 Google Pics",
+          "url": "https://aihot.virxact.com/items/cmtivvilg06f0ro9yk5dt7mrc",
+          "role_tag": "官方",
+          "source": "Google Blog：AI（RSS）",
+          "summary": "Google 发布 Workspace 图像创作与编辑工具 Google Pics，将在未来数周内面向所有 Google AI Pro 和 Ultra 订阅者及多数 Workspace 商业客户推出。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "03",
+      "title": "论文研究",
+      "subtitle": "Research",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmtj2y06p04bwroh9d8oszszo",
+          "title": "Fable 5.1 系统卡披露隐蔽任务与监控难度上升等安全发现",
+          "url": "https://aihot.virxact.com/items/cmtj2y06p04bwroh9d8oszszo",
+          "role_tag": "X·KOL",
+          "source": "X：Rohan Paul (@rohanpaul_ai)",
+          "summary": "Rohan Paul 梳理了 Fable 5.1 系统卡中的安全发现：Anthropic 称该模型在隐蔽侧任务上达到已发布模型中最高的隐蔽通过率，约 5 次尝试成功 1 次，并认为这可能是其更难监控的弱证据。",
+          "is_lead": true
+        },
+        {
+          "id": "cmthxigqm04c1rofqqmk7pkqi",
+          "title": "Anthropic 研究：训练一个错位的奖励寻求者模型",
+          "url": "https://aihot.virxact.com/items/cmthxigqm04c1rofqqmk7pkqi",
+          "role_tag": "官方·X",
+          "source": "X：Anthropic (@AnthropicAI)",
+          "summary": "Anthropic 发布新研究 Training a Misaligned Reward Seeker，探究奖励作弊（reward-hacking）是否会让模型学会不择手段追求奖励。",
+          "is_lead": false
+        }
+      ]
+    },
+    {
+      "no": "04",
+      "title": "技巧与观点",
+      "subtitle": "Tips & Takes",
+      "count": "2",
+      "articles": [
+        {
+          "id": "cmtj484a00592roh9jjdf5xkd",
+          "title": "Claude Fable 5.1 登顶 Artificial Analysis 智能指数，但每任务成本比 Fable 5 高 20%",
+          "url": "https://aihot.virxact.com/items/cmtj484a00592roh9jjdf5xkd",
+          "role_tag": "X·KOL",
+          "source": "X：Artificial Analysis (@ArtificialAnlys)",
+          "summary": "Artificial Analysis 评测 Claude Fable 5.1，其在 max effort 下得 66 分登顶 Artificial Analysis Intelligence Index。",
+          "is_lead": true
+        },
+        {
+          "id": "cmtipeu1u01a2ro9yi22t9cev",
+          "title": "路透社调查：美国 AI 数据中心现大量幽灵用电需求，得州等多州出手整治",
+          "url": "https://aihot.virxact.com/items/cmtipeu1u01a2ro9yi22t9cev",
+          "role_tag": "综合资讯",
+          "source": "IT之家（RSS）",
+          "summary": "据路透社报道，美国中西部、中大西洋和南部地区超大型用电户（主要为数据中心）提出的用电申请已超过 700 吉瓦，超过全美数据中心实际用电量估计的十倍，其中相当一部分可能是重复提交或缺乏资金能力的幻象需求。",
+          "is_lead": false
+        }
+      ]
+    }
+  ],
+  "story_count": 9,
+  "date": "2026-09-02",
+  "url": "https://aihot.virxact.com/daily/2026-09-02",
+  "fetched_at": "2026-09-02T13:17:49+08:00"
+}
