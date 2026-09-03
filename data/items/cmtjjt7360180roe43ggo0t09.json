@@ -1,0 +1,15 @@
+{
+  "title": "UU远程新版本上线：完整 TUI 渲染与多终端会话管理，强化远程 Vibe Coding 体验",
+  "source": "公众号：数字生命卡兹克",
+  "published_at": "2026-09-02 11:32",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647685772&idx=1&sn=a073c30899a7f420147673def8209609",
+  "aihot_url": "https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09",
+  "curation_reason": "作者实测新版本并给出使用路径，读者可据此评估手机端远程跑 Coding Agent 的可行性。",
+  "ai_summary": "UU远程于9月2日上线新版本，重点优化终端功能，补齐 TUI 渲染交互与终端会话管理能力。主要更新包括：Mac 免密码登录、移动端输入优化并新增调用系统输入法的独立输入框、可同时创建和管理多个终端会话并支持手机与电脑间跨端同步接管（通过 uuyc-cli lterm 命令）。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtjjt7360180roe43ggo0t09",
+  "url": "https://aihot.virxact.com/items/cmtjjt7360180roe43ggo0t09",
+  "fetched_at": "2026-09-03T13:23:22+08:00"
+}

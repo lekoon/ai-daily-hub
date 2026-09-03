@@ -1,0 +1,15 @@
+{
+  "title": "什么是 harness 工程？Google 用 ADK 2.0 与 Antigravity SDK 演示自动修复编码循环",
+  "source": "Google AI：DEV 作者专属（RSS）",
+  "published_at": "2026-09-02 23:28",
+  "score": "69",
+  "flags": "精选",
+  "original_url": "https://dev.to/googleai/what-is-harness-engineering-and-why-should-i-care-8n0",
+  "aihot_url": "https://aihot.virxact.com/items/cmtk9u4ga01hwrompqmqchjqj",
+  "curation_reason": "原文解释了 harness 工程的构成要素，并给出可运行的沙箱与修复循环示例代码，方法可直接迁移到自己的 Agent 工作流。",
+  "ai_summary": "Google 员工 Shir Meir Lador 介绍 harness 工程，即用确定性组件包裹 LLM，包括编排层、执行沙箱、状态持久化和验证工具，让 Agent 不需逐行人工审查即可安全生成代码。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtk9u4ga01hwrompqmqchjqj",
+  "url": "https://aihot.virxact.com/items/cmtk9u4ga01hwrompqmqchjqj",
+  "fetched_at": "2026-09-03T13:23:33+08:00"
+}

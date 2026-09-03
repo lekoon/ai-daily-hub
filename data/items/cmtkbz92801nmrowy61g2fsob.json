@@ -1,0 +1,15 @@
+{
+  "title": "Google AI 团队分享如何为 LLM-as-a-Judge 评测编写可靠的评分标准",
+  "source": "Google AI：DEV 作者专属（RSS）",
+  "published_at": "2026-09-03 00:35",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://dev.to/googleai/how-to-write-reliable-rubrics-for-llm-as-a-judge-evaluations-ndp",
+  "aihot_url": "https://aihot.virxact.com/items/cmtkbz92801nmrowy61g2fsob",
+  "curation_reason": "作者来自 Google 团队，把写作 LLM-as-a-judge 评分标准的经验整理成四条可迁移规则，附带校准流程，适合自己搭建评测时参考。",
+  "ai_summary": "Google AI 团队发布教程，讲解如何为 LLM-as-a-Judge 评测编写可靠的布尔式评分标准，指出模糊提示会导致评估不一致和浪费 token。文中给出四条经验：问题保持原子化且互不重叠、只让评判模型评估客观事实（可用 RFC 2119 术语如 MUST 表述）、只评 prompt 中明确要求的内容、用专家标注的 golden set 校准评判模型直至与人类评分一致。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtkbz92801nmrowy61g2fsob",
+  "url": "https://aihot.virxact.com/items/cmtkbz92801nmrowy61g2fsob",
+  "fetched_at": "2026-09-03T13:23:36+08:00"
+}

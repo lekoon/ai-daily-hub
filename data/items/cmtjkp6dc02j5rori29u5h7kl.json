@@ -1,0 +1,15 @@
+{
+  "title": "美团 LongCat-2.0 上线 Cline 免费试用",
+  "source": "Meituan LongCat (@Meituan_LongCat)",
+  "published_at": "2026-09-02 11:50",
+  "score": "67",
+  "flags": "精选",
+  "original_url": "https://x.com/Meituan_LongCat/status/2094996391387111865",
+  "aihot_url": "https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl",
+  "curation_reason": "官方宣布 LongCat-2.0 可在 Cline 免费试用，并给出安装命令和模型选择路径，读者可直接接入现有编码工作流。",
+  "ai_summary": "",
+  "content_markdown": "LongCat-2.0 现在可以在 @cline 中免费试用了！🐱\n\n### 引用推文\n\n> Cline：LongCat-2.0 现在在 Cline 中免费开放使用。 这是一款 1.6T 参数的开源权重 MoE 模型，拥有 1M 上下文窗口，来自 @Meituan_LongCat，得分与 Claude Opus 4.7 和 Gemini 3.1 Pro 相当。 立即体验： npm i -g cline /model 在免费...",
+  "id": "cmtjkp6dc02j5rori29u5h7kl",
+  "url": "https://aihot.virxact.com/items/cmtjkp6dc02j5rori29u5h7kl",
+  "fetched_at": "2026-09-03T13:23:17+08:00"
+}
