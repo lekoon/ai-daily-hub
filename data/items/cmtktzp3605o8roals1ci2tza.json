@@ -1,0 +1,15 @@
+{
+  "title": "Meta Muse Spark 1.3 在 Artificial Analysis 编码智能体指数中与 Claude 组合对比评测结果公布",
+  "source": "Alexandr Wang (@alexandr_wang)",
+  "published_at": "2026-09-03 09:10",
+  "score": "68",
+  "flags": "精选",
+  "original_url": "https://x.com/alexandr_wang/status/2095318449602138577",
+  "aihot_url": "https://aihot.virxact.com/items/cmtktzp3605o8roals1ci2tza",
+  "curation_reason": "引用 Artificial Analysis 的编码智能体评测数据，读者可以对比 Muse Spark 1.3 各版本与竞品的得分和单任务成本。",
+  "ai_summary": "Artificial Analysis 编码智能体指数显示，Meta Muse Spark 1.3 (max) 在 Muse Code 下得 68 分，仅次于 Claude Code + Opus 5 (xhigh) 的 68 分。",
+  "content_markdown": "muse spark 1.3 + muse code evals competitively with Claude code + opus 5 and Claude code + fable 5\n\n### 引用推文\n\n> Artificial Analysis：Meta's Muse Spark 1.3 (max), which is in limited preview for Meta's partners, scores 68 on the Artificial Analysis Coding Agent Index in the Muse Code harness, ...",
+  "id": "cmtktzp3605o8roals1ci2tza",
+  "url": "https://aihot.virxact.com/items/cmtktzp3605o8roals1ci2tza",
+  "fetched_at": "2026-09-04T13:18:02+08:00"
+}

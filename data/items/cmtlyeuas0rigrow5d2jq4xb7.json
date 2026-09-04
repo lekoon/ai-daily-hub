@@ -1,0 +1,15 @@
+{
+  "title": "François Chollet 评 GPT-6 Astra 在 ARC-AGI-3 上的表现",
+  "source": "François Chollet (@fchollet)",
+  "published_at": "2026-09-04 03:42",
+  "score": "81",
+  "flags": "精选",
+  "original_url": "https://x.com/fchollet/status/2095598451115614371",
+  "aihot_url": "https://aihot.virxact.com/items/cmtlyeuas0rigrow5d2jq4xb7",
+  "curation_reason": "ARC Prize 作者基于自家标准 harness 的实测数据评估 GPT-6 Astra，读者可对比 66% 与近 100% 两种设置看模型与 harness 能力的边界变化。",
+  "ai_summary": "François Chollet 发文称 GPT-6 Astra 在交互式推理任务上带来阶跃式能力提升，使用标准 harness 在 ARC-AGI-3 上得 66%，配合持续对话 harness 和自定义 compaction 接近 100%，每局成本约 $360。",
+  "content_markdown": "GPT-6 Astra 代表了模型在交互式推理问题上能力的阶跃式变化。使用我们的标准测试框架，它在 ARC-AGI-3 上得分 66%；而使用连续对话框架和自定义压缩后，得分接近 100%，每局成本约为 360 美元。\n\n事实上，在几乎所有关卡中，连续框架版本在行动效率上都显著优于我们的人类基线。当我们检查推理链以理解模型的运作方式时，发现它在每个游戏和关卡中都在进行高效、实时的符号化世界建模。它甚至发展到开发出自己的简写 DSL 来表示游戏内情境--本质上是一种针对特定游戏的代数记法。\n\n总体而言，Astra 展现出了我们此前仅在复杂框架中才见过的符号化建模行为--因此，框架的能力正越来越多地转移到模型本身之中。\n\n我们认为 Astra 是模型智能领域的一项重大突破。\n\n阅读我们关于 Astra 及其结果意义的文章：https://arcprize.org/blog/astra",
+  "id": "cmtlyeuas0rigrow5d2jq4xb7",
+  "url": "https://aihot.virxact.com/items/cmtlyeuas0rigrow5d2jq4xb7",
+  "fetched_at": "2026-09-04T13:17:54+08:00"
+}

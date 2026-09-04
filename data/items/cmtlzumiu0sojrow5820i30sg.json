@@ -1,0 +1,15 @@
+{
+  "title": "OpenAI 发布 GPT-6 Astra，多项基准达到 SOTA",
+  "source": "Sherwin Wu (@sherwinwu)",
+  "published_at": "2026-09-04 04:22",
+  "score": "78",
+  "flags": "精选",
+  "original_url": "https://x.com/sherwinwu/status/2095608486940086448",
+  "aihot_url": "https://aihot.virxact.com/items/cmtlzumiu0sojrow5820i30sg",
+  "curation_reason": "作者以早期体验者视角补充了截图之外的第一手感受，指出 computer use 是最直观的亮点，并给出可自行尝试的入口。",
+  "ai_summary": "OpenAI 发布 GPT-6 Astra，在 FrontierMath Tier 4、ARC-AGI 3、TerminalBench-4.0 上达到 SOTA，并在 Terminal-Bench Science 0.1 和 HealthBench Pro 上取得领先成绩。",
+  "content_markdown": "这些评测结果相当惊人，但当你第一次看到 Astra 进行计算机操作时，会有一种更直观的震撼感。那是最让我叹为观止的部分。\n\n有机会的话，建议你在 ChatGPT 桌面应用里试试用 Astra 进行计算机操作。\n\n### 引用推文\n\n> OpenAI：GPT-6 Astra 在 FrontierMath Tier 4、ARC-AGI 3 和 TerminalBench-4.0 上均达到当前最优水平。 GPT-6 Astra 同时也是科学发现领域的重大进步，在 Terminal-Bench Science 0.1 和 HealthBench Pro 上均取得当前最优表...",
+  "id": "cmtlzumiu0sojrow5820i30sg",
+  "url": "https://aihot.virxact.com/items/cmtlzumiu0sojrow5820i30sg",
+  "fetched_at": "2026-09-04T13:17:31+08:00"
+}

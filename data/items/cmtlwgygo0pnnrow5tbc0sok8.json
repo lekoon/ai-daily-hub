@@ -1,0 +1,15 @@
+{
+  "title": "OpenAI 发布 GPT-6 Astra，基准全面超越 Claude Fable 5.1",
+  "source": "Chubby♨️ (@kimmonismus)",
+  "published_at": "2026-09-04 03:06",
+  "score": "76",
+  "flags": "精选",
+  "original_url": "https://x.com/kimmonismus/status/2095589174686400914",
+  "aihot_url": "https://aihot.virxact.com/items/cmtlwgygo0pnnrow5tbc0sok8",
+  "curation_reason": "原文汇总了官方基准数字与开放范围，并附成本对比图，读者可据此比较 GPT-6 Astra 与 Claude Fable 5.1 的性价比。",
+  "ai_summary": "作者引用 OpenAI 官方基准称 GPT-6 Astra 以 99.9% 饱和 ARC-AGI-3，在 ExploitBench 得 100%，并在各项基准上全面超过此前保持 SOTA 两天的 Claude Fable 5.1，且价格更低。",
+  "content_markdown": "到这个时候，他们在所有基准测试上已经完全碾压了 Fable 5.1。Claude Fable 5.1 曾在几项关键基准测试中保持 SOTA 状态长达两天。\n\nAstra 更好--而且便宜得多。\n\n### 引用推文\n\n> Chubby♨️：来自 OpenAI 官网的官方 GPT-6 Astra 基准测试 \"Astra 在 ARC-AGI-3 上以 99.9% 的得分达到饱和，在 ExploitBench 上以 100% 的得分达到饱和\" \"GPT-6 Astra 今天开始向有限的组织推出，未来几天将向所有 ChatGPT Plus、Pro、Busines...",
+  "id": "cmtlwgygo0pnnrow5tbc0sok8",
+  "url": "https://aihot.virxact.com/items/cmtlwgygo0pnnrow5tbc0sok8",
+  "fetched_at": "2026-09-04T13:17:40+08:00"
+}

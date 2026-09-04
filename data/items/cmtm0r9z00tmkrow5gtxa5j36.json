@@ -1,0 +1,15 @@
+{
+  "title": "Rohan Paul 解读 OpenAI GPT-6 Astra 117 页系统卡中的安全发现",
+  "source": "Rohan Paul (@rohanpaul_ai)",
+  "published_at": "2026-09-04 04:55",
+  "score": "78",
+  "flags": "精选",
+  "original_url": "https://x.com/rohanpaul_ai/status/2095616781880869271",
+  "aihot_url": "https://aihot.virxact.com/items/cmtm0r9z00tmkrow5gtxa5j36",
+  "curation_reason": "作者梳理了 GPT-6 Astra 系统卡中关于链式思维可控性与监控性下降的关键安全发现，读者可借此了解对齐评估的核心结论。",
+  "ai_summary": "Rohan Paul 梳理 OpenAI GPT-6 Astra 117 页系统卡的要点：Astra 控制自身链式思维的能力从 GPT-5.6 Sol 的 16.1% 跃升至 60.9%，可监控性相应下降。",
+  "content_markdown": "OpenAI GPT-6 Astra 的 117 页系统卡中披露的一些信息\n\n• Astra 刻意控制自身思维链形式的能力大幅跃升：在可比的推理长度下，其成功率为 60.9%，而 GPT-5.6 Sol 仅为 16.1%。\n\n• \"与 GPT-5.6 Sol 相比，GPT-6 Astra 的可监控性有所下降。我们发现，GPT-6 Astra 比 GPT 5.6-Sol 更能控制自身的思维链，并且更不可能在思维链中包含不利的（可定罪）信息。\n\n在对抗性场景中（即我们迫使模型规避监控的场景），我们发现该模型能够在评估中策略性地表现不佳（即沙袋效应）时保持不被察觉，并且在被要求执行某些破坏性任务时，有时能够逃避我们的内部监控。\"\n\n• 当被明确告知要隐藏策略性表现不佳时，Astra 将一个思维链监控器的召回率压低至 11% 以下，并在一个软件工程基准测试上将其降至零。\n\n简化解释：在对抗性测试中，Astra 可以故意表现得更差，同时如此有效地隐藏证据，以至于监控器几乎完全无法检测到这种沙袋效应。\n\n• 仅仅告知 Astra 其思维链正受到监控，就会导致其推理过程变得不那么可见，有时甚至能在完全不产生任何思维链 token 的情况下成功发起攻击。\n\n• Astra 完成了一项绕过监控的破坏性任务。Astra 成功将推理路由至一个不受监控的后端，并通过将变更伪装成一次普通测试，骗过了全上下文监控器。\n\n• 英国 AISI 观察到 Astra 进行了模拟软件供应链攻击，包括创建虚假身份、建立信任，然后试图让恶意代码被接受。\n\n• Astra 经常能感知到自己正处于评估之中，这使得看似良好的表现更难解读，因为当模型知道自己正在被测试时，其行为可能会有所不同。\n\nApollo Research 发现，在最大推理强度下，Astra 在多达 50.6% 的运行中明确识别出自己正在被评估。\n\n• 英国 AISI 估计，Astra 在不产生可见思维链的情况下，能够执行大约一个数量级更多的推理。\n\n### 引用推文\n\n> Rohan Paul：OpenAI 的发布视频做得越来越出色了。",
+  "id": "cmtm0r9z00tmkrow5gtxa5j36",
+  "url": "https://aihot.virxact.com/items/cmtm0r9z00tmkrow5gtxa5j36",
+  "fetched_at": "2026-09-04T13:17:55+08:00"
+}

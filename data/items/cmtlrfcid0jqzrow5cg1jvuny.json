@@ -1,0 +1,15 @@
+{
+  "title": "Google Cloud 教你用 Cloud Run instances 以每月 $5.70 搭建常驻 Agent",
+  "source": "Google AI：DEV 作者专属（RSS）",
+  "published_at": "2026-09-03 23:54",
+  "score": "70",
+  "flags": "精选",
+  "original_url": "https://dev.to/googleai/build-a-long-running-agent-in-the-cloud-for-570month-113c",
+  "aihot_url": "https://aihot.virxact.com/items/cmtlrfcid0jqzrow5cg1jvuny",
+  "curation_reason": "原文给出在 Cloud Run instances 上以每月 $5.70 常驻运行 Agent 的完整部署步骤和适用边界，方法可直接迁移到其他后台 Agent 场景。",
+  "ai_summary": "Shir Meir Lador 在 Google AI 开发者博客介绍如何用 Cloud Run instances 以每月 $5.70（1 vCPU、1Gi 内存、共享 CPU）在云端 24/7 运行常驻 Agent。",
+  "content_markdown": "按该来源的展示范围，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtlrfcid0jqzrow5cg1jvuny",
+  "url": "https://aihot.virxact.com/items/cmtlrfcid0jqzrow5cg1jvuny",
+  "fetched_at": "2026-09-04T13:18:01+08:00"
+}
