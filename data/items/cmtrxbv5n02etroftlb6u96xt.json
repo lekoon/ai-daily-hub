@@ -1,0 +1,15 @@
+{
+  "title": "GPT-6 Astra操控Blender保姆级教程：三种玩法与踩坑实录",
+  "source": "公众号：数字生命卡兹克",
+  "published_at": "2026-09-08 08:17",
+  "score": "76",
+  "flags": "精选",
+  "original_url": "https://mp.weixin.qq.com/s?__biz=MzIyMzA5NjEyMA%3D%3D&mid=2647686056&idx=1&sn=c1710404c08cf3201da27f4d53f94940",
+  "aihot_url": "https://aihot.news/items/cmtrxbv5n02etroftlb6u96xt",
+  "curation_reason": "作者实测了Computer Use、官方MCP和CLI三种方式并给出各自的速度、成本与适用边界，方法可直接照做。",
+  "ai_summary": "作者数字生命卡兹克发布GPT-6 Astra操控Blender的小白教程，介绍前期安装、官方MCP与Computer Use插件配置，并实测三种玩法。Computer Use花约4小时搭出天坛祈年殿，但耗掉200美刀Pro会员近半额度；MCP更快，可完成摩托车建模与组装动画，但复杂任务会单次运行超时，可拆分步骤或用CLI执行Python脚本解决。",
+  "content_markdown": "公众号正文需在微信内阅读，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtrxbv5n02etroftlb6u96xt",
+  "url": "https://aihot.virxact.com/items/cmtrxbv5n02etroftlb6u96xt",
+  "fetched_at": "2026-09-09T13:37:25+08:00"
+}

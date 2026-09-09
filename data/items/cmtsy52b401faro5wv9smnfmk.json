@@ -1,0 +1,15 @@
+{
+  "title": "Noam Brown 评 OpenAI 用智能体求解 Navier-Stokes 千禧年难题：成本会快速下降",
+  "source": "Noam Brown (@polynoamial)",
+  "published_at": "2026-09-09 01:25",
+  "score": "78",
+  "flags": "精选",
+  "original_url": "https://x.com/polynoamial/status/2097375837670785447",
+  "aihot_url": "https://aihot.news/items/cmtsy52b401faro5wv9smnfmk",
+  "curation_reason": "作者用 o3 与 IMO 的成本对比给出判断，读者可以借此理解大规模测试时计算的成本下降速度。",
+  "ai_summary": "Noam Brown 就 OpenAI 宣布以智能体组合求解 Navier-Stokes 千禧年大奖难题发表看法，承认这次证明花费数百万美元，但认为成本会快速下降。",
+  "content_markdown": "是的，这个结果花费了数百万美元。\n\n但请记住，当 @OpenAI 发布 o3 时，在 ARC-AGI 1 上取得 87.5% 的分数花费了约 50 万美元。如今，Astra 以约 20 美元的成本取得了更高的分数。\n\n在 2025 年，我们和 GDM 投入了巨大的算力才在国际数学奥林匹克竞赛（IMO）中夺得金牌。而对于 2026 年的 IMO，任何拥有每月 20 美元 ChatGPT 订阅的人都能做到。\n\n大规模扩展测试时计算让我们得以一窥未来。我相信，一年之后，每个人都将触手可及一个能够解决这一级别问题的 AI。\n\n### 引用推文\n\n> OpenAI：我们正在分享纳维-斯托克斯千禧年大奖难题的一个解法，这是数学前沿最深刻的问题之一。 该证明由一组智能体完成，使用了 OpenAI 的下一代模型，其能力显著超越 GPT-6 Astra。 该问题关乎纳维-斯托克斯方程所描述的光滑三维流体运动描述是否会失效。它已悬而未决约 90 年。",
+  "id": "cmtsy52b401faro5wv9smnfmk",
+  "url": "https://aihot.virxact.com/items/cmtsy52b401faro5wv9smnfmk",
+  "fetched_at": "2026-09-09T13:37:23+08:00"
+}

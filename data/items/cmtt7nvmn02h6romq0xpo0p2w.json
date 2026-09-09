@@ -1,0 +1,15 @@
+{
+  "title": "Runway 发布 Adobe 插件，可在 Premiere Pro 和 After Effects 内直接生成与编辑",
+  "source": "Runway：News（网页）",
+  "published_at": "2026-09-09 05:58",
+  "score": "65",
+  "flags": "精选",
+  "original_url": "https://runwayml.com/news/company-news/runway-for-adobe",
+  "aihot_url": "https://aihot.news/items/cmtt7nvmn02h6romq0xpo0p2w",
+  "curation_reason": "官方说明插件如何把生成、重绘和增强接入现有时间线工作流，可帮助剪辑用户评估是否省去导出再导入的往返。",
+  "ai_summary": "Runway 发布 Runway Plugins，新面板可直接嵌入 Premiere Pro 和 After Effects，在时间线内生成图像和视频、重绘片段并放置结果。Edit Studio 可基于已有片段用 Aleph 2 按原始时长重新渲染，插件免费下载（macOS 和 Windows），生成功能面向所有付费计划并消耗现有额度。",
+  "content_markdown": "直接在 Premiere Pro 和 After Effects 中调用 Runway 的模型，无需离开时间轴即可生成、编辑和放大画面。\n\n今天，我们正式推出 Runway Plugins。借助全新的 Adobe 插件，Runway 面板可直接嵌入 Premiere Pro 和 After Effects 这两款标志性应用中使用。生成图像和视频、为时间轴上的素材重设风格，并将每个结果直接放入你的合成或序列中。\n\n始终留在剪辑流程中\n\n在此之前，在剪辑中途使用 Runway 意味着必须离开当前工作流：导出一帧、上传到浏览器标签页、下载结果、重新导入，再找回原来的位置。我们的面板彻底消除了这一循环。直接在 After Effects 或 Premiere 中输入提示词，在信息流中观看生成过程，点击即可放置结果。在 Premiere 中，结果会落在播放头位置，随时可以修剪。\n\n处理你的素材，而不只是生成新素材\n\nEdit Studio 作用于你已有的片段：在合成或序列中选择它，重设其锚定帧的风格，Aleph 2 会以与源素材相同的时长重新渲染整个片段以匹配风格。在面板中对比前后效果，然后将其放回剪辑中。\n\n一个账户，覆盖所有场景\n\n从面板登录后，生成内容会使用你现有的套餐和额度，并提供工作区切换器，方便跨团队协作的用户使用。HDR 转换、背景移除和画面放大只需一键即可应用于任何选中的片段或信息流素材。\n\n定价与可用性\n\nRunway 插件可免费下载，支持 macOS 和 Windows 系统，可从我们的插件页面获取。通过插件进行生成在所有付费套餐中均可用，并消耗您现有的套餐点数。\n\n立即体验全新的 Runway 插件.",
+  "id": "cmtt7nvmn02h6romq0xpo0p2w",
+  "url": "https://aihot.virxact.com/items/cmtt7nvmn02h6romq0xpo0p2w",
+  "fetched_at": "2026-09-09T13:37:07+08:00"
+}

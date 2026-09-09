@@ -1,0 +1,15 @@
+{
+  "title": "Sam Altman 回应与 Anthropic 研究员的 Navier-Stokes 证明发布争议",
+  "source": "Sam Altman (@sama)",
+  "published_at": "2026-09-09 02:02",
+  "score": "72",
+  "flags": "精选",
+  "original_url": "https://x.com/sama/status/2097385167002415140",
+  "aihot_url": "https://aihot.news/items/cmtszfjuo04a7ro5wxi2n02va",
+  "curation_reason": "Sam Altman 一方就 Navier-Stokes 证明争议公开己方叙述，读者可以对照双方说法理解这场跨公司协调纠纷。",
+  "ai_summary": "Sam Altman 发文回应与 Anthropic 一方围绕 Euler/Navier-Stokes 证明发布的争议，称对方只有 Euler 结果、双方协调失败，并称对方以抄袭指控相威胁。",
+  "content_markdown": "我花了周末大部分时间与完成这项工作的团队交流。Seb--以及所有其他人--在整个过程中都表现出了正直与慷慨。\n\n最初我们以为对方团队也解决了这个问题。我们本想合作，联合发布。\n\n当我们得知他们解决了欧拉方程但未解决纳维-斯托克斯方程时，我们提出让他们先发布，建议由他们来拿这个奖，并且可选地让 Tristan 作为 OpenAI 证明重写版的领衔作者。我们觉得向 Levent（Anthropic 员工）提出同样的提议有难度，因为他本来也不愿与我们沟通或协调。我们对其他解决方案持开放态度。\n\n我们非常希望协调合作。尽管对方团队不与我们沟通，我们也没有急于发布。对方团队却以毫无根据的抄袭指控威胁我们。\n\n现在我们可以看到他们的工作了，双方的方法似乎并不相同。另外值得一提的是，我们最新的模型还能解决许多许多其他数学问题。\n\n确实，我们尝试这个是因为上周互联网上有传言说 Anthropic 的模型解决了一个千禧年难题，我们很好奇我们的模型是否也能做到。\n\n### 引用推文\n\n> Sebastien Bubeck：我想澄清几件事： 1）那张截图是我主动联系 Levent，协调我们双方的发布安排。我希望从消息内容可以清楚看出，我们是带着最大诚意去沟通的。 2）我从未、也绝无可能要求将 Levent 从他自己工作的作者署名中移除（正如我的消息所表明的）。在与 Tristan 通话时，我才惊讶地得知他们只解决了 Euler 方程，而没...",
+  "id": "cmtszfjuo04a7ro5wxi2n02va",
+  "url": "https://aihot.virxact.com/items/cmtszfjuo04a7ro5wxi2n02va",
+  "fetched_at": "2026-09-09T13:37:27+08:00"
+}
