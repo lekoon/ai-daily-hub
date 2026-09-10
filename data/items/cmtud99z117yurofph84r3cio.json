@@ -1,0 +1,15 @@
+{
+  "title": "GPT-6 Astra 发布后，Sebastian Raschka 解析 looped transformer 与隐藏推理链传闻",
+  "source": "Hacker News：AI 热帖",
+  "published_at": "2026-09-09 22:37",
+  "score": "79",
+  "flags": "精选",
+  "original_url": "https://magazine.sebastianraschka.com/p/gpt-6-astra-looped-transformers-and",
+  "aihot_url": "https://aihot.news/items/cmtud99z117yurofph84r3cio",
+  "curation_reason": "作者以架构视角拆解 looped transformer 原理与研究进展，并给出循环架构与隐藏思维链传闻无关的独立判断，读者可借此理解争论的技术基础。",
+  "ai_summary": "OpenAI 发布 GPT-6 Astra，作者评测认为其计算机使用和图像渲染能力尤为突出，ARC-AGI-3 达 99.9%，前代 GPT-5.6 Sol 仅 7.8%。",
+  "content_markdown": "该来源未收录可展示正文，站内仅提供摘要。\n\n> 站内仅提供摘要，全文见原文。",
+  "id": "cmtud99z117yurofph84r3cio",
+  "url": "https://aihot.virxact.com/items/cmtud99z117yurofph84r3cio",
+  "fetched_at": "2026-09-10T13:28:26+08:00"
+}
